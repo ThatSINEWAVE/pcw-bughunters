@@ -1,6 +1,6 @@
 import { Leftbar } from "@/components/leftbar";
 
-export default function DocsLayout({
+export default function ResearchLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
