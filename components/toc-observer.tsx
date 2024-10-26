@@ -1,11 +1,11 @@
 "use client";
 
-import { getResearchTocs } from "@/lib/markdown";
+import { getDocsTocs } from "@/lib/markdown";
 import clsx from "clsx";
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
 
-type Props = { data: Awaited<ReturnType<typeof getResearchTocs>> };
+type Props = { data: Awaited<ReturnType<typeof getDocsTocs>> };
 
 export default function TocObserver({ data }: Props) {
   const [activeId, setActiveId] = useState<string | null>(null);
