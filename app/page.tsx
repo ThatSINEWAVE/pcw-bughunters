@@ -10,9 +10,7 @@ export default function Home() {
         PCW Bug Hunters
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
-        This feature-packed documentation template, built with Next.js, offers a
-        sleek and responsive design, perfect for all your project documentation
-        needs.
+        PLACEHOLDER CATCH LINE / MOTO TEXT
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
