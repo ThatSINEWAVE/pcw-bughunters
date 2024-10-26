@@ -1,6 +1,71 @@
 ---
-title: PLACEHOLDER TITLE
-description: PLACEHOLDER DESCRIPTION
+title: "Damage Calculation"
+description: "Details about how damage is calculated in the game."
 ---
 
-PLACEHOLDER TEXT
+# Damage Calculation
+
+In Project CW, damage depends on several key mechanics and because of this, we’ll break it down in two main sections: **Critical Damage Calculation** and **Critical Damage Registration**.
+
+## Critical Damage Calculation
+
+During the Open Alpha of February 2024, when a shell hits an internal module, the module’s health is reduced by the base shell damage value, which can vary by +/- 15% (Base Damage). This means that module damage does not affect a tank's overall HP directly. The following explanation aims to clear up some confusion regarding how the critical damage modifier is calculated.
+
+### Universal Modifier Values
+- Fuel Tanks and Engines have a modifier of **1.0**
+- Ammo has a modifier of **1.5**
+
+These Universal Modifiers are then multiplied by a tank's unique Crit Modifier. This explains how a tank with lower base damage can still have higher critical damage than one with higher base damage.
+
+To illustrate how these calculations work in practice, consider the following scenarios:
+
+#### Example Calculation for Engine Hits
+
+<div align="center">
+
+![Crit_Hit_Engine](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/gameplay-mechanics/Damage%20Calculations/Crit_Hit_Engine.png)
+
+</div>
+
+In this example a shell with a 1.5 crit modifier (tank's modifier) hits an engine which has a universal modifiers of 1.0. If the shell has 400 base damage this means 600 damage would be dealt. (Excluding crit mod reduction modifier) The engine itself takes 50 damage, reducing its health from 200 to 150.
+
+#### Example Calculation for Ammo Rack Hits
+
+<div align="center">
+
+![Crit_Hit_Ammo](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/gameplay-mechanics/Damage%20Calculations/Crit_Hit_Ammo.png)
+
+</div>
+
+In this scenario, the same shell with 400 base damage hits the ammo rack, which has a higher critical multiplier of 1.5. After applying the crit multiplier and universal modifier, the shell deals 900 damage to the tank. The ammo rack itself takes 50 damage, lowering its health from 200 to 150.
+
+> **Note:**
+> Universal modifiers apply to all tanks, but total crit damage can be reduced by certain damage reduction modifiers, such as those used by defender tanks. It is not yet clear how these modifiers are factored in, but they could either lower the universal modifier or affect the overall damage calculation. This suggests that such modifiers could be among the best defensive tools for tanks. Conversely, some tanks, like the Udarnik with its final module upgrade, may take increased damage to their ammo racks.
+
+---
+
+## Critical Damage Registration
+
+The chance to score a critical hit depends on the type of ammo, gun, and penetration. High-Explosive Anti-Tank (HEAT) and Armor-Piercing Composite Rigid (APCR) rounds have different probabilities of causing crits, similar to the mechanics in War Thunder. When a shell penetrates a tank, it enters the vehicle and interacts with internal components within a cone-shaped area.
+
+### Ammo Types
+- **HEAT**: This type of ammo has a wider damage cone compared to APCR, giving it a larger area where internal modules can be hit. As a result, when aiming for critical spots, HEAT users don't need to be as precise. HEAT also tends to cause higher critical damage than APCR.
+
+- **APCR**: APCR rounds have a narrower damage cone, which requires more precise targeting of internal modules to cause critical damage.
+
+### Penetration and Damage Cones
+
+Penetration plays a key role in the damage cone, and it’s arguably more important than the ammo type. Penetration affects not only whether a shell can pierce the tank’s armor but also how deep the damage cone extends within the tank’s internal structure. Tanks with higher penetration, like Ray, can cause damage to internal modules from the front more effectively than tanks with lower penetration firing the same ammunition.
+
+#### Example for the Damage Cone on Different Ammo Types
+
+<div align="center">
+
+![Crit_Registering_Image](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/gameplay-mechanics/Damage%20Calculations/Crit_Registering_Image.png)
+
+</div>
+
+In practice, this means that tanks with high penetration, especially when firing HEAT ATGMs, have a higher likelihood of causing critical hits compared to tanks firing low-penetration APCR rounds, like Blitz.
+
+> **Note:**
+> It's still unclear whether shell caliber also influences the size or behavior of the damage cone.
