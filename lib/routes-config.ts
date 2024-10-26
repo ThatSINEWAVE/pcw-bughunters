@@ -104,9 +104,9 @@ export const ROUTES: EachRoute[] = [
       { title: "The Three Badges", href: "/the-three-badges" },
       { title: "Trailer Campaign Videos", href: "/trailer-campaign-videos" },
       { title: "Unused Background Images", href: "/unused-background-images" },
-      { title: "Wierd Pattern Images", href: "/wierd-pattern-images" }
+      { title: "Wierd Pattern Images", href: "/wierd-pattern-images" },
     ],
-  },
+  }
 ];
 
 type Page = { title: string; href: string };
