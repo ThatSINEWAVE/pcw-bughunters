@@ -9,28 +9,53 @@ export type EachRoute = {
 
 export const ROUTES: EachRoute[] = [
   {
-    title: "Introduction",
-    href: "/introduction",
+    title: "Our Findings",
+    href: "/findings",
     noLink: true,
     items: [
-      { title: "About us", href: "/about-us" },
-  },
-  {
-    title: "In-Game Research",
-    href: "/in-game-research",
-    noLink: true,
-    items: [
-      { title: "Bugs and OOBs", href: "/bugs-oobs" },
       { title: "About us", href: "/about-us" },
       {
-        title: "Gameplay Mechanics",
-        href: "/gameplay-mechanics",
+        title: "Installation",
+        href: "/installation",
         items: [
-          { title: "Damage Calculation", href: "/damage-calculation" },
-          { title: "Tank Modules Locations and Effects", href: "/tank-modules-locations-and-effects" },
+          { title: "Laravel", href: "/laravel" },
+          { title: "React", href: "/react" },
           { title: "Gatsby", href: "/gatsby" },
         ],
-      { title: "weaponry", href: "/weaponry" },
+      },
+      { title: "Quick Start Guide", href: "/quick-start-guide" },
+      {
+        title: "Project Structure",
+        href: "/project-structure",
+        items: [
+          { title: "Layouts", href: "/layouts" },
+          { title: "Integrations", href: "/integrations" },
+          {
+            title: "Manual",
+            href: "/manual",
+            items: [
+              { title: "JavaScript", href: "/javascript" },
+              { title: "Typescript", href: "/typescript" },
+              { title: "Golang", href: "/golang" },
+            ],
+          },
+        ],
+      },
+      { title: "Changelog", href: "/changelog" },
+      {
+        title: "FAQ",
+        href: "/faq",
+      },
+    ],
+  },
+  {
+    title: "Server Actions",
+    href: "/server-actions",
+    noLink: true,
+    items: [
+      { title: "getSession", href: "/getSession" },
+      { title: "getToken", href: "/getToken" },
+      { title: "getRole", href: "/getRole" },
     ],
   },
   {
