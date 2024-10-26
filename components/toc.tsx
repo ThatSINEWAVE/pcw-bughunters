@@ -1,8 +1,8 @@
-import { getResearchTocs } from "@/lib/markdown";
+import { getDocsTocs } from "@/lib/markdown";
 import TocObserver from "./toc-observer";
 
 export default async function Toc({ path }: { path: string }) {
-  const tocs = await getResearchTocs(path);
+  const tocs = await getDocsTocs(path);
 
   return (
     <div className="lg:flex hidden toc flex-[1.5] min-w-[238px] py-8 sticky top-16 h-[95.95vh]">
