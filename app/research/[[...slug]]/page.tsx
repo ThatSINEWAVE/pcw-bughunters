@@ -1,24 +1,24 @@
-import ResearchBreadcrumb from "@/components/Research-breadcrumb";
+import DocsBreadcrumb from "@/components/docs-breadcrumb";
 import Pagination from "@/components/pagination";
 import Toc from "@/components/toc";
 import { page_routes } from "@/lib/routes-config";
 import { notFound } from "next/navigation";
-import { getResearchForSlug } from "@/lib/markdown";
+import { getDocsForSlug } from "@/lib/markdown";
 import { Typography } from "@/components/typography";
 
 type PageProps = {
   params: { slug: string[] };
 };
 
-export default async function ResearchPage({ params: { slug = [] } }: PageProps) {
+export default async function DocsPage({ params: { slug = [] } }: PageProps) {
   const pathName = slug.join("/");
-  const res = await getResearchForSlug(pathName);
+  const res = await getDocsForSlug(pathName);
 
   if (!res) notFound();
   return (
     <div className="flex items-start gap-10">
       <div className="flex-[4.5] pt-10">
-        <ResearchBreadcrumb paths={slug} />
+        <DocsBreadcrumb paths={slug} />
         <Typography>
           <h1 className="text-3xl -mt-2">{res.frontmatter.title}</h1>
           <p className="-mt-4 text-muted-foreground text-[16.5px]">
@@ -35,7 +35,7 @@ export default async function ResearchPage({ params: { slug = [] } }: PageProps)
 
 export async function generateMetadata({ params: { slug = [] } }: PageProps) {
   const pathName = slug.join("/");
-  const res = await getResearchForSlug(pathName);
+  const res = await getDocsForSlug(pathName);
   if (!res) return null;
   const { frontmatter } = res;
   return {
