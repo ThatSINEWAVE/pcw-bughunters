@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "AriaDocs - Blog",
+  title: "PCW Bug Hunters - Blog",
 };
 
 export default async function BlogIndexPage() {
@@ -19,7 +19,7 @@ export default async function BlogIndexPage() {
     <div className="w-full mx-auto flex flex-col gap-1 sm:min-h-[91vh] min-h-[88vh] pt-2">
       <div className="mb-7 flex flex-col gap-2">
         <h1 className="text-3xl font-extrabold">
-          The latest blogs of this product
+          PCW Bug Hunters Blog
         </h1>
         <p className="text-muted-foreground">
           All the latest blogs and news, straight from the team.
