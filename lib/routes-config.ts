@@ -13,7 +13,7 @@ export const ROUTES: EachRoute[] = [
     href: "/findings",
     noLink: true,
     items: [
-      { title: "Introduction", href: "/introduction" },
+      { title: "About us", href: "/about-us" },
       {
         title: "Installation",
         href: "/installation",
