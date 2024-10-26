@@ -56,6 +56,37 @@ export const ROUTES: EachRoute[] = [
     href: "/datamining",
     noLink: true,
     items: [
+      {
+        title: "SPECS Files",
+        href: "/datamining/specs-files",
+        noLink: true,
+        items: [
+              { title: "Akira", href: "/datamining/specs-files/akira" },
+              { title: "AR-AAV", href: "/datamining/specs-files/ar-aav" },
+              { title: "Arblast", href: "/datamining/specs-files/arblast" },
+              { title: "Atom", href: "/datamining/specs-files/atom" },
+              { title: "Blitz", href: "/datamining/specs-files/blitz" },
+              { title: "Brimstone", href: "/datamining/specs-files/brimstone" },
+              { title: "Chopper", href: "/datamining/specs-files/chopper" },
+              { title: "Fantome 1", href: "/datamining/specs-files/fantome-1" },
+              { title: "Fantome 2", href: "/datamining/specs-files/fantome-2" },
+              { title: "HSTV-L", href: "/datamining/specs-files/hstv-l" },
+              { title: "Jager", href: "/datamining/specs-files/jager" },
+              { title: "Kent", href: "/datamining/specs-files/kent" },
+              { title: "Punch", href: "/datamining/specs-files/punch" },
+              { title: "Raketa", href: "/datamining/specs-files/raketa" },
+              { title: "Ray", href: "/datamining/specs-files/ray" },
+              { title: "Reaper", href: "/datamining/specs-files/reaper" },
+              { title: "Titan", href: "/datamining/specs-files/titan" },
+              { title: "Titan AI", href: "/datamining/specs-files/titan-ai" },
+              { title: "Udarnik", href: "/datamining/specs-files/udarnik" },
+              { title: "Walkure 1", href: "/datamining/specs-files/walkure-1" },
+              { title: "Walkure 2", href: "/datamining/specs-files/walkure-2" },
+              { title: "XM808 Twister", href: "/datamining/specs-files/xm808-twister" },
+            ]
+          },
+        ]
+      },
       { title: "coldwar.project Config", href: "/coldwar-project-config" },
       { title: "Development Info Images", href: "/development-info-images" },
       { title: "Dev Servers", href: "/dev-servers" },
@@ -74,21 +105,6 @@ export const ROUTES: EachRoute[] = [
       { title: "Trailer Campaign Videos", href: "/trailer-campaign-videos" },
       { title: "Unused Background Images", href: "/unused-background-images" },
       { title: "Wierd Pattern Images", href: "/wierd-pattern-images" },
-      {
-        title: "Specs Files",
-        href: "/datamining/specs-files",
-        noLink: true,
-        items: [
-          {
-            title: "Folder 1",
-            href: "/datamining/specs-files/folder-1",
-            items: [
-              { title: "Subfolder 1", href: "/datamining/specs-files/folder-1/subfolder-1" },
-              { title: "Subfolder 2", href: "/datamining/specs-files/folder-1/subfolder-2" },
-            ]
-          },
-        ]
-      }
     ],
   },
 ];
