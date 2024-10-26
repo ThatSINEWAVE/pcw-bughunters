@@ -74,6 +74,21 @@ export const ROUTES: EachRoute[] = [
       { title: "Trailer Campaign Videos", href: "/trailer-campaign-videos" },
       { title: "Unused Background Images", href: "/unused-background-images" },
       { title: "Wierd Pattern Images", href: "/wierd-pattern-images" }
+      {
+        title: "Specs Files",
+        href: "/datamining/specs-files",
+        noLink: true,
+        items: [
+          {
+            title: "Folder 1",
+            href: "/datamining/specs-files/folder-1",
+            items: [
+              { title: "Subfolder 1", href: "/datamining/specs-files/folder-1/subfolder-1" },
+              { title: "Subfolder 2", href: "/datamining/specs-files/folder-1/subfolder-2" },
+            ]
+          },
+        ]
+      }
     ],
   },
 ];
