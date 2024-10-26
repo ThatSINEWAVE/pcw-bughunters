@@ -53,16 +53,16 @@ async function parseMdx<Frontmatter>(rawMdx: string) {
   });
 }
 
-// logic for Research
+// logic for docs
 
 type BaseMdxFrontmatter = {
   title: string;
   description: string;
 };
 
-export async function getResearchForSlug(slug: string) {
+export async function getDocsForSlug(slug: string) {
   try {
-    const contentPath = getResearchContentPath(slug);
+    const contentPath = getDocsContentPath(slug);
     const rawMdx = await fs.readFile(contentPath, "utf-8");
     return await parseMdx<BaseMdxFrontmatter>(rawMdx);
   } catch (err) {
@@ -70,8 +70,8 @@ export async function getResearchForSlug(slug: string) {
   }
 }
 
-export async function getResearchTocs(slug: string) {
-  const contentPath = getResearchContentPath(slug);
+export async function getDocsTocs(slug: string) {
+  const contentPath = getDocsContentPath(slug);
   const rawMdx = await fs.readFile(contentPath, "utf-8");
   // captures between ## - #### can modify accordingly
   const headingsRegex = /^(#{2,4})\s(.+)$/gm;
@@ -103,7 +103,7 @@ function sluggify(text: string) {
   return slug.replace(/[^a-z0-9-]/g, "");
 }
 
-function getResearchContentPath(slug: string) {
+function getDocsContentPath(slug: string) {
   return path.join(process.cwd(), "/contents/research/", `${slug}/index.mdx`);
 }
 
