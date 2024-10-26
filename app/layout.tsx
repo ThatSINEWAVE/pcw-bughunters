@@ -8,9 +8,9 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "PCW Bug Hunters",
-  metadataBase: new URL("https://ariadocs.vercel.app/"),
+  metadataBase: new URL("https://pcw-bug-hunters.vercel.app/"),
   description:
-    "This comprehensive documentation template, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements.",
+    "PLACEHOLDER CATCH LINE / MOTO TEXT",
 };
 
 export default function RootLayout({
