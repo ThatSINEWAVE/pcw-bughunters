@@ -11,5 +11,5580 @@ PLACEHOLDER TEXT
 
 ### Full contents of the file
 ```json
-PLACEHOLDER CODE
+{
+	"__type__": "CW::VehicleSpecificationStorage",
+	"specification": {
+		"abilityModifiersSlots": [],
+		"abilitySlots": [
+			{
+				"handle": "FirstAbility"
+			},
+			{
+				"handle": "SecondAbility"
+			},
+			{
+				"handle": "ThirdAbility"
+			}
+		],
+		"aiSettings": {
+			"brainsSlot": {
+				"handle": "AIBrains"
+			},
+			"defaultPreset": {
+				"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_capture_defend_base.prefab",
+				"modulesLayout": []
+			},
+			"gameModePresets": [
+				{
+					"key": {
+						"handle": "conquest"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest_newcomer.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "ct"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "domination"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "hq"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						}
+					}
+				}
+			]
+		},
+		"baseEquipment": [
+			{
+				"installSlot": {
+					"handle": "FirstEquipment"
+				},
+				"prefab": "/game_prefabs/equipment/repair_kit/repair_kit_ability.prefab",
+				"previewImage": "",
+				"video": ""
+			}
+		],
+		"basicCharacteristics": {
+			"firepower": 383,
+			"mobility": 286,
+			"recon": 31,
+			"toughness": 621,
+			"utility": 48
+		},
+		"callSign": {
+			"key": "a02_m1_1980_ipm1.specs.specification.callSign",
+			"message": "Chopper"
+		},
+		"commerce": {
+			"entitlement": "vehicle_abrams_ipm1",
+			"product": "vehicle_abrams_ipm1"
+		},
+		"commercePath": "/vehicles/american/a02_m1_1980/settings/commerce_ipm1.specs",
+		"complexity": 1,
+		"crew": {
+			"crewMembers": [
+				{
+					"arenaPrefab": "/vehicles/american/a02_m1_1980/settings/frontmans/frontman_3.prefab",
+					"bigImage": "/ui/assets/heroes/juggernaut/crew/extralarge/juggernaut_crew_03.png",
+					"campPrefab": "/worlds/camps/crew/characters/juggernaut/juggernaut_03.prefab",
+					"commerce": {
+						"entitlement": "juggernaut_crew_01_ipm1",
+						"product": ""
+					},
+					"description": {
+						"key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.301.description",
+						"message": "Juggernaut1 desc"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 301,
+					"image": "/ui/assets/heroes/juggernaut/crew/large/juggernaut_crew_03.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.301.lastName",
+						"message": "Thompson"
+					},
+					"name": {
+						"key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.301.name",
+						"message": "Terry"
+					},
+					"prefabPlaceholderName": "Juggernaut_3_ipm1",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/juggernaut/crew/small/juggernaut_crew_03_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/american/a02_m1_1980/settings/frontmans/frontman_2.prefab",
+					"bigImage": "/ui/assets/heroes/juggernaut/crew/extralarge/juggernaut_crew_02.png",
+					"campPrefab": "/worlds/camps/crew/characters/juggernaut/juggernaut_02.prefab",
+					"commerce": {
+						"entitlement": "juggernaut_crew_02_ipm1",
+						"product": ""
+					},
+					"description": {
+						"key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.302.description",
+						"message": "Jugernaut_2 desc"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 302,
+					"image": "/ui/assets/heroes/juggernaut/crew/large/juggernaut_crew_02.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.302.lastName",
+						"message": "Duncan"
+					},
+					"name": {
+						"key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.302.name",
+						"message": "Kingsley"
+					},
+					"prefabPlaceholderName": "Juggernaut_2_ipm1",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/juggernaut/crew/small/juggernaut_crew_02_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/american/a02_m1_1980/settings/frontmans/frontman_1.prefab",
+					"bigImage": "/ui/assets/heroes/juggernaut/crew/extralarge/juggernaut_crew_01.png",
+					"campPrefab": "/worlds/camps/crew/characters/juggernaut/juggernaut_01.prefab",
+					"commerce": {
+						"entitlement": "juggernaut_crew_03_ipm1",
+						"product": ""
+					},
+					"description": {
+						"key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.303.description",
+						"message": "Juggernaut_3 description"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 303,
+					"image": "/ui/assets/heroes/juggernaut/crew/large/juggernaut_crew_01.png",
+					"isDefaultFrontman": true,
+					"lastName": {
+						"key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.303.lastName",
+						"message": "Davison"
+					},
+					"name": {
+						"key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.303.name",
+						"message": "Matthew"
+					},
+					"prefabPlaceholderName": "Juggernaut_1_ipm1",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/juggernaut/crew/small/juggernaut_crew_01_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/american/a02_m1_1980/settings/frontmans/frontman_4.prefab",
+					"bigImage": "/ui/assets/heroes/juggernaut/crew/extralarge/juggernaut_crew_04.png",
+					"campPrefab": "/worlds/camps/crew/characters/juggernaut/juggernaut_04.prefab",
+					"commerce": {
+						"entitlement": "juggernaut_crew_04_ipm1",
+						"product": ""
+					},
+					"description": {
+						"key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.304.description",
+						"message": "juggernaut_4 description"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 304,
+					"image": "/ui/assets/heroes/juggernaut/crew/large/juggernaut_crew_04.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.304.lastName",
+						"message": "Blanton"
+					},
+					"name": {
+						"key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.304.name",
+						"message": "Clement"
+					},
+					"prefabPlaceholderName": "Juggernaut_4_ipm1",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/juggernaut/crew/small/juggernaut_crew_04_req.png",
+					"setBonuses": []
+				}
+			],
+			"customization": [
+				{
+					"crewMembersCustomization": [
+						{
+							"id": 303,
+							"options": [
+								{
+									"arenaPrefab": "/vehicles/american/a02_m1_1980/settings/frontmans/frontman_1_biker.prefab",
+									"bigImage": "",
+									"campPrefab": "/worlds/camps/crew/characters/juggernaut_biker/juggernaut_01.prefab",
+									"entitlements": [],
+									"image": "",
+									"requirementImage": ""
+								}
+							]
+						},
+						{
+							"id": 302,
+							"options": [
+								{
+									"arenaPrefab": "/vehicles/american/a02_m1_1980/settings/frontmans/frontman_2_biker.prefab",
+									"bigImage": "",
+									"campPrefab": "/worlds/camps/crew/characters/juggernaut_biker/juggernaut_02.prefab",
+									"entitlements": [],
+									"image": "",
+									"requirementImage": ""
+								}
+							]
+						},
+						{
+							"id": 301,
+							"options": [
+								{
+									"arenaPrefab": "/vehicles/american/a02_m1_1980/settings/frontmans/frontman_3_biker.prefab",
+									"bigImage": "",
+									"campPrefab": "/worlds/camps/crew/characters/juggernaut_biker/juggernaut_03.prefab",
+									"entitlements": [],
+									"image": "",
+									"requirementImage": ""
+								}
+							]
+						},
+						{
+							"id": 304,
+							"options": [
+								{
+									"arenaPrefab": "/vehicles/american/a02_m1_1980/settings/frontmans/frontman_4_biker.prefab",
+									"bigImage": "",
+									"campPrefab": "/worlds/camps/crew/characters/juggernaut_biker/juggernaut_04.prefab",
+									"entitlements": [],
+									"image": "",
+									"requirementImage": ""
+								}
+							]
+						}
+					],
+					"name": "Biker"
+				}
+			],
+			"setBonuses": []
+		},
+		"customization3D": {
+			"modulesPacks": [
+				{
+					"modules": [
+						{
+							"moduleId": 460,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_01_upgrades/antenna_01.prefab"
+						},
+						{
+							"moduleId": 459,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_upgrades/blow_panel_01.prefab"
+						},
+						{
+							"moduleId": 405,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_upgrades/blow_panel_ipbop.prefab"
+						},
+						{
+							"moduleId": 452,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/chassis_default.prefab"
+						},
+						{
+							"moduleId": 457,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/engine_01.prefab"
+						},
+						{
+							"moduleId": 408,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/gun_02.prefab"
+						},
+						{
+							"moduleId": 451,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_02.prefab"
+						},
+						{
+							"moduleId": 423,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/gun_01_upgrades/rangefinder_laser_base.prefab"
+						},
+						{
+							"moduleId": 14571,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/gun_01_upgrades/rangefinder_laser_anpaq3_mule.prefab"
+						},
+						{
+							"moduleId": 431,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/mine_sweeper_base.prefab"
+						},
+						{
+							"moduleId": 14572,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/mine_sweeper_mcbs.prefab"
+						},
+						{
+							"moduleId": 461,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/nbcs_01.prefab"
+						},
+						{
+							"moduleId": 410,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/nbcs_02.prefab"
+						},
+						{
+							"moduleId": 426,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_upgrades/radar_base.prefab"
+						},
+						{
+							"moduleId": 425,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_upgrades/radar.prefab"
+						},
+						{
+							"moduleId": 14574,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_01_upgrades/machinegun_equalizer.prefab"
+						},
+						{
+							"moduleId": 14211,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_01_upgrades/machinegun_01.prefab"
+						},
+						{
+							"moduleId": 419,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/chassis_m1ip.prefab"
+						},
+						{
+							"moduleId": 458,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_01_upgrades/sniper_scope_01.prefab"
+						},
+						{
+							"moduleId": 401,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_01_upgrades/smoke_launchers.prefab"
+						},
+						{
+							"moduleId": 14578,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_01_upgrades/smoke_launchers_m255.prefab"
+						},
+						{
+							"moduleId": 416,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_01_upgrades/sniper_scope_02.prefab"
+						},
+						{
+							"moduleId": 412,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/armor_02.prefab"
+						},
+						{
+							"moduleId": 409,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/armor_01.prefab"
+						},
+						{
+							"moduleId": 421,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_01_upgrades/thermal_sight.prefab"
+						},
+						{
+							"moduleId": 453,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03.prefab"
+						},
+						{
+							"moduleId": 430,
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_01_upgrades/windsensor_02.prefab"
+						}
+					],
+					"name": "Biker"
+				}
+			],
+			"stylesPacks": [
+				{
+					"commerce": {
+						"entitlement": "juggernaut_style_pack_1",
+						"product": "juggernaut_style_pack_1"
+					},
+					"description": {
+						"description": {
+							"key": "",
+							"message": ""
+						},
+						"icon": "/ui/assets/customization/styles/style.1.png",
+						"name": {
+							"key": "a02_m1_1980_ipm1.specs.specification.customization3D.stylesPacks.0.description.name",
+							"message": "Biker Style Pack 1"
+						}
+					},
+					"id": 1,
+					"items": [
+						{
+							"overrides": [
+								{
+									"moduleId": 419,
+									"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/chassis_m1ip_customization/chassis_m1ip_s1_c0.prefab"
+								}
+							],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/chassis_default_customization/chassis_default_s1_c0.prefab",
+							"slot": {
+								"handle": "ChassisCustomization1"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/gun_02_customization/gun_02_s1_c0.prefab",
+							"slot": {
+								"handle": "GunCustomization1"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_02_customization/hull_02_s2_c0.prefab",
+							"slot": {
+								"handle": "HullCustomization2"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/engine_01_customization/engine_01_s2_c0.prefab",
+							"slot": {
+								"handle": "EngineCustomization2"
+							}
+						},
+						{
+							"overrides": [
+								{
+									"moduleId": 410,
+									"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/nbcs_02_customization/nbcs_02_s1_c0.prefab"
+								}
+							],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/nbcs_01_customization/nbcs_01_s1_c0.prefab",
+							"slot": {
+								"handle": "NBCSCustomization1"
+							}
+						},
+						{
+							"overrides": [
+								{
+									"moduleId": 409,
+									"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/armor_01_customization/armor_01_s1_c0.prefab"
+								}
+							],
+							"prefab": "",
+							"slot": {
+								"handle": "ArmorFrontCustomization1"
+							}
+						},
+						{
+							"overrides": [
+								{
+									"moduleId": 412,
+									"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/armor_02_customization/armor_02_s1_c0.prefab"
+								}
+							],
+							"prefab": "",
+							"slot": {
+								"handle": "ArmorBackCustomization1"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s1_c0.prefab",
+							"slot": {
+								"handle": "TurretCustomization1"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s2_c0.prefab",
+							"slot": {
+								"handle": "TurretCustomization2"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s3_c0.prefab",
+							"slot": {
+								"handle": "TurretCustomization3"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s4_c0.prefab",
+							"slot": {
+								"handle": "TurretCustomization4"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s5_c0.prefab",
+							"slot": {
+								"handle": "TurretCustomization5"
+							}
+						}
+					],
+					"modulesPack": "Biker"
+				},
+				{
+					"commerce": {
+						"entitlement": "juggernaut_style_pack_2",
+						"product": "juggernaut_style_pack_2"
+					},
+					"description": {
+						"description": {
+							"key": "",
+							"message": ""
+						},
+						"icon": "/ui/assets/customization/styles/styles2.png",
+						"name": {
+							"key": "a02_m1_1980_ipm1.specs.specification.customization3D.stylesPacks.1.description.name",
+							"message": "Biker Style Pack 2"
+						}
+					},
+					"id": 2,
+					"items": [
+						{
+							"overrides": [
+								{
+									"moduleId": 419,
+									"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/chassis_m1ip_customization/chassis_m1ip_s1_c1.prefab"
+								}
+							],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/chassis_default_customization/chassis_default_s1_c1.prefab",
+							"slot": {
+								"handle": "ChassisCustomization1"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/gun_02_customization/gun_02_s1_c1.prefab",
+							"slot": {
+								"handle": "GunCustomization1"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_02_customization/hull_02_s2_c1.prefab",
+							"slot": {
+								"handle": "HullCustomization2"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/engine_01_customization/engine_01_s2_c1.prefab",
+							"slot": {
+								"handle": "EngineCustomization2"
+							}
+						},
+						{
+							"overrides": [
+								{
+									"moduleId": 410,
+									"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/nbcs_02_customization/nbcs_02_s1_c1.prefab"
+								}
+							],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/nbcs_01_customization/nbcs_01_s1_c1.prefab",
+							"slot": {
+								"handle": "NBCSCustomization1"
+							}
+						},
+						{
+							"overrides": [
+								{
+									"moduleId": 409,
+									"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/armor_01_customization/armor_01_s1_c1.prefab"
+								}
+							],
+							"prefab": "",
+							"slot": {
+								"handle": "ArmorFrontCustomization1"
+							}
+						},
+						{
+							"overrides": [
+								{
+									"moduleId": 412,
+									"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/armor_02_customization/armor_02_s1_c1.prefab"
+								}
+							],
+							"prefab": "",
+							"slot": {
+								"handle": "ArmorBackCustomization1"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s1_c1.prefab",
+							"slot": {
+								"handle": "TurretCustomization1"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s2_c1.prefab",
+							"slot": {
+								"handle": "TurretCustomization2"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s3_c1.prefab",
+							"slot": {
+								"handle": "TurretCustomization3"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s4_c1.prefab",
+							"slot": {
+								"handle": "TurretCustomization4"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s5_c1.prefab",
+							"slot": {
+								"handle": "TurretCustomization5"
+							}
+						}
+					],
+					"modulesPack": "Biker"
+				},
+				{
+					"commerce": {
+						"entitlement": "juggernaut_style_pack_3",
+						"product": "juggernaut_style_pack_3"
+					},
+					"description": {
+						"description": {
+							"key": "",
+							"message": ""
+						},
+						"icon": "/ui/assets/customization/styles/style3.png",
+						"name": {
+							"key": "a02_m1_1980_ipm1.specs.specification.customization3D.stylesPacks.2.description.name",
+							"message": "Biker Style Pack 3"
+						}
+					},
+					"id": 3,
+					"items": [
+						{
+							"overrides": [
+								{
+									"moduleId": 419,
+									"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/chassis_m1ip_customization/chassis_m1ip_s1_c2.prefab"
+								}
+							],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/chassis_default_customization/chassis_default_s1_c2.prefab",
+							"slot": {
+								"handle": "ChassisCustomization1"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/gun_02_customization/gun_02_s1_c2.prefab",
+							"slot": {
+								"handle": "GunCustomization1"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_02_customization/hull_02_s2_c2.prefab",
+							"slot": {
+								"handle": "HullCustomization2"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/engine_01_customization/engine_01_s2_c2.prefab",
+							"slot": {
+								"handle": "EngineCustomization2"
+							}
+						},
+						{
+							"overrides": [
+								{
+									"moduleId": 410,
+									"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/nbcs_02_customization/nbcs_02_s1_c2.prefab"
+								}
+							],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/nbcs_01_customization/nbcs_01_s1_c2.prefab",
+							"slot": {
+								"handle": "NBCSCustomization1"
+							}
+						},
+						{
+							"overrides": [
+								{
+									"moduleId": 409,
+									"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/armor_01_customization/armor_01_s1_c2.prefab"
+								}
+							],
+							"prefab": "",
+							"slot": {
+								"handle": "ArmorFrontCustomization1"
+							}
+						},
+						{
+							"overrides": [
+								{
+									"moduleId": 412,
+									"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/armor_02_customization/armor_02_s1_c2.prefab"
+								}
+							],
+							"prefab": "",
+							"slot": {
+								"handle": "ArmorBackCustomization1"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s1_c2.prefab",
+							"slot": {
+								"handle": "TurretCustomization1"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s2_c2.prefab",
+							"slot": {
+								"handle": "TurretCustomization2"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s3_c2.prefab",
+							"slot": {
+								"handle": "TurretCustomization3"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s4_c2.prefab",
+							"slot": {
+								"handle": "TurretCustomization4"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s5_c2.prefab",
+							"slot": {
+								"handle": "TurretCustomization5"
+							}
+						}
+					],
+					"modulesPack": "Biker"
+				},
+				{
+					"commerce": {
+						"entitlement": "juggernaut_style_pack_4",
+						"product": ""
+					},
+					"description": {
+						"description": {
+							"key": "",
+							"message": ""
+						},
+						"icon": "/ui/assets/customization/styles/style.4.png",
+						"name": {
+							"key": "a02_m1_1980_ipm1.specs.specification.customization3D.stylesPacks.3.description.name",
+							"message": "Biker Style Pack 4"
+						}
+					},
+					"id": 4,
+					"items": [
+						{
+							"overrides": [
+								{
+									"moduleId": 419,
+									"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/chassis_m1ip_customization/chassis_m1ip_s1_c3.prefab"
+								}
+							],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/chassis_default_customization/chassis_default_s1_c3.prefab",
+							"slot": {
+								"handle": "ChassisCustomization1"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/gun_02_customization/gun_02_s1_c3.prefab",
+							"slot": {
+								"handle": "GunCustomization1"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_02_customization/hull_02_s2_c3.prefab",
+							"slot": {
+								"handle": "HullCustomization2"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/engine_01_customization/engine_01_s2_c3.prefab",
+							"slot": {
+								"handle": "EngineCustomization2"
+							}
+						},
+						{
+							"overrides": [
+								{
+									"moduleId": 410,
+									"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/nbcs_02_customization/nbcs_02_s1_c3.prefab"
+								}
+							],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/nbcs_01_customization/nbcs_01_s1_c3.prefab",
+							"slot": {
+								"handle": "NBCSCustomization1"
+							}
+						},
+						{
+							"overrides": [
+								{
+									"moduleId": 409,
+									"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/armor_01_customization/armor_01_s1_c3.prefab"
+								}
+							],
+							"prefab": "",
+							"slot": {
+								"handle": "ArmorFrontCustomization1"
+							}
+						},
+						{
+							"overrides": [
+								{
+									"moduleId": 412,
+									"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/hull_01_upgrades/armor_02_customization/armor_02_s1_c3.prefab"
+								}
+							],
+							"prefab": "",
+							"slot": {
+								"handle": "ArmorBackCustomization1"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s1_c3.prefab",
+							"slot": {
+								"handle": "TurretCustomization1"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s2_c3.prefab",
+							"slot": {
+								"handle": "TurretCustomization2"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s3_c3.prefab",
+							"slot": {
+								"handle": "TurretCustomization3"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s4_c3.prefab",
+							"slot": {
+								"handle": "TurretCustomization4"
+							}
+						},
+						{
+							"overrides": [],
+							"prefab": "/vehicles/american/a02_m1_1980/_skins/biker/prefabs/turret_03_customization/turret_03_s5_c3.prefab",
+							"slot": {
+								"handle": "TurretCustomization5"
+							}
+						}
+					],
+					"modulesPack": "Biker"
+				}
+			]
+		},
+		"customizationLayout": 7,
+		"description": {
+			"key": "a02_m1_1980_ipm1.specs.specification.description",
+			"message": "antitank99 prefers *close combat*, able to withstand any onslaught of hatemail while he drinks the tears of his enemies"
+		},
+		"displayableCurrencies": [
+			{
+				"handle": "soft"
+			},
+			{
+				"handle": "reputation_blue"
+			}
+		],
+		"divisionColor": "#1E80CA",
+		"divisionIcon": "/ui/assets/meta/select_hero/american_division.png",
+		"divisionIconSmall": "/ui/assets/meta/select_hero/american_division_small.png",
+		"divisionName": {
+			"key": "a02_m1_1980_ipm1.specs.specification.divisionName",
+			"message": "Alpha Company"
+		},
+		"divisionShortName": {
+			"key": "a02_m1_1980_ipm1.specs.specification.divisionShortName",
+			"message": "Alpha Company"
+		},
+		"economyPrefab": "/vehicles/american/a02_m1_1980/settings/economy_settings_ipm1.prefab",
+		"equipmentCameras": [
+			{
+				"handle": "equipment_1st_camera"
+			},
+			{
+				"handle": "equipment_2nd_camera"
+			},
+			{
+				"handle": "equipment_3rd_camera"
+			}
+		],
+		"equipmentSlots": [
+			{
+				"handle": "FirstEquipment"
+			},
+			{
+				"handle": "SecondEquipment"
+			},
+			{
+				"handle": "ThirdEquipment"
+			}
+		],
+		"features": {
+			"abilityFeatures": [
+				{
+					"isInitial": false,
+					"prefab": "/game_prefabs/abilities/air_gunship/a_air_gunship_camera_ability.prefab"
+				}
+			],
+			"moduleFeatures": [],
+			"passiveFeatures": [],
+			"perkFeatures": []
+		},
+		"fraction": {
+			"handle": "blue"
+		},
+		"gameplayPrefab": "/vehicles/american/a02_m1_1980/settings/gameplay_settings.prefab",
+		"hiddenAbilitiesSlot": {
+			"handle": "HiddenAbilities"
+		},
+		"image": "/ui/assets/heroes/juggernaut/vehicle/juggernaut_stock.png",
+		"isHidden": false,
+		"mastering": {
+			"commerce": "ipm1_juggernaut_brcompany_grant_500_exp",
+			"levels": [
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_ipm1_1",
+						"product": "mastering_lvl_a02_ipm1_1"
+					},
+					"extraEquipment": [],
+					"points": 0,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_ipm1_2",
+						"product": "mastering_lvl_a02_ipm1_2"
+					},
+					"extraEquipment": [],
+					"points": 2000,
+					"rewards": [],
+					"unlockGroups": [
+						62
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						3009
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_ipm1_3",
+						"product": "mastering_lvl_a02_ipm1_3"
+					},
+					"extraEquipment": [],
+					"points": 4200,
+					"rewards": [],
+					"unlockGroups": [
+						63
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						3003
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_ipm1_4",
+						"product": "mastering_lvl_a02_ipm1_4"
+					},
+					"extraEquipment": [],
+					"points": 6700,
+					"rewards": [],
+					"unlockGroups": [
+						64
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						3008
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_ipm1_5",
+						"product": "mastering_lvl_a02_ipm1_5"
+					},
+					"extraEquipment": [],
+					"points": 11000,
+					"rewards": [],
+					"unlockGroups": [
+						65
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						3010
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_ipm1_6",
+						"product": "mastering_lvl_a02_ipm1_6"
+					},
+					"extraEquipment": [],
+					"points": 15500,
+					"rewards": [],
+					"unlockGroups": [
+						66
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						3004
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_ipm1_7",
+						"product": "mastering_lvl_a02_ipm1_7"
+					},
+					"extraEquipment": [],
+					"points": 20200,
+					"rewards": [],
+					"unlockGroups": [
+						67
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						3006
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_ipm1_8",
+						"product": "mastering_lvl_a02_ipm1_8"
+					},
+					"extraEquipment": [],
+					"points": 26500,
+					"rewards": [],
+					"unlockGroups": [
+						68
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						3011
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_ipm1_9",
+						"product": "mastering_lvl_a02_ipm1_9"
+					},
+					"extraEquipment": [],
+					"points": 33000,
+					"rewards": [],
+					"unlockGroups": [
+						69
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						3005
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_ipm1_10",
+						"product": "mastering_lvl_a02_ipm1_10"
+					},
+					"extraEquipment": [],
+					"points": 39700,
+					"rewards": [],
+					"unlockGroups": [
+						70
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						3007
+					]
+				}
+			],
+			"pointsCurrency": {
+				"handle": "a02_ipm1"
+			}
+		},
+		"modules": [
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/equipment/fire/fire_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"installSlot": {
+								"handle": "FirstAbility"
+							},
+							"isHidden": false,
+							"prefab": "/game_prefabs/abilities/air_gunship/a_air_gunship_camera_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"installSlot": {
+								"handle": "SecondAbility"
+							},
+							"isHidden": false,
+							"prefab": "/vehicles/american/a02_m1_1980/abilities/gatling/a_gatling_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"installSlot": {
+								"handle": "ThirdAbility"
+							},
+							"isHidden": false,
+							"prefab": "/vehicles/american/a02_m1_1980/abilities/smoke_mortars/smoke_mortar_ability_m1.prefab",
+							"previewImage": "/ui/assets/abilities/ability_video_preview/abrams/img_preview/abrams_img_smoke_mortar_ability.png",
+							"video": "/ui/assets/abilities/ability_video_preview/abrams/abrams_vid_smoke_mortar_ability.webm"
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [
+						{
+							"prefab": "/game_prefabs/equipment/energy_booster/energy_booster_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/extinguisher/extinguisher_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/med_kit/med_kit.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/stim_pack/stim_pack_consumable.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"layout": 21,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "root",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/a02_m1_1980_ip.prefab",
+						"slot": {
+							"handle": "Root"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 450
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.433.features.description.localizedName",
+							"message": "default_m1_loader"
+						},
+						"power": 50,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.433.features.description.subtitle",
+							"message": "default_m1_loader"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "ammoloader_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/base_tank/components/ammo_loader_without_fast_switch.prefab",
+						"slot": {
+							"handle": "AmmoLoader"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 433
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "antenna_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_01_upgrades/antenna_01.prefab",
+						"slot": {
+							"handle": "Radio"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 460
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "blow_off_panels_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/blow_panel_01.prefab",
+						"slot": {
+							"handle": "BlowPanel"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 459
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_blow_panel_02.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.405.features.description.localizedName",
+							"message": "IPBOP"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.405.features.description.subtitle",
+							"message": "Blow-off Panels"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_16"
+					},
+					"commerce": {
+						"entitlement": "ipm1_blowoff_panels_ipbop",
+						"product": "ipm1_blowoff_panels_ipbop"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "blowoff_panels_ipbop",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/blow_panel_ipbop.prefab",
+						"slot": {
+							"handle": "BlowPanel"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ammo Rack"
+					}
+				},
+				"id": 405
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_track_m1.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.452.features.description.localizedName",
+							"message": "xxx"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.452.features.description.subtitle",
+							"message": "Chassis"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "chassis_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/chassis_default.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 452
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_commander_panel.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.420.features.description.localizedName",
+							"message": "TCCP"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.420.features.description.subtitle",
+							"message": "Commander Panels"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_04"
+					},
+					"commerce": {
+						"entitlement": "ipm1_commander_panels_tccp",
+						"product": "ipm1_commander_panels_tccp"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "commander_panels_tccp",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/prefabs/turret_01_upgrades/comander_panel_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_01_upgrades/comander_panel.prefab",
+						"slot": {
+							"handle": "ComanderPanel"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Commander Panels"
+					}
+				},
+				"id": 420
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.457.features.description.effectsDescription.0.description",
+									"message": "The engine has *%(EngineMaxHP) module HP*. Receives *critical damage* per hit. Losing all module HP will *reduce movement speed* by *50%* for *%(EngineTimeToRegen)s*.#br#Module HP can be affected by shell module damage attribute."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.457.features.description.effectsDescription.0.title",
+									"message": "ENGINE"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_engine_stock.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.457.features.description.localizedName",
+							"message": "ATG-1500"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.457.features.description.subtitle",
+							"message": "Engine"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_07"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "engine_atg1500_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/hull_01_upgrades/engine_01.prefab",
+						"slot": {
+							"handle": "Engine"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine"
+					}
+				},
+				"id": 457
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_engine_agt1500.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.427.features.description.localizedName",
+							"message": "AGT 1500 TU2"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.427.features.description.subtitle",
+							"message": "Engine Upgrade"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_07"
+					},
+					"commerce": {
+						"entitlement": "ipm1_engine_upgrade_agt1500tu2",
+						"product": "ipm1_engine_upgrade_agt1500tu2"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "engine_upgrade_agt1500tu2",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/prefabs/hull_01_upgrades/engine_01_upgrade_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/hull_01_upgrades/engine_01_upgrade.prefab",
+						"slot": {
+							"handle": "EngineUpgrade"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 427
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.402.features.description.effectsDescription.0.description",
+									"message": "Provides automatic Fire Extinguisher that does not require a consumable slot."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.402.features.description.effectsDescription.0.title",
+									"message": "FLAMIN' KNIGHT"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_auto_extinguisher_halon_1301.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.402.features.description.localizedName",
+							"message": "KAD AFES"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.402.features.description.subtitle",
+							"message": "Fire Extinguisher"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_09"
+					},
+					"commerce": {
+						"entitlement": "ipm1_fire_extinguisher_kad_afes",
+						"product": "ipm1_fire_extinguisher_kad_afes"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "fire_extinguisher_kad_afes",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/fire_extinquisher.prefab",
+						"slot": {
+							"handle": "Fireextinguisher Equipment"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 404,
+							"prefabOverride": "/vehicles/american/a02_m1_1980/prefabs/turret_02_upgrades/fire_extinquisher.prefab"
+						},
+						{
+							"campPrefabOverride": "",
+							"moduleID": 407,
+							"prefabOverride": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/fire_extinquisher.prefab"
+						}
+					],
+					"type": {
+						"handle": "Fireextinguisher Equipment"
+					}
+				},
+				"id": 402
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 10,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.14570.features.description.effectsDescription.0.description",
+									"message": "Reduces reload time by *25%* when tank has less than *20%* HP."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/firing_archetypes/singleshot.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.14570.features.description.effectsDescription.0.title",
+									"message": "ADRENALINE"
+								},
+								"type": "PrimaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_improved_gun_breach.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14570.features.description.localizedName",
+							"message": "HIBAR"
+						},
+						"power": 75,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14570.features.description.subtitle",
+							"message": "Gun Breech"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_24"
+					},
+					"commerce": {
+						"entitlement": "ipm1_gun_breech_hibar",
+						"product": "ipm1_gun_breech_hibar"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "gun_breech_hibar",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/gun_breech_hibar_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/gun_breech_hibar.prefab",
+						"slot": {
+							"handle": "GunBreech"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Breech"
+					}
+				},
+				"id": 14570
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_gun_03.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.408.features.description.localizedName",
+							"message": "M256"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.408.features.description.subtitle",
+							"message": "Gun"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_08"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gun_m256_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/gun_02.prefab",
+						"slot": {
+							"handle": "Gun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun"
+					}
+				},
+				"id": 408
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.413.features.description.effectsDescription.0.description",
+									"message": "Hitting enemy engine inflicts *-20%* slowdown effect for *10s*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/firing_archetypes/singleshot.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.413.features.description.effectsDescription.0.title",
+									"message": "SPANNER IN THE WORKS"
+								},
+								"type": "PrimaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_gun_turret_drive.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.413.features.description.localizedName",
+							"message": "GTDSS"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.413.features.description.subtitle",
+							"message": "Gun Turret Drive"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "ipm1_gun_turret_drive_gtdss",
+						"product": "ipm1_gun_turret_drive_gtdss"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "gun_turret_drive_gtdss",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/turret_drive_grdss_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/turret_drive_grdss.prefab",
+						"slot": {
+							"handle": "GunTurretDrive"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret Rotator"
+					}
+				},
+				"id": 413
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_hull.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.451.features.description.localizedName",
+							"message": "M1H"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.451.features.description.subtitle",
+							"message": "Hull"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "hull_m1h_base",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/prefabs/hull_02_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/hull_02.prefab",
+						"slot": {
+							"handle": "Hull"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull"
+					}
+				},
+				"id": 451
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_missile_strike.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.423.features.description.localizedName",
+							"message": "Rangefinder"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.423.features.description.subtitle",
+							"message": "Laser Rangefinder"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_14"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "laser_rangefinder_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/gun_01_upgrades/rangefinder_laser_base.prefab",
+						"slot": {
+							"handle": "RangeFinder"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Rangefinder"
+					}
+				},
+				"id": 423
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_missile_strike.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14571.features.description.localizedName",
+							"message": "AN/PAQ-3 MULE"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14571.features.description.subtitle",
+							"message": "Laser Rangefinder"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_14"
+					},
+					"commerce": {
+						"entitlement": "ipm1_laser_rangefinder_anpaq3_mule",
+						"product": "ipm1_laser_rangefinder_anpaq3_mule"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "laser_rangefinder_anpaq3_mule",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/gun_01_upgrades/rangefinder_laser_anpaq3_mule.prefab",
+						"slot": {
+							"handle": "RangeFinder"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Rangefinder"
+					}
+				},
+				"id": 14571
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "lobby_collider",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/hull_01_upgrades/lobby_collider.prefab",
+						"slot": {
+							"handle": "LobbyCollider"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 455
+			},
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/abilities/mine_auto_sweeper/a_self_mine_auto_sweeper_ability.prefab",
+							"previewImage": "/ui/assets/abilities/ability_video_preview/abrams/img_preview/abrams_img_mine_sweeper_ability.png",
+							"video": "/ui/assets/abilities/ability_video_preview/abrams/abrams_vid_mine_sweeper_ability.webm"
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_mcbs.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.431.features.description.localizedName",
+							"message": "Minesweeper"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.431.features.description.subtitle",
+							"message": "Minesweeper"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_18"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "mine_sweeper_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/hull_01_upgrades/mine_sweeper_base.prefab",
+						"slot": {
+							"handle": "Dozer"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 411,
+							"prefabOverride": "/vehicles/american/a02_m1_1980/prefabs/hull_02_upgrades/mine_sweeper_twmp.prefab"
+						}
+					],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 431
+			},
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/abilities/mine_auto_sweeper/a_self_mine_auto_sweeper_ability.prefab",
+							"previewImage": "/ui/assets/abilities/ability_video_preview/abrams/img_preview/abrams_img_mine_sweeper_ability.png",
+							"video": "/ui/assets/abilities/ability_video_preview/abrams/abrams_vid_mine_sweeper_ability.webm"
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.14572.features.description.effectsDescription.0.description",
+									"message": "Uniquely engineered mine flail that reduces damage taken from mines by *40%*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.14572.features.description.effectsDescription.0.title",
+									"message": "BUTT BUCKET"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_mcbs.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14572.features.description.localizedName",
+							"message": "MCBS"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14572.features.description.subtitle",
+							"message": "Minesweeper"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_18"
+					},
+					"commerce": {
+						"entitlement": "ipm1_mine_sweeper_mcbs",
+						"product": "ipm1_mine_sweeper_mcbs"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "mine_sweeper_mcbs",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/hull_01_upgrades/mine_sweeper_mcbs.prefab",
+						"slot": {
+							"handle": "Dozer"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 411,
+							"prefabOverride": "/vehicles/american/a02_m1_1980/prefabs/hull_02_upgrades/mine_sweeper_twmp.prefab"
+						}
+					],
+					"type": {
+						"handle": "Ram Knives"
+					}
+				},
+				"id": 14572
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.461.features.description.localizedName",
+							"message": "xxx"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.461.features.description.subtitle",
+							"message": "NBC system"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "nbc_system_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/hull_01_upgrades/nbcs_01.prefab",
+						"slot": {
+							"handle": "NBCS"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 461
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.410.features.description.effectsDescription.0.description",
+									"message": "Increases crew HP by *200*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.410.features.description.effectsDescription.0.title",
+									"message": "BIG DAWGZ"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_nbc_02.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.410.features.description.localizedName",
+							"message": "M1FT2"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.410.features.description.subtitle",
+							"message": "NBC System"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_02"
+					},
+					"commerce": {
+						"entitlement": "ipm1_nbc_system_m1ft2",
+						"product": "ipm1_nbc_system_m1ft2"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "nbc_system_m1ft2",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/hull_01_upgrades/nbcs_02.prefab",
+						"slot": {
+							"handle": "NBCS"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "NBC System"
+					}
+				},
+				"id": 410
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_radar.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.426.features.description.localizedName",
+							"message": "Radar"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.426.features.description.subtitle",
+							"message": "Radar"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_13"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "radar_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/radar_base.prefab",
+						"slot": {
+							"handle": "Radar_AnGsr"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 426
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_radar.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.425.features.description.localizedName",
+							"message": "AN/GSR-16"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.425.features.description.subtitle",
+							"message": "Radar"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_20"
+					},
+					"commerce": {
+						"entitlement": "ipm1_radar_angsr16",
+						"product": "ipm1_radar_angsr16"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "radar_angsr16",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/radar.prefab",
+						"slot": {
+							"handle": "Radar_AnGsr"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 425
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_air_strike.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14539.features.description.localizedName",
+							"message": "AN/VRC-89"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14539.features.description.subtitle",
+							"message": "Radar"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_20"
+					},
+					"commerce": {
+						"entitlement": "ipm1_radar_anvrc89",
+						"product": "ipm1_radar_anvrc89"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "radar_anvrc89",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_01_upgrades/radar_anvrc89.prefab",
+						"slot": {
+							"handle": "Radar_AnVrc"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 14539
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.424.features.description.effectsDescription.0.description",
+									"message": "Highlights target when you are aiming in Gunship camera."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/abilities/duration_marker/ico_gunship.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.424.features.description.effectsDescription.0.title",
+									"message": "AIR GUNSHIP"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_commander_radio.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.424.features.description.localizedName",
+							"message": "AN/VRC-64"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.424.features.description.subtitle",
+							"message": "Radio"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "ipm1_radiostation_anvrc64",
+						"product": "ipm1_radiostation_anvrc64"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "radiostation_anvrc64",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/radiostation_anvrc64_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/radiostation_anvrc64.prefab",
+						"slot": {
+							"handle": "CommanderRadio"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 424
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_radiostation_2.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.422.features.description.localizedName",
+							"message": "RT-1439"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.422.features.description.subtitle",
+							"message": "Radiostation"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "ipm1_radiostation_rt1439",
+						"product": "ipm1_radiostation_rt1439"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "radiostation_rt1439",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/radiostation_rt1439_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/radiostation_rt1439.prefab",
+						"slot": {
+							"handle": "Radio"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 422
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.14573.features.description.effectsDescription.0.description",
+									"message": "Enables fast reload for primary weapon."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/firing_archetypes/singleshot.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.14573.features.description.effectsDescription.0.title",
+									"message": "FAST RELOAD"
+								},
+								"type": "PrimaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_gun_breech.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14573.features.description.localizedName",
+							"message": "Speedram"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14573.features.description.subtitle",
+							"message": "Rammer"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_24"
+					},
+					"commerce": {
+						"entitlement": "ipm1_rammer_speedram",
+						"product": "ipm1_rammer_speedram"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "rammer_speedram",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/rammer_speedram_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/rammer_speedram.prefab",
+						"slot": {
+							"handle": "Rammer"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Breech"
+					}
+				},
+				"id": 14573
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.14574.features.description.effectsDescription.0.description",
+									"message": "Hitting target applies *silence effect* to it."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/battle_page/traits/activation/ico_deadeye.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.14574.features.description.effectsDescription.0.title",
+									"message": "SECONDARY ATTACK"
+								},
+								"type": "SecondaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_vulcan.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14574.features.description.localizedName",
+							"message": "M62 Vulcan EQ"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14574.features.description.subtitle",
+							"message": "Rotary Cannon Equalizer"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "ipm1_rotary_cannon_equalizer",
+						"product": "ipm1_rotary_cannon_equalizer"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "rotary_cannon_equalizer",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_01_upgrades/machinegun_equalizer.prefab",
+						"slot": {
+							"handle": "Machinegun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Machinegun"
+					}
+				},
+				"id": 14574
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.14211.features.description.effectsDescription.0.description",
+									"message": "Melt your enemies with this high-speed rotary cannon that deals *100 damage per second* and *slows* the enemy by *20%*.#br#Be careful: If the cannon overheats, you won't be able to use it again until it has completely cooled down."
+								},
+								"hotKey": "2",
+								"icon": "",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.14211.features.description.effectsDescription.0.title",
+									"message": "M61 VULCAN"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_vulcan.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14211.features.description.localizedName",
+							"message": "M62 Vulcan"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14211.features.description.subtitle",
+							"message": "Rotary Cannon"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "rotary_cannon_m61vulcan_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_01_upgrades/machinegun_01.prefab",
+						"slot": {
+							"handle": "Machinegun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14211
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.419.features.description.effectsDescription.0.description",
+									"message": "*+15%* reticle size while immobilized."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.419.features.description.effectsDescription.0.title",
+									"message": "OBSERVER"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/apocalypse_forged_aluminum_wheels.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.419.features.description.localizedName",
+							"message": "IMUK"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.419.features.description.subtitle",
+							"message": "Running Wheels"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_01"
+					},
+					"commerce": {
+						"entitlement": "ipm1_running_wheels_imuk",
+						"product": "ipm1_running_wheels_imuk"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "running_wheels_imuk",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/chassis_m1ip.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Running Wheels"
+					}
+				},
+				"id": 419
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "scope_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_01_upgrades/sniper_scope_01.prefab",
+						"slot": {
+							"handle": "Scope"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 458
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_shell_ap_m829.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14312.features.description.localizedName",
+							"message": "M829"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14312.features.description.subtitle",
+							"message": "Shell"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/american/a02_m1_1980/ammo/ipm1/m829_settings.prefab",
+							"slot": {
+								"handle": "PrimaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": true,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "shell_m829_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/apds.prefab",
+						"slot": {
+							"handle": "PrimaryHangarShell"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell_AP"
+					}
+				},
+				"id": 14312
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/shell_apds_fin.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14575.features.description.localizedName",
+							"message": "HIVIFIN"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14575.features.description.subtitle",
+							"message": "Fin"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "ipm1_shell_m829_hivifin",
+						"product": "ipm1_shell_m829_hivifin"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "shell_part_fin_hivifin",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/ammo/ipm1/m829_fin_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_2"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell_AP"
+					}
+				},
+				"id": 14575
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/shell_apds_propelant.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14576.features.description.localizedName",
+							"message": "STRENGCHARG"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14576.features.description.subtitle",
+							"message": "Propellant"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "ipm1_shell_m829_strengcharg",
+						"product": "ipm1_shell_m829_strengcharg"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "shell_part_propellant_strengcharg",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/ammo/ipm1/m829_propellant_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_4"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell_AP"
+					}
+				},
+				"id": 14576
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/shell_apds_sabot.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14577.features.description.localizedName",
+							"message": "FUSABIN"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14577.features.description.subtitle",
+							"message": "Sabot"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "ipm1_shell_m829_fusabin",
+						"product": "ipm1_shell_m829_fusabin"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "shell_part_sabot_fusabin",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/ammo/ipm1/m829_sabot_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_5"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell_AP"
+					}
+				},
+				"id": 14577
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_smoke_grenades_m239.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.401.features.description.localizedName",
+							"message": "M250"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.401.features.description.subtitle",
+							"message": "Smoke Grenades"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "smoke_grenades_m250",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_01_upgrades/smoke_launchers.prefab",
+						"slot": {
+							"handle": "SmokeLaunchers"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Smoke System"
+					}
+				},
+				"id": 401
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_smoke_grenades_m239.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14578.features.description.localizedName",
+							"message": "M255"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14578.features.description.subtitle",
+							"message": "Smoke Grenades"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "ipm1_smoke_grenades_m255",
+						"product": "ipm1_smoke_grenades_m255"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "smoke_grenades_m255",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_01_upgrades/smoke_launchers_m255.prefab",
+						"slot": {
+							"handle": "SmokeLaunchers"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Smoke Grenades"
+					}
+				},
+				"id": 14578
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.416.features.description.effectsDescription.0.description",
+									"message": "*x%(maxZoomStep)* Sniper view zoom factor."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.416.features.description.effectsDescription.0.title",
+									"message": "ZOOM FACTOR"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_sniper_scope.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.416.features.description.localizedName",
+							"message": "GPS"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.416.features.description.subtitle",
+							"message": "Sniper Scope"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_04"
+					},
+					"commerce": {
+						"entitlement": "ipm1_sniper_scope_gps",
+						"product": "ipm1_sniper_scope_gps"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "sniper_scope_gps",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_01_upgrades/sniper_scope_02.prefab",
+						"slot": {
+							"handle": "Scope"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 416
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.412.features.description.effectsDescription.0.description",
+									"message": "*+30%* ramming protection on sides."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.412.features.description.effectsDescription.0.title",
+									"message": "ARMADILLO"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_shield_02.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.412.features.description.localizedName",
+							"message": "LAS"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.412.features.description.subtitle",
+							"message": "Spaced Side Armor"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_02"
+					},
+					"commerce": {
+						"entitlement": "ipm1_spaced_side_armor_las",
+						"product": "ipm1_spaced_side_armor_las"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "spaced_side_armor_las",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/hull_01_upgrades/armor_02.prefab",
+						"slot": {
+							"handle": "HullBackArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 412
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.409.features.description.effectsDescription.0.description",
+									"message": "*+30%* ramming protection on sides."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.409.features.description.effectsDescription.0.title",
+									"message": "ARMADILLO"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_shield_01.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.409.features.description.localizedName",
+							"message": "IMHAS"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.409.features.description.subtitle",
+							"message": "Spaced Side Armor"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_02"
+					},
+					"commerce": {
+						"entitlement": "ipm1_spaced_side_armor_imhas",
+						"product": "ipm1_spaced_side_armor_imhas"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "spaced_side_armor_imhas",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/hull_01_upgrades/armor_01.prefab",
+						"slot": {
+							"handle": "HullFrontArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 409
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.14579.features.description.effectsDescription.0.description",
+									"message": "Gun stabilization improves by *10%* when tank has less than *40%* HP."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/firing_archetypes/singleshot.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.14579.features.description.effectsDescription.0.title",
+									"message": "THAT LAST SHOT"
+								},
+								"type": "PrimaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_stabilizator_2.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14579.features.description.localizedName",
+							"message": "EGTD"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14579.features.description.subtitle",
+							"message": "Stabilizer"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_24"
+					},
+					"commerce": {
+						"entitlement": "ipm1_stabilizer_egtd",
+						"product": "ipm1_stabilizer_egtd"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "stabilizer_egtd",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/prefabs/turret_01_upgrades/stabilizer_egtd_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_01_upgrades/stabilizer_egtd.prefab",
+						"slot": {
+							"handle": "Stabilizer"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Stabilizer"
+					}
+				},
+				"id": 14579
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.403.features.description.effectsDescription.0.description",
+									"message": "Reduces damage from abilities by *35%*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.403.features.description.effectsDescription.0.title",
+									"message": "LEATHERS"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_sub_armor_lining.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.403.features.description.localizedName",
+							"message": "ADSPALPS"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.403.features.description.subtitle",
+							"message": "Sub-Armor Lining"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "ipm1_sub_armor_lining_adspalps",
+						"product": "ipm1_sub_armor_lining_adspalps"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "sub_armor_lining_adspalps",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/prefabs/turret_01_upgrades/sub_armor_lining_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_01_upgrades/sub_armor_lining.prefab",
+						"slot": {
+							"handle": "SubArmorLining"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Spall Liner"
+					}
+				},
+				"id": 403
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_suspension_stiff_torsion_bars.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14580.features.description.localizedName",
+							"message": "ESS"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14580.features.description.subtitle",
+							"message": "Suspension"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_02"
+					},
+					"commerce": {
+						"entitlement": "ipm1_suspension_ess",
+						"product": "ipm1_suspension_ess"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "suspension_ess",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/prefabs/hull_02_upgrades/suspension_ess_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/hull_02_upgrades/suspension_ess.prefab",
+						"slot": {
+							"handle": "Suspension"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Suspension"
+					}
+				},
+				"id": 14580
+			},
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/abilities/passive_thermal_scope/a_thermal_imager_mechanic_ability.prefab",
+							"previewImage": "/ui/assets/abilities/ability_video_preview/m60/img_preview/m60_img_termal_scope_ability.png",
+							"video": "/ui/assets/abilities/ability_video_preview/m60/m60_vid_thermal_scope_ability.webm"
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.421.features.description.effectsDescription.0.description",
+									"message": "Thermal tracks of all vehicles become visible in sniper view."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.421.features.description.effectsDescription.0.title",
+									"message": "THERMAL IMAGER"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_thermal_sight.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.421.features.description.localizedName",
+							"message": "TIS"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.421.features.description.subtitle",
+							"message": "Thermal Sight"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "imp1_thermal_sight_tis",
+						"product": "imp1_thermal_sight_tis"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "thermal_sight_tis",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_01_upgrades/thermal_sight.prefab",
+						"slot": {
+							"handle": "ThermalSight"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 421
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.456.features.description.effectsDescription.0.description",
+									"message": "The tracks have *%(LTrackMaxHP) module HP*. Losing all module HP will *immobilize* your vehicle for *%(LTrackTimeToRegen)s*.#br#Shells inflict additional damage if they hit modules."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.456.features.description.effectsDescription.0.title",
+									"message": "TRACKS"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_track_m1.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.456.features.description.localizedName",
+							"message": "T156"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.456.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "tracks_t156_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/track_default.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 456
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.428.features.description.effectsDescription.0.description",
+									"message": "Tracks reduce incoming damage from HE/HEAT shells by *30%*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.428.features.description.effectsDescription.0.title",
+									"message": "TRACK SHIELDING"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_chassis_02.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.428.features.description.localizedName",
+							"message": "T158"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.428.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "ipm1_tracks_t158",
+						"product": "ipm1_tracks_t158"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "tracks_t158",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/track_t158.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 428
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.418.features.description.effectsDescription.0.description",
+									"message": "Reduces *Repair Kit* cooldown by *10s*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/battle_page/traits/activation/ico_iron_warden.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.418.features.description.effectsDescription.0.title",
+									"message": "GARAGE RUN"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_transmission.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.418.features.description.localizedName",
+							"message": "IRUK"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.418.features.description.subtitle",
+							"message": "Transmission"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_07"
+					},
+					"commerce": {
+						"entitlement": "ipm1_transmission_iruk",
+						"product": "ipm1_transmission_iruk"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "transmission_iruk",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/prefabs/hull_01_upgrades/transmission_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/hull_01_upgrades/transmission.prefab",
+						"slot": {
+							"handle": "Transmission"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Transmission"
+					}
+				},
+				"id": 418
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.14581.features.description.effectsDescription.0.description",
+									"message": "Energy regen rate *doubles* while tank is immobilized."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_ipm1.specs.specification.modules.14581.features.description.effectsDescription.0.title",
+									"message": "POWER POSE"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/callisto/modules/callisto_upgrade_turbines.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14581.features.description.localizedName",
+							"message": "EXMANPACK"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.14581.features.description.subtitle",
+							"message": "Turbines"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_07"
+					},
+					"commerce": {
+						"entitlement": "ipm1_turbines_exmanpack",
+						"product": "ipm1_turbines_exmanpack"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "turbines_exmanpack",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/prefabs/hull_02_upgrades/turbines_exmanpack_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/hull_02_upgrades/turbines_exmanpack.prefab",
+						"slot": {
+							"handle": "Turbines"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turbines"
+					}
+				},
+				"id": 14581
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_turret_02.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.453.features.description.localizedName",
+							"message": "xxx"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.453.features.description.subtitle",
+							"message": "Turret"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "turret_m1t_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03.prefab",
+						"slot": {
+							"handle": "Turret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret"
+					}
+				},
+				"id": 453
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_wind_sensor.png",
+						"localizedName": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.430.features.description.localizedName",
+							"message": "VMG-1"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_ipm1.specs.specification.modules.430.features.description.subtitle",
+							"message": "Wind Sensor"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_22"
+					},
+					"commerce": {
+						"entitlement": "ipm1_wind_sensor_vmg1",
+						"product": "ipm1_wind_sensor_vmg1"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "wind_sensor_vmg1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_01_upgrades/windsensor_02.prefab",
+						"slot": {
+							"handle": "WindSensor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Wind Sensor"
+					}
+				},
+				"id": 430
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "shell_m829_core_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/core/core_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_1"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14582
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "shell_m829_fin_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/fin/fin_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_2"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14583
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "shell_m829_primer_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/primer/primer_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_3"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14584
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "shell_m829_propellant_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/propellant/propellant_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_4"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14585
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "shell_m829_sabot_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/sabot/sabot_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_5"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14586
+			}
+		],
+		"modulesGroups": [
+			{
+				"id": 61,
+				"modules": [
+					416,
+					14580,
+					412
+				],
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.modulesGroups.61.title",
+					"message": "SLOT 1"
+				}
+			},
+			{
+				"id": 62,
+				"modules": [
+					14575,
+					424,
+					427
+				],
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.modulesGroups.62.title",
+					"message": "SLOT 2"
+				}
+			},
+			{
+				"id": 63,
+				"modules": [
+					403,
+					14539,
+					430
+				],
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.modulesGroups.63.title",
+					"message": "SLOT 3"
+				}
+			},
+			{
+				"id": 64,
+				"modules": [
+					410,
+					14578,
+					428
+				],
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.modulesGroups.64.title",
+					"message": "SLOT 4"
+				}
+			},
+			{
+				"id": 65,
+				"modules": [
+					402,
+					14576,
+					419
+				],
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.modulesGroups.65.title",
+					"message": "SLOT 5"
+				}
+			},
+			{
+				"id": 66,
+				"modules": [
+					14572,
+					418,
+					14571
+				],
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.modulesGroups.66.title",
+					"message": "SLOT 6"
+				}
+			},
+			{
+				"id": 67,
+				"modules": [
+					405,
+					413,
+					14577
+				],
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.modulesGroups.67.title",
+					"message": "SLOT 7"
+				}
+			},
+			{
+				"id": 68,
+				"modules": [
+					14579,
+					420,
+					409
+				],
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.modulesGroups.68.title",
+					"message": "SLOT 8"
+				}
+			},
+			{
+				"id": 69,
+				"modules": [
+					421,
+					14570,
+					422
+				],
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.modulesGroups.69.title",
+					"message": "SLOT 9"
+				}
+			},
+			{
+				"id": 70,
+				"modules": [
+					14574,
+					14573,
+					14581,
+					425
+				],
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.modulesGroups.70.title",
+					"message": "SLOT 10"
+				}
+			}
+		],
+		"perkGroups": [
+			{
+				"category": "Hero",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "juggernaut_imp1_hold_your_breath",
+							"product": "juggernaut_imp1_hold_your_breath"
+						},
+						"id": 3009,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "juggernaut_imp1_backyard_party",
+							"product": "juggernaut_imp1_backyard_party"
+						},
+						"id": 3010,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "juggernaut_imp1_aerodynamic",
+							"product": "juggernaut_imp1_aerodynamic"
+						},
+						"id": 3011,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Role",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "ipm1_defender_master_engineer",
+							"product": "ipm1_defender_master_engineer"
+						},
+						"id": 3003,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "ipm1_defender_back_on_track",
+							"product": "ipm1_defender_back_on_track"
+						},
+						"id": 3004,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "ipm1_defender_collision_course",
+							"product": "ipm1_defender_collision_course"
+						},
+						"id": 3005,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Division",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "ipm1_juggernaut_brcompany_stable_approach",
+							"product": "ipm1_juggernaut_brcompany_stable_approach"
+						},
+						"id": 3008,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "ipm1_juggernaut_brcompany_dying_fire",
+							"product": "ipm1_juggernaut_brcompany_dying_fire"
+						},
+						"id": 3006,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "ipm1_juggernaut_brcompany_peripheral_vision",
+							"product": "ipm1_juggernaut_brcompany_peripheral_vision"
+						},
+						"id": 3007,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Conditional",
+				"isDefault": true,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "",
+							"product": ""
+						},
+						"id": 3001,
+						"overrides": []
+					}
+				]
+			}
+		],
+		"perks": [
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3001.description",
+					"message": "Blocking 4 hits doubles the reload speed of your gun for 20s."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/juggernaut/conditional/steel_warrior.png",
+				"id": 3001,
+				"prefab": "/vehicles/american/a02_m1_1980/traits_and_perks/ipm1/conditional_trait/steel_warrior/steel_warrior_ipm1_trait.prefab",
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3001.title",
+					"message": "STEEL WARRIOR"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3002.description",
+					"message": "Dealing 1,200 damage Agent abilities in *30s* increases energy regen by 25% for 15s."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/juggernaut/conditional/support_master.png",
+				"id": 3002,
+				"prefab": "/vehicles/american/a02_m1_1980/traits_and_perks/abrams_variant2/conditional_trait/support_master_trait.prefab",
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3002.title",
+					"message": "SUPPORT MASTER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3003.description",
+					"message": "Improves Repair Kit stats, increases the number of hit points recovered by *+5 HP/sec*, increases repair duration by *5s*, and reduces Repair Kit cooldown by *10s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/master_engineer.png",
+				"id": 3003,
+				"prefab": "/game_prefabs/perks/role_perks/defender/master_engineer/master_engineer_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3003.title",
+					"message": "MASTER ENGINEER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3004.description",
+					"message": "Reduces track and engine repair time by *25%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/back_on_track.png",
+				"id": 3004,
+				"prefab": "/game_prefabs/perks/role_perks/defender/back_on_track/back_on_track_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3004.title",
+					"message": "BACK ON TRACK"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3005.description",
+					"message": "Greatly improves ramming damage bonus and reduces ramming damage inflicted to the front of your tank."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/collision_course.png",
+				"id": 3005,
+				"prefab": "/game_prefabs/perks/role_perks/defender/collision_course/collision_course_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3005.title",
+					"message": "COLLISION COURSE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3006.description",
+					"message": "Passively reduces duration of fire by *2s* and reduces fire damage received by *50%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/bravo_company/dying_fire.png",
+				"id": 3006,
+				"prefab": "/game_prefabs/perks/division_perks/bravo_company/dying_fire/dying_fire_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3006.title",
+					"message": "DYING FIRE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 5,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3007.description",
+					"message": "Widens spotting angle by *45deg*; reduces spotting range by *150m*. Increases the time enemies stay detected on radar by *1s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/bravo_company/peripheral_vision.png",
+				"id": 3007,
+				"prefab": "/game_prefabs/perks/division_perks/bravo_company/peripheral_vision/peripheral_vision_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3007.title",
+					"message": "PERIPHERAL VISION"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3008.description",
+					"message": "Improves gun stabilization when shooting on the move by *15%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/bravo_company/stable_approach.png",
+				"id": 3008,
+				"prefab": "/game_prefabs/perks/division_perks/bravo_company/stable_approach/stable_approach_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3008.title",
+					"message": "STABLE APPROACH"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3009.description",
+					"message": "Improves gun stabilization by *15%* when traversing the turret."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/juggernaut/hold_your_breath.png",
+				"id": 3009,
+				"prefab": "/vehicles/american/a02_m1_1980/traits_and_perks/ipm1/perks/hold_your_breath/juggernaut_hold_your_breath_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3009.title",
+					"message": "HOLD YOUR BREATH"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 5,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3010.description",
+					"message": "Increases tank reverse speed by *2km/h*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/juggernaut/backyard_party.png",
+				"id": 3010,
+				"prefab": "/vehicles/american/a02_m1_1980/traits_and_perks/ipm1/perks/backyard_party/juggernaut_backyard_party_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3010.title",
+					"message": "BACKYARD PARTY"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3011.description",
+					"message": "Reduces Missile Strike ability energy cost by *15 points*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/juggernaut/aerodynamic.png",
+				"id": 3011,
+				"prefab": "/vehicles/american/a02_m1_1980/traits_and_perks/ipm1/perks/aerodynamic/juggernaut_aerodynamic_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_ipm1.specs.specification.perks.3011.title",
+					"message": "AERODYNAMIC"
+				}
+			}
+		],
+		"perksSlot": {
+			"handle": "Perks"
+		},
+		"power": 1000,
+		"prefabPlaceholders": [
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/juggernaut/p_juggernaut_1_ipm1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Juggernaut_1_ipm1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/juggernaut/juggernaut_pc_2_ipm1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Juggernaut_2_ipm1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/juggernaut/juggernaut_pc_3_ipm1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Juggernaut_3_ipm1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/juggernaut/p_juggernaut_4_ipm1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Juggernaut_4_ipm1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/juggernaut/hq_juggernaut_1_ipm1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Juggernaut_1_ipm1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/juggernaut/hq_juggernaut_2_ipm1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Juggernaut_2_ipm1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/juggernaut/hq_juggernaut_3_ipm1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Juggernaut_3_ipm1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/juggernaut/hq_juggernaut_4_ipm1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Juggernaut_4_ipm1"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/vehicles/american/a02_m1_1980/settings/chopper_workshop_anchors.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_anchors"
+				},
+				"switcherName": "a02_m1_1980_ipm1.specs.specification.callSign"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/worlds/camps/hq_cameras/blue_hq_cameras_jaggernaut.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_cameras"
+				},
+				"switcherName": "Juggernaut"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/juggernaut/juggernaut_ws_1_ipm1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Juggernaut_1_ipm1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/juggernaut/juggernaut_ws_2_ipm1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Juggernaut_2_ipm1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/juggernaut/juggernaut_ws_3_ipm1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Juggernaut_3_ipm1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/juggernaut/juggernaut_ws_4_ipm1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Juggernaut_4_ipm1"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/worlds/camps/base/consumables_anchors.prefab",
+				"spawnPlaceholderName": {
+					"handle": "consumable_anchors"
+				},
+				"switcherName": "a02_m1_1980_ipm1.specs.specification.callSign"
+			}
+		],
+		"role": "Defender",
+		"shellSlots": [
+			{
+				"handle": "PrimaryShell"
+			},
+			{
+				"handle": "SecondaryShell"
+			}
+		],
+		"shortDescription": {
+			"key": "a02_m1_1980_ipm1.specs.specification.shortDescription",
+			"message": "TOUGH AND DEADLY"
+		},
+		"slotsAreas": [
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": true,
+				"left": 482,
+				"top": 290,
+				"uiAnchor": {
+					"handle": "GunModule"
+				},
+				"uiCategory": "Firepower"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": false,
+				"drawRightToLeft": true,
+				"left": 420,
+				"top": 862,
+				"uiAnchor": {
+					"handle": "HullModule"
+				},
+				"uiCategory": "Toughness"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": true,
+				"left": 774,
+				"top": 200,
+				"uiAnchor": {
+					"handle": "TurretModule"
+				},
+				"uiCategory": "Recon"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1150,
+				"top": 160,
+				"uiAnchor": {
+					"handle": "CommunicationModule"
+				},
+				"uiCategory": "Utility"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1506,
+				"top": 275,
+				"uiAnchor": {
+					"handle": "EngineModule"
+				},
+				"uiCategory": "Mobility"
+			}
+		],
+		"smallVehicleImage": "/ui/assets/hero_vehicles/death_card/juggernaut/abrams_ipm1.png",
+		"talismanHolder": {
+			"cameraName": {
+				"handle": "talisman_camera"
+			},
+			"prefab": "/vehicles/american/a02_m1_1980/prefabs/turret_03_upgrades/talisman_holder.prefab",
+			"slot": {
+				"handle": "TalismanHolder"
+			}
+		},
+		"technicalName": "a02_m1_1980_ipm1",
+		"tierSettings": [
+			{
+				"maxPower": 1999,
+				"minPower": 0,
+				"tier": 1
+			},
+			{
+				"maxPower": 2999,
+				"minPower": 2000,
+				"tier": 2
+			},
+			{
+				"maxPower": 3999,
+				"minPower": 3000,
+				"tier": 3
+			},
+			{
+				"maxPower": 4999,
+				"minPower": 4000,
+				"tier": 4
+			},
+			{
+				"maxPower": 5999,
+				"minPower": 5000,
+				"tier": 5
+			},
+			{
+				"maxPower": 6999,
+				"minPower": 6000,
+				"tier": 6
+			},
+			{
+				"maxPower": 9999,
+				"minPower": 7000,
+				"tier": 7
+			}
+		],
+		"vehicleId": 3,
+		"vehicleName": {
+			"key": "a02_m1_1980_ipm1.specs.specification.vehicleName",
+			"message": "Abrams IPM1"
+		}
+	}
+}
 ```

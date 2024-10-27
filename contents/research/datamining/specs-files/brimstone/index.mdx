@@ -11,5 +11,2370 @@ PLACEHOLDER TEXT
 
 ### Full contents of the file
 ```json
-PLACEHOLDER CODE
+{
+	"__type__": "CW::VehicleSpecificationStorage",
+	"specification": {
+		"abilityModifiersSlots": [],
+		"abilitySlots": [
+			{
+				"handle": "FirstAbility"
+			},
+			{
+				"handle": "SecondAbility"
+			},
+			{
+				"handle": "ThirdAbility"
+			}
+		],
+		"aiSettings": {
+			"brainsSlot": {
+				"handle": "AIBrains"
+			},
+			"defaultPreset": {
+				"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_capture_defend_base.prefab",
+				"modulesLayout": []
+			},
+			"gameModePresets": [
+				{
+					"key": {
+						"handle": "conquest"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest_newcomer.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "ct"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "domination"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "hq"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						}
+					}
+				}
+			]
+		},
+		"baseEquipment": [
+			{
+				"installSlot": {
+					"handle": "FirstEquipment"
+				},
+				"prefab": "/game_prefabs/equipment/repair_kit/repair_kit_ability.prefab",
+				"previewImage": "",
+				"video": ""
+			}
+		],
+		"basicCharacteristics": {
+			"firepower": 231,
+			"mobility": 243,
+			"recon": 42,
+			"toughness": 999,
+			"utility": 213
+		},
+		"callSign": {
+			"key": "gb01_challenger.specs.specification.callSign",
+			"message": "Brimstone"
+		},
+		"commerce": {
+			"entitlement": "vehicle_gb01_challenger",
+			"product": "vehicle_gb01_challenger"
+		},
+		"commercePath": "/vehicles/british/gb01_challenger/settings/commerce.specs",
+		"complexity": 1,
+		"crew": {
+			"crewMembers": [
+				{
+					"arenaPrefab": "/vehicles/american/a01_chrysler_xm1/settings/frontmans/frontman_3.prefab",
+					"bigImage": "/ui/assets/heroes/brimstone/crew/extralarge/brimstone_crew.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "brimstone_crew_01",
+						"product": ""
+					},
+					"description": {
+						"key": "gb01_challenger.specs.specification.crew.crewMembers.1344.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 1344,
+					"image": "/ui/assets/heroes/brimstone/crew/large/brimstone_crew.png",
+					"isDefaultFrontman": true,
+					"lastName": {
+						"key": "gb01_challenger.specs.specification.crew.crewMembers.1344.lastName",
+						"message": "Bean"
+					},
+					"name": {
+						"key": "gb01_challenger.specs.specification.crew.crewMembers.1344.name",
+						"message": "Mr."
+					},
+					"prefabPlaceholderName": "brimstone_pc",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/brimstone/crew/small/brimstone_crew.png",
+					"setBonuses": [
+						11
+					]
+				}
+			],
+			"customization": [],
+			"setBonuses": []
+		},
+		"customization3D": {
+			"modulesPacks": [],
+			"stylesPacks": []
+		},
+		"customizationLayout": 0,
+		"description": {
+			"key": "gb01_challenger.specs.specification.description",
+			"message": "DESC"
+		},
+		"displayableCurrencies": [
+			{
+				"handle": "soft"
+			},
+			{
+				"handle": "reputation_blue"
+			}
+		],
+		"divisionColor": "#1E80CA",
+		"divisionIcon": "/ui/assets/meta/select_hero/american_division.png",
+		"divisionIconSmall": "/ui/assets/meta/select_hero/american_division_small.png",
+		"divisionName": {
+			"key": "gb01_challenger.specs.specification.divisionName",
+			"message": "Alpha Company"
+		},
+		"divisionShortName": {
+			"key": "gb01_challenger.specs.specification.divisionShortName",
+			"message": "Alpha Company"
+		},
+		"economyPrefab": "/vehicles/british/gb01_challenger/settings/economy_settings_challenger.prefab",
+		"equipmentCameras": [
+			{
+				"handle": "equipment_1st_camera"
+			},
+			{
+				"handle": "equipment_2nd_camera"
+			},
+			{
+				"handle": "equipment_3rd_camera"
+			}
+		],
+		"equipmentSlots": [
+			{
+				"handle": "FirstEquipment"
+			},
+			{
+				"handle": "SecondEquipment"
+			},
+			{
+				"handle": "ThirdEquipment"
+			}
+		],
+		"features": {
+			"abilityFeatures": [],
+			"moduleFeatures": [],
+			"passiveFeatures": [],
+			"perkFeatures": []
+		},
+		"fraction": {
+			"handle": "blue"
+		},
+		"gameplayPrefab": "/vehicles/british/gb01_challenger/settings/gameplay_settings.prefab",
+		"hiddenAbilitiesSlot": {
+			"handle": "HiddenAbilities"
+		},
+		"image": "/ui/assets/heroes/breacher/vehicle/loki_stock.png",
+		"isHidden": false,
+		"mastering": {
+			"commerce": "gb01_challenger_grant_500_exp",
+			"levels": [
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_gb01_challenger_1",
+						"product": "mastering_lvl_gb01_challenger_1"
+					},
+					"extraEquipment": [],
+					"points": 0,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_gb01_challenger_2",
+						"product": "mastering_lvl_gb01_challenger_2"
+					},
+					"extraEquipment": [],
+					"points": 4000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_gb01_challenger_3",
+						"product": "mastering_lvl_gb01_challenger_3"
+					},
+					"extraEquipment": [],
+					"points": 9000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_gb01_challenger_4",
+						"product": "mastering_lvl_gb01_challenger_4"
+					},
+					"extraEquipment": [],
+					"points": 15000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_gb01_challenger_5",
+						"product": "mastering_lvl_gb01_challenger_5"
+					},
+					"extraEquipment": [],
+					"points": 24000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_gb01_challenger_6",
+						"product": "mastering_lvl_gb01_challenger_6"
+					},
+					"extraEquipment": [],
+					"points": 35000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": [
+						1011
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_gb01_challenger_7",
+						"product": "mastering_lvl_gb01_challenger_7"
+					},
+					"extraEquipment": [],
+					"points": 52000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": [
+						1004
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_gb01_challenger_8",
+						"product": "mastering_lvl_gb01_challenger_8"
+					},
+					"extraEquipment": [],
+					"points": 74000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": [
+						1012
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_gb01_challenger_9",
+						"product": "mastering_lvl_gb01_challenger_9"
+					},
+					"extraEquipment": [],
+					"points": 104000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": [
+						1005
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_gb01_challenger_10",
+						"product": "mastering_lvl_gb01_challenger_10"
+					},
+					"extraEquipment": [],
+					"points": 144000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": [
+						1013
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_gb01_challenger_11",
+						"product": "mastering_lvl_gb01_challenger_11"
+					},
+					"extraEquipment": [],
+					"points": 200000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_gb01_challenger_12",
+						"product": "mastering_lvl_gb01_challenger_12"
+					},
+					"extraEquipment": [],
+					"points": 275000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_gb01_challenger_13",
+						"product": "mastering_lvl_gb01_challenger_13"
+					},
+					"extraEquipment": [],
+					"points": 375000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_gb01_challenger_14",
+						"product": "mastering_lvl_gb01_challenger_14"
+					},
+					"extraEquipment": [],
+					"points": 515000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_gb01_challenger_15",
+						"product": "mastering_lvl_gb01_challenger_15"
+					},
+					"extraEquipment": [],
+					"points": 700000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				}
+			],
+			"pointsCurrency": {
+				"handle": "gb01_challenger"
+			}
+		},
+		"modules": [
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "lobby_collider",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/lobby_collider.prefab",
+						"slot": {
+							"handle": "LobbyCollider"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14530
+			},
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/equipment/fire/fire_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [
+						{
+							"prefab": "/game_prefabs/equipment/energy_booster/energy_booster_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/extinguisher/extinguisher_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/med_kit/med_kit.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/stim_pack/stim_pack_consumable.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"layout": 21,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "root",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/gb01_challenger.prefab",
+						"slot": {
+							"handle": "Root"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14531
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14532.features.description.effectsDescription.0.description",
+									"message": "The tracks have *%(LTrackMaxHP) module HP.* Losing all module HP will *immobilize* your vehicle for *%(LTrackTimeToRegen)s.*#br#Module HP can be affected by shell module damage stats."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14532.features.description.effectsDescription.0.title",
+									"message": "TRACKS"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_track_xm1_gerlach.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14532.features.description.localizedName",
+							"message": "Gerlach XM1"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14532.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_06"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_tracks",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/chassis_01/tracks_01/tracks_01.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 14532
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb_01_c_chassis",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/chassis_01/chassis_01.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14533
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14534.features.description.effectsDescription.0.description",
+									"message": "Engine has *%(EngineMaxHP) module HP.* Receives *critical damage* per hit. Losing all module HP *reduces movement speed* by *50%* for *%(EngineTimeToRegen)s.*#br#Module HP can be affected by shell module damage stats."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14534.features.description.effectsDescription.0.title",
+									"message": "ENGINE"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_engine_avcr1100.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14534.features.description.localizedName",
+							"message": "Continental AVCR-1100"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14534.features.description.subtitle",
+							"message": "Engine"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_09"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb_01_c_engine",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/hull_01/upgrades/engine_03.prefab",
+						"slot": {
+							"handle": "Engine"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine"
+					}
+				},
+				"id": 14534
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_hull.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14535.features.description.localizedName",
+							"message": "CXM"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14535.features.description.subtitle",
+							"message": "Hull"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_21"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb_01_c_hull",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/hull_01/hull_01.prefab",
+						"slot": {
+							"handle": "Hull"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull"
+					}
+				},
+				"id": 14535
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_turret.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14536.features.description.localizedName",
+							"message": "CMD VFT2"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14536.features.description.subtitle",
+							"message": "Turret"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_18"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb_01_c_turret",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/turret_01/turret_01.prefab",
+						"slot": {
+							"handle": "Turret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret"
+					}
+				},
+				"id": 14536
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_gun_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14537.features.description.localizedName",
+							"message": "M70"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14537.features.description.subtitle",
+							"message": "Gun"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/british/gb01_challenger/ammo/challenger/gb120_settings.prefab",
+							"slot": {
+								"handle": "PrimaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb_01_c_gun",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/gun_01/gun_01.prefab",
+						"slot": {
+							"handle": "Gun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun"
+					}
+				},
+				"id": 14537
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_gun_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14511.features.description.localizedName",
+							"message": "M70"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14511.features.description.subtitle",
+							"message": "Gun"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb_01_c_gun_holder",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/hull_01/upgrades/back_gun_holder.prefab",
+						"slot": {
+							"handle": "GunHolder"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun"
+					}
+				},
+				"id": 14511
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14512.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14512.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14512.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14512.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_hull_side_armor",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/hull_01/upgrades/side_shields_03.prefab",
+						"slot": {
+							"handle": "SideArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14512
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14513.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14513.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14513.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14513.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_hull_back_armor",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/hull_01/upgrades/side_grid_01.prefab",
+						"slot": {
+							"handle": "SideGrid"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14513
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14514.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14514.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14514.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14514.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_hull_front_armor",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/hull_01/upgrades/front_armor.prefab",
+						"slot": {
+							"handle": "FrontArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14514
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14515.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14515.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14515.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14515.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_dozer",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/hull_01/upgrades/front_blade_02.prefab",
+						"slot": {
+							"handle": "FrontBlade"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14515
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14516.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14516.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14516.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14516.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_exhaust",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/hull_01/upgrades/exhaust.prefab",
+						"slot": {
+							"handle": "Exhaust"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14516
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14517.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14517.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14517.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14517.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_fuel_barrels",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/hull_01/upgrades/fuel_barrels.prefab",
+						"slot": {
+							"handle": "FuelBarrels"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14517
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14518.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14518.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14518.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14518.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_fume_extractor",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/gun_01/upgrades/fume_ex_02.prefab",
+						"slot": {
+							"handle": "Fume"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14518
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14519.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14519.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14519.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14519.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_gun_scope",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/gun_01/upgrades/scope_01.prefab",
+						"slot": {
+							"handle": "Sight"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14519
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14520.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14520.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14520.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14520.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_gun_sleeve",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/gun_01/upgrades/thermal_sleeve_01.prefab",
+						"slot": {
+							"handle": "ThermalSleeve"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14520
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14521.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14521.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14521.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14521.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_antenna_1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/turret_01/upgrades/antenna_01.prefab",
+						"slot": {
+							"handle": "Antenna01"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14521
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14522.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14522.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14522.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14522.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_antenna_2",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/turret_01/upgrades/antenna_02.prefab",
+						"slot": {
+							"handle": "Antenna02"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14522
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14523.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14523.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14523.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14523.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_antenna_3",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/turret_01/upgrades/antenna_big_02.prefab",
+						"slot": {
+							"handle": "AntennaBig"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14523
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14524.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14524.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14524.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14524.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_commander_visor",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/turret_01/upgrades/commanders_visor.prefab",
+						"slot": {
+							"handle": "CommanderHatchVizor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14524
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14525.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14525.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14525.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14525.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_coooling_system",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/turret_01/upgrades/cooling_system.prefab",
+						"slot": {
+							"handle": "CoolingSystem"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14525
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14526.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14526.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14526.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14526.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_main_vizor",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/turret_01/upgrades/main_sight_vizor.prefab",
+						"slot": {
+							"handle": "SightVizor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14526
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14527.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14527.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14527.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14527.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_togs_barbette",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/turret_01/upgrades/togs_barbette_02.prefab",
+						"slot": {
+							"handle": "TogsBarbette"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14527
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "gb01_challenger.specs.specification.modules.14528.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "gb01_challenger.specs.specification.modules.14528.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14528.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14528.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_c_wind_detector",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/british/gb01_challenger/challenger_fbx/prefabs/turret_01/upgrades/wind_detector.prefab",
+						"slot": {
+							"handle": "WindSensor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14528
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "gb01_challenger.specs.specification.modules.14538.features.description.localizedName",
+							"message": "gb01_challenger_ammo_loader"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "gb01_challenger.specs.specification.modules.14538.features.description.subtitle",
+							"message": "gb01_challenger_ammo_loader"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gb01_challenger_ammo_loader",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/base_tank/components/ammo_loader.prefab",
+						"slot": {
+							"handle": "AmmoLoader"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14538
+			}
+		],
+		"modulesGroups": [],
+		"perkGroups": [],
+		"perks": [],
+		"perksSlot": {
+			"handle": "Perks"
+		},
+		"power": 1000,
+		"prefabPlaceholders": [
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/brimstone/brimsone_pc.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "brimstone_pc"
+			}
+		],
+		"role": "Defender",
+		"shellSlots": [
+			{
+				"handle": "PrimaryShell"
+			},
+			{
+				"handle": "SecondaryShell"
+			}
+		],
+		"shortDescription": {
+			"key": "gb01_challenger.specs.specification.shortDescription",
+			"message": "challenger"
+		},
+		"slotsAreas": [],
+		"smallVehicleImage": "/ui/assets/hero_vehicles/death_card/breacher/xm1_volcano.png",
+		"talismanHolder": {
+			"cameraName": {
+				"handle": "talisman_camera"
+			},
+			"prefab": "",
+			"slot": {
+				"handle": "TalismanHolder"
+			}
+		},
+		"technicalName": "gb01_challenger",
+		"tierSettings": [],
+		"vehicleId": 24,
+		"vehicleName": {
+			"key": "gb01_challenger.specs.specification.vehicleName",
+			"message": "FV 4030/X"
+		}
+	}
+}
 ```

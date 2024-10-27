@@ -11,5 +11,555 @@ PLACEHOLDER TEXT
 
 ### Full contents of the file
 ```json
-PLACEHOLDER CODE
+{
+	"__type__": "CW::VehicleSpecificationStorage",
+	"specification": {
+		"abilityModifiersSlots": [],
+		"abilitySlots": [
+			{
+				"handle": "FirstAbility"
+			},
+			{
+				"handle": "SecondAbility"
+			},
+			{
+				"handle": "ThirdAbility"
+			}
+		],
+		"aiSettings": {
+			"brainsSlot": {
+				"handle": "AIBrains"
+			},
+			"defaultPreset": {
+				"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_capture_defend_base.prefab",
+				"modulesLayout": []
+			},
+			"gameModePresets": [
+				{
+					"key": {
+						"handle": "conquest"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest_newcomer.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "ct"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "domination"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "hq"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						}
+					}
+				}
+			]
+		},
+		"baseEquipment": [
+			{
+				"installSlot": {
+					"handle": "FirstEquipment"
+				},
+				"prefab": "/vehicles/american/a03_m60a1/abilities/repair_kit/a_repair_kit_ability_m60a1.prefab",
+				"previewImage": "",
+				"video": ""
+			}
+		],
+		"basicCharacteristics": {
+			"firepower": 235,
+			"mobility": 175,
+			"recon": 60,
+			"toughness": 550,
+			"utility": 0
+		},
+		"callSign": {
+			"key": "a06_xm808_twister.specs.specification.callSign",
+			"message": "XM808 Twister"
+		},
+		"commerce": {
+			"entitlement": "vehicle_xm808",
+			"product": "vehicle_xm808"
+		},
+		"commercePath": "/vehicles/american/a06_xm808_twister/settings/commerce.specs",
+		"complexity": 1,
+		"crew": {
+			"crewMembers": [
+				{
+					"arenaPrefab": "",
+					"bigImage": "/ui/assets/heroes/twister/extralarge/xm551_crew.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "xm808_crew1",
+						"product": ""
+					},
+					"description": {
+						"key": "a06_xm808_twister.specs.specification.crew.crewMembers.144034.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 144034,
+					"image": "/ui/assets/heroes/twister/large/xm551_crew.png",
+					"isDefaultFrontman": true,
+					"lastName": {
+						"key": "a06_xm808_twister.specs.specification.crew.crewMembers.144034.lastName",
+						"message": "Ross"
+					},
+					"name": {
+						"key": "a06_xm808_twister.specs.specification.crew.crewMembers.144034.name",
+						"message": "Joss"
+					},
+					"prefabPlaceholderName": "twister_pc",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/twister/small/xm551_crew.png",
+					"setBonuses": []
+				}
+			],
+			"customization": [],
+			"setBonuses": []
+		},
+		"customization3D": {
+			"modulesPacks": [],
+			"stylesPacks": []
+		},
+		"customizationLayout": 0,
+		"description": {
+			"key": "a06_xm808_twister.specs.specification.description",
+			"message": "In the Defender role, your supreme resilience gives you an impressive ability to stubbornly embed yourself, hold positions, and defend objectives."
+		},
+		"displayableCurrencies": [
+			{
+				"handle": "soft"
+			},
+			{
+				"handle": "reputation_blue"
+			}
+		],
+		"divisionColor": "#1E80CA",
+		"divisionIcon": "/ui/assets/meta/select_hero/american_division.png",
+		"divisionIconSmall": "/ui/assets/meta/select_hero/american_division_small.png",
+		"divisionName": {
+			"key": "a06_xm808_twister.specs.specification.divisionName",
+			"message": "Alfa Company"
+		},
+		"divisionShortName": {
+			"key": "a06_xm808_twister.specs.specification.divisionShortName",
+			"message": "Alfa Company"
+		},
+		"economyPrefab": "/vehicles/american/a06_xm808_twister/settings/economy_settings_xm808.prefab",
+		"equipmentCameras": [
+			{
+				"handle": "equipment_1st_camera"
+			},
+			{
+				"handle": "equipment_2nd_camera"
+			},
+			{
+				"handle": "equipment_3rd_camera"
+			}
+		],
+		"equipmentSlots": [
+			{
+				"handle": "FirstEquipment"
+			},
+			{
+				"handle": "SecondEquipment"
+			},
+			{
+				"handle": "ThirdEquipment"
+			}
+		],
+		"features": {
+			"abilityFeatures": [],
+			"moduleFeatures": [],
+			"passiveFeatures": [],
+			"perkFeatures": []
+		},
+		"fraction": {
+			"handle": "blue"
+		},
+		"gameplayPrefab": "/vehicles/american/a04_xm551/settings/gameplay_settings.prefab",
+		"hiddenAbilitiesSlot": {
+			"handle": "HiddenAbilities"
+		},
+		"image": "/ui/assets/heroes/apocalypse/vehicle/apocalypse_stock.png",
+		"isHidden": false,
+		"mastering": {
+			"commerce": "xm808_grant_500_exp",
+			"levels": [
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_1",
+						"product": "mastering_lvl_a04_xm551_1"
+					},
+					"extraEquipment": [],
+					"points": 0,
+					"rewards": [],
+					"unlockGroups": [
+						11
+					],
+					"unlockModules": [
+						14558,
+						14559
+					],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_2",
+						"product": "mastering_lvl_a04_xm551_2"
+					},
+					"extraEquipment": [],
+					"points": 6000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_3",
+						"product": "mastering_lvl_a04_xm551_3"
+					},
+					"extraEquipment": [],
+					"points": 12000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_4",
+						"product": "mastering_lvl_a04_xm551_4"
+					},
+					"extraEquipment": [],
+					"points": 20000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_5",
+						"product": "mastering_lvl_a04_xm551_5"
+					},
+					"extraEquipment": [],
+					"points": 30000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_6",
+						"product": "mastering_lvl_a04_xm551_6"
+					},
+					"extraEquipment": [],
+					"points": 40000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_7",
+						"product": "mastering_lvl_a04_xm551_7"
+					},
+					"extraEquipment": [],
+					"points": 50000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_8",
+						"product": "mastering_lvl_a04_xm551_8"
+					},
+					"extraEquipment": [],
+					"points": 60000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_9",
+						"product": "mastering_lvl_a04_xm551_9"
+					},
+					"extraEquipment": [],
+					"points": 70000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_10",
+						"product": "mastering_lvl_a04_xm551_10"
+					},
+					"extraEquipment": [],
+					"points": 100000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				}
+			],
+			"pointsCurrency": {
+				"handle": "a06_xm808"
+			}
+		},
+		"modules": [
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/equipment/fire/fire_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "a06_xm808_twister.specs.specification.modules.14592.features.description.localizedName",
+							"message": "root"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a06_xm808_twister.specs.specification.modules.14592.features.description.subtitle",
+							"message": "HIDE ME PLEASE"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [
+						{
+							"prefab": "/game_prefabs/equipment/energy_booster/energy_booster_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/extinguisher/extinguisher_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/med_kit/med_kit.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/stim_pack/stim_pack_consumable.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"layout": 21,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm808_root",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a06_xm808_twister/a06_xm808.prefab",
+						"slot": {
+							"handle": "Root"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14592
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "a06_xm808_twister.specs.specification.modules.14593.features.description.localizedName",
+							"message": "root"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a06_xm808_twister.specs.specification.modules.14593.features.description.subtitle",
+							"message": "HIDE ME PLEASE"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 21,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm808_body",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a06_xm808_twister/prefabs/a06_xm808_twister.prefab",
+						"slot": {
+							"handle": "Hull"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14593
+			}
+		],
+		"modulesGroups": [],
+		"perkGroups": [],
+		"perks": [],
+		"perksSlot": {
+			"handle": "Perks"
+		},
+		"power": 1000,
+		"prefabPlaceholders": [
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/twister/twister_pc.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "twister_pc"
+			}
+		],
+		"role": "Assault",
+		"shellSlots": [
+			{
+				"handle": "PrimaryShell"
+			},
+			{
+				"handle": "SecondaryShell"
+			}
+		],
+		"shortDescription": {
+			"key": "a06_xm808_twister.specs.specification.shortDescription",
+			"message": "TAKES REDUCED DAMAGE"
+		},
+		"slotsAreas": [],
+		"smallVehicleImage": "/ui/assets/hero_vehicles/death_card/apocalypse/m60_athena.png",
+		"talismanHolder": {
+			"cameraName": {
+				"handle": "talisman_camera"
+			},
+			"prefab": "",
+			"slot": {
+				"handle": "TalismanHolder"
+			}
+		},
+		"technicalName": "a06_xm808_twister",
+		"tierSettings": [],
+		"vehicleId": 29,
+		"vehicleName": {
+			"key": "a06_xm808_twister.specs.specification.vehicleName",
+			"message": "XM808 Twister"
+		}
+	}
+}
 ```

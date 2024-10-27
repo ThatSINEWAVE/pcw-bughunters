@@ -11,5 +11,5370 @@ PLACEHOLDER TEXT
 
 ### Full contents of the file
 ```json
-PLACEHOLDER CODE
+{
+	"__type__": "CW::VehicleSpecificationStorage",
+	"specification": {
+		"abilityModifiersSlots": [],
+		"abilitySlots": [
+			{
+				"handle": "FirstAbility"
+			},
+			{
+				"handle": "SecondAbility"
+			},
+			{
+				"handle": "ThirdAbility"
+			}
+		],
+		"aiSettings": {
+			"brainsSlot": {
+				"handle": "AIBrains"
+			},
+			"defaultPreset": {
+				"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_capture_defend_base.prefab",
+				"modulesLayout": []
+			},
+			"gameModePresets": [
+				{
+					"key": {
+						"handle": "conquest"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest_newcomer.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "ct"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "domination"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "hq"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						}
+					}
+				}
+			]
+		},
+		"baseEquipment": [
+			{
+				"installSlot": {
+					"handle": "FirstEquipment"
+				},
+				"prefab": "/vehicles/american/a03_m60a1/abilities/repair_kit/a_repair_kit_ability_m60a1.prefab",
+				"previewImage": "",
+				"video": ""
+			}
+		],
+		"basicCharacteristics": {
+			"firepower": 235,
+			"mobility": 175,
+			"recon": 60,
+			"toughness": 550,
+			"utility": 0
+		},
+		"callSign": {
+			"key": "a03_m60a1_athena.specs.specification.callSign",
+			"message": "Titan"
+		},
+		"commerce": {
+			"entitlement": "vehicle_m60_athena",
+			"product": "vehicle_m60_athena"
+		},
+		"commercePath": "/vehicles/american/a03_m60a1/settings/commerce_athena.specs",
+		"complexity": 1,
+		"crew": {
+			"crewMembers": [
+				{
+					"arenaPrefab": "/vehicles/american/a03_m60a1/settings/frontmans/frontman_3.prefab",
+					"bigImage": "/ui/assets/heroes/apocalypse/crew/extralarge/apocalypse_crew_03.png",
+					"campPrefab": "/worlds/camps/crew/characters/apocalypse/apocalypse_03.prefab",
+					"commerce": {
+						"entitlement": "apocalypse_crew_01_athena",
+						"product": ""
+					},
+					"description": {
+						"key": "a03_m60a1_athena.specs.specification.crew.crewMembers.401.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 401,
+					"image": "/ui/assets/heroes/apocalypse/crew/large/apocalypse_crew_03.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "a03_m60a1_athena.specs.specification.crew.crewMembers.401.lastName",
+						"message": "Lineham"
+					},
+					"name": {
+						"key": "a03_m60a1_athena.specs.specification.crew.crewMembers.401.name",
+						"message": "Keene"
+					},
+					"prefabPlaceholderName": "Apocalypse_3_athena",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/apocalypse/crew/small/apocalypse_crew_03_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/american/a03_m60a1/settings/frontmans/frontman_1.prefab",
+					"bigImage": "/ui/assets/heroes/apocalypse/crew/extralarge/apocalypse_crew_01.png",
+					"campPrefab": "/worlds/camps/crew/characters/apocalypse/apocalypse_01.prefab",
+					"commerce": {
+						"entitlement": "apocalypse_crew_02_athena",
+						"product": ""
+					},
+					"description": {
+						"key": "a03_m60a1_athena.specs.specification.crew.crewMembers.402.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 402,
+					"image": "/ui/assets/heroes/apocalypse/crew/large/apocalypse_crew_01.png",
+					"isDefaultFrontman": true,
+					"lastName": {
+						"key": "a03_m60a1_athena.specs.specification.crew.crewMembers.402.lastName",
+						"message": "O'Donnell"
+					},
+					"name": {
+						"key": "a03_m60a1_athena.specs.specification.crew.crewMembers.402.name",
+						"message": "Jerome"
+					},
+					"prefabPlaceholderName": "Apocalypse_1_athena",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/apocalypse/crew/small/apocalypse_crew_01_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/american/a03_m60a1/settings/frontmans/frontman_4.prefab",
+					"bigImage": "/ui/assets/heroes/apocalypse/crew/extralarge/apocalypse_crew_04.png",
+					"campPrefab": "/worlds/camps/crew/characters/apocalypse/apocalypse_04.prefab",
+					"commerce": {
+						"entitlement": "apocalypse_crew_03_athena",
+						"product": ""
+					},
+					"description": {
+						"key": "a03_m60a1_athena.specs.specification.crew.crewMembers.403.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 403,
+					"image": "/ui/assets/heroes/apocalypse/crew/large/apocalypse_crew_02.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "a03_m60a1_athena.specs.specification.crew.crewMembers.403.lastName",
+						"message": "Sharman"
+					},
+					"name": {
+						"key": "a03_m60a1_athena.specs.specification.crew.crewMembers.403.name",
+						"message": "Landry"
+					},
+					"prefabPlaceholderName": "Apocalypse_4_athena",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/apocalypse/crew/small/apocalypse_crew_02_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/american/a03_m60a1/settings/frontmans/frontman_2.prefab",
+					"bigImage": "/ui/assets/heroes/apocalypse/crew/extralarge/apocalypse_crew_02.png",
+					"campPrefab": "/worlds/camps/crew/characters/apocalypse/apocalypse_02.prefab",
+					"commerce": {
+						"entitlement": "apocalypse_crew_04_athena",
+						"product": ""
+					},
+					"description": {
+						"key": "a03_m60a1_athena.specs.specification.crew.crewMembers.404.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 404,
+					"image": "/ui/assets/heroes/apocalypse/crew/large/apocalypse_crew_04.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "a03_m60a1_athena.specs.specification.crew.crewMembers.404.lastName",
+						"message": "Field"
+					},
+					"name": {
+						"key": "a03_m60a1_athena.specs.specification.crew.crewMembers.404.name",
+						"message": "Grover"
+					},
+					"prefabPlaceholderName": "Apocalypse_2_athena",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/apocalypse/crew/small/apocalypse_crew_04_req.png",
+					"setBonuses": []
+				}
+			],
+			"customization": [],
+			"setBonuses": []
+		},
+		"customization3D": {
+			"modulesPacks": [],
+			"stylesPacks": []
+		},
+		"customizationLayout": 5,
+		"description": {
+			"key": "a03_m60a1_athena.specs.specification.description",
+			"message": "In the Defender role, your supreme resilience gives you an impressive ability to stubbornly embed yourself, hold positions, and defend objectives."
+		},
+		"displayableCurrencies": [
+			{
+				"handle": "soft"
+			},
+			{
+				"handle": "reputation_blue"
+			}
+		],
+		"divisionColor": "#1E80CA",
+		"divisionIcon": "/ui/assets/meta/select_hero/american_division.png",
+		"divisionIconSmall": "/ui/assets/meta/select_hero/american_division_small.png",
+		"divisionName": {
+			"key": "a03_m60a1_athena.specs.specification.divisionName",
+			"message": "Alpha Company"
+		},
+		"divisionShortName": {
+			"key": "a03_m60a1_athena.specs.specification.divisionShortName",
+			"message": "Alpha Company"
+		},
+		"economyPrefab": "/vehicles/american/a03_m60a1/settings/economy_settings_athena.prefab",
+		"equipmentCameras": [
+			{
+				"handle": "equipment_1st_camera"
+			},
+			{
+				"handle": "equipment_2nd_camera"
+			},
+			{
+				"handle": "equipment_3rd_camera"
+			}
+		],
+		"equipmentSlots": [
+			{
+				"handle": "FirstEquipment"
+			},
+			{
+				"handle": "SecondEquipment"
+			},
+			{
+				"handle": "ThirdEquipment"
+			}
+		],
+		"features": {
+			"abilityFeatures": [],
+			"moduleFeatures": [],
+			"passiveFeatures": [],
+			"perkFeatures": []
+		},
+		"fraction": {
+			"handle": "blue"
+		},
+		"gameplayPrefab": "/vehicles/american/a03_m60a1/settings/gameplay_settings.prefab",
+		"hiddenAbilitiesSlot": {
+			"handle": "HiddenAbilities"
+		},
+		"image": "/ui/assets/heroes/apocalypse/vehicle/apocalypse_stock.png",
+		"isHidden": false,
+		"mastering": {
+			"commerce": "apocalypse_athena_grant_500_exp",
+			"levels": [
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_athena_1",
+						"product": "mastering_lvl_a03_athena_1"
+					},
+					"extraEquipment": [],
+					"points": 0,
+					"rewards": [],
+					"unlockGroups": [
+						11
+					],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_athena_2",
+						"product": "mastering_lvl_a03_athena_2"
+					},
+					"extraEquipment": [],
+					"points": 2000,
+					"rewards": [],
+					"unlockGroups": [
+						12
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						4006
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_athena_3",
+						"product": "mastering_lvl_a03_athena_3"
+					},
+					"extraEquipment": [],
+					"points": 4200,
+					"rewards": [],
+					"unlockGroups": [
+						13
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						4003
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_athena_4",
+						"product": "mastering_lvl_a03_athena_4"
+					},
+					"extraEquipment": [],
+					"points": 6700,
+					"rewards": [],
+					"unlockGroups": [
+						14
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						4014
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_athena_5",
+						"product": "mastering_lvl_a03_athena_5"
+					},
+					"extraEquipment": [],
+					"points": 11000,
+					"rewards": [],
+					"unlockGroups": [
+						15
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						4007
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_athena_6",
+						"product": "mastering_lvl_a03_athena_6"
+					},
+					"extraEquipment": [],
+					"points": 15500,
+					"rewards": [],
+					"unlockGroups": [
+						16
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						4004
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_athena_7",
+						"product": "mastering_lvl_a03_athena_7"
+					},
+					"extraEquipment": [],
+					"points": 20200,
+					"rewards": [],
+					"unlockGroups": [
+						17
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						4015
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_athena_8",
+						"product": "mastering_lvl_a03_athena_8"
+					},
+					"extraEquipment": [],
+					"points": 26500,
+					"rewards": [],
+					"unlockGroups": [
+						18
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						4017
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_athena_9",
+						"product": "mastering_lvl_a03_athena_9"
+					},
+					"extraEquipment": [],
+					"points": 33000,
+					"rewards": [],
+					"unlockGroups": [
+						19
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						4012
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_athena_10",
+						"product": "mastering_lvl_a03_athena_10"
+					},
+					"extraEquipment": [],
+					"points": 39700,
+					"rewards": [],
+					"unlockGroups": [
+						20
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						4016
+					]
+				}
+			],
+			"pointsCurrency": {
+				"handle": "a03_athena"
+			}
+		},
+		"modules": [
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "0",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.251.features.description.localizedName",
+							"message": "0"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "lobby_collider",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/lobby_collider.prefab",
+						"slot": {
+							"handle": "LobbyCollider"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 251
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/apocalypse_tts.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14665.features.description.localizedName",
+							"message": "MX15 "
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14665.features.description.subtitle",
+							"message": "Sight"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "sight_stock",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/vizor_m32e1.prefab",
+						"slot": {
+							"handle": "Vizor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 14665
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.263.features.description.effectsDescription.0.description",
+									"message": "Increases zoom ratio and improves accuracy."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.263.features.description.effectsDescription.0.title",
+									"message": "Improved Scope"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/apocalypse_tts.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.263.features.description.localizedName",
+							"message": "MX15 "
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.263.features.description.subtitle",
+							"message": "Sight"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "athena_sight_mx15",
+						"product": "athena_sight_mx15"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "sight_mx15",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/vizor_an_vsg2.prefab",
+						"slot": {
+							"handle": "Vizor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 263
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.269.features.description.effectsDescription.0.description",
+									"message": "Strike harder and deeper: AP shells deal more damage and penetrate better in close combat (less than *150m*)."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.269.features.description.effectsDescription.0.title",
+									"message": "CLOSE COMBAT AMMO"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/apocalypse_shell_ap_m734.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.269.features.description.localizedName",
+							"message": "XM680 APFSDS"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.269.features.description.subtitle",
+							"message": "Shell"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/american/a03_m60a1/ammo/athena/xm681_settings.prefab",
+							"slot": {
+								"handle": "PrimaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": true,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "shell_xm681_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/apds.prefab",
+						"slot": {
+							"handle": "PrimaryHangarShell"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell_AP"
+					}
+				},
+				"id": 269
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 10,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 60,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.206.features.description.effectsDescription.0.description",
+									"message": "Improves ammo rack resistance to critical damage. "
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.206.features.description.effectsDescription.0.title",
+									"message": "Individual Casings"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/safe_ammo_rack.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.206.features.description.localizedName",
+							"message": "ANEXAS"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.206.features.description.subtitle",
+							"message": "AMMO RACK"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_11"
+					},
+					"commerce": {
+						"entitlement": "athena_ammo_rack_anexas",
+						"product": "athena_ammo_rack_anexas"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "ammo_rack_anexas",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/ammo_rack_aeas_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/ammo_rack_aeas.prefab",
+						"slot": {
+							"handle": "AmmoRack"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ammo Rack"
+					}
+				},
+				"id": 206
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "0",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.264.features.description.localizedName",
+							"message": "m60_loader"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.264.features.description.subtitle",
+							"message": "m60_loader"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "titan_loader",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/gun_t254/ammo_loader_active_reload_v2_titan.prefab",
+						"slot": {
+							"handle": "AmmoLoader"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 264
+			},
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/equipment/fire/fire_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"installSlot": {
+								"handle": "FirstAbility"
+							},
+							"isHidden": false,
+							"prefab": "/game_prefabs/abilities/air_bomber/a_air_bomber_ability.prefab",
+							"previewImage": "/ui/assets/abilities/ability_video_preview/m60/img_preview/m60_img_bomber_ability.png",
+							"video": "/ui/assets/abilities/ability_video_preview/m60/m60_vid_bomber_ability.webm"
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.267.features.description.localizedName",
+							"message": "root"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.267.features.description.subtitle",
+							"message": "HIDE ME PLEASE"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [
+						{
+							"prefab": "/game_prefabs/equipment/energy_booster/energy_booster_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/extinguisher/extinguisher_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/med_kit/med_kit.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/stim_pack/stim_pack_consumable.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"layout": 21,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "titan_root",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/a03_m60a1_athena.prefab",
+						"slot": {
+							"handle": "Root"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 267
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.270.features.description.effectsDescription.0.description",
+									"message": "Click *lmb* when reload progress is in the green sector for *30%* faster reload."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.270.features.description.effectsDescription.0.title",
+									"message": "'AT' FAST RELOAD "
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/basic_gun.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.270.features.description.localizedName",
+							"message": "T254 "
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.270.features.description.subtitle",
+							"message": "Gun"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_08"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gun_t254",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/gun_t254/gun_t254_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/gun_t254/gun_t254.prefab",
+						"slot": {
+							"handle": "Gun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun"
+					}
+				},
+				"id": 270
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14056.features.description.effectsDescription.0.description",
+									"message": "Increases resistance to APDS shells. "
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14056.features.description.effectsDescription.0.title",
+									"message": "Spaced Armor"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/gun_mask_armor.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14056.features.description.localizedName",
+							"message": "BRAX"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14056.features.description.subtitle",
+							"message": "Gun Mantlet Armor"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "athena_gun_mantlet_armor_brax",
+						"product": "athena_gun_mantlet_armor_brax"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "gun_mantlet_armor_brax",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/gun_t254/upgrades/gun_armor_brax.prefab",
+						"slot": {
+							"handle": "GunArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Shield"
+					}
+				},
+				"id": 14056
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "HIDE ME PLEASE",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14258.features.description.localizedName",
+							"message": "0"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_18"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "hull_frontparts_base_customization",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/frontparts.prefab",
+						"slot": {
+							"handle": "FrontArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14258
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 32,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.202.features.description.effectsDescription.0.description",
+									"message": "This screen reduces damage from shells that strike the covered area. Damage reduction depends on shell type:#br#*-%(shellScreen/ap/alphaDamage)%* AP."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/abilities/icons/modifiers/screen_damage_reduction.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.202.features.description.effectsDescription.0.title",
+									"message": "DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/crusher_hull_front.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.202.features.description.localizedName",
+							"message": "SLEP-F"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.202.features.description.subtitle",
+							"message": "Hull Armor"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_18"
+					},
+					"commerce": {
+						"entitlement": "athena_hull_armor_slepf",
+						"product": "athena_hull_armor_slepf"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "hull_armor_slepf",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/front_armor_slep_f.prefab",
+						"slot": {
+							"handle": "FrontArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 202
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.225.features.description.effectsDescription.0.description",
+									"message": "This screen reduces damage from shells that strike the covered area. Damage reduction depends on shell type:#br#*-%(shellScreen/heat/alphaDamage)%* HEAT / *-%(shellScreen/frag_he/alphaDamage)%* HE."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/abilities/icons/modifiers/screen_damage_reduction.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.225.features.description.effectsDescription.0.title",
+									"message": "DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/basic_front_screens.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.225.features.description.localizedName",
+							"message": "L-GA"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.225.features.description.subtitle",
+							"message": "Hull Shield Armor"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_18"
+					},
+					"commerce": {
+						"entitlement": "athena_hull_armor_lga",
+						"product": "athena_hull_armor_lga"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "hull_armor_lga",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/front_armor_l_ga.prefab",
+						"slot": {
+							"handle": "FrontArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 225
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/crusher_basic_hull_side_armor_2.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.208.features.description.localizedName",
+							"message": "SLEP-S"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.208.features.description.subtitle",
+							"message": "Hull Armor"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_16"
+					},
+					"commerce": {
+						"entitlement": "athena_hull_armor_slep_s",
+						"product": "athena_hull_armor_slep_s"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "hull_side_armor_stock",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/side_armor_slep_s.prefab",
+						"slot": {
+							"handle": "SideArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 208
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14377.features.description.effectsDescription.0.description",
+									"message": "This screen reduces damage from shells that strike the covered area. Damage reduction depends on shell type:#br#*-%(shellScreen/heat/alphaDamage)%* HEAT / *-%(shellScreen/frag_he/alphaDamage)%* HE."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/abilities/icons/modifiers/screen_damage_reduction.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14377.features.description.effectsDescription.0.title",
+									"message": "DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/crusher_hull_side_armor_2.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14377.features.description.localizedName",
+							"message": "BAPAS"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14377.features.description.subtitle",
+							"message": "Hull Armor"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_16"
+					},
+					"commerce": {
+						"entitlement": "athena_hull_armor_bapas",
+						"product": "athena_hull_armor_bapas"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "hull_side_armor_bapas",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/side_armor_bapas.prefab",
+						"slot": {
+							"handle": "SideArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14377
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14376.features.description.effectsDescription.0.description",
+									"message": "This screen reduces damage from shells that strike the covered area. Damage reduction depends on shell type:#br#*-%(shellScreen/ap/alphaDamage)%* AP."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/abilities/icons/modifiers/screen_damage_reduction.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14376.features.description.effectsDescription.0.title",
+									"message": "DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/crusher_basic_hull_side_armor.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14376.features.description.localizedName",
+							"message": "ULEP-M"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14376.features.description.subtitle",
+							"message": "Hull Armor"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_16"
+					},
+					"commerce": {
+						"entitlement": "athena_hull_armor_ulep_m",
+						"product": "athena_hull_armor_ulep_m"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "hull_side_armor_ulep_m",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/hull_armor_ulep_m.prefab",
+						"slot": {
+							"handle": "SideArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14376
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/basic_hull.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14384.features.description.localizedName",
+							"message": "M60A4 Composite"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14384.features.description.subtitle",
+							"message": "Hull Armor"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_16"
+					},
+					"commerce": {
+						"entitlement": "athena_hull_m60a3_imarplat",
+						"product": "athena_hull_m60a3_imarplat"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "hull_m60a3_imarplat",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/hull_m60a3_imarplat_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/hull_m60a3_imarplat.prefab",
+						"slot": {
+							"handle": "Hull"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull"
+					}
+				},
+				"id": 14384
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/basic_hull.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.230.features.description.localizedName",
+							"message": "M60A3"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.230.features.description.subtitle",
+							"message": "Hull"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_16"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "hull_m60a3",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/hull_m60a3_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/hull_m60a3.prefab",
+						"slot": {
+							"handle": "Hull"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull"
+					}
+				},
+				"id": 230
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/basic_turret.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.231.features.description.localizedName",
+							"message": "M60A3"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.231.features.description.subtitle",
+							"message": "Turret"
+						}
+					},
+					"effectExtraModules": [
+						260
+					],
+					"extraEquipment": [],
+					"layout": 33,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "turret_m60a3",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/turret_m60a3_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/turret_m60a3.prefab",
+						"slot": {
+							"handle": "Turret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret"
+					}
+				},
+				"id": 231
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14385.features.description.effectsDescription.0.description",
+									"message": "Turret with hardened frontal armor. Improves survivability."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14385.features.description.effectsDescription.0.title",
+									"message": "Improved Armor"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/basic_turret.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14385.features.description.localizedName",
+							"message": "M60A3 Advanced"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14385.features.description.subtitle",
+							"message": "Turret Armor"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 33,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "athena_turret_m60a3_turimpar",
+						"product": "athena_turret_m60a3_turimpar"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "turret_m60a3_turimpar",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/turret_m60a3_turimpar_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/turret_m60a3_turimpar.prefab",
+						"slot": {
+							"handle": "Turret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret"
+					}
+				},
+				"id": 14385
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14380.features.description.effectsDescription.0.description",
+									"message": "Improves turret traverse and gun aiming speed."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14380.features.description.effectsDescription.0.title",
+									"message": "Upgraded Drive"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_electric_turret_rotation_mech.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14380.features.description.localizedName",
+							"message": "AST"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14380.features.description.subtitle",
+							"message": "Turret Rotator"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_07"
+					},
+					"commerce": {
+						"entitlement": "athena_turret_rotator_ast",
+						"product": "athena_turret_rotator_ast"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "turret_rotator_ast",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/turret_rotator_ast_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/turret_rotator_ast.prefab",
+						"slot": {
+							"handle": "Rotating"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret Rotator"
+					}
+				},
+				"id": 14380
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 35,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.203.features.description.effectsDescription.0.description",
+									"message": "Increases resistance to APDS shells. Covers ammo rack."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.203.features.description.effectsDescription.0.title",
+									"message": "Spaced Armor"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/turret_armor.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.203.features.description.localizedName",
+							"message": "TUMOCOS"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.203.features.description.subtitle",
+							"message": "Turret Armor"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "athena_turret_armor_tumocos",
+						"product": "athena_turret_armor_tumocos"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "turret_armor_tumocos",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/turret_armor_tucomos.prefab",
+						"slot": {
+							"handle": "TurretArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret Screens"
+					}
+				},
+				"id": 203
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.229.features.description.effectsDescription.0.description",
+									"message": "Increases resistance to HEAT shells. Improves survivability."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.229.features.description.effectsDescription.0.title",
+									"message": "Slat Armor"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/basic_turret_screens.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.229.features.description.localizedName",
+							"message": "SSA-13"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.229.features.description.subtitle",
+							"message": "Turret Shield Armor"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "athena_turret_shield_armor_ssa13",
+						"product": "athena_turret_shield_armor_ssa13"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "turret_shield_armor_ssa13",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/turret_armor_ssa13.prefab",
+						"slot": {
+							"handle": "TurretArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret Screens"
+					}
+				},
+				"id": 229
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14379.features.description.effectsDescription.0.description",
+									"message": "Improves gun stability and accuracy."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14379.features.description.effectsDescription.0.title",
+									"message": "Superior Coating"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_thermal_sleeve_micra_xm08_02.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14379.features.description.localizedName",
+							"message": "IMBAS"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14379.features.description.subtitle",
+							"message": "Thermal Sleeve"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_08"
+					},
+					"commerce": {
+						"entitlement": "athena_thermal_sleeve_imbas",
+						"product": "athena_thermal_sleeve_imbas"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "thermal_sleeve_imbas",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/gun_t254/upgrades/thermalsleeve_imbas.prefab",
+						"slot": {
+							"handle": "ThermalSleeve"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Thermal Sleeve"
+					}
+				},
+				"id": 14379
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14048.features.description.effectsDescription.0.description",
+									"message": "The tracks have *%(LTrackMaxHP) module HP*. Losing all module HP will *immobilize* your vehicle for *%(LTrackTimeToRegen)s*.#br#Shells inflict additional damage if they hit modules."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14048.features.description.effectsDescription.0.title",
+									"message": "TRACKS"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/athena_basic_tracks.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14048.features.description.localizedName",
+							"message": "T97"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14048.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_12"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "tracks_t97_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/chassis_aostob/tracks_t97/tracks_t97.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 14048
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.216.features.description.effectsDescription.0.description",
+									"message": "Stronger tracks that harder to break and easier to repair."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.216.features.description.effectsDescription.0.title",
+									"message": "Titanium Links"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/tracks_t142.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.216.features.description.localizedName",
+							"message": "T142"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.216.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_13"
+					},
+					"commerce": {
+						"entitlement": "athena_tracks_t142",
+						"product": "athena_tracks_t142"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "tracks_t142",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/chassis_aostob/tracks_t142/tracks_t142.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 216
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 4,
+						"recon": 0,
+						"toughness": 4,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.217.features.description.effectsDescription.0.description",
+									"message": "Improves reverse and hull traverse speeds."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.217.features.description.effectsDescription.0.title",
+									"message": "Gear Set"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/transmission_x_700.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.217.features.description.localizedName",
+							"message": "X-700"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.217.features.description.subtitle",
+							"message": "Transmission"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_04"
+					},
+					"commerce": {
+						"entitlement": "athena_transmission_x700",
+						"product": "athena_transmission_x700"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "transmission_x700",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/transmission_x700_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/transmission_x700.prefab",
+						"slot": {
+							"handle": "Transmission"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Transmission"
+					}
+				},
+				"id": 217
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "HIDE ME PLEASE",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14259.features.description.localizedName",
+							"message": "0"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "turret_frontparts_base_customization",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/frontparts.prefab",
+						"slot": {
+							"handle": "TurretArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14259
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14055.features.description.effectsDescription.0.description",
+									"message": "Improves gun aiming speed and reduces reticle size."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14055.features.description.effectsDescription.0.title",
+									"message": "Hydraulic Stabilizer"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/stabilizer.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14055.features.description.localizedName",
+							"message": "Cadillac Gage SS/77"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14055.features.description.subtitle",
+							"message": "Stabilizer"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "athena_stabilizer_cadillac_cage_ss77",
+						"product": "athena_stabilizer_cadillac_cage_ss77"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "stabilizer_cadillac_cage_ss77",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/stabilizer_cg_ss_77_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/stabilizer_cg_ss_77.prefab",
+						"slot": {
+							"handle": "Stabilizer"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Stabilizer"
+					}
+				},
+				"id": 14055
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 46,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.226.features.description.effectsDescription.0.description",
+									"message": "Decreases incoming ability damage. Improves survivability."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.226.features.description.effectsDescription.0.title",
+									"message": "Kevlar Liner"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/sub_armor_lining.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.226.features.description.localizedName",
+							"message": "ASPALS"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.226.features.description.subtitle",
+							"message": "Spall liner"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "athena_spall_liner_aspals",
+						"product": "athena_spall_liner_aspals"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "spall_liner_aspals",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/spal_liner_aspals_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/spal_liner_aspals.prefab",
+						"slot": {
+							"handle": "SpalLiner"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Spall Liner"
+					}
+				},
+				"id": 226
+			},
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": "SecondAbility"
+							},
+							"isHidden": false,
+							"prefab": "/vehicles/american/a03_m60a1/abilities/smoke_exhaust/smoke_chassis_ability_m60.prefab",
+							"previewImage": "/ui/assets/abilities/ability_video_preview/m60/img_preview/m60_img_smoke_chassis_ability.png",
+							"video": "/ui/assets/abilities/ability_video_preview/m60/m60_vid_smoke_chassis_ability.webm"
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.220.features.description.effectsDescription.0.description",
+									"message": "Unleash a billowing wall of smoke from your tank's engines for *5.5s*, then either lay low or wreak havoc from within it. #br# Smoke Generator only works when your vehicle is moving."
+								},
+								"hotKey": "F",
+								"icon": "",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.220.features.description.effectsDescription.0.title",
+									"message": "SMOKE GENERATOR"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/smoke_system.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.220.features.description.localizedName",
+							"message": "M157"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.220.features.description.subtitle",
+							"message": "Smoke System"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "smoke_system_m157",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/smoke_system_m54.prefab",
+						"slot": {
+							"handle": "SmokeSystem"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Smoke System"
+					}
+				},
+				"id": 220
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.232.features.description.effectsDescription.0.description",
+									"message": "*-15%* Repair Kit cooldown."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.232.features.description.effectsDescription.0.title",
+									"message": "RAPID KIT"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/basic_radar.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.232.features.description.localizedName",
+							"message": "OE-21V "
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.232.features.description.subtitle",
+							"message": "Communication Station"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_19"
+					},
+					"commerce": {
+						"entitlement": "athena_radio_oe21v",
+						"product": "athena_radio_oe21v"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "radio_oe21v",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/radar_oe21v.prefab",
+						"slot": {
+							"handle": "Radar"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 232
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14046.features.description.effectsDescription.0.description",
+									"message": "Air Bomber ability can be used more often and over a greater range."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14046.features.description.effectsDescription.0.title",
+									"message": "Improved Range"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/radar_l1.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14046.features.description.localizedName",
+							"message": "OE22C "
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14046.features.description.subtitle",
+							"message": "Communication Station"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_19"
+					},
+					"commerce": {
+						"entitlement": "athena_radio_oe22c",
+						"product": "athena_radio_oe22c"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "radio_oe22c",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/radar_oe22c.prefab",
+						"slot": {
+							"handle": "Radar"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 14046
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 40
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14047.features.description.effectsDescription.0.description",
+									"message": "Increases Air Bomber damage and reduces energy cost."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14047.features.description.effectsDescription.0.title",
+									"message": "Close Call"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/radar_l2.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14047.features.description.localizedName",
+							"message": "OE23E"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14047.features.description.subtitle",
+							"message": "Communication Station"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 69,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_19"
+					},
+					"commerce": {
+						"entitlement": "athena_radio_oe23e",
+						"product": "athena_radio_oe23e"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "radio_oe23e",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/radar_oe23e.prefab",
+						"slot": {
+							"handle": "Radar"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 14047
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/basic_radiostation.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.223.features.description.localizedName",
+							"message": "AN/VRC-33"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.223.features.description.subtitle",
+							"message": "Radio"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "radio_an_vrc_33",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/radio_an_vrc33.prefab",
+						"slot": {
+							"handle": "Radio"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 223
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 15
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.224.features.description.effectsDescription.0.description",
+									"message": "New satellite communication station. Improves Air Bomber efficiency but at a higher energy cost."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.224.features.description.effectsDescription.0.title",
+									"message": "SATCOM"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/radiostation_03.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.224.features.description.localizedName",
+							"message": "AN/VRC-168"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.224.features.description.subtitle",
+							"message": "Radio"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_34"
+					},
+					"commerce": {
+						"entitlement": "athena_radio_an_vrc_168",
+						"product": "athena_radio_an_vrc_168"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "radio_an_vrc_168",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/radio_an_arc_168.prefab",
+						"slot": {
+							"handle": "Radio"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 224
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14050.features.description.effectsDescription.0.description",
+									"message": "The engine has *%(EngineMaxHP) module HP*. Receives *critical damage* per hit. Losing all module HP will *reduce movement speed* by *50%* for *%(EngineTimeToRegen)s*.#br#Module HP can be affected by shell module damage attribute."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14050.features.description.effectsDescription.0.title",
+									"message": "ENGINE"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/basic_engine.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14050.features.description.localizedName",
+							"message": "AVDS-1790"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14050.features.description.subtitle",
+							"message": "Engine"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_14"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "engine_avds_1790_base",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/engine_avds_1790_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/engine_avds_1790.prefab",
+						"slot": {
+							"handle": "Engine"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine"
+					}
+				},
+				"id": 14050
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 22,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.218.features.description.effectsDescription.0.description",
+									"message": "Improves acceleration. Increases maximum speed."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.218.features.description.effectsDescription.0.title",
+									"message": "Titanium Rods"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/engine_avds.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.218.features.description.localizedName",
+							"message": "AVCR-1790-1"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.218.features.description.subtitle",
+							"message": "Engine Upgrade"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_21"
+					},
+					"commerce": {
+						"entitlement": "athena_engine_upgrade_avcr_1790_1",
+						"product": "athena_engine_upgrade_avcr_1790_1"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "engine_upgrade_avcr_1790_1",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/engine_upgrade_avcr1_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/engine_upgrade_avcr1.prefab",
+						"slot": {
+							"handle": "EngineUpgrade"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 218
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 26,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14051.features.description.effectsDescription.0.description",
+									"message": "Improves sprint effectiveness and capacity."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14051.features.description.effectsDescription.0.title",
+									"message": "Larger Turbines"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_turbine_mk1.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14051.features.description.localizedName",
+							"message": "Garrot mk2d "
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14051.features.description.subtitle",
+							"message": "Turbines"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_22"
+					},
+					"commerce": {
+						"entitlement": "athena_turbines_garrot_mk2",
+						"product": "athena_turbines_garrot_mk2"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "engine_turbines_garrot_mk2",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/turbines_garrot_mk_2d_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/turbines_garrot_mk_2d.prefab",
+						"slot": {
+							"handle": "Turbines"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14051
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 22,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14383.features.description.effectsDescription.0.description",
+									"message": "Increases engine resistance to critical damage. Improves repair time."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14383.features.description.effectsDescription.0.title",
+									"message": "Superstructure"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/anfapro.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14383.features.description.localizedName",
+							"message": "ANFAPRO"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14383.features.description.subtitle",
+							"message": "Engine Compartment"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_23"
+					},
+					"commerce": {
+						"entitlement": "athena_fueltank_protection_anfapro",
+						"product": "athena_fueltank_protection_anfapro"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "engine_protection_anfapro",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/fueltank_protection_anfapro.prefab",
+						"slot": {
+							"handle": "FuelTankUpgrade"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Protection"
+					}
+				},
+				"id": 14383
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/anfapro.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14502.features.description.localizedName",
+							"message": "Base"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14502.features.description.subtitle",
+							"message": "Fuel Tank Protection"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_23"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "engine_visual_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/fueltank_protection_base.prefab",
+						"slot": {
+							"handle": "FuelTankUpgrade"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Fuel Tank Protection"
+					}
+				},
+				"id": 14502
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 1,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14382.features.description.effectsDescription.0.description",
+									"message": "Decreases incoming critical damage to fuel tanks. Improves fire resistance."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14382.features.description.effectsDescription.0.title",
+									"message": "Self-Sealing Fuel Tanks"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/epromes.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14382.features.description.localizedName",
+							"message": "EPROMES"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14382.features.description.subtitle",
+							"message": "Fuel System"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_23"
+					},
+					"commerce": {
+						"entitlement": "athena_engine_protection_epromes",
+						"product": "athena_engine_protection_epromes"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "engine_fuel_protection_epromes",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/engine_protection_epromes.prefab",
+						"slot": {
+							"handle": "EngineUpgrade"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Fuel Tank Protection"
+					}
+				},
+				"id": 14382
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14049.features.description.localizedName",
+							"message": "Chassis"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14049.features.description.subtitle",
+							"message": "Chassis"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_chassis"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "chassis_aostob_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/chassis_aostob/chassis_aostob.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14049
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14365.features.description.effectsDescription.0.description",
+									"message": "Increases maximum speed and acceleration."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14365.features.description.effectsDescription.0.title",
+									"message": "Lightweight Alloy"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_chassis_lichs_01.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14365.features.description.localizedName",
+							"message": "TOB"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14365.features.description.subtitle",
+							"message": "Running Wheels"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_12"
+					},
+					"commerce": {
+						"entitlement": "athena_running_wheels_tob",
+						"product": "athena_running_wheels_tob"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "chassis_running_wheels_tob",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/chassis_aostob/running_wheels_tob.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Running Wheels"
+					}
+				},
+				"id": 14365
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14366.features.description.effectsDescription.0.description",
+									"message": "*-15%* Repair Kit cooldown."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14366.features.description.effectsDescription.0.title",
+									"message": "RAPID KIT"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_chassis_lichs_02.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14366.features.description.localizedName",
+							"message": "Heavy TOB"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14366.features.description.subtitle",
+							"message": "Running Wheels"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_12"
+					},
+					"commerce": {
+						"entitlement": "athena_running_wheels_heavytob",
+						"product": "athena_running_wheels_heavytob"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "chassis_running_wheels_heavytob",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/chassis_aostob/running_wheels_heavy_tob.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Running Wheels"
+					}
+				},
+				"id": 14366
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14052.features.description.localizedName",
+							"message": "0"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14052.features.description.subtitle",
+							"message": "Commanders Cupola"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_16"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "cupola_m19_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/cupola_m19.prefab",
+						"slot": {
+							"handle": "Cupola"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14052
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 15,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.207.features.description.effectsDescription.0.description",
+									"message": "Decreases weak-spot size. Has better armor and new optics to increase spotting range."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.207.features.description.effectsDescription.0.title",
+									"message": "Size Matters"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/low_profile_cupola.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.207.features.description.localizedName",
+							"message": "LPC"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.207.features.description.subtitle",
+							"message": "Commanders Cupola"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_01"
+					},
+					"commerce": {
+						"entitlement": "athena_commanders_cupola_lpc",
+						"product": "athena_commanders_cupola_lpc"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "cupola_lpc",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/cupola_lpc.prefab",
+						"slot": {
+							"handle": "Cupola"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Commanders Cupola"
+					}
+				},
+				"id": 207
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 23
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14053.features.description.effectsDescription.0.description",
+									"message": "*-15%* Repair Kit cooldown."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14053.features.description.effectsDescription.0.title",
+									"message": "RAPID KIT"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/apu.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14053.features.description.localizedName",
+							"message": "UPOWD 4A "
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14053.features.description.subtitle",
+							"message": "Auxiliary Power Unit"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_36"
+					},
+					"commerce": {
+						"entitlement": "athena_power_unit_upowd_4a_apu",
+						"product": "athena_power_unit_upowd_4a_apu"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "power_unit_upowd_4a_apu",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/apu_upowd_4a.prefab",
+						"slot": {
+							"handle": "Apu"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Power Unit"
+					}
+				},
+				"id": 14053
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "HIDE ME PLEASE",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14054.features.description.localizedName",
+							"message": "0"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14054.features.description.subtitle",
+							"message": "Power Unit"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_14"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "power_unit_upowd_4a_base_customize",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/hull_m60a3/upgrades/backparts.prefab",
+						"slot": {
+							"handle": "Apu"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14054
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14318.features.description.effectsDescription.0.description",
+									"message": "Increases critical damage."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14318.features.description.effectsDescription.0.title",
+									"message": "Uranium Core"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/shell_apds_core.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14318.features.description.localizedName",
+							"message": "APENCOR"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14318.features.description.subtitle",
+							"message": "Core"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "athena_ammo_part_core_apencor",
+						"product": "athena_ammo_part_core_apencor"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_core_apencor",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ammo/athena/xm681_core_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_1"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14318
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14321.features.description.effectsDescription.0.description",
+									"message": "Increases damage and penetration."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14321.features.description.effectsDescription.0.title",
+									"message": "Lightweight Sabot"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/shell_apds_sabot.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14321.features.description.localizedName",
+							"message": "MASES"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14321.features.description.subtitle",
+							"message": "Sabot"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "athena_ammo_part_sabot_mases",
+						"product": "athena_ammo_part_sabot_mases"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_sabot_mases",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ammo/athena/xm681_sabot_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_5"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14321
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14322.features.description.effectsDescription.0.description",
+									"message": "Increases critical damage."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14322.features.description.effectsDescription.0.title",
+									"message": "Fin Stabilizer"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/shell_apds_fin.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14322.features.description.localizedName",
+							"message": "HVFS"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14322.features.description.subtitle",
+							"message": "Fin"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "athena_ammo_part_fin_hvfs",
+						"product": "athena_ammo_part_fin_hvfs"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_fin_hvfs",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ammo/athena/xm681_fin_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_2"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14322
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14324.features.description.effectsDescription.0.description",
+									"message": "Improves penetration and module damage."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14324.features.description.effectsDescription.0.title",
+									"message": "Fiery"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/shell_apds_propelant.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14324.features.description.localizedName",
+							"message": "PROGCHAR"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14324.features.description.subtitle",
+							"message": "Propellant"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "athena_ammo_part_propellant_progchar",
+						"product": "athena_ammo_part_propellant_progchar"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_propellant_progchar",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ammo/athena/xm681_propellant_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_4"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14324
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14326.features.description.effectsDescription.0.description",
+									"message": "*-15%* Repair Kit cooldown."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_athena.specs.specification.modules.14326.features.description.effectsDescription.0.title",
+									"message": "RAPID KIT"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/shell_apds_primer.png",
+						"localizedName": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14326.features.description.localizedName",
+							"message": "PRIMAX"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_athena.specs.specification.modules.14326.features.description.subtitle",
+							"message": "Primer"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "athena_ammo_part_primer_primax",
+						"product": "athena_ammo_part_primer_primax"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_primer_primax",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ammo/athena/xm681_primer_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_3"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14326
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm681_core_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/core/core_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_1"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14481
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm681_fin_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/fin/fin_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_2"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14482
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm681_primer_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/primer/primer_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_3"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14483
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm681_propellant_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/propellant/propellant_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_4"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14484
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm681_sabot_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/sabot/sabot_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_5"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14485
+			}
+		],
+		"modulesGroups": [
+			{
+				"id": 11,
+				"modules": [
+					203,
+					229,
+					14318
+				],
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.modulesGroups.11.title",
+					"message": "SLOT 1"
+				}
+			},
+			{
+				"id": 12,
+				"modules": [
+					14322,
+					14324,
+					14056
+				],
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.modulesGroups.12.title",
+					"message": "SLOT 2"
+				}
+			},
+			{
+				"id": 13,
+				"modules": [
+					14365,
+					216,
+					207
+				],
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.modulesGroups.13.title",
+					"message": "SLOT 3"
+				}
+			},
+			{
+				"id": 14,
+				"modules": [
+					14376,
+					14377,
+					14321
+				],
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.modulesGroups.14.title",
+					"message": "SLOT 4"
+				}
+			},
+			{
+				"id": 15,
+				"modules": [
+					14379,
+					14380,
+					14055
+				],
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.modulesGroups.15.title",
+					"message": "SLOT 5"
+				}
+			},
+			{
+				"id": 16,
+				"modules": [
+					14046,
+					14047,
+					263
+				],
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.modulesGroups.16.title",
+					"message": "SLOT 6"
+				}
+			},
+			{
+				"id": 17,
+				"modules": [
+					225,
+					202,
+					217
+				],
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.modulesGroups.17.title",
+					"message": "SLOT 7"
+				}
+			},
+			{
+				"id": 18,
+				"modules": [
+					14051,
+					218,
+					206
+				],
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.modulesGroups.18.title",
+					"message": "SLOT 8"
+				}
+			},
+			{
+				"id": 19,
+				"modules": [
+					14382,
+					14383,
+					14384
+				],
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.modulesGroups.19.title",
+					"message": "SLOT 9"
+				}
+			},
+			{
+				"id": 20,
+				"modules": [
+					226,
+					14385,
+					224
+				],
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.modulesGroups.20.title",
+					"message": "SLOT 10"
+				}
+			}
+		],
+		"perkGroups": [
+			{
+				"category": "Hero",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "apocalypse_athena_engineering_excellence",
+							"product": "apocalypse_athena_engineering_excellence"
+						},
+						"id": 4006,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "apocalypse_athena_sky_master",
+							"product": "apocalypse_athena_sky_master"
+						},
+						"id": 4007,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "apocalypse_athena_steady_hands",
+							"product": "apocalypse_athena_steady_hands"
+						},
+						"id": 4017,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Role",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "athena_defender_master_engineer",
+							"product": "athena_defender_master_engineer"
+						},
+						"id": 4003,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "athena_defender_back_on_track",
+							"product": "athena_defender_back_on_track"
+						},
+						"id": 4004,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "athena_defender_collision_course",
+							"product": "athena_defender_collision_course"
+						},
+						"id": 4012,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Division",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "apocalypse_athena_brcompany_stable_approach",
+							"product": "apocalypse_athena_brcompany_stable_approach"
+						},
+						"id": 4014,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "apocalypse_athena_brcompany_dying_fire",
+							"product": "apocalypse_athena_brcompany_dying_fire"
+						},
+						"id": 4015,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "apocalypse_athena_brcompany_peripheral_vision",
+							"product": "apocalypse_athena_brcompany_peripheral_vision"
+						},
+						"id": 4016,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Conditional",
+				"isDefault": true,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "",
+							"product": ""
+						},
+						"id": 4005,
+						"overrides": []
+					}
+				]
+			}
+		],
+		"perks": [
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4001.description",
+					"message": "Improves gun handling and aiming time by *10%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/assault_role_perks/this_is_my_gun.png",
+				"id": 4001,
+				"prefab": "/game_prefabs/perks/role_perks/assault/this_is_my_gun/this_is_my_gun_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4001.title",
+					"message": "THIS IS MY GUN"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4002.description",
+					"message": "Kill 3 enemies without dying to improve gun reload speed by 35% and increase AP shell critical damage by 50%, both for 20s."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/titan/conditional/grim_reaper.png",
+				"id": 4002,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/ares/conditional_trait/grim_reaper_trait/grim_reaper_ares_trait.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4002.title",
+					"message": "GRIM REAPER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4003.description",
+					"message": "Improves Repair Kit stats, increases the number of hit points recovered by *+5 HP/sec*, increases repair duration by *5s*, and reduces Repair Kit cooldown by *10s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/master_engineer.png",
+				"id": 4003,
+				"prefab": "/game_prefabs/perks/role_perks/defender/master_engineer/master_engineer_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4003.title",
+					"message": "MASTER ENGINEER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4004.description",
+					"message": "Reduces track and engine repair time by *25%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/back_on_track.png",
+				"id": 4004,
+				"prefab": "/game_prefabs/perks/role_perks/defender/back_on_track/back_on_track_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4004.title",
+					"message": "BACK ON TRACK"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 9,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4005.description",
+					"message": "Losing 50% of health resets Repair Kit cooldown."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/titan/conditional/iron_warden.png",
+				"id": 4005,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/athena/conditional_trait/iron_warden/iron_warden_athena_trait.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4005.title",
+					"message": "IRON WARDEN"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4006.description",
+					"message": "Increases the number of hit points recovered by the Repair Kit by *+25 HP/sec*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/titan/engineering_excellence.png",
+				"id": 4006,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/athena/perks/engineering_excellence/apocalypse_engineering_excellence_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4006.title",
+					"message": "ENGINEERING EXCELLENCE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4007.description",
+					"message": "Reduces Air Bomber ability energy cost by *15 points*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/titan/sky_master.png",
+				"id": 4007,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/athena/perks/sky_master/apocalypse_sky_master_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4007.title",
+					"message": "SKY MASTER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 5,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4008.description",
+					"message": "Increases forward movement speed by *2km/h*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/titan/combat_cruiser.png",
+				"id": 4008,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/ares/perks/combat_cruiser/apocalypse_combat_cruiser_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4008.title",
+					"message": "COMBAT CRUISER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4009.description",
+					"message": "Increases aiming speed by *10%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/titan/punchline.png",
+				"id": 4009,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/ares/perks/punchline/apocalypse_punchline_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4009.title",
+					"message": "PUNCHLINE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4010.description",
+					"message": "Increases energy capacity by *20 points*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/titan/all_mighty.png",
+				"id": 4010,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/ares/perks/all_mighty/apocalypse_all_mighty_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4010.title",
+					"message": "ALL-MIGHTY"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4011.description",
+					"message": "Increases gun accuracy by *15%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/assault_role_perks/dead_eye.png",
+				"id": 4011,
+				"prefab": "/game_prefabs/perks/role_perks/assault/dead_eye/dead_eye_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4011.title",
+					"message": "DEAD EYE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4012.description",
+					"message": "Greatly improves ramming damage bonus and reduces ramming damage to the front of your tank."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/collision_course.png",
+				"id": 4012,
+				"prefab": "/game_prefabs/perks/role_perks/defender/collision_course/collision_course_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4012.title",
+					"message": "COLLISION COURSE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4013.description",
+					"message": "Improves gun stabilization by *15%* when traversing the turret."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/assault_role_perks/locked_and_loaded.png",
+				"id": 4013,
+				"prefab": "/game_prefabs/perks/role_perks/assault/locked_and_loaded/locked_and_loaded_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4013.title",
+					"message": "LOCKED AND LOADED"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4014.description",
+					"message": "Improves gun stabilization when shooting on the move by *15%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/bravo_company/stable_approach.png",
+				"id": 4014,
+				"prefab": "/game_prefabs/perks/division_perks/bravo_company/stable_approach/stable_approach_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4014.title",
+					"message": "STABLE APPROACH"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4015.description",
+					"message": "Passively reduces duration of fire by *2s* and reduces fire damage received by *50%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/bravo_company/dying_fire.png",
+				"id": 4015,
+				"prefab": "/game_prefabs/perks/division_perks/bravo_company/dying_fire/dying_fire_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4015.title",
+					"message": "DYING FIRE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 5,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4016.description",
+					"message": "Widens spotting angle by *45deg*; reduces spotting range by *150m*. Increases the time enemies stay detected on radar by *1s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/bravo_company/peripheral_vision.png",
+				"id": 4016,
+				"prefab": "/game_prefabs/perks/division_perks/bravo_company/peripheral_vision/peripheral_vision_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4016.title",
+					"message": "PERIPHERAL VISION"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4017.description",
+					"message": "Improves gun stabilization by *15%* when traversing the turret."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/titan/steady_hands.png",
+				"id": 4017,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/athena/perks/steady_hands/apocalypse_steady_hands_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_athena.specs.specification.perks.4017.title",
+					"message": "STEADY HANDS"
+				}
+			}
+		],
+		"perksSlot": {
+			"handle": "Perks"
+		},
+		"power": 1000,
+		"prefabPlaceholders": [
+			{
+				"pawnRequired": true,
+				"prefabPath": "/vehicles/american/a03_m60a1/settings/workshop_anchors_athena.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_anchors"
+				},
+				"switcherName": "a03_m60a1_athena.specs.specification.callSign"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/apocalypse/apocalypse_pc_1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Apocalypse_1_athena"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/apocalypse/apocalypse_pc_2.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Apocalypse_2_athena"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/apocalypse/apocalypse_pc_3.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Apocalypse_3_athena"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/apocalypse/apocalypse_pc_3.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Apocalypse_4_athena"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/apocalypse/hq_apocalypse_1_athena.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Apocalypse_1_athena"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/apocalypse/hq_apocalypse_2_athena.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Apocalypse_2_athena"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/apocalypse/hq_apocalypse_3_athena.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Apocalypse_3_athena"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/apocalypse/hq_apocalypse_4_athena.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Apocalypse_4_athena"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/worlds/camps/hq_cameras/blue_hq_cameras_apocalypse.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_cameras"
+				},
+				"switcherName": "Apocalypse"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/apocalypse/apocalypse_ws_1_athena.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Apocalypse_1_athena"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/apocalypse/apocalypse_ws_2_athena.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Apocalypse_2_athena"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/apocalypse/apocalypse_ws_3_athena.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Apocalypse_3_athena"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/apocalypse/apocalypse_ws_4_athena.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Apocalypse_4_athena"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/worlds/camps/base/consumables_anchors.prefab",
+				"spawnPlaceholderName": {
+					"handle": "consumable_anchors"
+				},
+				"switcherName": "a03_m60a1_athena.specs.specification.callSign"
+			}
+		],
+		"role": "Defender",
+		"shellSlots": [
+			{
+				"handle": "PrimaryShell"
+			},
+			{
+				"handle": "SecondaryShell"
+			}
+		],
+		"shortDescription": {
+			"key": "a03_m60a1_athena.specs.specification.shortDescription",
+			"message": "TAKES REDUCED DAMAGE"
+		},
+		"slotsAreas": [
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": true,
+				"left": 482,
+				"top": 280,
+				"uiAnchor": {
+					"handle": "GunModule"
+				},
+				"uiCategory": "Firepower"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": false,
+				"drawRightToLeft": true,
+				"left": 436,
+				"top": 862,
+				"uiAnchor": {
+					"handle": "HullModule"
+				},
+				"uiCategory": "Toughness"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": true,
+				"left": 774,
+				"top": 200,
+				"uiAnchor": {
+					"handle": "TurretModule"
+				},
+				"uiCategory": "Recon"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1323,
+				"top": 200,
+				"uiAnchor": {
+					"handle": "CommunicationModule"
+				},
+				"uiCategory": "Utility"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1506,
+				"top": 290,
+				"uiAnchor": {
+					"handle": "EngineModule"
+				},
+				"uiCategory": "Mobility"
+			}
+		],
+		"smallVehicleImage": "/ui/assets/hero_vehicles/death_card/apocalypse/m60_athena.png",
+		"talismanHolder": {
+			"cameraName": {
+				"handle": "talisman_camera"
+			},
+			"prefab": "/vehicles/american/a03_m60a1/athena_fbx/prefabs/turret_m60a3/upgrades/talisman_holder.prefab",
+			"slot": {
+				"handle": "TalismanHolder"
+			}
+		},
+		"technicalName": "a03_m60a1_athena",
+		"tierSettings": [
+			{
+				"maxPower": 1999,
+				"minPower": 0,
+				"tier": 1
+			},
+			{
+				"maxPower": 2999,
+				"minPower": 2000,
+				"tier": 2
+			},
+			{
+				"maxPower": 3999,
+				"minPower": 3000,
+				"tier": 3
+			},
+			{
+				"maxPower": 4999,
+				"minPower": 4000,
+				"tier": 4
+			},
+			{
+				"maxPower": 5999,
+				"minPower": 5000,
+				"tier": 5
+			},
+			{
+				"maxPower": 6999,
+				"minPower": 6000,
+				"tier": 6
+			},
+			{
+				"maxPower": 9999,
+				"minPower": 7000,
+				"tier": 7
+			}
+		],
+		"vehicleId": 4,
+		"vehicleName": {
+			"key": "a03_m60a1_athena.specs.specification.vehicleName",
+			"message": "M60 \"Athena\""
+		}
+	}
+}
 ```

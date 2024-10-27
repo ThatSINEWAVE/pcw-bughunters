@@ -11,5 +11,5759 @@ PLACEHOLDER TEXT
 
 ### Full contents of the file
 ```json
-PLACEHOLDER CODE
+{
+	"__type__": "CW::VehicleSpecificationStorage",
+	"specification": {
+		"abilityModifiersSlots": [],
+		"abilitySlots": [
+			{
+				"handle": "FirstAbility"
+			},
+			{
+				"handle": "SecondAbility"
+			},
+			{
+				"handle": "ThirdAbility"
+			}
+		],
+		"aiSettings": {
+			"brainsSlot": {
+				"handle": "AIBrains"
+			},
+			"defaultPreset": {
+				"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_capture_defend_base.prefab",
+				"modulesLayout": []
+			},
+			"gameModePresets": [
+				{
+					"key": {
+						"handle": "conquest"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest_newcomer.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "ct"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "domination"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "hq"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						}
+					}
+				}
+			]
+		},
+		"baseEquipment": [
+			{
+				"installSlot": {
+					"handle": "FirstEquipment"
+				},
+				"prefab": "/game_prefabs/equipment/repair_kit/repair_kit_ability.prefab",
+				"previewImage": "",
+				"video": ""
+			}
+		],
+		"basicCharacteristics": {
+			"firepower": 383,
+			"mobility": 286,
+			"recon": 31,
+			"toughness": 621,
+			"utility": 48
+		},
+		"callSign": {
+			"key": "a02_m1_1980_atr_eds_railgun.specs.specification.callSign",
+			"message": "Ray"
+		},
+		"commerce": {
+			"entitlement": "vehicle_abrams_railgun",
+			"product": "vehicle_abrams_railgun"
+		},
+		"commercePath": "/vehicles/american/a02_m1_1980/settings/commerce_atr_eds_railgun.specs",
+		"complexity": 3,
+		"crew": {
+			"crewMembers": [
+				{
+					"arenaPrefab": "/vehicles/american/a02_m1_1980/settings/frontmans/ray/frontman_1.prefab",
+					"bigImage": "/ui/assets/heroes/ray/crew/extralarge/ray_extralarge.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "a02_railgun_crewman",
+						"product": ""
+					},
+					"description": {
+						"key": "a02_m1_1980_atr_eds_railgun.specs.specification.crew.crewMembers.69.description",
+						"message": "Ray crewman description"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 69,
+					"image": "/ui/assets/heroes/ray/crew/large/ray_large.png",
+					"isDefaultFrontman": true,
+					"lastName": {
+						"key": "a02_m1_1980_atr_eds_railgun.specs.specification.crew.crewMembers.69.lastName",
+						"message": "Mateo"
+					},
+					"name": {
+						"key": "a02_m1_1980_atr_eds_railgun.specs.specification.crew.crewMembers.69.name",
+						"message": "Nina"
+					},
+					"prefabPlaceholderName": "ray_railgun",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/ray/crew/small/ray_small.png",
+					"setBonuses": []
+				}
+			],
+			"customization": [],
+			"setBonuses": []
+		},
+		"customization3D": {
+			"modulesPacks": [],
+			"stylesPacks": []
+		},
+		"customizationLayout": 5,
+		"description": {
+			"key": "a02_m1_1980_atr_eds_railgun.specs.specification.description",
+			"message": "Cold-blooded killer who prefers *close combat*, able to withstand any onslaught and not forgive the enemy for his mistakes using *Airstrike*"
+		},
+		"displayableCurrencies": [
+			{
+				"handle": "soft"
+			},
+			{
+				"handle": "reputation_blue"
+			}
+		],
+		"divisionColor": "#1E80CA",
+		"divisionIcon": "/ui/assets/meta/select_hero/american_division.png",
+		"divisionIconSmall": "/ui/assets/meta/select_hero/american_division_small.png",
+		"divisionName": {
+			"key": "a02_m1_1980_atr_eds_railgun.specs.specification.divisionName",
+			"message": "Alpha Company"
+		},
+		"divisionShortName": {
+			"key": "a02_m1_1980_atr_eds_railgun.specs.specification.divisionShortName",
+			"message": "Alpha Company"
+		},
+		"economyPrefab": "/vehicles/american/a02_m1_1980/settings/economy_settings_railgun.prefab",
+		"equipmentCameras": [
+			{
+				"handle": "equipment_1st_camera"
+			},
+			{
+				"handle": "equipment_2nd_camera"
+			},
+			{
+				"handle": "equipment_3rd_camera"
+			}
+		],
+		"equipmentSlots": [
+			{
+				"handle": "FirstEquipment"
+			},
+			{
+				"handle": "SecondEquipment"
+			},
+			{
+				"handle": "ThirdEquipment"
+			}
+		],
+		"features": {
+			"abilityFeatures": [
+				{
+					"isInitial": false,
+					"prefab": ""
+				}
+			],
+			"moduleFeatures": [],
+			"passiveFeatures": [],
+			"perkFeatures": []
+		},
+		"fraction": {
+			"handle": "blue"
+		},
+		"gameplayPrefab": "/vehicles/american/a02_m1_1980/settings/gameplay_settings.prefab",
+		"hiddenAbilitiesSlot": {
+			"handle": "HiddenAbilities"
+		},
+		"image": "/ui/assets/heroes/juggernaut/vehicle/juggernaut_stock.png",
+		"isHidden": false,
+		"mastering": {
+			"commerce": "ray_alpha_compan_grant_500_exp",
+			"levels": [
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_railgun_1",
+						"product": "mastering_lvl_a02_railgun_1"
+					},
+					"extraEquipment": [],
+					"points": 0,
+					"rewards": [],
+					"unlockGroups": [
+						61
+					],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_railgun_2",
+						"product": "mastering_lvl_a02_railgun_2"
+					},
+					"extraEquipment": [],
+					"points": 2000,
+					"rewards": [],
+					"unlockGroups": [
+						62
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						13012
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_railgun_3",
+						"product": "mastering_lvl_a02_railgun_3"
+					},
+					"extraEquipment": [],
+					"points": 4200,
+					"rewards": [],
+					"unlockGroups": [
+						63
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						13018
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_railgun_4",
+						"product": "mastering_lvl_a02_railgun_4"
+					},
+					"extraEquipment": [],
+					"points": 6700,
+					"rewards": [],
+					"unlockGroups": [
+						64
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						13015
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_railgun_5",
+						"product": "mastering_lvl_a02_railgun_5"
+					},
+					"extraEquipment": [],
+					"points": 11000,
+					"rewards": [],
+					"unlockGroups": [
+						65
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						13013
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_railgun_6",
+						"product": "mastering_lvl_a02_railgun_6"
+					},
+					"extraEquipment": [],
+					"points": 15500,
+					"rewards": [],
+					"unlockGroups": [
+						66
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						13019
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_railgun_7",
+						"product": "mastering_lvl_a02_railgun_7"
+					},
+					"extraEquipment": [],
+					"points": 20200,
+					"rewards": [],
+					"unlockGroups": [
+						67
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						13016
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_railgun_8",
+						"product": "mastering_lvl_a02_railgun_8"
+					},
+					"extraEquipment": [],
+					"points": 26500,
+					"rewards": [],
+					"unlockGroups": [
+						68
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						13014
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_railgun_9",
+						"product": "mastering_lvl_a02_railgun_9"
+					},
+					"extraEquipment": [],
+					"points": 33000,
+					"rewards": [],
+					"unlockGroups": [
+						69
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						13020
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a02_railgun_10",
+						"product": "mastering_lvl_a02_railgun_10"
+					},
+					"extraEquipment": [],
+					"points": 39700,
+					"rewards": [],
+					"unlockGroups": [
+						70
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						13017
+					]
+				}
+			],
+			"pointsCurrency": {
+				"handle": "a02_railgun"
+			}
+		},
+		"modules": [
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14406.features.description.localizedName",
+							"message": "default_m1_loader"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14406.features.description.subtitle",
+							"message": "default_m1_loader"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "ammoloader_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/base_tank/components/ammo_loader_without_fast_switch.prefab",
+						"slot": {
+							"handle": "AmmoLoader"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14406
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/main_field_amp_unit_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14615.features.description.localizedName",
+							"message": "REDUCTED"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14615.features.description.subtitle",
+							"message": "Power Amplifier 1"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "railgun_amplifier_01",
+						"product": "railgun_amplifier_01"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "amplifier_01",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/upgrades/main_field_amp_unit_01.prefab",
+						"slot": {
+							"handle": "MainFieldAmp"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ammo Rack"
+					}
+				},
+				"id": 14615
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/main_field_amp_unit_02c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14616.features.description.localizedName",
+							"message": "REDUCTED"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14616.features.description.subtitle",
+							"message": "Power Amplifier 2"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "amplifier_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/upgrades/main_field_amp_unit_02.prefab",
+						"slot": {
+							"handle": "MainFieldAmp"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14616
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/main_field_amp_unit_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14614.features.description.localizedName",
+							"message": "REDUCTED"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14614.features.description.subtitle",
+							"message": "Power Amplifier E"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "railgun_amplifier_empty",
+						"product": "railgun_amplifier_empty"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "amplifier_empty_unused",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/upgrades/main_filed_amp_unit_empty.prefab",
+						"slot": {
+							"handle": "MainFieldAmp"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ammo Rack"
+					}
+				},
+				"id": 14614
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14325.features.description.effectsDescription.0.description",
+									"message": "Increases signal range by *200m* if vehicle doesn't move."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14325.features.description.effectsDescription.0.title",
+									"message": "STATIONARY REPEATER"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/antenna_c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14325.features.description.localizedName",
+							"message": "X12"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14325.features.description.subtitle",
+							"message": "Antenna"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_12"
+					},
+					"commerce": {
+						"entitlement": "railgun_antenna_x12",
+						"product": "railgun_antenna_x12"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "antenna_x12",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/antenna.prefab",
+						"slot": {
+							"handle": "Antenna"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 14325
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14410.features.description.effectsDescription.0.description",
+									"message": "Reduces automatic track repair time by *%(LTrackTimeToRegen|abs)s*."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14410.features.description.effectsDescription.0.title",
+									"message": "TRACKS "
+								},
+								"type": "None"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_suspension.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14410.features.description.localizedName",
+							"message": "IMUK"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14410.features.description.subtitle",
+							"message": "Chassis"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_21"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "chassis_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/chassis_01/chassis_01.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14410
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14602.features.description.effectsDescription.0.description",
+									"message": "Improves Thermal Imager resolution by %(ability/thermal_imager/resolution|abs)%."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14602.features.description.effectsDescription.0.title",
+									"message": "Thermal Vision"
+								},
+								"type": "None"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_commander_panel.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14602.features.description.localizedName",
+							"message": "ENDANCOMP"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14602.features.description.subtitle",
+							"message": "Commander Panel"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "railgun_commander_panel_endancomp",
+						"product": "railgun_commander_panel_endancomp"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "commander_panel_endancomp",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/comander_panel_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/comander_panel.prefab",
+						"slot": {
+							"handle": "ComanderPanel"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Commander Panels"
+					}
+				},
+				"id": 14602
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/fan_02c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14412.features.description.localizedName",
+							"message": "Reaction D"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14412.features.description.subtitle",
+							"message": "Cooling System"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_turret"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "cooling_system_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/fan_01.prefab",
+						"slot": {
+							"handle": "Fan"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14412
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14650.features.description.effectsDescription.0.description",
+									"message": "Receiving critical damage *doubles* charge speed of next shot."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14650.features.description.effectsDescription.0.title",
+									"message": "Emergency Ventilation"
+								},
+								"type": "None"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/fan_02c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14650.features.description.localizedName",
+							"message": "Reaction C"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14650.features.description.subtitle",
+							"message": "Cooling System"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_14"
+					},
+					"commerce": {
+						"entitlement": "railgun_cooling_system_reaction_c",
+						"product": "railgun_cooling_system_reaction_c"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "cooling_system_reaction_c",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/fan_02.prefab",
+						"slot": {
+							"handle": "Fan"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14650
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/ray_crew_capsule.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14624.features.description.localizedName",
+							"message": "EXSURUP"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14624.features.description.subtitle",
+							"message": "Crew Capsule"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "railgun_crew_capsule_exsurup",
+						"product": "railgun_crew_capsule_exsurup"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "crew_capsule_exsurup",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/crew_capsule_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/crew_capsule.prefab",
+						"slot": {
+							"handle": "CrewCapsule"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Crew Capsule"
+					}
+				},
+				"id": 14624
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14413.features.description.effectsDescription.0.description",
+									"message": "The engine has *%(EngineMaxHP) module HP*. Receives *critical damage* per hit. Losing all module HP will *reduce movement speed* by *50%* for *%(EngineTimeToRegen)s*.#br#Module HP can be affected by shell module damage attribute."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14413.features.description.effectsDescription.0.title",
+									"message": "ENGINE"
+								},
+								"type": "None"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/electric_engine_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14413.features.description.localizedName",
+							"message": "AGTT 1250H"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14413.features.description.subtitle",
+							"message": "Engine"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_07"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": true,
+					"name": "engine_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/engine_01.prefab",
+						"slot": {
+							"handle": "Engine"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14413
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/exhaust_02c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14634.features.description.localizedName",
+							"message": "Rotax F"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14634.features.description.subtitle",
+							"message": "Exhaust System"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_13"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "engine_exhaust_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/engine_exhaust_02.prefab",
+						"slot": {
+							"handle": "EngineExhaust"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14634
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/exhaust_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14635.features.description.localizedName",
+							"message": "Rotax F"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14635.features.description.subtitle",
+							"message": "Engine Exhaust"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_13"
+					},
+					"commerce": {
+						"entitlement": "railgun_engine_exhaust_rotaxa",
+						"product": "railgun_engine_exhaust_rotaxa"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "engine_exhaust_rotaxf",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/engine_exhaust_01.prefab",
+						"slot": {
+							"handle": "EngineExhaust"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14635
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/engine_cover_02c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14636.features.description.localizedName",
+							"message": "TU13"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14636.features.description.subtitle",
+							"message": "Engine Protection"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_22"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "engine_protection_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/engine_cover_01.prefab",
+						"slot": {
+							"handle": "EngineCover"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ammo Rack"
+					}
+				},
+				"id": 14636
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/electric_engine_03c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14632.features.description.localizedName",
+							"message": "H64D"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14632.features.description.subtitle",
+							"message": "Engine Upgrade"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_hull"
+					},
+					"commerce": {
+						"entitlement": "railgun_engine_upgrade_01_unused",
+						"product": "railgun_engine_upgrade_01_unused"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "engine_upgrade_01_unused",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/electric_engine_02_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/electric_engine_02.prefab",
+						"slot": {
+							"handle": "Transmission"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14632
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/electric_engine_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14638.features.description.localizedName",
+							"message": "RBX1550W"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14638.features.description.subtitle",
+							"message": "Engine Upgrade"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_07"
+					},
+					"commerce": {
+						"entitlement": "railgun_engine_upgrade_rbx1550w",
+						"product": "railgun_engine_upgrade_rbx1550w"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "engine_upgrade_rbx1550w",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/electric_engine_01_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/electric_engine_01.prefab",
+						"slot": {
+							"handle": "Transmission"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14638
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/engine_cover_02c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14637.features.description.localizedName",
+							"message": "TU 16"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14637.features.description.subtitle",
+							"message": "Engine Upgrade"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_22"
+					},
+					"commerce": {
+						"entitlement": "railgun_engine_upgrade_tu16",
+						"product": "railgun_engine_upgrade_tu16"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "engine_upgrade_tu16",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/engine_cover_02_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/engine_cover_02.prefab",
+						"slot": {
+							"handle": "EngineCover"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Protection"
+					}
+				},
+				"id": 14637
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_fire_extinguisher_ou_2.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14625.features.description.localizedName",
+							"message": "Cyclone D"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14625.features.description.subtitle",
+							"message": "Fire Suppression System"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "railgun_fire_supression_system_cyclone_d",
+						"product": "railgun_fire_supression_system_cyclone_d"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "fire_supression_system_cyclone_d",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/fire_supression_system.prefab",
+						"slot": {
+							"handle": "FireSupressionSystem"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Fireextinguisher Equipment"
+					}
+				},
+				"id": 14625
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_gun_03.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14415.features.description.localizedName",
+							"message": "M256"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14415.features.description.subtitle",
+							"message": "Gun"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_08"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gun_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/gun_01.prefab",
+						"slot": {
+							"handle": "Gun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14415
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14608.features.description.effectsDescription.0.description",
+									"message": "Reduces *critical damage* received by *%(AmmoBayCritMult)%*."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14608.features.description.effectsDescription.0.title",
+									"message": "AMMO RACK"
+								},
+								"type": "None"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/gun_breach_02c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14608.features.description.localizedName",
+							"message": "REDUCTED"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14608.features.description.subtitle",
+							"message": "Breech"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_turret"
+					},
+					"commerce": {
+						"entitlement": "railgun_gun_breech_02",
+						"product": "railgun_gun_breech_02"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "gun_breech_02_unused",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/upgrades/gun_breech_02_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/upgrades/gun_breech_02.prefab",
+						"slot": {
+							"handle": "GunBreech"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ammo Rack"
+					}
+				},
+				"id": 14608
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14609.features.description.effectsDescription.0.description",
+									"message": "Reduces *critical damage* received by *%(AmmoBayCritMult)%*."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14609.features.description.effectsDescription.0.title",
+									"message": "AMMO RACK"
+								},
+								"type": "None"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/gun_breach_03c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14609.features.description.localizedName",
+							"message": "REDUCTED"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14609.features.description.subtitle",
+							"message": "Breech"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_turret"
+					},
+					"commerce": {
+						"entitlement": "railgun_gun_breech_03",
+						"product": "railgun_gun_breech_03"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "gun_breech_03_unused",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/upgrades/gun_breech_03_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/upgrades/gun_breech_03.prefab",
+						"slot": {
+							"handle": "GunBreech"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ammo Rack"
+					}
+				},
+				"id": 14609
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14607.features.description.effectsDescription.0.description",
+									"message": "Increases module damage in LOW fire mode. Most modules will be destroyed with one shot."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14607.features.description.effectsDescription.0.title",
+									"message": "Electrified Core"
+								},
+								"type": "PrimaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/gun_breach_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14607.features.description.localizedName",
+							"message": "UPEMAB"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14607.features.description.subtitle",
+							"message": "Gun Breech"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "railgun_gun_breech_upemab",
+						"product": "railgun_gun_breech_upemab"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "gun_breech_upemab",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/upgrades/gun_breech_01_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/upgrades/gun_breech_01.prefab",
+						"slot": {
+							"handle": "GunBreech"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Breech"
+					}
+				},
+				"id": 14607
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_hull.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14329.features.description.localizedName",
+							"message": "M1H"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14329.features.description.subtitle",
+							"message": "Hull"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "hull_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/hull_01.prefab",
+						"slot": {
+							"handle": "Hull"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14329
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/switcher_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14622.features.description.localizedName",
+							"message": "DR400"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14622.features.description.subtitle",
+							"message": "Switchers"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_hull"
+					},
+					"commerce": {
+						"entitlement": "railgun_hull_capacitor_switchers_01",
+						"product": "railgun_hull_capacitor_switchers_01"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "hull_capacitor_switchers_01_unused",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/capacitors_switchers_01.prefab",
+						"slot": {
+							"handle": "CapacitorSwitchers"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Capacitors"
+					}
+				},
+				"id": 14622
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14623.features.description.effectsDescription.0.description",
+									"message": "Reduces *critical damage* received by *%(AmmoBayCritMult)%*."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14623.features.description.effectsDescription.0.title",
+									"message": "AMMO RACK"
+								},
+								"type": "None"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/switcher_02c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14623.features.description.localizedName",
+							"message": "DR500"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14623.features.description.subtitle",
+							"message": "Switchers"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_hull"
+					},
+					"commerce": {
+						"entitlement": "railgun_hull_capacitor_switchers_02",
+						"product": "railgun_hull_capacitor_switchers_02"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "hull_capacitor_switchers_02_unused",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/capacitors_switchers_02.prefab",
+						"slot": {
+							"handle": "CapacitorSwitchers"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Capacitors"
+					}
+				},
+				"id": 14623
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/switcher_03c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14639.features.description.localizedName",
+							"message": "DR600"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14639.features.description.subtitle",
+							"message": "Switchers"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_hull"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "hull_capacitor_switchers_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/capacitors_switchers_03.prefab",
+						"slot": {
+							"handle": "CapacitorSwitchers"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Capacitors"
+					}
+				},
+				"id": 14639
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14620.features.description.effectsDescription.0.description",
+									"message": "Reduces *critical damage* received by *%(AmmoBayCritMult)%*."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14620.features.description.effectsDescription.0.title",
+									"message": "AMMO RACK"
+								},
+								"type": "None"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/capacitor_02c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14620.features.description.localizedName",
+							"message": "600W"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14620.features.description.subtitle",
+							"message": "Capacitors"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_20"
+					},
+					"commerce": {
+						"entitlement": "railgun_hull_capacitors_02",
+						"product": "railgun_hull_capacitors_02"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "hull_capacitors_02_unused",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/capacitors_02.prefab",
+						"slot": {
+							"handle": "Capacitors"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Capacitors"
+					}
+				},
+				"id": 14620
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/capacoitor_03c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14621.features.description.localizedName",
+							"message": "900W"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14621.features.description.subtitle",
+							"message": "Hull Capacitors"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_20"
+					},
+					"commerce": {
+						"entitlement": "railgun_hull_capacitors_900w",
+						"product": "railgun_hull_capacitors_900w"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "hull_capacitors_900w",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/capacitors_03.prefab",
+						"slot": {
+							"handle": "Capacitors"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Capacitors"
+					}
+				},
+				"id": 14621
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14619.features.description.effectsDescription.0.description",
+									"message": "Reduces *critical damage* received by *%(AmmoBayCritMult)%*."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14619.features.description.effectsDescription.0.title",
+									"message": "AMMO RACK"
+								},
+								"type": "None"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/capacitor_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14619.features.description.localizedName",
+							"message": "400W"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14619.features.description.subtitle",
+							"message": "Capacitors"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_20"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "hull_capacitors_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/capacitors_01.prefab",
+						"slot": {
+							"handle": "Capacitors"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Capacitors"
+					}
+				},
+				"id": 14619
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "lobby_collider",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/prefabs/hull_01_upgrades/lobby_collider.prefab",
+						"slot": {
+							"handle": "LobbyCollider"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14408
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14606.features.description.effectsDescription.0.description",
+									"message": "Overcharge mode speeds up energy and sprint regen by *200%*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14606.features.description.effectsDescription.0.title",
+									"message": "System Overload"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/field_stabilizer_c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14606.features.description.localizedName",
+							"message": "STUBEMAF"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14606.features.description.subtitle",
+							"message": "Magnetic Field Stabilizer"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_01"
+					},
+					"commerce": {
+						"entitlement": "railgun_magnetic_field_stabilizer",
+						"product": "railgun_magnetic_field_stabilizer"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "magnetic_field_stabilizer_stubemaf",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/upgrades/field_stabilizer.prefab",
+						"slot": {
+							"handle": "Stabilizer"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Stabilizer"
+					}
+				},
+				"id": 14606
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/magnetization_coil_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14610.features.description.localizedName",
+							"message": "REDUCTED"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14610.features.description.subtitle",
+							"message": "Magnetization Coil"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "railgun_magnetization_coil_01",
+						"product": "railgun_magnetization_coil_01"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "magnetization_coil_01_unused",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/upgrades/magnetization_coil_01.prefab",
+						"slot": {
+							"handle": "MagnetizationCoil"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ammo Rack"
+					}
+				},
+				"id": 14610
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/magnetization_coil_02c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14611.features.description.localizedName",
+							"message": "REDUCTED"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14611.features.description.subtitle",
+							"message": "Magnetization Coil"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "railgun_magnetization_coil_02",
+						"product": "railgun_magnetization_coil_02"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "magnetization_coil_02_unused",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/upgrades/magnetization_coil_02.prefab",
+						"slot": {
+							"handle": "MagnetizationCoil"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ammo Rack"
+					}
+				},
+				"id": 14611
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/magnetization_coil_03c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14612.features.description.localizedName",
+							"message": "REDUCTED"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14612.features.description.subtitle",
+							"message": "Magnetization Coil"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "magnetization_coil_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/upgrades/magnetization_coil_03.prefab",
+						"slot": {
+							"handle": "MagnetizationCoil"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Magnetization Coil"
+					}
+				},
+				"id": 14612
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14613.features.description.effectsDescription.0.description",
+									"message": "Deal *2* critical hits to receive *100%* charge boost for next shot."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14613.features.description.effectsDescription.0.title",
+									"message": "Critical Overdrive"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/magnetization_coil_04c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14613.features.description.localizedName",
+							"message": "IMAC"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14613.features.description.subtitle",
+							"message": "Magnetization Coil"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "railgun_magnetization_coil_imac",
+						"product": "railgun_magnetization_coil_imac"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "magnetization_coil_imac",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/upgrades/magnetization_coil_04.prefab",
+						"slot": {
+							"handle": "MagnetizationCoil"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Magnetization Coil"
+					}
+				},
+				"id": 14613
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/panoramic_scope_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14327.features.description.localizedName",
+							"message": "Basic Scope"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14327.features.description.subtitle",
+							"message": "Panoramic Scope"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_04"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "panoramic_scope_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/panoramic_scope_01.prefab",
+						"slot": {
+							"handle": "PanoramicScope"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14327
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14640.features.description.effectsDescription.0.description",
+									"message": "Enables *x10* scope zoom factor."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14640.features.description.effectsDescription.0.title",
+									"message": "Zoom Factor"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/panoramic_scope_02c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14640.features.description.localizedName",
+							"message": "R-35 Dual Vision"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14640.features.description.subtitle",
+							"message": "Panoramic Scope"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_04"
+					},
+					"commerce": {
+						"entitlement": "railgun_panoramic_scope_r35_dual_vision",
+						"product": "railgun_panoramic_scope_r35_dual_vision"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "panoramic_scope_r35_dual_vision",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/panoramic_scope_02.prefab",
+						"slot": {
+							"handle": "PanoramicScope"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 14640
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14651.features.description.effectsDescription.0.description",
+									"message": "Provides *x18* scope zoom factor."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14651.features.description.effectsDescription.0.title",
+									"message": "Zoom Factor"
+								},
+								"type": "ConditionalEffect"
+							},
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14651.features.description.effectsDescription.1.description",
+									"message": "Improves resolution; increases maximum range."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14651.features.description.effectsDescription.1.title",
+									"message": "Thermal Scope Matrix"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/panoramic_scope_03c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14651.features.description.localizedName",
+							"message": "XMR-40 Thermal"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14651.features.description.subtitle",
+							"message": "Panoramic Scope"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_04"
+					},
+					"commerce": {
+						"entitlement": "railgun_panoramic_scope_xmr40_thermal",
+						"product": "railgun_panoramic_scope_xmr40_thermal"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "panoramic_scope_xmr40_thermal",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/panoramic_scope_03.prefab",
+						"slot": {
+							"handle": "PanoramicScope"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 14651
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14618.features.description.effectsDescription.0.description",
+									"message": "Increases damage by *25%* at distances up to *300m*."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "",
+									"message": ""
+								},
+								"type": "PrimaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/secondary_field_amp_unit_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14618.features.description.localizedName",
+							"message": "FILENAMP"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14618.features.description.subtitle",
+							"message": "Power Amplifier"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_02"
+					},
+					"commerce": {
+						"entitlement": "railgun_power_amplifier_filenamp",
+						"product": "railgun_power_amplifier_filenamp"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "power_amplifier_filenamp",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/upgrades/secondary_field_amp_unit_01.prefab",
+						"slot": {
+							"handle": "SecondaryFieldAmp"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Power Unit"
+					}
+				},
+				"id": 14618
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14641.features.description.effectsDescription.0.description",
+									"message": "Remaining stationary for *5s* increases energy regen rate by *50%*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14641.features.description.effectsDescription.0.title",
+									"message": "ENERGETIC"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/generator_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14641.features.description.localizedName",
+							"message": "30kW"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14641.features.description.subtitle",
+							"message": "Power Generator"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_18"
+					},
+					"commerce": {
+						"entitlement": "railgun_power_generator_30kw",
+						"product": "railgun_power_generator_30kw"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "power_generator_30kw",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/generator_01_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/generator_01.prefab",
+						"slot": {
+							"handle": "Generator"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Power Unit"
+					}
+				},
+				"id": 14641
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14642.features.description.effectsDescription.0.description",
+									"message": "Remaining stationary for *5s* reduces charge time by *20%*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14642.features.description.effectsDescription.0.title",
+									"message": "Auxiliary Charger"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/generator_02c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14642.features.description.localizedName",
+							"message": "50kW"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14642.features.description.subtitle",
+							"message": "Power Generator"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_18"
+					},
+					"commerce": {
+						"entitlement": "railgun_power_generator_50kw",
+						"product": "railgun_power_generator_50kw"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "power_generator_50kw",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/generator_02_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/generator_02.prefab",
+						"slot": {
+							"handle": "Generator"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Power Unit"
+					}
+				},
+				"id": 14642
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14643.features.description.effectsDescription.0.description",
+									"message": "Reduces damage received by *30%* in overcharge mode."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14643.features.description.effectsDescription.0.title",
+									"message": "Power Discharger"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/generator_03c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14643.features.description.localizedName",
+							"message": "60kW"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14643.features.description.subtitle",
+							"message": "Power Generator"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_18"
+					},
+					"commerce": {
+						"entitlement": "railgun_power_generator_60kw",
+						"product": "railgun_power_generator_60kw"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "power_generator_60kw",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/generator_03_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/generator_03.prefab",
+						"slot": {
+							"handle": "Generator"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Power Unit"
+					}
+				},
+				"id": 14643
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/apu_c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14407.features.description.localizedName",
+							"message": "SAEUN"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14407.features.description.subtitle",
+							"message": "Power Unit"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_11"
+					},
+					"commerce": {
+						"entitlement": "railgun_power_unit_saeun",
+						"product": "railgun_power_unit_saeun"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "power_unit_saeun",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/apu_01.prefab",
+						"slot": {
+							"handle": "Apu"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Power Unit"
+					}
+				},
+				"id": 14407
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/projector_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14344.features.description.localizedName",
+							"message": "Lumen 30W"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14344.features.description.subtitle",
+							"message": "Projector"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "railgun_projector_01",
+						"product": "railgun_projector_01"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "projector_01_unused",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/projector_01.prefab",
+						"slot": {
+							"handle": "Projector"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14344
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/projector_02c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14652.features.description.localizedName",
+							"message": "Lumen 40W"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14652.features.description.subtitle",
+							"message": "Projector"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "railgun_projector_02",
+						"product": "railgun_projector_02"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "projector_02_unused",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/projector_02.prefab",
+						"slot": {
+							"handle": "Projector"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14652
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/projector_03c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14653.features.description.localizedName",
+							"message": "Lumen 45W"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14653.features.description.subtitle",
+							"message": "Projector"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "railgun_projector_lumen_45w",
+						"product": "railgun_projector_lumen_45w"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "projector_lumen_45w",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/projector_03.prefab",
+						"slot": {
+							"handle": "Projector"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Searchlight"
+					}
+				},
+				"id": 14653
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14628.features.description.effectsDescription.0.description",
+									"message": "Increases base Repair Kit effectiveness by *%(ability/repair_kit/effect/healthModifier/value)%*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14628.features.description.effectsDescription.0.title",
+									"message": "STRAIGHT HANDS"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_repair_kit.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14628.features.description.localizedName",
+							"message": "Hephaestus Mk1"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14628.features.description.subtitle",
+							"message": "Repair System"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "railgun_repair_system_hephaestus_mk1",
+						"product": "railgun_repair_system_hephaestus_mk1"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "repair_system_hephaestus_mk1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/self_repair_system.prefab",
+						"slot": {
+							"handle": "RepairSystem"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Repair System"
+					}
+				},
+				"id": 14628
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14654.features.description.effectsDescription.0.description",
+									"message": "Reduces *critical damage* received by *%(AmmoBayCritMult)%*."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14654.features.description.effectsDescription.0.title",
+									"message": "AMMO RACK"
+								},
+								"type": "None"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/resistors_02c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14654.features.description.localizedName",
+							"message": "500W"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14654.features.description.subtitle",
+							"message": "Resistors"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_turret"
+					},
+					"commerce": {
+						"entitlement": "railgun_resistors_02",
+						"product": "railgun_resistors_02"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "resistors_02_unused",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/resistors_02.prefab",
+						"slot": {
+							"handle": "Resistors"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ammo Rack"
+					}
+				},
+				"id": 14654
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14545.features.description.effectsDescription.0.description",
+									"message": "Eliminates dispersion in overcharge mode"
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14545.features.description.effectsDescription.0.title",
+									"message": "Stabilization Coils"
+								},
+								"type": "PrimaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/ray/modules/resistors_03c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14545.features.description.localizedName",
+							"message": "600W"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14545.features.description.subtitle",
+							"message": "Resistors"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_16"
+					},
+					"commerce": {
+						"entitlement": "railgun_resistors_600w",
+						"product": "railgun_resistors_600w"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "resistors_600w",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/resistors_03.prefab",
+						"slot": {
+							"handle": "Resistors"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell_AP"
+					}
+				},
+				"id": 14545
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/resistors_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14337.features.description.localizedName",
+							"message": "400W"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14337.features.description.subtitle",
+							"message": "Resistors"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_turret"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "resistors_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/resistors_01.prefab",
+						"slot": {
+							"handle": "Resistors"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14337
+			},
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/equipment/fire/fire_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"installSlot": {
+								"handle": "SecondAbility"
+							},
+							"isHidden": false,
+							"prefab": "/vehicles/american/a02_m1_1980/abilities/smoke_mortars/smoke_mortar_ability_m1.prefab",
+							"previewImage": "/ui/assets/abilities/ability_video_preview/abrams/img_preview/abrams_img_smoke_mortar_ability.png",
+							"video": "/ui/assets/abilities/ability_video_preview/abrams/abrams_vid_smoke_mortar_ability.webm"
+						},
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/vehicles/american/a02_m1_1980/abilities/thermal_imager_mechanic_railgun/thermal_imager_mechanic_ability_railgun.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [
+						{
+							"prefab": "/game_prefabs/equipment/energy_booster/energy_booster_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/extinguisher/extinguisher_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/med_kit/med_kit.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/stim_pack/stim_pack_consumable.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"layout": 21,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "root",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/a02_m1_1980_atr_eds_railgun.prefab",
+						"slot": {
+							"handle": "Root"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14409
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/main_field_amp_unit_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14617.features.description.localizedName",
+							"message": "REDUCTED"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14617.features.description.subtitle",
+							"message": "Power Amplifier"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "secondary_amplifier_empty",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/gun_01/upgrades/secondary_field_amp_unit_empty.prefab",
+						"slot": {
+							"handle": "SecondaryFieldAmp"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ammo Rack"
+					}
+				},
+				"id": 14617
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14626.features.description.effectsDescription.0.description",
+									"message": "Increases critical damage by *15%* in normal mode."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "",
+									"message": ""
+								},
+								"type": "PrimaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/shell_apds_core.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14626.features.description.localizedName",
+							"message": "COMALCORE"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14626.features.description.subtitle",
+							"message": "Shell Core"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "railgun_shell_core_comalcore",
+						"product": "railgun_shell_core_comalcore"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "shell_core_comalcore",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/ammo/railgun/upgrades/shell_impenam_core_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_1"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14626
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/shell_apds_fin.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14627.features.description.localizedName",
+							"message": "HSF"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14627.features.description.subtitle",
+							"message": "Shell Fin"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "railgun_shell_fin_hsf",
+						"product": "railgun_shell_fin_hsf"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "shell_fin_hsf",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/ammo/railgun/upgrades/shell_impenam_fin_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_2"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14627
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_shell_ap_m829.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14358.features.description.localizedName",
+							"message": "IMPENAM "
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14358.features.description.subtitle",
+							"message": "Shell"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/american/a02_m1_1980/ammo/railgun/railgun_shell_settings.prefab",
+							"slot": {
+								"handle": "PrimaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": true,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "shell_impenam_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/apds.prefab",
+						"slot": {
+							"handle": "PrimaryHangarShell"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14358
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_smoke_grenades_m239.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14633.features.description.localizedName",
+							"message": "DEFARS"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14633.features.description.subtitle",
+							"message": "Smoke Grenades"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 769,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "railgun_smoke_grenades_defars",
+						"product": "railgun_smoke_grenades_defars"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "smoke_grenades_defars",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/electric_mortars.prefab",
+						"slot": {
+							"handle": "SmokeLaunchers"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Smoke Grenades"
+					}
+				},
+				"id": 14633
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_smoke_grenades_m239.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14630.features.description.localizedName",
+							"message": "MK12"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14630.features.description.subtitle",
+							"message": "Smoke Mortars"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "railgun_smoke_mortars_mk12",
+						"product": "railgun_smoke_mortars_mk12"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "smoke_mortars_mk12",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/granades_upgrade.prefab",
+						"slot": {
+							"handle": "SmokeLaunchers"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Smoke System"
+					}
+				},
+				"id": 14630
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14414.features.description.effectsDescription.0.description",
+									"message": "The tracks have *%(LTrackMaxHP) module HP*. Losing all module HP will *immobilize* your vehicle for *%(LTrackTimeToRegen)s*.#br#Shells inflict additional damage if they hit modules."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14414.features.description.effectsDescription.0.title",
+									"message": "TRACKS"
+								},
+								"type": "None"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_chassis_02.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14414.features.description.localizedName",
+							"message": "T158"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14414.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "tracks_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/chassis_01/tracks_m1/tracks_m1.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14414
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14629.features.description.effectsDescription.0.description",
+									"message": "Adds *100* HP to track modules."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14629.features.description.effectsDescription.0.title",
+									"message": "SUSTAINABLE"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_chassis_02.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14629.features.description.localizedName",
+							"message": "NGTD"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14629.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_06"
+					},
+					"commerce": {
+						"entitlement": "railgun_tracks_ngtd",
+						"product": "railgun_tracks_ngtd"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "tracks_ngtd",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/chassis_01/tracks_m1/tracks_m1_strengthened.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 14629
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/transmission_x_700.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14644.features.description.localizedName",
+							"message": "HBD2400H"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14644.features.description.subtitle",
+							"message": "Transmission"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_07"
+					},
+					"commerce": {
+						"entitlement": "railgun_transmission_hbd2400h",
+						"product": "railgun_transmission_hbd2400h"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "transmission_hbd2400h",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/transmission_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/hull_01/upgrades/transmission.prefab",
+						"slot": {
+							"handle": "Transmission"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Transmission"
+					}
+				},
+				"id": 14644
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_turret_02.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14411.features.description.localizedName",
+							"message": "M1TIP"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14411.features.description.subtitle",
+							"message": "Turret"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "turret_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/turret_01.prefab",
+						"slot": {
+							"handle": "Turret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14411
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/switcher_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14603.features.description.localizedName",
+							"message": "RX200"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14603.features.description.subtitle",
+							"message": "Switchers"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_21"
+					},
+					"commerce": {
+						"entitlement": "railgun_turret_capacitor_switchers_01",
+						"product": "railgun_turret_capacitor_switchers_01"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "turret_capacitor_switchers_01_unused",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/capacitors_switchers_01.prefab",
+						"slot": {
+							"handle": "CapacitorsSwitchersTurret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Capacitors"
+					}
+				},
+				"id": 14603
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/switcher_02c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14604.features.description.localizedName",
+							"message": "DX220V"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14604.features.description.subtitle",
+							"message": "Switchers"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_21"
+					},
+					"commerce": {
+						"entitlement": "railgun_turret_capacitor_switchers_02",
+						"product": "railgun_turret_capacitor_switchers_02"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "turret_capacitor_switchers_02_unused",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/capacitors_switchers_02.prefab",
+						"slot": {
+							"handle": "CapacitorSwitchers"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Capacitors"
+					}
+				},
+				"id": 14604
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/switcher_03c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14605.features.description.localizedName",
+							"message": "DXV280V"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14605.features.description.subtitle",
+							"message": "Switchers"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_21"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "turret_capacitor_switchers_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/capacitors_switchers_03.prefab",
+						"slot": {
+							"handle": "CapacitorsSwitchersTurret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Capacitors"
+					}
+				},
+				"id": 14605
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/capacitor_02c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14547.features.description.localizedName",
+							"message": "900W"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14547.features.description.subtitle",
+							"message": "Capacitors"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_21"
+					},
+					"commerce": {
+						"entitlement": "railgun_turret_capacitors_02",
+						"product": "railgun_turret_capacitors_02"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "turret_capacitors_02_unused",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/capacitors_02.prefab",
+						"slot": {
+							"handle": "CapacitorsTurret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Capacitors"
+					}
+				},
+				"id": 14547
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/capacitor_01c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14546.features.description.localizedName",
+							"message": "400W"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14546.features.description.subtitle",
+							"message": "Capacitors"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_21"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "turret_capacitors_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/capacitors_01.prefab",
+						"slot": {
+							"handle": "CapacitorsTurret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Capacitors"
+					}
+				},
+				"id": 14546
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/ray/modules/capacoitor_03c.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14548.features.description.localizedName",
+							"message": "1400W"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14548.features.description.subtitle",
+							"message": "Turret Capacitors"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_21"
+					},
+					"commerce": {
+						"entitlement": "railgun_turret_capacitors_1400w",
+						"product": "railgun_turret_capacitors_1400w"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "turret_capacitors_1400w",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/capacitors_03.prefab",
+						"slot": {
+							"handle": "CapacitorsTurret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Capacitors"
+					}
+				},
+				"id": 14548
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_gun_turret_drive.png",
+						"localizedName": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14601.features.description.localizedName",
+							"message": "NED"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modules.14601.features.description.subtitle",
+							"message": "Turret drive"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_19"
+					},
+					"commerce": {
+						"entitlement": "railgun_turret_drive_ned",
+						"product": "railgun_turret_drive_ned"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "turret_drive_ned",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/gun_turret_drive_hangar.prefab",
+						"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/gun_turret_drive.prefab",
+						"slot": {
+							"handle": "GunTurretDrive"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret Rotator"
+					}
+				},
+				"id": 14601
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "railgun_shell_core_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/core/core_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_1"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14645
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "railgun_shell_fin_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/fin/fin_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_2"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14646
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "railgun_shell_primer_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/primer/primer_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_3"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14647
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "railgun_shell_propellant_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/propellant/propellant_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_4"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14648
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "railgun_shell_sabot_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/sabot/sabot_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_5"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14649
+			}
+		],
+		"modulesGroups": [
+			{
+				"id": 61,
+				"modules": [
+					14621,
+					14638,
+					14624
+				],
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modulesGroups.61.title",
+					"message": "Level 1"
+				}
+			},
+			{
+				"id": 62,
+				"modules": [
+					14651,
+					14640,
+					14630
+				],
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modulesGroups.62.title",
+					"message": "Level 2"
+				}
+			},
+			{
+				"id": 63,
+				"modules": [
+					14601,
+					14644,
+					14625
+				],
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modulesGroups.63.title",
+					"message": "Level 3"
+				}
+			},
+			{
+				"id": 64,
+				"modules": [
+					14548,
+					14653,
+					14629
+				],
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modulesGroups.64.title",
+					"message": "Level 4"
+				}
+			},
+			{
+				"id": 65,
+				"modules": [
+					14626,
+					14607,
+					14407
+				],
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modulesGroups.65.title",
+					"message": "Level 5"
+				}
+			},
+			{
+				"id": 66,
+				"modules": [
+					14627,
+					14325,
+					14602
+				],
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modulesGroups.66.title",
+					"message": "Level 6"
+				}
+			},
+			{
+				"id": 67,
+				"modules": [
+					14606,
+					14628,
+					14641
+				],
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modulesGroups.67.title",
+					"message": "Level 7"
+				}
+			},
+			{
+				"id": 68,
+				"modules": [
+					14642,
+					14618,
+					14635
+				],
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modulesGroups.68.title",
+					"message": "Level 8"
+				}
+			},
+			{
+				"id": 69,
+				"modules": [
+					14650,
+					14545,
+					14643
+				],
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modulesGroups.69.title",
+					"message": "Level 9"
+				}
+			},
+			{
+				"id": 70,
+				"modules": [
+					14613,
+					14637,
+					14633
+				],
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.modulesGroups.70.title",
+					"message": "Level 10"
+				}
+			}
+		],
+		"perkGroups": [
+			{
+				"category": "Hero",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "ray_el_rayo",
+							"product": "ray_el_rayo"
+						},
+						"id": 13012,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "ray_dont_need_roads",
+							"product": "ray_dont_need_roads"
+						},
+						"id": 13013,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "ray_spinor",
+							"product": "ray_spinor"
+						},
+						"id": 13014,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Role",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "ray_firesupport_smooth_moves",
+							"product": "ray_firesupport_smooth_moves"
+						},
+						"id": 13018,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "ray_firesupport_overclocked",
+							"product": "ray_firesupport_overclocked"
+						},
+						"id": 13019,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "ray_firesupport_bullseye_boost",
+							"product": "ray_firesupport_bullseye_boost"
+						},
+						"id": 13020,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Division",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "ray_alpha_company_peripheral_vision",
+							"product": "ray_alpha_company_peripheral_vision"
+						},
+						"id": 13015,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "ray_alpha_company_dying_fire",
+							"product": "ray_alpha_company_dying_fire"
+						},
+						"id": 13016,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "ray_alpha_company_stable_approach",
+							"product": "ray_alpha_company_stable_approach"
+						},
+						"id": 13017,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Conditional",
+				"isDefault": true,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "",
+							"product": ""
+						},
+						"id": 13021,
+						"overrides": []
+					}
+				]
+			}
+		],
+		"perks": [
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13012.description",
+					"message": "Increase Railgun charge speed by *5%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/ray/el_rayo.png",
+				"id": 13012,
+				"prefab": "/vehicles/american/a02_m1_1980/traits_and_perks/ray/perks/ray_el_rayo_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13012.title",
+					"message": "EL RAYO"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13013.description",
+					"message": "Increase vehicle acceleration rate by *5%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/ray/dont_need_roads.png",
+				"id": 13013,
+				"prefab": "/vehicles/american/a02_m1_1980/traits_and_perks/ray/perks/ray_dont_need_roads_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13013.title",
+					"message": "DON'T NEED ROADS"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13014.description",
+					"message": "Increase turret rotation speed by *5%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/ray/spinor.png",
+				"id": 13014,
+				"prefab": "/vehicles/american/a02_m1_1980/traits_and_perks/ray/perks/ray_spinor_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13014.title",
+					"message": "SPINOR"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 5,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13015.description",
+					"message": "Widens spotting angle by *45deg*; reduces spotting range by *150m*. Increases the time enemies stay detected on radar by *1s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/bravo_company/peripheral_vision.png",
+				"id": 13015,
+				"prefab": "/game_prefabs/perks/division_perks/bravo_company/peripheral_vision/peripheral_vision_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13015.title",
+					"message": "PERIPHERAL VISION"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13016.description",
+					"message": "Passively reduces duration of fire by *2s* and reduces fire damage received by *50%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/bravo_company/dying_fire.png",
+				"id": 13016,
+				"prefab": "/game_prefabs/perks/division_perks/bravo_company/dying_fire/dying_fire_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13016.title",
+					"message": "DYING FIRE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13017.description",
+					"message": "Improves gun stabilization when shooting on the move by *15%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/bravo_company/stable_approach.png",
+				"id": 13017,
+				"prefab": "/game_prefabs/perks/division_perks/bravo_company/stable_approach/stable_approach_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13017.title",
+					"message": "STABLE APPROACH"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13018.description",
+					"message": "Reduces gun reload time by *10%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/marksman_role_perks/smooth_moves.png",
+				"id": 13018,
+				"prefab": "/game_prefabs/perks/role_perks/marksman/smooth_moves/smooth_moves_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13018.title",
+					"message": "SMOOTH MOVES"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 5,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13019.description",
+					"message": "Increases engine acceleration by *10%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/marksman_role_perks/overclocked.png",
+				"id": 13019,
+				"prefab": "/game_prefabs/perks/role_perks/marksman/overclocked/overclocked_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13019.title",
+					"message": "OVERCLOCKED"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13020.description",
+					"message": "Increases gun accuracy by *15%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/marksman_role_perks/bullseye_boost.png",
+				"id": 13020,
+				"prefab": "/game_prefabs/perks/role_perks/marksman/bullseye_boost/bullseye_boost_perk.prefab",
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13020.title",
+					"message": "BULLSEYE BOOST"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": true,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13021.description",
+					"message": "Taking damage triggers smoke screen and hides your marker from enemies for *10s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/ray/conditional/warning_system.png",
+				"id": 13021,
+				"prefab": "/vehicles/american/a02_m1_1980/traits_and_perks/ray/conditional_trait/ray_warning_system_trait.prefab",
+				"title": {
+					"key": "a02_m1_1980_atr_eds_railgun.specs.specification.perks.13021.title",
+					"message": "WARNING SYSTEM"
+				}
+			}
+		],
+		"perksSlot": {
+			"handle": "Perks"
+		},
+		"power": 9000,
+		"prefabPlaceholders": [
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/ray/ray_pc.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "ray_railgun"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/juggernaut/hq_juggernaut_1_ipm1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "ray_railgun"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/vehicles/american/a02_m1_1980/settings/ray_workshop_anchors.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_anchors"
+				},
+				"switcherName": "a02_m1_1980_atr_eds_railgun.specs.specification.callSign"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/worlds/camps/hq_cameras/blue_hq_cameras_jaggernaut.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_cameras"
+				},
+				"switcherName": "ray_railgun"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/ray/ray_ws.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "ray_railgun"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/worlds/camps/base/consumables_anchors.prefab",
+				"spawnPlaceholderName": {
+					"handle": "consumable_anchors"
+				},
+				"switcherName": "a02_m1_1980_atr_eds_railgun.specs.specification.callSign"
+			}
+		],
+		"role": "Marksman",
+		"shellSlots": [
+			{
+				"handle": "PrimaryShell"
+			},
+			{
+				"handle": "SecondaryShell"
+			}
+		],
+		"shortDescription": {
+			"key": "a02_m1_1980_atr_eds_railgun.specs.specification.shortDescription",
+			"message": "TOUGH AND DEADLY"
+		},
+		"slotsAreas": [
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": true,
+				"left": 482,
+				"top": 290,
+				"uiAnchor": {
+					"handle": "GunModule"
+				},
+				"uiCategory": "Firepower"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": false,
+				"drawRightToLeft": true,
+				"left": 420,
+				"top": 862,
+				"uiAnchor": {
+					"handle": "HullModule"
+				},
+				"uiCategory": "Toughness"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": true,
+				"left": 774,
+				"top": 200,
+				"uiAnchor": {
+					"handle": "TurretModule"
+				},
+				"uiCategory": "Recon"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1150,
+				"top": 160,
+				"uiAnchor": {
+					"handle": "CommunicationModule"
+				},
+				"uiCategory": "Utility"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1506,
+				"top": 275,
+				"uiAnchor": {
+					"handle": "EngineModule"
+				},
+				"uiCategory": "Mobility"
+			}
+		],
+		"smallVehicleImage": "/ui/assets/hero_vehicles/death_card/juggernaut/abrams_ipm1.png",
+		"talismanHolder": {
+			"cameraName": {
+				"handle": "talisman_camera"
+			},
+			"prefab": "/vehicles/american/a02_m1_1980/atr_eds_railgun_fbx/prefabs/turret_01/upgrades/talisman_holder.prefab",
+			"slot": {
+				"handle": "TalismanHolder"
+			}
+		},
+		"technicalName": "a02_m1_1980_atr_eds_railgun",
+		"tierSettings": [
+			{
+				"maxPower": 1999,
+				"minPower": 0,
+				"tier": 1
+			},
+			{
+				"maxPower": 2999,
+				"minPower": 2000,
+				"tier": 2
+			},
+			{
+				"maxPower": 3999,
+				"minPower": 3000,
+				"tier": 3
+			},
+			{
+				"maxPower": 4999,
+				"minPower": 4000,
+				"tier": 4
+			},
+			{
+				"maxPower": 5999,
+				"minPower": 5000,
+				"tier": 5
+			},
+			{
+				"maxPower": 6999,
+				"minPower": 6000,
+				"tier": 6
+			},
+			{
+				"maxPower": 9999,
+				"minPower": 7000,
+				"tier": 7
+			}
+		],
+		"vehicleId": 25,
+		"vehicleName": {
+			"key": "a02_m1_1980_atr_eds_railgun.specs.specification.vehicleName",
+			"message": "ATR EDS Railgun"
+		}
+	}
+}
 ```

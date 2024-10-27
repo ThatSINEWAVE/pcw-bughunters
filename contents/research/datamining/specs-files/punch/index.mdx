@@ -11,5 +11,4714 @@ PLACEHOLDER TEXT
 
 ### Full contents of the file
 ```json
-PLACEHOLDER CODE
+{
+	"__type__": "CW::VehicleSpecificationStorage",
+	"specification": {
+		"abilityModifiersSlots": [],
+		"abilitySlots": [
+			{
+				"handle": "FirstAbility"
+			},
+			{
+				"handle": "SecondAbility"
+			},
+			{
+				"handle": "ThirdAbility"
+			}
+		],
+		"aiSettings": {
+			"brainsSlot": {
+				"handle": "AIBrains"
+			},
+			"defaultPreset": {
+				"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_capture_defend_base.prefab",
+				"modulesLayout": []
+			},
+			"gameModePresets": [
+				{
+					"key": {
+						"handle": "conquest"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest_newcomer.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "ct"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "domination"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "hq"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						}
+					}
+				}
+			]
+		},
+		"baseEquipment": [
+			{
+				"installSlot": {
+					"handle": "FirstEquipment"
+				},
+				"prefab": "/game_prefabs/equipment/repair_kit/repair_kit_ability.prefab",
+				"previewImage": "",
+				"video": ""
+			}
+		],
+		"basicCharacteristics": {
+			"firepower": 231,
+			"mobility": 243,
+			"recon": 42,
+			"toughness": 418,
+			"utility": 213
+		},
+		"callSign": {
+			"key": "a01_chrysler_xm1_volcano.specs.specification.callSign",
+			"message": "Punch"
+		},
+		"commerce": {
+			"entitlement": "vehicle_xm1_volcano",
+			"product": "vehicle_xm1_volcano"
+		},
+		"commercePath": "/vehicles/american/a01_chrysler_xm1/settings/commerce_volcano.specs",
+		"complexity": 1,
+		"crew": {
+			"crewMembers": [
+				{
+					"arenaPrefab": "/vehicles/american/a01_chrysler_xm1/settings/frontmans/frontman_3.prefab",
+					"bigImage": "/ui/assets/heroes/breacher/crew/extralarge/breacher_crew_03.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "breacher_crew_01_volcano",
+						"product": ""
+					},
+					"description": {
+						"key": "a01_chrysler_xm1_volcano.specs.specification.crew.crewMembers.101.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 101,
+					"image": "/ui/assets/heroes/breacher/crew/large/breacher_crew_03.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "a01_chrysler_xm1_volcano.specs.specification.crew.crewMembers.101.lastName",
+						"message": "Lineham"
+					},
+					"name": {
+						"key": "a01_chrysler_xm1_volcano.specs.specification.crew.crewMembers.101.name",
+						"message": "Keene"
+					},
+					"prefabPlaceholderName": "Breacher_3_volcano",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/breacher/crew/small/breacher_crew_03_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/american/a01_chrysler_xm1/settings/frontmans/frontman_2.prefab",
+					"bigImage": "/ui/assets/heroes/breacher/crew/extralarge/breacher_crew_02.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "breacher_crew_02_volcano",
+						"product": ""
+					},
+					"description": {
+						"key": "a01_chrysler_xm1_volcano.specs.specification.crew.crewMembers.102.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 102,
+					"image": "/ui/assets/heroes/breacher/crew/large/breacher_crew_02.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "a01_chrysler_xm1_volcano.specs.specification.crew.crewMembers.102.lastName",
+						"message": "Sharman"
+					},
+					"name": {
+						"key": "a01_chrysler_xm1_volcano.specs.specification.crew.crewMembers.102.name",
+						"message": "Landry"
+					},
+					"prefabPlaceholderName": "Breacher_2_volcano",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/breacher/crew/small/breacher_crew_02_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/american/a01_chrysler_xm1/settings/frontmans/frontman_1.prefab",
+					"bigImage": "/ui/assets/heroes/breacher/crew/extralarge/breacher_crew_01.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "breacher_crew_03_volcano",
+						"product": ""
+					},
+					"description": {
+						"key": "a01_chrysler_xm1_volcano.specs.specification.crew.crewMembers.103.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 103,
+					"image": "/ui/assets/heroes/breacher/crew/large/breacher_crew_01.png",
+					"isDefaultFrontman": true,
+					"lastName": {
+						"key": "a01_chrysler_xm1_volcano.specs.specification.crew.crewMembers.103.lastName",
+						"message": "O'Donnell"
+					},
+					"name": {
+						"key": "a01_chrysler_xm1_volcano.specs.specification.crew.crewMembers.103.name",
+						"message": "Jerome"
+					},
+					"prefabPlaceholderName": "Breacher_1_volcano",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/breacher/crew/small/breacher_crew_01_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/american/a01_chrysler_xm1/settings/frontmans/frontman_4.prefab",
+					"bigImage": "/ui/assets/heroes/kent/crew/extralarge/kent_crew.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "breacher_crew_04_volcano",
+						"product": ""
+					},
+					"description": {
+						"key": "a01_chrysler_xm1_volcano.specs.specification.crew.crewMembers.104.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 104,
+					"image": "/ui/assets/heroes/kent/crew/large/kent_crew.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "a01_chrysler_xm1_volcano.specs.specification.crew.crewMembers.104.lastName",
+						"message": "Field"
+					},
+					"name": {
+						"key": "a01_chrysler_xm1_volcano.specs.specification.crew.crewMembers.104.name",
+						"message": "Grover"
+					},
+					"prefabPlaceholderName": "Breacher_4_volcano",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/kent/crew/small/kent_crew_req.png",
+					"setBonuses": []
+				}
+			],
+			"customization": [],
+			"setBonuses": []
+		},
+		"customization3D": {
+			"modulesPacks": [],
+			"stylesPacks": []
+		},
+		"customizationLayout": 5,
+		"description": {
+			"key": "a01_chrysler_xm1_volcano.specs.specification.description",
+			"message": "DESC"
+		},
+		"displayableCurrencies": [
+			{
+				"handle": "soft"
+			},
+			{
+				"handle": "reputation_blue"
+			}
+		],
+		"divisionColor": "#1E80CA",
+		"divisionIcon": "/ui/assets/meta/select_hero/american_division.png",
+		"divisionIconSmall": "/ui/assets/meta/select_hero/american_division_small.png",
+		"divisionName": {
+			"key": "a01_chrysler_xm1_volcano.specs.specification.divisionName",
+			"message": "Alpha Company"
+		},
+		"divisionShortName": {
+			"key": "a01_chrysler_xm1_volcano.specs.specification.divisionShortName",
+			"message": "Alpha Company"
+		},
+		"economyPrefab": "/vehicles/american/a01_chrysler_xm1/settings/economy_settings_volcano.prefab",
+		"equipmentCameras": [
+			{
+				"handle": "equipment_1st_camera"
+			},
+			{
+				"handle": "equipment_2nd_camera"
+			},
+			{
+				"handle": "equipment_3rd_camera"
+			}
+		],
+		"equipmentSlots": [
+			{
+				"handle": "FirstEquipment"
+			},
+			{
+				"handle": "SecondEquipment"
+			},
+			{
+				"handle": "ThirdEquipment"
+			}
+		],
+		"features": {
+			"abilityFeatures": [
+				{
+					"isInitial": false,
+					"prefab": "/game_prefabs/abilities/minefield_ability/a_minefield_ability.prefab"
+				}
+			],
+			"moduleFeatures": [],
+			"passiveFeatures": [],
+			"perkFeatures": []
+		},
+		"fraction": {
+			"handle": "blue"
+		},
+		"gameplayPrefab": "/vehicles/american/a01_chrysler_xm1/settings/gameplay_settings.prefab",
+		"hiddenAbilitiesSlot": {
+			"handle": "HiddenAbilities"
+		},
+		"image": "/ui/assets/heroes/breacher/vehicle/loki_stock.png",
+		"isHidden": false,
+		"mastering": {
+			"commerce": "volcano_breacher_grant_500_exp",
+			"levels": [
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a01_volcano_1",
+						"product": "mastering_lvl_a01_volcano_1"
+					},
+					"extraEquipment": [],
+					"points": 0,
+					"rewards": [],
+					"unlockGroups": [
+						71
+					],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a01_volcano_2",
+						"product": "mastering_lvl_a01_volcano_2"
+					},
+					"extraEquipment": [],
+					"points": 2000,
+					"rewards": [],
+					"unlockGroups": [
+						72
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						1011
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a01_volcano_3",
+						"product": "mastering_lvl_a01_volcano_3"
+					},
+					"extraEquipment": [],
+					"points": 4200,
+					"rewards": [],
+					"unlockGroups": [
+						73
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						1003
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a01_volcano_4",
+						"product": "mastering_lvl_a01_volcano_4"
+					},
+					"extraEquipment": [],
+					"points": 6700,
+					"rewards": [],
+					"unlockGroups": [
+						74
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						1008
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a01_volcano_5",
+						"product": "mastering_lvl_a01_volcano_5"
+					},
+					"extraEquipment": [],
+					"points": 11000,
+					"rewards": [],
+					"unlockGroups": [
+						75
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						1012
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a01_volcano_6",
+						"product": "mastering_lvl_a01_volcano_6"
+					},
+					"extraEquipment": [],
+					"points": 15500,
+					"rewards": [],
+					"unlockGroups": [
+						76
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						1004
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a01_volcano_7",
+						"product": "mastering_lvl_a01_volcano_7"
+					},
+					"extraEquipment": [],
+					"points": 20200,
+					"rewards": [],
+					"unlockGroups": [
+						77
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						1006
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a01_volcano_8",
+						"product": "mastering_lvl_a01_volcano_8"
+					},
+					"extraEquipment": [],
+					"points": 26500,
+					"rewards": [],
+					"unlockGroups": [
+						79
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						1013
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a01_volcano_9",
+						"product": "mastering_lvl_a01_volcano_9"
+					},
+					"extraEquipment": [],
+					"points": 33000,
+					"rewards": [],
+					"unlockGroups": [
+						80
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						1005
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a01_volcano_10",
+						"product": "mastering_lvl_a01_volcano_10"
+					},
+					"extraEquipment": [],
+					"points": 39700,
+					"rewards": [],
+					"unlockGroups": [
+						81
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						1007
+					]
+				}
+			],
+			"pointsCurrency": {
+				"handle": "a01_volcano"
+			}
+		},
+		"modules": [
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/equipment/fire/fire_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"installSlot": {
+								"handle": "FirstAbility"
+							},
+							"isHidden": false,
+							"prefab": "/game_prefabs/abilities/minefield_ability/a_minefield_ability.prefab",
+							"previewImage": "/ui/assets/abilities/ability_video_preview/xm1/img_preview/xm1_img_volcano_mine_ability.png",
+							"video": "/ui/assets/abilities/ability_video_preview/xm1/xm1_vid_volcano_mine_ability.webm"
+						},
+						{
+							"installSlot": {
+								"handle": "SecondAbility"
+							},
+							"isHidden": false,
+							"prefab": "/game_prefabs/abilities/demolition_charge/a_demolition_charge_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [
+						{
+							"prefab": "/game_prefabs/equipment/energy_booster/energy_booster_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/extinguisher/extinguisher_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/med_kit/med_kit.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/stim_pack/stim_pack_consumable.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"layout": 21,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "root",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/a01_chrysler_xm1_volcano.prefab",
+						"slot": {
+							"handle": "Root"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14001
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14044.features.description.localizedName",
+							"message": "default_xm1_loader"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14044.features.description.subtitle",
+							"message": "default_xm1_loader"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "ammoloader_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/base_tank/components/ammo_loader.prefab",
+						"slot": {
+							"handle": "AmmoLoader"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14044
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14018.features.description.effectsDescription.0.description",
+									"message": "This screen reduces damage from shells that strike the covered area. Damage reduction depends on shell type:#br#*-%(shellScreen/ap/alphaDamage)%* AP / *-%(shellScreen/heat/alphaDamage)%* HEAT / *-%(shellScreen/frag_he/alphaDamage)%* HE."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/abilities/icons/modifiers/screen_damage_reduction.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14018.features.description.effectsDescription.0.title",
+									"message": "DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_01.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14018.features.description.localizedName",
+							"message": "TR1"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14018.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "armor_screen_tr1_volcano",
+						"product": "armor_screen_tr1_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "armor_screen_tr1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/side_screen_tr1.prefab",
+						"slot": {
+							"handle": "SideScreen"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14018
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14020.features.description.effectsDescription.0.description",
+									"message": "This screen reduces damage from shells that strike the covered area. Damage reduction depends on shell type:#br#*-%(shellScreen/ap/alphaDamage)%* AP / *-%(shellScreen/heat/alphaDamage)%* HEAT / *-%(shellScreen/frag_he/alphaDamage)%* HE."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/abilities/icons/modifiers/screen_damage_reduction.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14020.features.description.effectsDescription.0.title",
+									"message": "DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shield_02.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14020.features.description.localizedName",
+							"message": "TR2T"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14020.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "armor_side_screen_tr2t_volcano",
+						"product": "armor_side_screen_tr2t_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "armor_screen_tr2t",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/side_screen_tr2t.prefab",
+						"slot": {
+							"handle": "SideScreen"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14020
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "lobby_collider",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/lobby_collider.prefab",
+						"slot": {
+							"handle": "LobbyCollider"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14015
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14009.features.description.effectsDescription.0.description",
+									"message": "Reduces *critical damage* received by *%(AmmoBayCritMult)%*."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14009.features.description.effectsDescription.0.title",
+									"message": "BLOW-OFF PANELS"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_blowpanel_base.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14009.features.description.localizedName",
+							"message": "Blow panels pavise"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14009.features.description.subtitle",
+							"message": "Blow panels"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_19"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "blowoff_panels_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/blowpanels_mk1.prefab",
+						"slot": {
+							"handle": "BlowPanel"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ammo Rack"
+					}
+				},
+				"id": 14009
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14032.features.description.effectsDescription.0.description",
+									"message": "Improves ammo rack resistance to critical damage. "
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14032.features.description.effectsDescription.0.title",
+									"message": "Individual Casings"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_blowpanel.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14032.features.description.localizedName",
+							"message": "Buckler"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14032.features.description.subtitle",
+							"message": "Blow-off Panels"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_19"
+					},
+					"commerce": {
+						"entitlement": "blowoff_panels_buckler_volcano",
+						"product": "blowoff_panels_buckler_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "blowoff_panels_buckler",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/blowpanels_mk2_buckler.prefab",
+						"slot": {
+							"handle": "BlowPanel"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ammo Rack"
+					}
+				},
+				"id": 14032
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14041.features.description.effectsDescription.0.description",
+									"message": "*Reduces incoming shell damage*:#br#*-%(ShellScreen_AP_alphaDamage)%* AP / *-%(ShellScreen_HEAT_alphaDamage)%* HEAT / *-%(ShellScreen_HE_alphaDamage)%* HE shells."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14041.features.description.effectsDescription.0.title",
+									"message": "INCOMING DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_lower_plate_protection_01.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14041.features.description.localizedName",
+							"message": "Armada"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14041.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_25"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "bottom_plate_armada_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/bottom_plate_armada_mk1.prefab",
+						"slot": {
+							"handle": "BottomPlate"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14041
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14042.features.description.effectsDescription.0.description",
+									"message": "This screen reduces damage from shells that strike the covered area. Damage reduction depends on shell type:#br#*-%(shellScreen/ap/alphaDamage)%* AP / *-%(shellScreen/heat/alphaDamage)%* HEAT / *-%(shellScreen/frag_he/alphaDamage)%* HE."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/abilities/icons/modifiers/screen_damage_reduction.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14042.features.description.effectsDescription.0.title",
+									"message": "DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_lower_plate_protection_02.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14042.features.description.localizedName",
+							"message": "MK2B"
+						},
+						"power": 111,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14042.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_25"
+					},
+					"commerce": {
+						"entitlement": "bottom_plate_armada_mk2b_volcano",
+						"product": "bottom_plate_armada_mk2b_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "bottom_plate_armada_mk2b",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/bottom_plate_armada_mk2b.prefab",
+						"slot": {
+							"handle": "BottomPlate"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14042
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14678.features.description.effectsDescription.0.description",
+									"message": "This screen reduces damage from shells that strike the covered area. Damage reduction depends on shell type:#br#*-%(shellScreen/ap/alphaDamage)%* AP / *-%(shellScreen/heat/alphaDamage)%* HEAT / *-%(shellScreen/frag_he/alphaDamage)%* HE."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/abilities/icons/modifiers/screen_damage_reduction.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14678.features.description.effectsDescription.0.title",
+									"message": "DAMAGE REDUCTION"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_lower_plate_protection_02.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14678.features.description.localizedName",
+							"message": "MK2B"
+						},
+						"power": 111,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14678.features.description.subtitle",
+							"message": "Armor Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_25"
+					},
+					"commerce": {
+						"entitlement": "bottom_plate_armada_mk3b",
+						"product": "bottom_plate_armada_mk3b"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "bottom_plate_armada_mk3b",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/bottom_plate_armada_mk3b.prefab",
+						"slot": {
+							"handle": "BottomPlate"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull Armor"
+					}
+				},
+				"id": 14678
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14679.features.description.effectsDescription.0.description",
+									"message": "Sweeper that reduces damage taken from mines by *50%*. Also acts as a shield."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14679.features.description.effectsDescription.0.title",
+									"message": "Mine Resistance"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_mcbs.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14679.features.description.localizedName",
+							"message": "MCBS"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14679.features.description.subtitle",
+							"message": "Minesweeper"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_25"
+					},
+					"commerce": {
+						"entitlement": "bottom_plate_sweeper",
+						"product": "bottom_plate_sweeper"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "bottom_plate_sweeper",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/mine_sweeper_mcbs_volcano.prefab",
+						"slot": {
+							"handle": "BottomPlate"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ram Knives"
+					}
+				},
+				"id": 14679
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14007.features.description.localizedName",
+							"message": "xxx"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14007.features.description.subtitle",
+							"message": "Frontparts"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "frontparts_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/frontparts.prefab",
+						"slot": {
+							"handle": "SideScreen"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14007
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "chassis_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/chassis_xm1/chassis_xm1.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14005
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14316.features.description.localizedName",
+							"message": "Jet"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14316.features.description.subtitle",
+							"message": "Rocket"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_24"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "doom_rocket_lvl1_Jet_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/doom_rocket_stock_01.prefab",
+						"slot": {
+							"handle": "Rockets"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 14040,
+							"prefabOverride": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/doom_rocket_stock_02.prefab"
+						}
+					],
+					"type": {
+						"handle": "Rocket"
+					}
+				},
+				"id": 14316
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14315.features.description.effectsDescription.0.description",
+									"message": "Powerful rocket with increased damage and area of effect."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14315.features.description.effectsDescription.0.title",
+									"message": "Demolition Charge"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_demolition_charge_2.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14315.features.description.localizedName",
+							"message": "LK1T"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14315.features.description.subtitle",
+							"message": "Rocket"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_24"
+					},
+					"commerce": {
+						"entitlement": "doom_rocket_lvl2_fireball_volcano",
+						"product": "doom_rocket_lvl2_fireball_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "doom_rocket_lvl2_LK1T",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/doom_rocket_ik1t_01.prefab",
+						"slot": {
+							"handle": "RocketsUpgrade"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 14040,
+							"prefabOverride": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/doom_rocket_ik1t_02.prefab"
+						}
+					],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14315
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14004.features.description.effectsDescription.0.description",
+									"message": "Engine has *%(EngineMaxHP) module HP.* Receives *critical damage* per hit. Losing all module HP *reduces movement speed* by *50%* for *%(EngineTimeToRegen)s.*#br#Module HP can be affected by shell module damage stats."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14004.features.description.effectsDescription.0.title",
+									"message": "ENGINE"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_engine_avcr1100.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14004.features.description.localizedName",
+							"message": "Continental AVCR-1100"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14004.features.description.subtitle",
+							"message": "Engine"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_09"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "engine_avcr1100_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/engine_xm_volcano.prefab",
+						"slot": {
+							"handle": "Engine"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine"
+					}
+				},
+				"id": 14004
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14314.features.description.effectsDescription.0.description",
+									"message": "Improves acceleration. Increases maximum speed."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14314.features.description.effectsDescription.0.title",
+									"message": "Titanium Rods"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_engine_avcr.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14314.features.description.localizedName",
+							"message": "DEPP"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14314.features.description.subtitle",
+							"message": "Engine Upgrade"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_09"
+					},
+					"commerce": {
+						"entitlement": "engine_upgrade_depp_volcano",
+						"product": "engine_upgrade_depp_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "engine_upgrade_depp",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/engine_avcr1360_hangar.prefab",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/engine_avcr1360.prefab",
+						"slot": {
+							"handle": "EngineUpgrade2"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14314
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14023.features.description.effectsDescription.0.description",
+									"message": "Increases engine resistance to critical damage. Improves repair time."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14023.features.description.effectsDescription.0.title",
+									"message": "Superstructure"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_engine_agt1500.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14023.features.description.localizedName",
+							"message": "Teledyne AVCR-1360"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14023.features.description.subtitle",
+							"message": "Engine"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_09"
+					},
+					"commerce": {
+						"entitlement": "engine_teledyne_avcr1360_volcano",
+						"product": "engine_teledyne_avcr1360_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "engine_compartment_xm_volcano_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/engine_compartment_xm_volcano_base.prefab",
+						"slot": {
+							"handle": "EngineUpgrade"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine"
+					}
+				},
+				"id": 14023
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14676.features.description.effectsDescription.0.description",
+									"message": "Increases engine resistance to critical damage. Improves repair time."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14676.features.description.effectsDescription.0.title",
+									"message": "Superstructure"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_engine_agt1500.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14676.features.description.localizedName",
+							"message": "Teledyne AVCR-1360"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14676.features.description.subtitle",
+							"message": "Engine"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_09"
+					},
+					"commerce": {
+						"entitlement": "engine_compartment_xm_volcano_upgraded",
+						"product": "engine_compartment_xm_volcano_upgraded"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "engine_compartment_xm_volcano_upgraded",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/engine_compartment_xm_volcano_upgrade.prefab",
+						"slot": {
+							"handle": "EngineUpgrade"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14676
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_gun_02.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14017.features.description.localizedName",
+							"message": "M70"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14017.features.description.subtitle",
+							"message": "Gun"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gun_m70_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/gun_m70/gun_m70.prefab",
+						"slot": {
+							"handle": "Gun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun"
+					}
+				},
+				"id": 14017
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_hull.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14002.features.description.localizedName",
+							"message": "CXM"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14002.features.description.subtitle",
+							"message": "Hull"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_21"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "hull_cxm_base",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/hull_xm1_hangar.prefab",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/hull_xm1.prefab",
+						"slot": {
+							"handle": "Hull"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull"
+					}
+				},
+				"id": 14002
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_turret.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14016.features.description.localizedName",
+							"message": "CMD VFT2"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14016.features.description.subtitle",
+							"message": "Turret"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_18"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "turret_late_cmd_vft2_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/turret_xm1.prefab",
+						"slot": {
+							"handle": "Turret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret"
+					}
+				},
+				"id": 14016
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14006.features.description.effectsDescription.0.description",
+									"message": "The tracks have *%(LTrackMaxHP) module HP.* Losing all module HP will *immobilize* your vehicle for *%(LTrackTimeToRegen)s.*#br#Module HP can be affected by shell module damage stats."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14006.features.description.effectsDescription.0.title",
+									"message": "TRACKS"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_track_xm1_gerlach.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14006.features.description.localizedName",
+							"message": "Gerlach XM1"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14006.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_06"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "tracks_gerlach_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/chassis_xm1/tracks_xm1_gerlach/tracks_xm1_gerlach.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 14006
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 39,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14028.features.description.effectsDescription.0.description",
+									"message": "Stronger tracks that harder to break and easier to repair."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14028.features.description.effectsDescription.0.title",
+									"message": "Titanium Links"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_track_xm1_t97.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14028.features.description.localizedName",
+							"message": "T97"
+						},
+						"power": 195,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14028.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_06"
+					},
+					"commerce": {
+						"entitlement": "tracks_t97_volcano",
+						"product": "tracks_t97_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "tracks_t97",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/chassis_xm1/tracks_xm1_t97/tracks_xm1_t97.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 14028
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14677.features.description.effectsDescription.0.description",
+									"message": "Stronger tracks that harder to break and easier to repair."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14677.features.description.effectsDescription.0.title",
+									"message": "Titanium Links"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_tracks_d640a.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14677.features.description.localizedName",
+							"message": "T97A"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14677.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_06"
+					},
+					"commerce": {
+						"entitlement": "tracks_t_97_mk1a_xm1_v",
+						"product": "tracks_t_97_mk1a_xm1_v"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "tracks_t_97_mk1a_xm1_v",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/chassis_xm1/tracks_t_97_mk1a_xm1_v.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 14677
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 4,
+						"recon": 0,
+						"toughness": 4,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14680.features.description.effectsDescription.0.description",
+									"message": "Improves reverse and hull traverse speeds."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14680.features.description.effectsDescription.0.title",
+									"message": "Gear Set"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/transmission_x_700.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14680.features.description.localizedName",
+							"message": "XD-1300"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14680.features.description.subtitle",
+							"message": "Transmission"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_09"
+					},
+					"commerce": {
+						"entitlement": "transmission_xd_1300",
+						"product": "transmission_xd_1300"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "transmission_xd_1300",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/transmission_volcano_hangar.prefab",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/transmission_volcano.prefab",
+						"slot": {
+							"handle": "Transmission"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Transmission"
+					}
+				},
+				"id": 14680
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 21,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.15002.features.description.effectsDescription.0.description",
+									"message": "Improves turret traverse and gun aiming speed."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.15002.features.description.effectsDescription.0.title",
+									"message": "Upgraded Drive"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_electric_turret_rotation_mech.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.15002.features.description.localizedName",
+							"message": "Versturmotor "
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.15002.features.description.subtitle",
+							"message": "Rotator"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_turret"
+					},
+					"commerce": {
+						"entitlement": "turret_rotator_gc_12",
+						"product": "turret_rotator_gc_12"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "turret_rotator_gc_12",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/turret_rotator_gc_12_hangar.prefab",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/turret_rotator_gc_12.prefab",
+						"slot": {
+							"handle": "GunTurretDrive"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret Rotator"
+					}
+				},
+				"id": 15002
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14036.features.description.effectsDescription.0.description",
+									"message": "Watch enemy turrets explosively erupt on your *20m-long minefield*, deployable from a distance up to *150m*. Each mine can deal up to *160* damage. #br#You can place *1 minefield* per cooldown."
+								},
+								"hotKey": "R",
+								"icon": "",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14036.features.description.effectsDescription.0.title",
+									"message": "VOLCANO MINE SYSTEM"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_mine_system_volcano_01.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14036.features.description.localizedName",
+							"message": "Cinder"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14036.features.description.subtitle",
+							"message": "Minelaying System"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_14"
+					},
+					"commerce": {
+						"entitlement": "mine_system_cinder_volcano",
+						"product": "mine_system_cinder_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "mine_system_cinder",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/mine_system_cinder.prefab",
+						"slot": {
+							"handle": "MineSystem"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14036
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14304.features.description.effectsDescription.0.description",
+									"message": "Increases number of minefields you can place between cooldowns to *2*."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14304.features.description.effectsDescription.0.title",
+									"message": "VOLCANO MINE SYSTEM"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_mine_system_volcano_02.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14304.features.description.localizedName",
+							"message": "Volcano"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14304.features.description.subtitle",
+							"message": "Minelaying System"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_14"
+					},
+					"commerce": {
+						"entitlement": "mine_system_lvl2_volcano_volcano",
+						"product": "mine_system_lvl2_volcano_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "mine_system_lvl2_volcano",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/mine_system_volcano.prefab",
+						"slot": {
+							"handle": "MineSystem"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14304
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14305.features.description.effectsDescription.0.description",
+									"message": "Increases number of minefields that can be placed to *4*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14305.features.description.effectsDescription.0.title",
+									"message": "Mine superiority"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_mine_system_volcano_03.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14305.features.description.localizedName",
+							"message": "Stratovolcano"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14305.features.description.subtitle",
+							"message": "Mine-Laying System"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_14"
+					},
+					"commerce": {
+						"entitlement": "mine_system_lvl3_stratovolcano_volcano",
+						"product": "mine_system_lvl3_stratovolcano_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "mine_system_lvl3_stratovolcano",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/mine_system_stratovolcano.prefab",
+						"slot": {
+							"handle": "MineSystem"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Mine System"
+					}
+				},
+				"id": 14305
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14039.features.description.effectsDescription.0.description",
+									"message": "Blow the enemy to smithereens with an instant barrage of *2 rockets*, each dealing *200* damage within their *150-meter range*.#br#You can use rockets to blow up mines and deal even more damage to enemy tanks.#br#You can launch rockets *2 times* before cooldown is required."
+								},
+								"hotKey": "F",
+								"icon": "",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14039.features.description.effectsDescription.0.title",
+									"message": "DEMOLITION CHARGE"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_rocket_pod.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14039.features.description.localizedName",
+							"message": "Comet"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14039.features.description.subtitle",
+							"message": "Rocket Pod"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_19"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "rocket_pod_lvl1_comet",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/demolition_chargers_comet.prefab",
+						"slot": {
+							"handle": "DemolitionCharges"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14039
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14040.features.description.effectsDescription.0.description",
+									"message": "Increases number of launched rockets to *4*.#br#You can use rockets to blow up mines and deal even more damage to enemy tanks.#br#You can launch rockets *2 times* before cooldown is required."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14040.features.description.effectsDescription.0.title",
+									"message": "DEMOLITION CHARGE"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_rocket_pod2.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14040.features.description.localizedName",
+							"message": "Bolide"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14040.features.description.subtitle",
+							"message": "Rocket Pod"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_19"
+					},
+					"commerce": {
+						"entitlement": "demolition_system_lvl_2_bolide_volcano",
+						"product": "demolition_system_lvl_2_bolide_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "rocket_pod_lvl2_bolide",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/demolition_charges_bolide.prefab",
+						"slot": {
+							"handle": "DemolitionCharges"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Rocket Pod"
+					}
+				},
+				"id": 14040
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 20,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.15001.features.description.effectsDescription.0.description",
+									"message": "Provides *x10* scope zoom factor."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.15001.features.description.effectsDescription.0.title",
+									"message": "ZOOM FACTOR"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_zeiss.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.15001.features.description.localizedName",
+							"message": "GTC"
+						},
+						"power": 150,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.15001.features.description.subtitle",
+							"message": "Gunner Scope"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_turret"
+					},
+					"commerce": {
+						"entitlement": "sight_gct",
+						"product": "sight_gct"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "sight_gct",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/sight_gct_hangar.prefab",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/sight_gct.prefab",
+						"slot": {
+							"handle": "Sight"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 15001
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14681.features.description.effectsDescription.0.description",
+									"message": "Improves driving quality, resulting in better gun stabilization."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14681.features.description.effectsDescription.0.title",
+									"message": "Torsion Bars"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_suspension_stiff_torsion_bars.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14681.features.description.localizedName",
+							"message": "ESS"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14681.features.description.subtitle",
+							"message": "Suspension"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_chassis"
+					},
+					"commerce": {
+						"entitlement": "suspension_fsed_volcano",
+						"product": "suspension_fsed_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "suspension_fsed_volcano",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/chassis_xm1/suspension_ess_hangar.prefab",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/chassis_xm1/suspension_ess.prefab",
+						"slot": {
+							"handle": "Suspension"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Suspension"
+					}
+				},
+				"id": 14681
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14682.features.description.effectsDescription.0.description",
+									"message": "Improves gun aiming speed and reduces reticle size."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14682.features.description.effectsDescription.0.title",
+									"message": "Hydraulic Stabilizer"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_stabilizator_2.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14682.features.description.localizedName",
+							"message": "EGT"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14682.features.description.subtitle",
+							"message": "Stabilizer"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_turret"
+					},
+					"commerce": {
+						"entitlement": "stabilizer_egt",
+						"product": "stabilizer_egt"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "stabilizer_egt",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/stabilizer_egtd_volcano_hangar.prefab",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/stabilizer_egtd_volcano.prefab",
+						"slot": {
+							"handle": "Stabilizer"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Stabilizer"
+					}
+				},
+				"id": 14682
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14022.features.description.effectsDescription.0.description",
+									"message": "Increases energy capacity and regeneration."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14022.features.description.effectsDescription.0.title",
+									"message": "Generator"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_eapu.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14022.features.description.localizedName",
+							"message": "APU"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14022.features.description.subtitle",
+							"message": "Power Unit"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_08"
+					},
+					"commerce": {
+						"entitlement": "power_apu_volcano",
+						"product": "power_apu_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "power_apu",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/hull_xm1/upgrades/apu.prefab",
+						"slot": {
+							"handle": "PowerUnit"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Power Unit"
+					}
+				},
+				"id": 14022
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14317.features.description.effectsDescription.0.description",
+									"message": "Improves visibility."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14317.features.description.effectsDescription.0.title",
+									"message": "Highlight"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_lamp.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14317.features.description.localizedName",
+							"message": "Sunlight AN/VSS-3"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14317.features.description.subtitle",
+							"message": "Projector"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "projector_an_vss_3_volcano",
+						"product": "projector_an_vss_3_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "projector_an_vss_3",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/gun_m70/upgrades/projector_sunlight.prefab",
+						"slot": {
+							"handle": "Projector"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Searchlight"
+					}
+				},
+				"id": 14317
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_shell_apds_105mm.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14264.features.description.localizedName",
+							"message": "M772"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14264.features.description.subtitle",
+							"message": "Shell"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/american/a01_chrysler_xm1/ammo/volcano/xm_volcano_settings.prefab",
+							"slot": {
+								"handle": "PrimaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_12"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": true,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm_volcano_shell_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/apds.prefab",
+						"slot": {
+							"handle": "PrimaryHangarShell"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell_AP"
+					}
+				},
+				"id": 14264
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm681_core_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/core/core_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_1"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14666
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm681_fin_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/fin/fin_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_2"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14667
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm681_primer_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/primer/primer_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_3"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14668
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm681_propellant_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/propellant/propellant_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_4"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14669
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm681_sabot_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/sabot/sabot_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_5"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14670
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14671.features.description.effectsDescription.0.description",
+									"message": "Increases critical damage."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14671.features.description.effectsDescription.0.title",
+									"message": "Uranium Core"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/shell_apds_core.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14671.features.description.localizedName",
+							"message": "APENCOR"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14671.features.description.subtitle",
+							"message": "Core"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "ammo_part_core_volcano",
+						"product": "ammo_part_core_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_core_volcano",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ammo/athena/xm681_core_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_1"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14671
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14672.features.description.effectsDescription.0.description",
+									"message": "Increases damage and penetration."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14672.features.description.effectsDescription.0.title",
+									"message": "Lightweight Sabot"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/shell_apds_sabot.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14672.features.description.localizedName",
+							"message": "MASES"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14672.features.description.subtitle",
+							"message": "Sabot"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "ammo_part_sabot_volcano",
+						"product": "ammo_part_sabot_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_sabot_volcano",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ammo/athena/xm681_sabot_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_5"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14672
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14673.features.description.effectsDescription.0.description",
+									"message": "Increases critical damage."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14673.features.description.effectsDescription.0.title",
+									"message": "Fin Stabilizer"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/shell_apds_fin.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14673.features.description.localizedName",
+							"message": "HVFS"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14673.features.description.subtitle",
+							"message": "Fin"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "ammo_part_fin_volcano",
+						"product": "ammo_part_fin_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_fin_volcano",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ammo/athena/xm681_fin_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_2"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14673
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14674.features.description.effectsDescription.0.description",
+									"message": "Improves penetration and module damage."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14674.features.description.effectsDescription.0.title",
+									"message": "Fiery"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/shell_apds_propelant.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14674.features.description.localizedName",
+							"message": "PROGCHAR"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14674.features.description.subtitle",
+							"message": "Propellant"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "ammo_part_propellant_volcano",
+						"product": "ammo_part_propellant_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_propellant_volcano",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ammo/athena/xm681_propellant_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_4"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14674
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14675.features.description.effectsDescription.0.description",
+									"message": "Increases damage."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14675.features.description.effectsDescription.0.title",
+									"message": "Explosive"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/shell_apds_primer.png",
+						"localizedName": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14675.features.description.localizedName",
+							"message": "PRIMAX"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a01_chrysler_xm1_volcano.specs.specification.modules.14675.features.description.subtitle",
+							"message": "Primer"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "ammo_part_primer_volcano",
+						"product": "ammo_part_primer_volcano"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_primer_volcano",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ammo/athena/xm681_primer_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_3"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14675
+			}
+		],
+		"modulesGroups": [
+			{
+				"id": 71,
+				"modules": [
+					14018,
+					14020
+				],
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.modulesGroups.71.title",
+					"message": "SLOT 1"
+				}
+			},
+			{
+				"id": 72,
+				"modules": [
+					14676,
+					14682
+				],
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.modulesGroups.72.title",
+					"message": "SLOT 2"
+				}
+			},
+			{
+				"id": 73,
+				"modules": [
+					14681,
+					14032
+				],
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.modulesGroups.73.title",
+					"message": "SLOT 3"
+				}
+			},
+			{
+				"id": 74,
+				"modules": [
+					14314,
+					14680
+				],
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.modulesGroups.74.title",
+					"message": "SLOT 4"
+				}
+			},
+			{
+				"id": 75,
+				"modules": [
+					15001,
+					15002
+				],
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.modulesGroups.75.title",
+					"message": "SLOT 5"
+				}
+			},
+			{
+				"id": 76,
+				"modules": [
+					14042,
+					14679
+				],
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.modulesGroups.76.title",
+					"message": "SLOT 6"
+				}
+			},
+			{
+				"id": 77,
+				"modules": [
+					14022,
+					14673
+				],
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.modulesGroups.77.title",
+					"message": "SLOT 7"
+				}
+			},
+			{
+				"id": 79,
+				"modules": [
+					14028,
+					14677
+				],
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.modulesGroups.79.title",
+					"message": "SLOT 8"
+				}
+			},
+			{
+				"id": 80,
+				"modules": [
+					14315,
+					14674
+				],
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.modulesGroups.80.title",
+					"message": "SLOT 9"
+				}
+			},
+			{
+				"id": 81,
+				"modules": [
+					14305,
+					14040
+				],
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.modulesGroups.81.title",
+					"message": "SLOT 10"
+				}
+			}
+		],
+		"perkGroups": [
+			{
+				"category": "Hero",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "breacher_volcano_cool_aid",
+							"product": "breacher_volcano_cool_aid"
+						},
+						"id": 1011,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "breacher_volcano_rapid_deployment",
+							"product": "breacher_volcano_rapid_deployment"
+						},
+						"id": 1012,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "breacher_volcano_supercharger",
+							"product": "breacher_volcano_supercharger"
+						},
+						"id": 1013,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Role",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "volcano_defender_master_engineer",
+							"product": "volcano_defender_master_engineer"
+						},
+						"id": 1003,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "volcano_defender_back_on_track",
+							"product": "volcano_defender_back_on_track"
+						},
+						"id": 1004,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "volcano_defender_collision_course",
+							"product": "volcano_defender_collision_course"
+						},
+						"id": 1005,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Division",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "volcano_breacher_brcompany_stable_approach",
+							"product": "volcano_breacher_brcompany_stable_approach"
+						},
+						"id": 1008,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "volcano_breacher_brcompany_dying_fire",
+							"product": "volcano_breacher_brcompany_dying_fire"
+						},
+						"id": 1006,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "volcano_breacher_brcompany_peripheral_vision",
+							"product": "volcano_breacher_brcompany_peripheral_vision"
+						},
+						"id": 1007,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Conditional",
+				"isDefault": true,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "",
+							"product": ""
+						},
+						"id": 1002,
+						"overrides": []
+					}
+				]
+			}
+		],
+		"perks": [
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1001.description",
+					"message": "Reduces gun reload time by *10%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/support_role_perks/well_oiled_machine.png",
+				"id": 1001,
+				"prefab": "/game_prefabs/perks/role_perks/support/well_oiled_machine/well_oiled_machine_perk.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1001.title",
+					"message": "WELL-OILED MACHINE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1002.description",
+					"message": "Dealing 1,200 damage in *30s* with Agent abilities *quadruples* energy regen for 15s."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/breacher/conditional/support_master.png",
+				"id": 1002,
+				"prefab": "/vehicles/american/a01_chrysler_xm1/traits_and_perks/volcano/conditional_trait/support_master/support_master_volcano_trait.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1002.title",
+					"message": "SUPPORT MASTER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1003.description",
+					"message": "Improves Repair Kit stats, increases number of hit points recovered by *+5 hp/sec*, increases repair duration by *+5s*, and reduces Repair Kit cooldown by *10s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/master_engineer.png",
+				"id": 1003,
+				"prefab": "/game_prefabs/perks/role_perks/defender/master_engineer/master_engineer_perk.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1003.title",
+					"message": "MASTER ENGINEER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1004.description",
+					"message": "Reduces track and engine repair time by *25%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/back_on_track.png",
+				"id": 1004,
+				"prefab": "/game_prefabs/perks/role_perks/defender/back_on_track/back_on_track_perk.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1004.title",
+					"message": "BACK ON TRACK"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1005.description",
+					"message": "Greatly improves ramming damage bonus and reduces ramming damage to the front of your tank."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/collision_course.png",
+				"id": 1005,
+				"prefab": "/game_prefabs/perks/role_perks/defender/collision_course/collision_course_perk.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1005.title",
+					"message": "COLLISION COURSE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1006.description",
+					"message": "Passively reduces duration of fire by *2s* and reduces fire damage received by *50%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/bravo_company/dying_fire.png",
+				"id": 1006,
+				"prefab": "/game_prefabs/perks/division_perks/bravo_company/dying_fire/dying_fire_perk.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1006.title",
+					"message": "DYING FIRE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 5,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1007.description",
+					"message": "Widens spotting angle by *45deg*; reduces spotting range by *150m*. Increases the time enemies stay detected on radar by *1s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/bravo_company/peripheral_vision.png",
+				"id": 1007,
+				"prefab": "/game_prefabs/perks/division_perks/bravo_company/peripheral_vision/peripheral_vision_perk.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1007.title",
+					"message": "PERIPHERAL VISION"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1008.description",
+					"message": "Improves gun stabilization when shooting on the move by *15%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/bravo_company/stable_approach.png",
+				"id": 1008,
+				"prefab": "/game_prefabs/perks/division_perks/bravo_company/stable_approach/stable_approach_perk.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1008.title",
+					"message": "STABLE APPROACH"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1009.description",
+					"message": "Reduces energy cost of all abilities by *5 points*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/support_role_perks/energy_efficient.png",
+				"id": 1009,
+				"prefab": "/game_prefabs/perks/role_perks/support/energy_efficient/energy_efficient_perk.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1009.title",
+					"message": "ENERGY EFFICIENT"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1010.description",
+					"message": "Increases gunner aiming speed by *15%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/support_role_perks/quick_draw.png",
+				"id": 1010,
+				"prefab": "/game_prefabs/perks/role_perks/support/quick_draw/quick_draw_perk.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1010.title",
+					"message": "QUICK DRAW"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1011.description",
+					"message": "Reduces Repair Kit cooldown by *15s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/breacher/cool_aid.png",
+				"id": 1011,
+				"prefab": "/vehicles/american/a01_chrysler_xm1/traits_and_perks/volcano/perks/cool_aid/volcano_cool_aid_perk.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1011.title",
+					"message": "COOL-AID"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1012.description",
+					"message": "Reduces field ability cooldown by *10s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/breacher/rapid_deployment.png",
+				"id": 1012,
+				"prefab": "/vehicles/american/a01_chrysler_xm1/traits_and_perks/volcano/perks/rapid_deployment/volcano_rapid_deployement_perk.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1012.title",
+					"message": "RAPID DEPLOYMENT"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 5,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1013.description",
+					"message": "Increases acceleration by *10%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/breacher/supercharger.png",
+				"id": 1013,
+				"prefab": "/vehicles/american/a01_chrysler_xm1/traits_and_perks/volcano/perks/supercharger/volcano_supercharger_perk.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1013.title",
+					"message": "SUPERCHARGER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1014.description",
+					"message": "Increases energy regeneration rate by *+0.25 point/sec*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/breacher/second_wind.png",
+				"id": 1014,
+				"prefab": "/vehicles/american/a01_chrysler_xm1/traits_and_perks/ejecta/perks/second_wind/ejecta_second_wind_perk.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1014.title",
+					"message": "SECOND WIND"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 5,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1015.description",
+					"message": "Increases tank reverse speed by *2km/h*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/breacher/evasive_maneuver.png",
+				"id": 1015,
+				"prefab": "/vehicles/american/a01_chrysler_xm1/traits_and_perks/ejecta/perks/evasive_maneuver/ejecta_evasive_maneuver_perk.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1015.title",
+					"message": "EVASIVE MANEUVER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1016.description",
+					"message": "Reduces Smoke Mortar ability cooldown by *10s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/breacher/smoking_gun.png",
+				"id": 1016,
+				"prefab": "/vehicles/american/a01_chrysler_xm1/traits_and_perks/ejecta/perks/smoking_gun/ejecta_smoking_gun_perk.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1016.title",
+					"message": "SMOKING GUN"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1017.description",
+					"message": "Hitting *6* consecutive shots reduces reload time by *3s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/breacher/conditional/six_hit_wonder.png",
+				"id": 1017,
+				"prefab": "/vehicles/american/a01_chrysler_xm1/traits_and_perks/ejecta/conditional_trait/six_hit_wonder.prefab",
+				"title": {
+					"key": "a01_chrysler_xm1_volcano.specs.specification.perks.1017.title",
+					"message": "SIX-HIT WONDER"
+				}
+			}
+		],
+		"perksSlot": {
+			"handle": "Perks"
+		},
+		"power": 1000,
+		"prefabPlaceholders": [
+			{
+				"pawnRequired": true,
+				"prefabPath": "/vehicles/american/a01_chrysler_xm1/settings/workshop_anchors_volcano.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_anchors"
+				},
+				"switcherName": "a01_chrysler_xm1_volcano.specs.specification.callSign"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/breacher/breacher_pc_1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Breacher_1_volcano"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/breacher/breacher_pc_2.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Breacher_2_volcano"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/breacher/breacher_pc_3.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Breacher_3_volcano"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/breacher/breacher_pc_4.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Breacher_4_volcano"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/breacher/h_breacher_1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Breacher_1_volcano"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/breacher/h_breacher_2.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Breacher_2_volcano"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/breacher/h_breacher_3.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Breacher_3_volcano"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/breacher/h_breacher_4.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Breacher_4_volcano"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/worlds/camps/hq_cameras/blue_hq_cameras_breacher.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_cameras"
+				},
+				"switcherName": "Breacher"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/breacher/breacher_ws_1_volcano.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Breacher_1_volcano"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/breacher/breacher_ws_2_volcano.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Breacher_2_volcano"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/breacher/breacher_ws_3_volcano.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Breacher_3_volcano"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/breacher/breacher_ws_4_volcano.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Breacher_4_volcano"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/worlds/camps/base/consumables_anchors.prefab",
+				"spawnPlaceholderName": {
+					"handle": "consumable_anchors"
+				},
+				"switcherName": "a01_chrysler_xm1_volcano.specs.specification.callSign"
+			}
+		],
+		"role": "Defender",
+		"shellSlots": [
+			{
+				"handle": "PrimaryShell"
+			},
+			{
+				"handle": "SecondaryShell"
+			}
+		],
+		"shortDescription": {
+			"key": "a01_chrysler_xm1_volcano.specs.specification.shortDescription",
+			"message": "xm24"
+		},
+		"slotsAreas": [
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": true,
+				"left": 480,
+				"top": 290,
+				"uiAnchor": {
+					"handle": "GunModule"
+				},
+				"uiCategory": "Firepower"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": false,
+				"drawRightToLeft": true,
+				"left": 418,
+				"top": 846,
+				"uiAnchor": {
+					"handle": "HullModule"
+				},
+				"uiCategory": "Toughness"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1022,
+				"top": 140,
+				"uiAnchor": {
+					"handle": "TurretModule"
+				},
+				"uiCategory": "Recon"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1536,
+				"top": 295,
+				"uiAnchor": {
+					"handle": "EngineModule"
+				},
+				"uiCategory": "Mobility"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.3)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1170,
+				"top": 155,
+				"uiAnchor": {
+					"handle": "CommunicationModule"
+				},
+				"uiCategory": "Utility"
+			}
+		],
+		"smallVehicleImage": "/ui/assets/hero_vehicles/death_card/breacher/xm1_volcano.png",
+		"talismanHolder": {
+			"cameraName": {
+				"handle": "talisman_camera"
+			},
+			"prefab": "/vehicles/american/a01_chrysler_xm1/volcano_fbx/prefabs/turret_xm1/upgrades/talisman_holder.prefab",
+			"slot": {
+				"handle": "TalismanHolder"
+			}
+		},
+		"technicalName": "a01_chrysler_xm1_volcano",
+		"tierSettings": [
+			{
+				"maxPower": 1999,
+				"minPower": 0,
+				"tier": 1
+			},
+			{
+				"maxPower": 2999,
+				"minPower": 2000,
+				"tier": 2
+			},
+			{
+				"maxPower": 3999,
+				"minPower": 3000,
+				"tier": 3
+			},
+			{
+				"maxPower": 4999,
+				"minPower": 4000,
+				"tier": 4
+			},
+			{
+				"maxPower": 5999,
+				"minPower": 5000,
+				"tier": 5
+			},
+			{
+				"maxPower": 6999,
+				"minPower": 6000,
+				"tier": 6
+			},
+			{
+				"maxPower": 9999,
+				"minPower": 7000,
+				"tier": 7
+			}
+		],
+		"vehicleId": 1,
+		"vehicleName": {
+			"key": "a01_chrysler_xm1_volcano.specs.specification.vehicleName",
+			"message": "XM1 \"Volcano\""
+		}
+	}
+}
 ```

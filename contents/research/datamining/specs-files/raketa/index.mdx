@@ -11,5 +11,5362 @@ PLACEHOLDER TEXT
 
 ### Full contents of the file
 ```json
-PLACEHOLDER CODE
+{
+	"__type__": "CW::VehicleSpecificationStorage",
+	"specification": {
+		"abilityModifiersSlots": [
+			{
+				"abilitySlot": {
+					"handle": "Perks"
+				},
+				"relatedModifierSlots": [
+					{
+						"handle": "SharpShooterConditionalTraitModifier"
+					}
+				]
+			}
+		],
+		"abilitySlots": [
+			{
+				"handle": "FirstAbility"
+			},
+			{
+				"handle": "SecondAbility"
+			},
+			{
+				"handle": "ThirdAbility"
+			}
+		],
+		"aiSettings": {
+			"brainsSlot": {
+				"handle": "AIBrains"
+			},
+			"defaultPreset": {
+				"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_capture_defend_base.prefab",
+				"modulesLayout": []
+			},
+			"gameModePresets": [
+				{
+					"key": {
+						"handle": "conquest"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest_newcomer.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "ct"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "domination"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "hq"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						}
+					}
+				}
+			]
+		},
+		"baseEquipment": [
+			{
+				"installSlot": {
+					"handle": "FirstEquipment"
+				},
+				"prefab": "/game_prefabs/equipment/repair_kit/repair_kit_ability.prefab",
+				"previewImage": "",
+				"video": ""
+			}
+		],
+		"basicCharacteristics": {
+			"firepower": 450,
+			"mobility": 300,
+			"recon": 55,
+			"toughness": 200,
+			"utility": 0
+		},
+		"callSign": {
+			"key": "r01_t_62_1962_m2.specs.specification.callSign",
+			"message": "Raketa"
+		},
+		"commerce": {
+			"entitlement": "vehicle_t62_m2",
+			"product": "vehicle_t62_m2"
+		},
+		"commercePath": "/vehicles/russian/r01_t_62_1962/settings/commerce_m2.specs",
+		"complexity": 1,
+		"crew": {
+			"crewMembers": [
+				{
+					"arenaPrefab": "/vehicles/russian/r01_t_62_1962/settings/frontmans/frontman_1.prefab",
+					"bigImage": "/ui/assets/heroes/udarnik/crew/extralarge/udarnik_crew_01.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "striker_crew_01_m2",
+						"product": ""
+					},
+					"description": {
+						"key": "r01_t_62_1962_m2.specs.specification.crew.crewMembers.1001.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": "/game_prefabs/characters/frontman_striker.prefab"
+					},
+					"id": 1001,
+					"image": "/ui/assets/heroes/udarnik/crew/large/udarnik_crew_01.png",
+					"isDefaultFrontman": true,
+					"lastName": {
+						"key": "r01_t_62_1962_m2.specs.specification.crew.crewMembers.1001.lastName",
+						"message": "Revinskiy"
+					},
+					"name": {
+						"key": "r01_t_62_1962_m2.specs.specification.crew.crewMembers.1001.name",
+						"message": "Georgiy"
+					},
+					"prefabPlaceholderName": "Striker_1_m2",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/udarnik/crew/small/udarnik_crew_01_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/russian/r01_t_62_1962/settings/frontmans/frontman_2.prefab",
+					"bigImage": "/ui/assets/heroes/udarnik/crew/extralarge/udarnik_crew_02.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "striker_crew_02_m2",
+						"product": ""
+					},
+					"description": {
+						"key": "r01_t_62_1962_m2.specs.specification.crew.crewMembers.1002.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 1002,
+					"image": "/ui/assets/heroes/udarnik/crew/large/udarnik_crew_02.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "r01_t_62_1962_m2.specs.specification.crew.crewMembers.1002.lastName",
+						"message": "Belyaev"
+					},
+					"name": {
+						"key": "r01_t_62_1962_m2.specs.specification.crew.crewMembers.1002.name",
+						"message": "Leonid"
+					},
+					"prefabPlaceholderName": "Striker_2_m2",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/udarnik/crew/small/udarnik_crew_02_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/russian/r01_t_62_1962/settings/frontmans/frontman_3.prefab",
+					"bigImage": "/ui/assets/heroes/udarnik/crew/extralarge/udarnik_crew_03.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "striker_crew_03_m2",
+						"product": ""
+					},
+					"description": {
+						"key": "r01_t_62_1962_m2.specs.specification.crew.crewMembers.1003.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 1003,
+					"image": "/ui/assets/heroes/udarnik/crew/large/udarnik_crew_03.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "r01_t_62_1962_m2.specs.specification.crew.crewMembers.1003.lastName",
+						"message": "Dyatlov"
+					},
+					"name": {
+						"key": "r01_t_62_1962_m2.specs.specification.crew.crewMembers.1003.name",
+						"message": "Mikhail"
+					},
+					"prefabPlaceholderName": "Striker_3_m2",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/udarnik/crew/small/udarnik_crew_03_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/russian/r01_t_62_1962/settings/frontmans/frontman_4.prefab",
+					"bigImage": "/ui/assets/heroes/udarnik/crew/extralarge/udarnik_crew_04.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "striker_crew_04_m2",
+						"product": ""
+					},
+					"description": {
+						"key": "r01_t_62_1962_m2.specs.specification.crew.crewMembers.1004.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 1004,
+					"image": "/ui/assets/heroes/udarnik/crew/large/udarnik_crew_04.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "r01_t_62_1962_m2.specs.specification.crew.crewMembers.1004.lastName",
+						"message": "Marinich"
+					},
+					"name": {
+						"key": "r01_t_62_1962_m2.specs.specification.crew.crewMembers.1004.name",
+						"message": "Leonid"
+					},
+					"prefabPlaceholderName": "Striker_4_m2",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/udarnik/crew/small/udarnik_crew_04_req.png",
+					"setBonuses": []
+				}
+			],
+			"customization": [],
+			"setBonuses": []
+		},
+		"customization3D": {
+			"modulesPacks": [],
+			"stylesPacks": []
+		},
+		"customizationLayout": 5,
+		"description": {
+			"key": "r01_t_62_1962_m2.specs.specification.description",
+			"message": "Depending on its modifications, can either be a sturdy defender or ruthless attacker"
+		},
+		"displayableCurrencies": [
+			{
+				"handle": "soft"
+			},
+			{
+				"handle": "reputation_red"
+			}
+		],
+		"divisionColor": "#D44730",
+		"divisionIcon": "/ui/assets/meta/select_hero/russian_division.png",
+		"divisionIconSmall": "/ui/assets/meta/select_hero/russian_division_small.png",
+		"divisionName": {
+			"key": "r01_t_62_1962_m2.specs.specification.divisionName",
+			"message": "Grasshoppers"
+		},
+		"divisionShortName": {
+			"key": "r01_t_62_1962_m2.specs.specification.divisionShortName",
+			"message": "Grasshoppers"
+		},
+		"economyPrefab": "/vehicles/russian/r01_t_62_1962/settings/economy_settings_m2.prefab",
+		"equipmentCameras": [
+			{
+				"handle": "equipment_1st_camera"
+			},
+			{
+				"handle": "equipment_2nd_camera"
+			},
+			{
+				"handle": "equipment_3rd_camera"
+			}
+		],
+		"equipmentSlots": [
+			{
+				"handle": "FirstEquipment"
+			},
+			{
+				"handle": "SecondEquipment"
+			},
+			{
+				"handle": "ThirdEquipment"
+			}
+		],
+		"features": {
+			"abilityFeatures": [],
+			"moduleFeatures": [],
+			"passiveFeatures": [],
+			"perkFeatures": []
+		},
+		"fraction": {
+			"handle": "blue"
+		},
+		"gameplayPrefab": "/vehicles/russian/r01_t_62_1962/settings/gameplay_settings.prefab",
+		"hiddenAbilitiesSlot": {
+			"handle": "HiddenAbilities"
+		},
+		"image": "/ui/assets/heroes/udarnik/vehicle/striker_stock.png",
+		"isHidden": false,
+		"mastering": {
+			"commerce": "udarnik_t62m2_poachers_grant_500_exp",
+			"levels": [
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_r01_m2_1",
+						"product": "mastering_lvl_r01_m2_1"
+					},
+					"extraEquipment": [],
+					"points": 0,
+					"rewards": [],
+					"unlockGroups": [
+						1
+					],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_r01_m2_2",
+						"product": "mastering_lvl_r01_m2_2"
+					},
+					"extraEquipment": [],
+					"points": 2000,
+					"rewards": [],
+					"unlockGroups": [
+						2
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						10012
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_r01_m2_3",
+						"product": "mastering_lvl_r01_m2_3"
+					},
+					"extraEquipment": [],
+					"points": 4200,
+					"rewards": [],
+					"unlockGroups": [
+						3
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						10007
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_r01_m2_4",
+						"product": "mastering_lvl_r01_m2_4"
+					},
+					"extraEquipment": [],
+					"points": 6700,
+					"rewards": [],
+					"unlockGroups": [
+						4
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						10009
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_r01_m2_5",
+						"product": "mastering_lvl_r01_m2_5"
+					},
+					"extraEquipment": [],
+					"points": 11000,
+					"rewards": [],
+					"unlockGroups": [
+						5
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						10004
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_r01_m2_6",
+						"product": "mastering_lvl_r01_m2_6"
+					},
+					"extraEquipment": [],
+					"points": 15500,
+					"rewards": [],
+					"unlockGroups": [
+						6
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						10008
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_r01_m2_7",
+						"product": "mastering_lvl_r01_m2_7"
+					},
+					"extraEquipment": [],
+					"points": 20200,
+					"rewards": [],
+					"unlockGroups": [
+						7
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						10017
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_r01_m2_8",
+						"product": "mastering_lvl_r01_m2_8"
+					},
+					"extraEquipment": [],
+					"points": 26500,
+					"rewards": [],
+					"unlockGroups": [
+						8
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						10005
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_r01_m2_9",
+						"product": "mastering_lvl_r01_m2_9"
+					},
+					"extraEquipment": [],
+					"points": 33000,
+					"rewards": [],
+					"unlockGroups": [
+						9
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						10014
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_r01_m2_10",
+						"product": "mastering_lvl_r01_m2_10"
+					},
+					"extraEquipment": [],
+					"points": 39700,
+					"rewards": [],
+					"unlockGroups": [
+						10
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						10016
+					]
+				}
+			],
+			"pointsCurrency": {
+				"handle": "r01_m2"
+			}
+		},
+		"modules": [
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/equipment/fire/fire_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"installSlot": {
+								"handle": "FirstAbility"
+							},
+							"isHidden": false,
+							"prefab": "/vehicles/russian/r01_t_62_1962/abilities/rocketpod_ability/a_rocketpod_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.337.features.description.localizedName",
+							"message": "hide_me_please"
+						},
+						"power": 50,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.337.features.description.subtitle",
+							"message": "hide_me_please"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [
+						{
+							"prefab": "/game_prefabs/equipment/energy_booster/energy_booster_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/extinguisher/extinguisher_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/med_kit/med_kit.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"layout": 21,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_hull"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "root_m2",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/r01_t_62_1962_assault.prefab",
+						"slot": {
+							"handle": "Root"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 337
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.363.features.description.localizedName",
+							"message": "Lobby_Collider"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.363.features.description.subtitle",
+							"message": "Lobby_Collider"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "m2_lobby_collider",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/lobby_collider.prefab",
+						"slot": {
+							"handle": "LobbyCollider"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 363
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "m2_chassis_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/chassis_t_62/chassis_t_62.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 352
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.355.features.description.effectsDescription.0.description",
+									"message": "Starts *fire* and reduces vehicle speed by *50%* when damaged"
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.355.features.description.effectsDescription.0.title",
+									"message": "ENGINE"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_engine_tv3_117.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.355.features.description.localizedName",
+							"message": "TV3-117 GTD"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.355.features.description.subtitle",
+							"message": "Engine"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_04"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "engine_tv3_117_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/engine_tv3_117.prefab",
+						"slot": {
+							"handle": "Engine"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine"
+					}
+				},
+				"id": 355
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_scope_base.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.360.features.description.localizedName",
+							"message": "Sight XXX"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.360.features.description.subtitle",
+							"message": "Sight"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_24"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "m2_scope_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/scope_empty.prefab",
+						"slot": {
+							"handle": "Scope"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 360
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 26,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_hull.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.301.features.description.localizedName",
+							"message": "mod. 1967"
+						},
+						"power": 129,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.301.features.description.subtitle",
+							"message": "Hull"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_07"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "hull_mod1967_base",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/hull_t_62_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/hull_t_62.prefab",
+						"slot": {
+							"handle": "Hull"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull"
+					}
+				},
+				"id": 301
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 19,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 24,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_turret.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.302.features.description.localizedName",
+							"message": "mod. 1972"
+						},
+						"power": 215,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.302.features.description.subtitle",
+							"message": "Turret"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 97,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "turret_mod1967_base",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/turret_t_62_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/turret_t_62.prefab",
+						"slot": {
+							"handle": "Turret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret"
+					}
+				},
+				"id": 302
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.365.features.description.effectsDescription.0.description",
+									"message": "The tracks have *%(LTrackMaxHP) module HP*. Losing all module HP will *immobilize* your vehicle for *%(LTrackTimeToRegen)s*.#br#Shells inflict additional damage if they hit modules."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.365.features.description.effectsDescription.0.title",
+									"message": "TRACKS"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_track.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.365.features.description.localizedName",
+							"message": "TMSh"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.365.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_01"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "tracks_tmsh_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/chassis_t_62/tracks_t_62_01/tracks_t_62_01.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 14296,
+							"prefabOverride": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/chassis_166_m2/tracks_t_62_02/tracks_t_62_02.prefab"
+						}
+					],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 365
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.370.features.description.effectsDescription.0.description",
+									"message": "AP Shells deal more damage/penetration in close combat (less than *150 m*)."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.370.features.description.effectsDescription.0.title",
+									"message": "CLOSE COMBAT AMMO"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_apds_base.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.370.features.description.localizedName",
+							"message": "BM12D"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.370.features.description.subtitle",
+							"message": "Shell"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/russian/r01_t_62_1962/ammo/assault/3umb4_settings.prefab",
+							"slot": {
+								"handle": "PrimaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": true,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "shell_bm12d_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/apds.prefab",
+						"slot": {
+							"handle": "PrimaryHangarShell"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell_AP"
+					}
+				},
+				"id": 370
+			},
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/abilities/self_autoloader/a_autoloader_ability.prefab",
+							"previewImage": "/ui/assets/abilities/ability_video_preview/t62/img_preview/t62_img_autoloader_b1_firemode.png",
+							"video": "/ui/assets/abilities/ability_video_preview/t62/t62_vid_autoloader_b1_firemode.webm"
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.307.features.description.effectsDescription.0.description",
+									"message": "This cannon has a cylinder that holds *%(gun/autoreloaderShellCount) shells*. The next shell is loaded immediately after the cylinder is rotated, and the process takes *%(gun/autoreloaderLoadingTime)s*. It takes *%(gun/autoreloaderShellLoadingTime)s* to cycle the cylinder (to fire the next shot)."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.307.features.description.effectsDescription.0.title",
+									"message": "AL \"ZHYOLUD\""
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_gun.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.307.features.description.localizedName",
+							"message": "UTS 100M"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.307.features.description.subtitle",
+							"message": "Gun"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 13,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gun_uts100m_base",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/gun_uts_100m_a/gun_uts_100m_a_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/gun_uts_100m_a/gun_uts_100m_a.prefab",
+						"slot": {
+							"handle": "Gun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun"
+					}
+				},
+				"id": 307
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14270.features.description.localizedName",
+							"message": "VAD-2101"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14270.features.description.subtitle",
+							"message": "Radiator"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_engine"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "oil_radiators_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/oil_radiators_empty.prefab",
+						"slot": {
+							"handle": "OilRadiators"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14270
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14265.features.description.localizedName",
+							"message": "UAD-432"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14265.features.description.subtitle",
+							"message": "Oil Tank"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "oil_tank_small_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/oil_tank_small.prefab",
+						"slot": {
+							"handle": "OilTank"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14265
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_engine"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "transmission_gearbox_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/transmission_gearbox_01.prefab",
+						"slot": {
+							"handle": "Transmission"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14267
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14275.features.description.localizedName",
+							"message": "XXX"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14275.features.description.subtitle",
+							"message": "Periscope"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "periscope_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/periscope_empty.prefab",
+						"slot": {
+							"handle": "Periscope"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14275
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "projector_broken_base",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/projector_broken_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/projector_broken.prefab",
+						"slot": {
+							"handle": "Projector"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14277
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14287.features.description.effectsDescription.0.description",
+									"message": "Rip your enemies to shreds by firing *20 rockets,* each dealing *75 damage* and slowing enemy movement by *20%* on impact"
+								},
+								"hotKey": "2",
+								"icon": "",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14287.features.description.effectsDescription.0.title",
+									"message": "ROCKET BARRAGE"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_ub16_57um.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14287.features.description.localizedName",
+							"message": "UB16-57-UM"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14287.features.description.subtitle",
+							"message": "Rocket Pod"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_19"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "rocket_pod_oro_57k_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/rocket_pod_ub16_57um_ability.prefab",
+						"slot": {
+							"handle": "Machinegun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Rocket Pod"
+					}
+				},
+				"id": 14287
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_rocket_s5.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14297.features.description.localizedName",
+							"message": "Skvorec"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14297.features.description.subtitle",
+							"message": "Rocket"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_20"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": true,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "rocket_skvorec_base",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5/s5_01_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5/s5_01.prefab",
+						"slot": {
+							"handle": "Missile"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5/s5_02_hangar.prefab",
+							"moduleID": 14292,
+							"prefabOverride": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5/s5_02.prefab"
+						},
+						{
+							"campPrefabOverride": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5/s5_03_hangar.prefab",
+							"moduleID": 14293,
+							"prefabOverride": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5/s5_03.prefab"
+						}
+					],
+					"type": {
+						"handle": "Rocket"
+					}
+				},
+				"id": 14297
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "",
+									"message": ""
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14110.features.description.effectsDescription.0.title",
+									"message": "AL \"Zhyolud'"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/walkure/modules/walkure_autoloader_a3_185.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14110.features.description.localizedName",
+							"message": "Base"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14110.features.description.subtitle",
+							"message": "Autoloader "
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": true,
+					"name": "ammoloader_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/gun_uts_100m_a/ammo_auto_reloader_uts_100m.prefab",
+						"slot": {
+							"handle": "AmmoLoader"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Autoreloader Upgrade"
+					}
+				},
+				"id": 14110
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "3umb4_core_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/core/core_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_2"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14454
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "3umb4_fin_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/fin/fin_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_3"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14455
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "3umb4_primer_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/primer/primer_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_5"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14456
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "3umb4_propellant_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/propellant/propellant_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_4"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14457
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "3umb4_sabot_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/sabot/sabot_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_1"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14458
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 12,
+						"mobility": 0,
+						"recon": 10,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.320.features.description.effectsDescription.0.description",
+									"message": "Provides Sniper View zoom factor *x%(maxZoomStep)*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.320.features.description.effectsDescription.0.title",
+									"message": "ZOOM FACTOR"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_scope_tshb2b_41.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.320.features.description.localizedName",
+							"message": "TSh2B-41 "
+						},
+						"power": 33,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.320.features.description.subtitle",
+							"message": "Scope"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_02"
+					},
+					"commerce": {
+						"entitlement": "raketa_scope_tsh2b41",
+						"product": "raketa_scope_tsh2b41"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "scope_tsh2b41",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/scope_1k13_41.prefab",
+						"slot": {
+							"handle": "Scope"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 320
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [
+						{
+							"image": "",
+							"installSlot": {
+								"handle": "SharpShooterConditionalTraitModifier"
+							},
+							"prefab": "/vehicles/russian/r01_t_62_1962/traits_and_perks/assault/condtitional_trait/sharpshooter/modifiers/sharpshooter_prolonged_duration_modifier.prefab",
+							"video": ""
+						}
+					],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_thermal_sleeve.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.329.features.description.localizedName",
+							"message": "Mokh"
+						},
+						"power": 40,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.329.features.description.subtitle",
+							"message": "Thermal Sleeve"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 513,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "raketa_thermal_sleeve_mokh",
+						"product": "raketa_thermal_sleeve_mokh"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "thermal_sleeve_mokh",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/gun_uts_100m_a/upgrades/thermalsleeve.prefab",
+						"slot": {
+							"handle": "ThermalSleeve"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Thermal Sleeve"
+					}
+				},
+				"id": 329
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 31,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_stabilizer_meteor_m.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.313.features.description.localizedName",
+							"message": "Veterok M"
+						},
+						"power": 349,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.313.features.description.subtitle",
+							"message": "Stabilizer"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_35"
+					},
+					"commerce": {
+						"entitlement": "raketa_stabilizer_veterok_m",
+						"product": "raketa_stabilizer_veterok_m"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "stabilizer_veterok_m",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/stabilizer_veterok_m_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/stabilizer_veterok_m.prefab",
+						"slot": {
+							"handle": "Stabilizer"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Stabilizer"
+					}
+				},
+				"id": 313
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 18,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.321.features.description.effectsDescription.0.description",
+									"message": "Increases Rocket Barrage effective range by *100m*."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.321.features.description.effectsDescription.0.title",
+									"message": "ROCKET BARRAGE"
+								},
+								"type": "SecondaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_rangefinder_type.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.321.features.description.localizedName",
+							"message": "TCRLA"
+						},
+						"power": 66,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.321.features.description.subtitle",
+							"message": "Laser Range Finder"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_08"
+					},
+					"commerce": {
+						"entitlement": "raketa_rangefinder_tcrla",
+						"product": "raketa_rangefinder_tcrla"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "rangefinder_tcrla",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/gun_uts_100m_a/upgrades/rangefinder_type_69.prefab",
+						"slot": {
+							"handle": "LaserRangeFinder"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Rangefinder"
+					}
+				},
+				"id": 321
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14307.features.description.effectsDescription.0.description",
+									"message": "Breaks rammed vehicle's tracks on impact"
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14307.features.description.effectsDescription.0.title",
+									"message": "RAM KNIVES"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_cutter_base.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14307.features.description.localizedName",
+							"message": "Bita"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14307.features.description.subtitle",
+							"message": "Ram Knives"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_23"
+					},
+					"commerce": {
+						"entitlement": "raketa_ram_knives_bita",
+						"product": "raketa_ram_knives_bita"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ram_knives_bita",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/bita_1_bumper.prefab",
+						"slot": {
+							"handle": "Bumper"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ram Knives"
+					}
+				},
+				"id": 14307
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14269.features.description.effectsDescription.0.description",
+									"message": "Reduces rammed vehicle movement speed by *20%* for *5s*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14269.features.description.effectsDescription.0.title",
+									"message": "RAM KNIVES"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_cutter.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14269.features.description.localizedName",
+							"message": "Kij"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14269.features.description.subtitle",
+							"message": "RAM KNIVES"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_23"
+					},
+					"commerce": {
+						"entitlement": "raketa_ram_knives_kij",
+						"product": "raketa_ram_knives_kij"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ram_knives_kij",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/bita_2_bumper.prefab",
+						"slot": {
+							"handle": "Bumper"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ram Knives"
+					}
+				},
+				"id": 14269
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14261.features.description.effectsDescription.0.description",
+									"message": "Score a critical hit and engine regenerates energy twice as fast for *5s*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14261.features.description.effectsDescription.0.title",
+									"message": "KINKY"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_combustion_chamber.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14261.features.description.localizedName",
+							"message": "Aphorism"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14261.features.description.subtitle",
+							"message": "Combustion Chamber"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_32"
+					},
+					"commerce": {
+						"entitlement": "raketa_combustion_chamber_aphorism",
+						"product": "raketa_combustion_chamber_aphorism"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "combustion_chamber_aphorism",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/combustion_chamber_tv3_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/combustion_chamber_tv3.prefab",
+						"slot": {
+							"handle": "CombustionChamber"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14261
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_engine_compressor.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14262.features.description.localizedName",
+							"message": "Karlik"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14262.features.description.subtitle",
+							"message": "Compressor"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_04"
+					},
+					"commerce": {
+						"entitlement": "raketa_compressor_karlik",
+						"product": "raketa_compressor_karlik"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "compressor_karlik",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/compressor_tv3_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/compressor_tv3.prefab",
+						"slot": {
+							"handle": "Compressor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14262
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14263.features.description.effectsDescription.0.description",
+									"message": "*+10%* energy regen while stationary."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14263.features.description.effectsDescription.0.title",
+									"message": "ENERGY SYSTEM"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_big_radiator2.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14263.features.description.localizedName",
+							"message": "Jagel"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14263.features.description.subtitle",
+							"message": "Radiator"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_27"
+					},
+					"commerce": {
+						"entitlement": "raketa_oil_radiators_jagel",
+						"product": "raketa_oil_radiators_jagel"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "oil_radiators_jagel",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/oil_radiators_01.prefab",
+						"slot": {
+							"handle": "OilRadiators"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14263
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14271.features.description.effectsDescription.0.description",
+									"message": "Ramming enemy vehicles restores *10%* energy points."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14271.features.description.effectsDescription.0.title",
+									"message": "ENERGY SYSTEM"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_oil_tank.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14271.features.description.localizedName",
+							"message": "Aist"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14271.features.description.subtitle",
+							"message": "Oil Tank"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_18"
+					},
+					"commerce": {
+						"entitlement": "raketa_oil_tank_aist",
+						"product": "raketa_oil_tank_aist"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "oil_tank_aist",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/oil_tank_big_01.prefab",
+						"slot": {
+							"handle": "OilTank"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14271
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_big_radiator.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14354.features.description.localizedName",
+							"message": "Lobaria"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14354.features.description.subtitle",
+							"message": "Radiator"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_27"
+					},
+					"commerce": {
+						"entitlement": "raketa_oil_radiators_lobaria",
+						"product": "raketa_oil_radiators_lobaria"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "oil_radiators_lobaria",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/oil_radiators_02.prefab",
+						"slot": {
+							"handle": "OilRadiators"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14354
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_oil_tank2.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14355.features.description.localizedName",
+							"message": "Jabiru"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14355.features.description.subtitle",
+							"message": "Oil Tank"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_18"
+					},
+					"commerce": {
+						"entitlement": "raketa_oil_tank_jabiru",
+						"product": "raketa_oil_tank_jabiru"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "oil_tank_jabiru",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/oil_tank_big_02.prefab",
+						"slot": {
+							"handle": "OilTank"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14355
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [
+						{
+							"image": "",
+							"installSlot": {
+								"handle": "SharpShooterConditionalTraitModifier"
+							},
+							"prefab": "/vehicles/russian/r01_t_62_1962/traits_and_perks/assault/condtitional_trait/sharpshooter/modifiers/sharpshooter_movement_bonus_modifier.prefab",
+							"video": ""
+						}
+					],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_reduction_gearbox.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14272.features.description.localizedName",
+							"message": "Altaj"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14272.features.description.subtitle",
+							"message": "Transmission"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 513,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "raketa_transmission_altaj",
+						"product": "raketa_transmission_altaj"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "transmission_altaj",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/transmission_gearbox_02.prefab",
+						"slot": {
+							"handle": "Transmission"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14272
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14273.features.description.effectsDescription.0.description",
+									"message": "Reduces shell loading time by *%(gun/autoreloaderLoadingTime|abs)s*."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14273.features.description.effectsDescription.0.title",
+									"message": "AL \"TREFY\""
+								},
+								"type": "PrimaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_gun_breech.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14273.features.description.localizedName",
+							"message": "Kuvalda"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14273.features.description.subtitle",
+							"message": "Gun Breech"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "raketa_gun_breech_kuvalda",
+						"product": "raketa_gun_breech_kuvalda"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "gun_breech_kuvalda",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/gun_breech_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/gun_breech.prefab",
+						"slot": {
+							"handle": "GunBreech"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Breech"
+					}
+				},
+				"id": 14273
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14274.features.description.effectsDescription.0.description",
+									"message": "Provides more space for ammo."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "",
+									"message": ""
+								},
+								"type": "PrimaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_loading_cartridge_upg.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14274.features.description.localizedName",
+							"message": "Trefy"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14274.features.description.subtitle",
+							"message": "Loading Mechanism"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_41"
+					},
+					"commerce": {
+						"entitlement": "raketa_loading_mechanism_trefy",
+						"product": "raketa_loading_mechanism_trefy"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "loading_mechanism_trefy",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/loading_cartridge_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/loading_cartridge.prefab",
+						"slot": {
+							"handle": "LoadingCartridge"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Autoreloader Upgrade"
+					}
+				},
+				"id": 14274
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14285.features.description.effectsDescription.0.description",
+									"message": "Increases spotting cone by *10%* while on the move"
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14285.features.description.effectsDescription.0.title",
+									"message": "HAWKEYE"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_periscope_pir.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14285.features.description.localizedName",
+							"message": "Glubina"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14285.features.description.subtitle",
+							"message": "Periscope"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_24"
+					},
+					"commerce": {
+						"entitlement": "raketa_periscope_glubina",
+						"product": "raketa_periscope_glubina"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "periscope_glubina",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/periscope_glaz_salvaged.prefab",
+						"slot": {
+							"handle": "Periscope"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 14285
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_projector.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14286.features.description.localizedName",
+							"message": "Illuminator"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14286.features.description.subtitle",
+							"message": "Searchlight"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_21"
+					},
+					"commerce": {
+						"entitlement": "raketa_searchlight_illuminator",
+						"product": "raketa_searchlight_illuminator"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "searchlight_illuminator",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/projector_salvaged.prefab",
+						"slot": {
+							"handle": "Projector"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 14286
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14292.features.description.effectsDescription.0.description",
+									"message": "Missiles greatly accelerate after launch and deal more damage at long distances."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "",
+									"message": ""
+								},
+								"type": "SecondaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_ub16_57.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14292.features.description.localizedName",
+							"message": "UB-16-57 "
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14292.features.description.subtitle",
+							"message": "Rocket Pod"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_19"
+					},
+					"commerce": {
+						"entitlement": "raketa_rocket_pod_ub16_57",
+						"product": "raketa_rocket_pod_ub16_57"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "rocket_pod_ub16_57",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/rocket_pod_ub16_57.prefab",
+						"slot": {
+							"handle": "Machinegun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Rocket Pod"
+					}
+				},
+				"id": 14292
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14293.features.description.effectsDescription.0.description",
+									"message": "Missiles are launched in groups of *5* with *3s* delay between volleys."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "",
+									"message": ""
+								},
+								"type": "SecondaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_ub16_57um.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14293.features.description.localizedName",
+							"message": "UB-16-57UM "
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14293.features.description.subtitle",
+							"message": "Rocket Pod"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_19"
+					},
+					"commerce": {
+						"entitlement": "raketa_rocket_pod_ub16_57um",
+						"product": "raketa_rocket_pod_ub16_57um"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "rocket_pod_ub16_57um",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/rocket_pod_ub16_57um.prefab",
+						"slot": {
+							"handle": "Machinegun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Rocket Pod"
+					}
+				},
+				"id": 14293
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14349.features.description.effectsDescription.0.description",
+									"message": "Missiles attempt to home in on the closest enemy vehicle."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "",
+									"message": ""
+								},
+								"type": "SecondaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_oro57k.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14349.features.description.localizedName",
+							"message": "UB-16-57UT"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14349.features.description.subtitle",
+							"message": "Rocket Pod"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_19"
+					},
+					"commerce": {
+						"entitlement": "raketa_rocket_pod_ub16_57ut",
+						"product": "raketa_rocket_pod_ub16_57ut"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "rocket_pod_ub16_57ut",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/rocket_pod_oro_57k.prefab",
+						"slot": {
+							"handle": "Machinegun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Rocket Pod"
+					}
+				},
+				"id": 14349
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14350.features.description.effectsDescription.0.description",
+									"message": "*+25%* vehicle movement speed and acceleration for *20s* when Rocket Pod is fully depleted."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "",
+									"message": ""
+								},
+								"type": "SecondaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/raketa_rocked_support.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14350.features.description.localizedName",
+							"message": "Skala"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14350.features.description.subtitle",
+							"message": "Rocket pod mount"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_40"
+					},
+					"commerce": {
+						"entitlement": "raketa_rocket_pod_mounting_skala",
+						"product": "raketa_rocket_pod_mounting_skala"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "rocket_pod_mounting_skala",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/rocket_pod_mounting_skala_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/rocket_pod_mounting_skala.prefab",
+						"slot": {
+							"handle": "RocketPodUpgrade"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Rocket Pod"
+					}
+				},
+				"id": 14350
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14296.features.description.effectsDescription.0.description",
+									"message": "While you are immobilized, your rocket pod reload time reduces by *10%*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14296.features.description.effectsDescription.0.title",
+									"message": "LAUNCHPAD"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_chassis_106m_2.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14296.features.description.localizedName",
+							"message": "Ural"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14296.features.description.subtitle",
+							"message": "Chassis"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_29"
+					},
+					"commerce": {
+						"entitlement": "raketa_chassis_ural",
+						"product": "raketa_chassis_ural"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "chassis_ural",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/chassis_166_m2/chassis_166_m2.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Chassis"
+					}
+				},
+				"id": 14296
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 100,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 200
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14300.features.description.effectsDescription.0.description",
+									"message": "Explodes on impact, can damage multiple targets."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "",
+									"message": ""
+								},
+								"type": "SecondaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_rocket_s5k.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14300.features.description.localizedName",
+							"message": "Skvorec K"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14300.features.description.subtitle",
+							"message": "Rocket"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_20"
+					},
+					"commerce": {
+						"entitlement": "raketa_rocket_skvorec_k",
+						"product": "raketa_rocket_skvorec_k"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "rocket_skvorec_k",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5k/s5k_01_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5k/s5k_01.prefab",
+						"slot": {
+							"handle": "Missile"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5k/s5k_02_hangar.prefab",
+							"moduleID": 14292,
+							"prefabOverride": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5k/s5k_02.prefab"
+						},
+						{
+							"campPrefabOverride": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5k/s5k_03_hangar.prefab",
+							"moduleID": 14293,
+							"prefabOverride": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5k/s5k_03.prefab"
+						}
+					],
+					"type": {
+						"handle": "Rocket"
+					}
+				},
+				"id": 14300
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 130,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": -59
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14301.features.description.effectsDescription.0.description",
+									"message": "Deals *250* damage over *10s* (does not stack). No AoE damage. Slows target by *20%* for *5s* upon direct impact."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "",
+									"message": ""
+								},
+								"type": "SecondaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_rocket_s5.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14301.features.description.localizedName",
+							"message": "Skvorec M"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14301.features.description.subtitle",
+							"message": "Rocket"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_20"
+					},
+					"commerce": {
+						"entitlement": "raketa_rocket_skvorec_m",
+						"product": "raketa_rocket_skvorec_m"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "rocket_skvorec_m",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5m/s5m_01_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5m/s5m_01.prefab",
+						"slot": {
+							"handle": "Missile"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5m/s5m_02_hangar.prefab",
+							"moduleID": 14292,
+							"prefabOverride": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5m/s5m_02.prefab"
+						},
+						{
+							"campPrefabOverride": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5m/s5m_03_hangar.prefab",
+							"moduleID": 14293,
+							"prefabOverride": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5m/s5m_03.prefab"
+						}
+					],
+					"type": {
+						"handle": "Rocket"
+					}
+				},
+				"id": 14301
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 800,
+						"mobility": 0,
+						"recon": 22,
+						"toughness": 0,
+						"utility": 240
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14348.features.description.effectsDescription.0.description",
+									"message": "HEAT rockets. Deal damage only if target is penetrated. Deal no module damage. No AoE damage."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "",
+									"message": ""
+								},
+								"type": "SecondaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_rocket_s5m.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14348.features.description.localizedName",
+							"message": "Skvorec C"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14348.features.description.subtitle",
+							"message": "Rocket"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_20"
+					},
+					"commerce": {
+						"entitlement": "raketa_rocket_skvorec_c",
+						"product": "raketa_rocket_skvorec_c"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "rocket_skvorec_с",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5c/s5c_01_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5c/s5c_01.prefab",
+						"slot": {
+							"handle": "Missile"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5m/s5m_02_hangar.prefab",
+							"moduleID": 14292,
+							"prefabOverride": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5m/s5m_02.prefab"
+						},
+						{
+							"campPrefabOverride": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5m/s5m_03_hangar.prefab",
+							"moduleID": 14293,
+							"prefabOverride": "/vehicles/russian/r01_t_62_1962/ammo/assault/s5m/s5m_03.prefab"
+						}
+					],
+					"type": {
+						"handle": "Rocket"
+					}
+				},
+				"id": 14348
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14294.features.description.effectsDescription.0.description",
+									"message": "*+10%* rocket accuracy."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14294.features.description.effectsDescription.0.title",
+									"message": "ROCKET BARRAGE"
+								},
+								"type": "SecondaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_windsensor.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14294.features.description.localizedName",
+							"message": "Mukha"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14294.features.description.subtitle",
+							"message": "Wind Sensor"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_22"
+					},
+					"commerce": {
+						"entitlement": "raketa_windsensor_mukha",
+						"product": "raketa_windsensor_mukha"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "windsensor_mukha",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/windsensor_mukha.prefab",
+						"slot": {
+							"handle": "WindSensor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Wind Sensor"
+					}
+				},
+				"id": 14294
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 100,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/shell_apds_sabot.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14328.features.description.localizedName",
+							"message": "Aluminij"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14328.features.description.subtitle",
+							"message": "Sabot"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "raketa_ammo_part_sabot_aluminij",
+						"product": "raketa_ammo_part_sabot_aluminij"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_sabot_aluminij",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/ammo/assault/3umb4_sabot_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_1"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14328
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 200,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/shell_apds_core.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14330.features.description.localizedName",
+							"message": "Zakolka"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14330.features.description.subtitle",
+							"message": "Core"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "raketa_ammo_part_core_zakolka",
+						"product": "raketa_ammo_part_core_zakolka"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_core_zakolka",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/ammo/assault/3umb4_core_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_2"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14330
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": -50,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/shell_apds_fin.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14332.features.description.localizedName",
+							"message": "Sad"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14332.features.description.subtitle",
+							"message": "Fin"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "raketa_ammo_part_fin_sad",
+						"product": "raketa_ammo_part_fin_sad"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_fin_sad",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/ammo/assault/3umb4_fin_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_3"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14332
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/shell_apds_propelant.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14335.features.description.localizedName",
+							"message": "Kompozit"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14335.features.description.subtitle",
+							"message": "Propellant"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 3,
+					"requirements": {
+						"moduleIDs": [
+							14332
+						]
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "raketa_ammo_part_propellant_kompozit",
+						"product": "raketa_ammo_part_propellant_kompozit"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_propellant_kompozit",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/ammo/assault/3umb4_propellant_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_4"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14335
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/shell_apds_primer.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14336.features.description.localizedName",
+							"message": "Amur"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14336.features.description.subtitle",
+							"message": "Primer"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 3,
+					"requirements": {
+						"moduleIDs": [
+							14335
+						]
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "raketa_ammo_part_primer_amur",
+						"product": "raketa_ammo_part_primer_amur"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_primer_amur",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/ammo/assault/3umb4_primer_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_5"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14336
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14345.features.description.effectsDescription.0.description",
+									"message": "Reduces time between shots by *25%.*"
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14345.features.description.effectsDescription.0.title",
+									"message": "TREFY Autoloader"
+								},
+								"type": "PrimaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_gun_turret_drive.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14345.features.description.localizedName",
+							"message": "Uskorenie 2"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14345.features.description.subtitle",
+							"message": "Turret drive"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "raketa_turret_drive_Uskorenie_2",
+						"product": "raketa_turret_drive_Uskorenie_2"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "turret_drive_uskorenie_2",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/rotator_uskorenie2_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/rotator_uskorenie2.prefab",
+						"slot": {
+							"handle": "GunTurretDrive"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret Rotator"
+					}
+				},
+				"id": 14345
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14352.features.description.effectsDescription.0.description",
+									"message": "While you are immobilized, your shell reload time reduces by *15%.*"
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14352.features.description.effectsDescription.0.title",
+									"message": "STANDING TALL"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_track.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14352.features.description.localizedName",
+							"message": "Lenivec"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14352.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_01"
+					},
+					"commerce": {
+						"entitlement": "raketa_tracks_lenivec",
+						"product": "raketa_tracks_lenivec"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "tracks_lenivec",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/chassis_t_62/tracks_lenivec/tracks_lenivec.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 14352
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14353.features.description.effectsDescription.0.description",
+									"message": "Critical hit to engine provides a buff for *5s* that reduces sprint energy consumption by *20%*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "r01_t_62_1962_m2.specs.specification.modules.14353.features.description.effectsDescription.0.title",
+									"message": "BUTTHURT"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_engine_tv3_117.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14353.features.description.localizedName",
+							"message": "Housing Vikhr"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14353.features.description.subtitle",
+							"message": "Turbine"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_31"
+					},
+					"commerce": {
+						"entitlement": "raketa_turbine_housing_vikhr",
+						"product": "raketa_turbine_housing_vikhr"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "turbine_housing_vikhr",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/tourbine_housing_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/hull_t_62/upgrades/tourbine_housing.prefab",
+						"slot": {
+							"handle": "EngineUpgrade"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine"
+					}
+				},
+				"id": 14353
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_artillery_strike.png",
+						"localizedName": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14356.features.description.localizedName",
+							"message": "R-123 Magnolya"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "r01_t_62_1962_m2.specs.specification.modules.14356.features.description.subtitle",
+							"message": "Radio"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_28"
+					},
+					"commerce": {
+						"entitlement": "raketa_radio_r123_magnolya",
+						"product": "raketa_radio_r123_magnolya"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "radio_r123_magnolya",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/radiostation_r173_hangar.prefab",
+						"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/radiostation_r173.prefab",
+						"slot": {
+							"handle": "Radio"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 14356
+			}
+		],
+		"modulesGroups": [
+			{
+				"id": 1,
+				"modules": [
+					14328,
+					14330,
+					14332
+				],
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.modulesGroups.1.title",
+					"message": "SLOT 1"
+				}
+			},
+			{
+				"id": 2,
+				"modules": [
+					329,
+					321,
+					313,
+					14345,
+					320,
+					14294
+				],
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.modulesGroups.2.title",
+					"message": "SLOT 2"
+				}
+			},
+			{
+				"id": 3,
+				"modules": [
+					14262,
+					14272
+				],
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.modulesGroups.3.title",
+					"message": "SLOT 3"
+				}
+			},
+			{
+				"id": 4,
+				"modules": [
+					14271,
+					14263,
+					14355,
+					14354
+				],
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.modulesGroups.4.title",
+					"message": "SLOT 4"
+				}
+			},
+			{
+				"id": 5,
+				"modules": [
+					14352,
+					14296
+				],
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.modulesGroups.5.title",
+					"message": "SLOT 5"
+				}
+			},
+			{
+				"id": 6,
+				"modules": [
+					14300,
+					14301,
+					14348
+				],
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.modulesGroups.6.title",
+					"message": "SLOT 6"
+				}
+			},
+			{
+				"id": 7,
+				"modules": [
+					14292,
+					14293,
+					14349
+				],
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.modulesGroups.7.title",
+					"message": "SLOT 7"
+				}
+			},
+			{
+				"id": 8,
+				"modules": [
+					14285,
+					14286,
+					14356
+				],
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.modulesGroups.8.title",
+					"message": "SLOT 8"
+				}
+			},
+			{
+				"id": 9,
+				"modules": [
+					14261,
+					14353
+				],
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.modulesGroups.9.title",
+					"message": "SLOT 9"
+				}
+			},
+			{
+				"id": 10,
+				"modules": [
+					14269,
+					14274,
+					14350
+				],
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.modulesGroups.10.title",
+					"message": "SLOT 10"
+				}
+			}
+		],
+		"perkGroups": [
+			{
+				"category": "Hero",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "udarnik_t62m2_speed_demon",
+							"product": "udarnik_t62m2_speed_demon"
+						},
+						"id": 10012,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "udarnik_t62m2_fastest_gun",
+							"product": "udarnik_t62m2_fastest_gun"
+						},
+						"id": 10004,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "udarnik_t62m2_saddle_shooting",
+							"product": "udarnik_t62m2_saddle_shooting"
+						},
+						"id": 10005,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Role",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "t62m2_assault_this_is_my_gun",
+							"product": "t62m2_assault_this_is_my_gun"
+						},
+						"id": 10007,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "t62m2_assault_dead_eye",
+							"product": "t62m2_assault_dead_eye"
+						},
+						"id": 10008,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "t62m2_assault_locked_and_loaded",
+							"product": "t62m2_assault_locked_and_loaded"
+						},
+						"id": 10014,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Division",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "udarnik_t62m2_poachers_field_gunner",
+							"product": "udarnik_t62m2_poachers_field_gunner"
+						},
+						"id": 10009,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "udarnik_t62m2_poachers_know_your_enemy",
+							"product": "udarnik_t62m2_poachers_know_your_enemy"
+						},
+						"id": 10017,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "udarnik_t62m2_poachers_stim_pack_plus",
+							"product": "udarnik_t62m2_poachers_stim_pack_plus"
+						},
+						"id": 10016,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Conditional",
+				"isDefault": true,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "",
+							"product": ""
+						},
+						"id": 10001,
+						"overrides": []
+					}
+				]
+			}
+		],
+		"perks": [
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10001.description",
+					"message": "Scoring 3 critical hits doubles Autoloader speed and grants +25% movement speed boost, both for 10s."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/udarnik/conditional/sharp_shooter.png",
+				"id": 10001,
+				"prefab": "/vehicles/russian/r01_t_62_1962/traits_and_perks/assault/condtitional_trait/sharpshooter/sharpshooter_m2_trait.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10001.title",
+					"message": "SHARPSHOOTER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10002.description",
+					"message": "Blocking 5 hits grants 50% improved reload speed and 50 HP regen for 10s."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/udarnik/conditional/tough_as_nails.png",
+				"id": 10002,
+				"prefab": "/vehicles/russian/r01_t_62_1962/traits_and_perks/defender/condional_trait/tough_as_nails/tough_as_nails_obr1975_trait.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10002.title",
+					"message": "TOUGH AS NAILS"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 5,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10003.description",
+					"message": "Increases max forward movement speed by *2km/h*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/udarnik/win_the_race.png",
+				"id": 10003,
+				"prefab": "/vehicles/russian/r01_t_62_1962/traits_and_perks/defender/perks/win_the_race/udarnik_win_the_race_perk.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10003.title",
+					"message": "WIN THE RACE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10004.description",
+					"message": "Increases gun aiming speed by *10%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/udarnik/fastest_gun.png",
+				"id": 10004,
+				"prefab": "/vehicles/russian/r01_t_62_1962/traits_and_perks/assault/perks/fastest_gun/udarnik_fastest_gun_perk.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10004.title",
+					"message": "FASTEST GUN"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10005.description",
+					"message": "Improves gun stabilization by *15%* when traversing the turret."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/udarnik/saddle_shooting.png",
+				"id": 10005,
+				"prefab": "/vehicles/russian/r01_t_62_1962/traits_and_perks/assault/perks/saddle_shooting/udarnik_saddle_shooting_perk.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10005.title",
+					"message": "SADDLE SHOOTING"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10006.description",
+					"message": "Increases energy regen rate by *+0.25 point/s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/udarnik/the_red_fury.png",
+				"id": 10006,
+				"prefab": "/vehicles/russian/r01_t_62_1962/traits_and_perks/defender/perks/the_red_fury/udarnik_the_red_fury_perk.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10006.title",
+					"message": "THE RED FURY"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10007.description",
+					"message": "Improves gun handling and aiming time by 10%."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/assault_role_perks/this_is_my_gun.png",
+				"id": 10007,
+				"prefab": "/game_prefabs/perks/role_perks/assault/this_is_my_gun/this_is_my_gun_perk.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10007.title",
+					"message": "THIS IS MY GUN"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10008.description",
+					"message": "Increases gun accuracy by *15%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/assault_role_perks/dead_eye.png",
+				"id": 10008,
+				"prefab": "/game_prefabs/perks/role_perks/assault/dead_eye/dead_eye_perk.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10008.title",
+					"message": "DEAD EYE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10009.description",
+					"message": "Increases gunner aiming speed by 16%."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/poachers/field_gunner.png",
+				"id": 10009,
+				"prefab": "/game_prefabs/perks/division_perks/poachers/field_gunner/field_gunner_perk.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10009.title",
+					"message": "FIELD GUNNER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10010.description",
+					"message": "Improves Repair Kit stats, increases HP recovery by *+5 hp/s*, increases repair duration by *+5s*, and reduces Repair Kit cooldown by *10s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/master_engineer.png",
+				"id": 10010,
+				"prefab": "/game_prefabs/perks/role_perks/defender/master_engineer/master_engineer_perk.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10010.title",
+					"message": "MASTER ENGINEER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10011.description",
+					"message": "Reduces track and engine repair time by *25%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/back_on_track.png",
+				"id": 10011,
+				"prefab": "/game_prefabs/perks/role_perks/defender/back_on_track/back_on_track_perk.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10011.title",
+					"message": "BACK ON TRACK"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 5,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10012.description",
+					"message": "Increases acceleration by *10%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/udarnik/speed_demon.png",
+				"id": 10012,
+				"prefab": "/vehicles/russian/r01_t_62_1962/traits_and_perks/assault/perks/speed_demon/udarnik_speed_demon_perk.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10012.title",
+					"message": "SPEED DEMON"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10013.description",
+					"message": "Increases the repair kit duration by *5s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/udarnik/it_fixed_itself.png",
+				"id": 10013,
+				"prefab": "/vehicles/russian/r01_t_62_1962/traits_and_perks/defender/perks/it_fixed_itself/udarnik_it_fixed_itself_perk.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10013.title",
+					"message": "IT FIXED ITSELF"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10014.description",
+					"message": "Improves gun stabilization by *15%* when traversing the turret."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/assault_role_perks/locked_and_loaded.png",
+				"id": 10014,
+				"prefab": "/game_prefabs/perks/role_perks/assault/locked_and_loaded/locked_and_loaded_perk.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10014.title",
+					"message": "LOCKED AND LOADED"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10015.description",
+					"message": "Greatly improves ramming damage bonus and reduces ramming damage to the front of your tank."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/collision_course.png",
+				"id": 10015,
+				"prefab": "/game_prefabs/perks/role_perks/defender/collision_course/collision_course_perk.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10015.title",
+					"message": "COLLISION COURSE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 3,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 3
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10016.description",
+					"message": "Passively reduces gun reload time by *10%* and reduces energy drain per second while sprinting by *10%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/poachers/stim_pack_plus.png",
+				"id": 10016,
+				"prefab": "/game_prefabs/perks/division_perks/poachers/stim_pack_plus/stim_pack_plus_perk.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10016.title",
+					"message": "STIM PACK+"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10017.description",
+					"message": "Increases AP and HEAT shell critical damage against modules by *15%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/poachers/know_your_enemy.png",
+				"id": 10017,
+				"prefab": "/game_prefabs/perks/division_perks/poachers/know_your_enemy/know_your_enemy_perk.prefab",
+				"title": {
+					"key": "r01_t_62_1962_m2.specs.specification.perks.10017.title",
+					"message": "KNOW YOUR ENEMY"
+				}
+			}
+		],
+		"perksSlot": {
+			"handle": "Perks"
+		},
+		"power": 1000,
+		"prefabPlaceholders": [
+			{
+				"pawnRequired": true,
+				"prefabPath": "/vehicles/russian/r01_t_62_1962/settings/workshop_anchors.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_anchors"
+				},
+				"switcherName": "r01_t_62_1962_m2.specs.specification.callSign"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/striker/striker_pc_2.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Striker_1_m2"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/striker/striker_pc_1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Striker_2_m2"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/striker/striker_pc_3.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Striker_3_m2"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/striker/striker_pc_4.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Striker_4_m2"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/striker/h_striker_1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Striker_1_m2"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/striker/h_striker_2.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Striker_2_m2"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/striker/h_striker_3.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Striker_3_m2"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/striker/h_striker_4.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Striker_4_m2"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/worlds/camps/hq_cameras/red_hq_cameras_udarnik.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_cameras"
+				},
+				"switcherName": "Udarnik"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/udarnik/udarnik_ws_2_m2.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Striker_1_m2"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/udarnik/udarnik_ws_1_m2.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Striker_2_m2"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/udarnik/udarnik_ws_3_m2.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Striker_3_m2"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/udarnik/udarnik_ws_4_m2.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Striker_4_m2"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/worlds/camps/base/consumables_anchors.prefab",
+				"spawnPlaceholderName": {
+					"handle": "consumable_anchors"
+				},
+				"switcherName": "r01_t_62_1962_m2.specs.specification.callSign"
+			}
+		],
+		"role": "Assault",
+		"shellSlots": [
+			{
+				"handle": "PrimaryShell"
+			},
+			{
+				"handle": "SecondaryShell"
+			}
+		],
+		"shortDescription": {
+			"key": "r01_t_62_1962_m2.specs.specification.shortDescription",
+			"message": "Depending on its modifications, can either be a sturdy defender or ruthless attacker"
+		},
+		"slotsAreas": [
+			{
+				"color": "",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 234,
+				"top": 753,
+				"uiAnchor": {
+					"handle": "Shell"
+				},
+				"uiCategory": "None"
+			},
+			{
+				"color": "",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 294,
+				"top": 365,
+				"uiAnchor": {
+					"handle": "FireControl"
+				},
+				"uiCategory": "None"
+			},
+			{
+				"color": "",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 752,
+				"top": 200,
+				"uiAnchor": {
+					"handle": "Rocket"
+				},
+				"uiCategory": "None"
+			},
+			{
+				"color": "",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1180,
+				"top": 200,
+				"uiAnchor": {
+					"handle": "RocketPod"
+				},
+				"uiCategory": "None"
+			},
+			{
+				"color": "",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 176,
+				"top": 560,
+				"uiAnchor": {
+					"handle": "DamageDealing"
+				},
+				"uiCategory": "None"
+			},
+			{
+				"color": "",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1489,
+				"top": 365,
+				"uiAnchor": {
+					"handle": "EngineSystems"
+				},
+				"uiCategory": "None"
+			},
+			{
+				"color": "",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 454,
+				"top": 928,
+				"uiAnchor": {
+					"handle": "Chassis"
+				},
+				"uiCategory": "None"
+			},
+			{
+				"color": "",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1558,
+				"top": 560,
+				"uiAnchor": {
+					"handle": "EngineUpgrades"
+				},
+				"uiCategory": "None"
+			},
+			{
+				"color": "",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1282,
+				"top": 928,
+				"uiAnchor": {
+					"handle": "Energy"
+				},
+				"uiCategory": "None"
+			},
+			{
+				"color": "",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1546,
+				"top": 753,
+				"uiAnchor": {
+					"handle": "Recon"
+				},
+				"uiCategory": "None"
+			}
+		],
+		"smallVehicleImage": "/ui/assets/hero_vehicles/death_card/udarnik/t62_m2.png",
+		"talismanHolder": {
+			"cameraName": {
+				"handle": "talisman_camera"
+			},
+			"prefab": "/vehicles/russian/r01_t_62_1962/assault_fbx/prefabs/turret_t_62/upgrades/talisman_holder.prefab",
+			"slot": {
+				"handle": "TalismanHolder"
+			}
+		},
+		"technicalName": "r01_t_62_1962_m2",
+		"tierSettings": [
+			{
+				"maxPower": 1999,
+				"minPower": 0,
+				"tier": 1
+			},
+			{
+				"maxPower": 2999,
+				"minPower": 2000,
+				"tier": 2
+			},
+			{
+				"maxPower": 3999,
+				"minPower": 3000,
+				"tier": 3
+			},
+			{
+				"maxPower": 4999,
+				"minPower": 4000,
+				"tier": 4
+			},
+			{
+				"maxPower": 5999,
+				"minPower": 5000,
+				"tier": 5
+			},
+			{
+				"maxPower": 6999,
+				"minPower": 6000,
+				"tier": 6
+			},
+			{
+				"maxPower": 9999,
+				"minPower": 7000,
+				"tier": 7
+			}
+		],
+		"vehicleId": 10,
+		"vehicleName": {
+			"key": "r01_t_62_1962_m2.specs.specification.vehicleName",
+			"message": "T-62 M2"
+		}
+	}
+}
 ```

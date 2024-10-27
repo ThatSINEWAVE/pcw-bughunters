@@ -11,5 +11,1199 @@ PLACEHOLDER TEXT
 
 ### Full contents of the file
 ```json
-PLACEHOLDER CODE
+{
+	"__type__": "CW::VehicleSpecificationStorage",
+	"specification": {
+		"abilityModifiersSlots": [],
+		"abilitySlots": [
+			{
+				"handle": "FirstAbility"
+			},
+			{
+				"handle": "SecondAbility"
+			},
+			{
+				"handle": "ThirdAbility"
+			}
+		],
+		"aiSettings": {
+			"brainsSlot": {
+				"handle": "AIBrains"
+			},
+			"defaultPreset": {
+				"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_capture_defend_base.prefab",
+				"modulesLayout": []
+			},
+			"gameModePresets": [
+				{
+					"key": {
+						"handle": "conquest"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest_newcomer.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "ct"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "domination"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "hq"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						}
+					}
+				}
+			]
+		},
+		"baseEquipment": [
+			{
+				"installSlot": {
+					"handle": "FirstEquipment"
+				},
+				"prefab": "/vehicles/american/a03_m60a1/abilities/repair_kit/a_repair_kit_ability_m60a1.prefab",
+				"previewImage": "",
+				"video": ""
+			}
+		],
+		"basicCharacteristics": {
+			"firepower": 235,
+			"mobility": 175,
+			"recon": 60,
+			"toughness": 550,
+			"utility": 0
+		},
+		"callSign": {
+			"key": "a04_xm551.specs.specification.callSign",
+			"message": "AR/AAV"
+		},
+		"commerce": {
+			"entitlement": "vehicle_xm551",
+			"product": "vehicle_xm551"
+		},
+		"commercePath": "/vehicles/american/a04_xm551/settings/commerce.specs",
+		"complexity": 1,
+		"crew": {
+			"crewMembers": [
+				{
+					"arenaPrefab": "/vehicles/american/a03_m60a1/settings/frontmans/frontman_1.prefab",
+					"bigImage": "/ui/assets/heroes/xm551/extralarge/xm551_crew.png",
+					"campPrefab": "/worlds/camps/crew/characters/apocalypse/apocalypse_01.prefab",
+					"commerce": {
+						"entitlement": "xm551_crew_01",
+						"product": ""
+					},
+					"description": {
+						"key": "a04_xm551.specs.specification.crew.crewMembers.14402.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 14402,
+					"image": "/ui/assets/heroes/xm551/large/xm551_crew.png",
+					"isDefaultFrontman": true,
+					"lastName": {
+						"key": "a04_xm551.specs.specification.crew.crewMembers.14402.lastName",
+						"message": "Ross"
+					},
+					"name": {
+						"key": "a04_xm551.specs.specification.crew.crewMembers.14402.name",
+						"message": "Joss"
+					},
+					"prefabPlaceholderName": "xm551_pc",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/xm551/small/xm551_crew.png",
+					"setBonuses": []
+				}
+			],
+			"customization": [],
+			"setBonuses": []
+		},
+		"customization3D": {
+			"modulesPacks": [],
+			"stylesPacks": []
+		},
+		"customizationLayout": 0,
+		"description": {
+			"key": "a04_xm551.specs.specification.description",
+			"message": "In the Defender role, your supreme resilience gives you an impressive ability to stubbornly embed yourself, hold positions, and defend objectives."
+		},
+		"displayableCurrencies": [
+			{
+				"handle": "soft"
+			},
+			{
+				"handle": "reputation_blue"
+			}
+		],
+		"divisionColor": "#1E80CA",
+		"divisionIcon": "/ui/assets/meta/select_hero/american_division.png",
+		"divisionIconSmall": "/ui/assets/meta/select_hero/american_division_small.png",
+		"divisionName": {
+			"key": "a04_xm551.specs.specification.divisionName",
+			"message": "Alfa Company"
+		},
+		"divisionShortName": {
+			"key": "a04_xm551.specs.specification.divisionShortName",
+			"message": "Alfa Company"
+		},
+		"economyPrefab": "/vehicles/american/a04_xm551/settings/economy_settings_xm551.prefab",
+		"equipmentCameras": [
+			{
+				"handle": "equipment_1st_camera"
+			},
+			{
+				"handle": "equipment_2nd_camera"
+			},
+			{
+				"handle": "equipment_3rd_camera"
+			}
+		],
+		"equipmentSlots": [
+			{
+				"handle": "FirstEquipment"
+			},
+			{
+				"handle": "SecondEquipment"
+			},
+			{
+				"handle": "ThirdEquipment"
+			}
+		],
+		"features": {
+			"abilityFeatures": [],
+			"moduleFeatures": [],
+			"passiveFeatures": [],
+			"perkFeatures": []
+		},
+		"fraction": {
+			"handle": "blue"
+		},
+		"gameplayPrefab": "/vehicles/american/a04_xm551/settings/gameplay_settings.prefab",
+		"hiddenAbilitiesSlot": {
+			"handle": "HiddenAbilities"
+		},
+		"image": "/ui/assets/heroes/apocalypse/vehicle/apocalypse_stock.png",
+		"isHidden": false,
+		"mastering": {
+			"commerce": "xm551_grant_500_exp",
+			"levels": [
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_1",
+						"product": "mastering_lvl_a04_xm551_1"
+					},
+					"extraEquipment": [],
+					"points": 0,
+					"rewards": [],
+					"unlockGroups": [
+						11
+					],
+					"unlockModules": [
+						14558,
+						14559
+					],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_2",
+						"product": "mastering_lvl_a04_xm551_2"
+					},
+					"extraEquipment": [],
+					"points": 6000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_3",
+						"product": "mastering_lvl_a04_xm551_3"
+					},
+					"extraEquipment": [],
+					"points": 12000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_4",
+						"product": "mastering_lvl_a04_xm551_4"
+					},
+					"extraEquipment": [],
+					"points": 20000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_5",
+						"product": "mastering_lvl_a04_xm551_5"
+					},
+					"extraEquipment": [],
+					"points": 30000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_6",
+						"product": "mastering_lvl_a04_xm551_6"
+					},
+					"extraEquipment": [],
+					"points": 40000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_7",
+						"product": "mastering_lvl_a04_xm551_7"
+					},
+					"extraEquipment": [],
+					"points": 50000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_8",
+						"product": "mastering_lvl_a04_xm551_8"
+					},
+					"extraEquipment": [],
+					"points": 60000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_9",
+						"product": "mastering_lvl_a04_xm551_9"
+					},
+					"extraEquipment": [],
+					"points": 70000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a04_xm551_10",
+						"product": "mastering_lvl_a04_xm551_10"
+					},
+					"extraEquipment": [],
+					"points": 100000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				}
+			],
+			"pointsCurrency": {
+				"handle": "a04_xm551"
+			}
+		},
+		"modules": [
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "0",
+						"localizedName": {
+							"key": "a04_xm551.specs.specification.modules.14549.features.description.localizedName",
+							"message": "0"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm_551_lobby_collider",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/lobby_collider.prefab",
+						"slot": {
+							"handle": "LobbyCollider"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14549
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "0",
+						"localizedName": {
+							"key": "a04_xm551.specs.specification.modules.14550.features.description.localizedName",
+							"message": "m60_loader"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a04_xm551.specs.specification.modules.14550.features.description.subtitle",
+							"message": "m60_loader"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm_551_loader",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/base_tank/components/ammo_loader.prefab",
+						"slot": {
+							"handle": "AmmoLoader"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14550
+			},
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/equipment/fire/fire_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "a04_xm551.specs.specification.modules.14551.features.description.localizedName",
+							"message": "root"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a04_xm551.specs.specification.modules.14551.features.description.subtitle",
+							"message": "HIDE ME PLEASE"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [
+						{
+							"prefab": "/game_prefabs/equipment/energy_booster/energy_booster_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/extinguisher/extinguisher_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/med_kit/med_kit.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/stim_pack/stim_pack_consumable.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"layout": 21,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm_551_root",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a04_xm551/a04_xm551.prefab",
+						"slot": {
+							"handle": "Root"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14551
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a04_xm551.specs.specification.modules.14552.features.description.effectsDescription.0.description",
+									"message": "The tracks have *%(LTrackMaxHP) module HP*. Losing all module HP will *immobilize* your vehicle for *%(LTrackTimeToRegen)s*.#br#Shells inflict additional damage if they hit modules."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a04_xm551.specs.specification.modules.14552.features.description.effectsDescription.0.title",
+									"message": "TRACKS"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/athena_basic_tracks.png",
+						"localizedName": {
+							"key": "a04_xm551.specs.specification.modules.14552.features.description.localizedName",
+							"message": "T97"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a04_xm551.specs.specification.modules.14552.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_12"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm551_tracks",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a04_xm551/xm551_fbx/prefabs/chassis_01/tracks_01/tracks_01.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 14552
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "a04_xm551.specs.specification.modules.14553.features.description.localizedName",
+							"message": "Chassis"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a04_xm551.specs.specification.modules.14553.features.description.subtitle",
+							"message": "Chassis"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_chassis"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm551_chassis",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a04_xm551/xm551_fbx/prefabs/chassis_01/chassis_01.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14553
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a04_xm551.specs.specification.modules.14554.features.description.effectsDescription.0.description",
+									"message": "The engine has *%(EngineMaxHP) module HP*. Receives *critical damage* per hit. Losing all module HP will *reduce movement speed* by *50%* for *%(EngineTimeToRegen)s*.#br#Module HP can be affected by shell module damage attribute."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a04_xm551.specs.specification.modules.14554.features.description.effectsDescription.0.title",
+									"message": "ENGINE"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/basic_engine.png",
+						"localizedName": {
+							"key": "a04_xm551.specs.specification.modules.14554.features.description.localizedName",
+							"message": "AVDS-1790"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a04_xm551.specs.specification.modules.14554.features.description.subtitle",
+							"message": "Engine"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_14"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm551_engine",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a04_xm551/xm551_fbx/prefabs/hull_01/upgrades/engine_01.prefab",
+						"slot": {
+							"handle": "Engine"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine"
+					}
+				},
+				"id": 14554
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/basic_hull.png",
+						"localizedName": {
+							"key": "a04_xm551.specs.specification.modules.14555.features.description.localizedName",
+							"message": "M60A3"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a04_xm551.specs.specification.modules.14555.features.description.subtitle",
+							"message": "Hull"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_16"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm551_hull",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a04_xm551/xm551_fbx/prefabs/hull_01/hull_01.prefab",
+						"slot": {
+							"handle": "Hull"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull"
+					}
+				},
+				"id": 14555
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/basic_turret.png",
+						"localizedName": {
+							"key": "a04_xm551.specs.specification.modules.14556.features.description.localizedName",
+							"message": "M60A3"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a04_xm551.specs.specification.modules.14556.features.description.subtitle",
+							"message": "Turret"
+						}
+					},
+					"effectExtraModules": [
+						260
+					],
+					"extraEquipment": [],
+					"layout": 33,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm551_turret",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a04_xm551/xm551_fbx/prefabs/turret_01/turret_01.prefab",
+						"slot": {
+							"handle": "Turret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret"
+					}
+				},
+				"id": 14556
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a04_xm551.specs.specification.modules.14557.features.description.effectsDescription.0.description",
+									"message": "Click *left mouse button* when reload progress is in the green sector to speed up reload by *30%*."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a04_xm551.specs.specification.modules.14557.features.description.effectsDescription.0.title",
+									"message": "'AT' FAST RELOAD "
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/soldier/modules/soldier_shell_heat_dm12.png",
+						"localizedName": {
+							"key": "a04_xm551.specs.specification.modules.14557.features.description.localizedName",
+							"message": "Rocket"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a04_xm551.specs.specification.modules.14557.features.description.subtitle",
+							"message": "Gun"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/american/a04_xm551/ammo/mgm_51a_xm551_set.prefab",
+							"slot": {
+								"handle": "PrimaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_08"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "xm551_152_rocket",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a04_xm551/xm551_fbx/prefabs/gun_01/gun_01.prefab",
+						"slot": {
+							"handle": "Gun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun"
+					}
+				},
+				"id": 14557
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/walkure/modules/walkure_shell_bp482_alpha.png",
+						"localizedName": {
+							"key": "a04_xm551.specs.specification.modules.14558.features.description.localizedName",
+							"message": "Arty"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a04_xm551.specs.specification.modules.14558.features.description.subtitle",
+							"message": "Gun"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/american/a04_xm551/ammo/xm551_arty_shell_set.prefab",
+							"slot": {
+								"handle": "PrimaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_08"
+					},
+					"commerce": {
+						"entitlement": "xm551_105_arty",
+						"product": "xm551_105_arty"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "xm551_105_arty",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a04_xm551/xm551_fbx/prefabs/gun_01/gun_105_arty.prefab",
+						"slot": {
+							"handle": "Gun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun"
+					}
+				},
+				"id": 14558
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/juggernaut/modules/juggernaut_vulcan.png",
+						"localizedName": {
+							"key": "a04_xm551.specs.specification.modules.14559.features.description.localizedName",
+							"message": "Gatling"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a04_xm551.specs.specification.modules.14559.features.description.subtitle",
+							"message": "Gun"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/american/a04_xm551/ammo/xm551_gatling_shell_set.prefab",
+							"slot": {
+								"handle": "PrimaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_08"
+					},
+					"commerce": {
+						"entitlement": "xm551_20_gatling",
+						"product": "xm551_20_gatling"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "xm551_20_gatling",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a04_xm551/xm551_fbx/prefabs/gun_01/gun_20_gatling.prefab",
+						"slot": {
+							"handle": "Gun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun"
+					}
+				},
+				"id": 14559
+			}
+		],
+		"modulesGroups": [
+			{
+				"id": 11,
+				"modules": [
+					14558,
+					14559
+				],
+				"title": {
+					"key": "a04_xm551.specs.specification.modulesGroups.11.title",
+					"message": "Gun Switch"
+				}
+			}
+		],
+		"perkGroups": [],
+		"perks": [],
+		"perksSlot": {
+			"handle": "Perks"
+		},
+		"power": 1000,
+		"prefabPlaceholders": [
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/xm551/xm551_pc.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "xm551_pc"
+			}
+		],
+		"role": "Marksman",
+		"shellSlots": [
+			{
+				"handle": "PrimaryShell"
+			},
+			{
+				"handle": "SecondaryShell"
+			}
+		],
+		"shortDescription": {
+			"key": "a04_xm551.specs.specification.shortDescription",
+			"message": "TAKES REDUCED DAMAGE"
+		},
+		"slotsAreas": [],
+		"smallVehicleImage": "/ui/assets/hero_vehicles/death_card/apocalypse/m60_athena.png",
+		"talismanHolder": {
+			"cameraName": {
+				"handle": ""
+			},
+			"prefab": "",
+			"slot": {
+				"handle": "TalismanHolder"
+			}
+		},
+		"technicalName": "a04_xm551",
+		"tierSettings": [
+			{
+				"maxPower": 1999,
+				"minPower": 0,
+				"tier": 1
+			},
+			{
+				"maxPower": 2999,
+				"minPower": 2000,
+				"tier": 2
+			},
+			{
+				"maxPower": 3999,
+				"minPower": 3000,
+				"tier": 3
+			},
+			{
+				"maxPower": 4999,
+				"minPower": 4000,
+				"tier": 4
+			},
+			{
+				"maxPower": 5999,
+				"minPower": 5000,
+				"tier": 5
+			},
+			{
+				"maxPower": 6999,
+				"minPower": 6000,
+				"tier": 6
+			},
+			{
+				"maxPower": 9999,
+				"minPower": 7000,
+				"tier": 7
+			}
+		],
+		"vehicleId": 32,
+		"vehicleName": {
+			"key": "a04_xm551.specs.specification.vehicleName",
+			"message": "XM551"
+		}
+	}
+}
 ```

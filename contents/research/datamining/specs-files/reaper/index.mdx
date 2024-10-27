@@ -11,5 +11,5140 @@ PLACEHOLDER TEXT
 
 ### Full contents of the file
 ```json
-PLACEHOLDER CODE
+{
+	"__type__": "CW::VehicleSpecificationStorage",
+	"specification": {
+		"abilityModifiersSlots": [
+			{
+				"abilitySlot": {
+					"handle": "SecondAbility"
+				},
+				"relatedModifierSlots": [
+					{
+						"handle": "SmokeMortarAbilityModifier"
+					}
+				]
+			}
+		],
+		"abilitySlots": [
+			{
+				"handle": "FirstAbility"
+			},
+			{
+				"handle": "SecondAbility"
+			},
+			{
+				"handle": "ThirdAbility"
+			}
+		],
+		"aiSettings": {
+			"brainsSlot": {
+				"handle": "AIBrains"
+			},
+			"defaultPreset": {
+				"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_capture_defend_base.prefab",
+				"modulesLayout": []
+			},
+			"gameModePresets": [
+				{
+					"key": {
+						"handle": "conquest"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest_newcomer.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "ct"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "domination"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "hq"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						}
+					}
+				}
+			]
+		},
+		"baseEquipment": [
+			{
+				"installSlot": {
+					"handle": "FirstEquipment"
+				},
+				"prefab": "/vehicles/american/a03_m60a1/abilities/repair_kit/a_repair_kit_ability_m60a1.prefab",
+				"previewImage": "",
+				"video": ""
+			}
+		],
+		"basicCharacteristics": {
+			"firepower": 475,
+			"mobility": 315,
+			"recon": 100,
+			"toughness": 190,
+			"utility": 0
+		},
+		"callSign": {
+			"key": "a03_m60a1_ares.specs.specification.callSign",
+			"message": "Reaper"
+		},
+		"commerce": {
+			"entitlement": "vehicle_m60_ares",
+			"product": "vehicle_m60_ares"
+		},
+		"commercePath": "/vehicles/american/a03_m60a1/settings/commerce_ares.specs",
+		"complexity": 1,
+		"crew": {
+			"crewMembers": [
+				{
+					"arenaPrefab": "/vehicles/american/a03_m60a1/settings/frontmans/frontman_3.prefab",
+					"bigImage": "/ui/assets/heroes/apocalypse/crew/extralarge/apocalypse_crew_03.png",
+					"campPrefab": "/worlds/camps/crew/characters/apocalypse/apocalypse_03.prefab",
+					"commerce": {
+						"entitlement": "apocalypse_crew_01_ares",
+						"product": ""
+					},
+					"description": {
+						"key": "a03_m60a1_ares.specs.specification.crew.crewMembers.501.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 501,
+					"image": "/ui/assets/heroes/apocalypse/crew/large/apocalypse_crew_03.png",
+					"isDefaultFrontman": true,
+					"lastName": {
+						"key": "a03_m60a1_ares.specs.specification.crew.crewMembers.501.lastName",
+						"message": "Lineham"
+					},
+					"name": {
+						"key": "a03_m60a1_ares.specs.specification.crew.crewMembers.501.name",
+						"message": "Keene"
+					},
+					"prefabPlaceholderName": "Apocalypse_3_ares",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/apocalypse/crew/small/apocalypse_crew_03_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/american/a03_m60a1/settings/frontmans/frontman_1.prefab",
+					"bigImage": "/ui/assets/heroes/apocalypse/crew/extralarge/apocalypse_crew_01.png",
+					"campPrefab": "/worlds/camps/crew/characters/apocalypse/apocalypse_01.prefab",
+					"commerce": {
+						"entitlement": "apocalypse_crew_02_ares",
+						"product": ""
+					},
+					"description": {
+						"key": "a03_m60a1_ares.specs.specification.crew.crewMembers.502.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 502,
+					"image": "/ui/assets/heroes/apocalypse/crew/large/apocalypse_crew_01.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "a03_m60a1_ares.specs.specification.crew.crewMembers.502.lastName",
+						"message": "O'Donnell"
+					},
+					"name": {
+						"key": "a03_m60a1_ares.specs.specification.crew.crewMembers.502.name",
+						"message": "Jerome"
+					},
+					"prefabPlaceholderName": "Apocalypse_1_ares",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/apocalypse/crew/small/apocalypse_crew_01_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/american/a03_m60a1/settings/frontmans/frontman_4.prefab",
+					"bigImage": "/ui/assets/heroes/apocalypse/crew/extralarge/apocalypse_crew_04.png",
+					"campPrefab": "/worlds/camps/crew/characters/apocalypse/apocalypse_04.prefab",
+					"commerce": {
+						"entitlement": "apocalypse_crew_03_ares",
+						"product": ""
+					},
+					"description": {
+						"key": "a03_m60a1_ares.specs.specification.crew.crewMembers.503.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 503,
+					"image": "/ui/assets/heroes/apocalypse/crew/large/apocalypse_crew_02.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "a03_m60a1_ares.specs.specification.crew.crewMembers.503.lastName",
+						"message": "Sharman"
+					},
+					"name": {
+						"key": "a03_m60a1_ares.specs.specification.crew.crewMembers.503.name",
+						"message": "Landry"
+					},
+					"prefabPlaceholderName": "Apocalypse_4_ares",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/apocalypse/crew/small/apocalypse_crew_02_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/american/a03_m60a1/settings/frontmans/frontman_2.prefab",
+					"bigImage": "/ui/assets/heroes/apocalypse/crew/extralarge/apocalypse_crew_02.png",
+					"campPrefab": "/worlds/camps/crew/characters/apocalypse/apocalypse_02.prefab",
+					"commerce": {
+						"entitlement": "apocalypse_crew_04_ares",
+						"product": ""
+					},
+					"description": {
+						"key": "a03_m60a1_ares.specs.specification.crew.crewMembers.504.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 504,
+					"image": "/ui/assets/heroes/apocalypse/crew/large/apocalypse_crew_04.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "a03_m60a1_ares.specs.specification.crew.crewMembers.504.lastName",
+						"message": "Field"
+					},
+					"name": {
+						"key": "a03_m60a1_ares.specs.specification.crew.crewMembers.504.name",
+						"message": "Grover"
+					},
+					"prefabPlaceholderName": "Apocalypse_2_ares",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/apocalypse/crew/small/apocalypse_crew_04_req.png",
+					"setBonuses": []
+				}
+			],
+			"customization": [],
+			"setBonuses": []
+		},
+		"customization3D": {
+			"modulesPacks": [],
+			"stylesPacks": []
+		},
+		"customizationLayout": 5,
+		"description": {
+			"key": "a03_m60a1_ares.specs.specification.description",
+			"message": "In the Defender role, your supreme resilience gives you an impressive ability to stubbornly embed yourself, hold positions, and defend objectives."
+		},
+		"displayableCurrencies": [
+			{
+				"handle": "soft"
+			},
+			{
+				"handle": "reputation_blue"
+			}
+		],
+		"divisionColor": "#1E80CA",
+		"divisionIcon": "/ui/assets/meta/select_hero/american_division.png",
+		"divisionIconSmall": "/ui/assets/meta/select_hero/american_division_small.png",
+		"divisionName": {
+			"key": "a03_m60a1_ares.specs.specification.divisionName",
+			"message": "Alpha Company"
+		},
+		"divisionShortName": {
+			"key": "a03_m60a1_ares.specs.specification.divisionShortName",
+			"message": "Alpha Company"
+		},
+		"economyPrefab": "/vehicles/american/a03_m60a1/settings/economy_settings_ares.prefab",
+		"equipmentCameras": [
+			{
+				"handle": "equipment_1st_camera"
+			},
+			{
+				"handle": "equipment_2nd_camera"
+			},
+			{
+				"handle": "equipment_3rd_camera"
+			}
+		],
+		"equipmentSlots": [
+			{
+				"handle": "FirstEquipment"
+			},
+			{
+				"handle": "SecondEquipment"
+			},
+			{
+				"handle": "ThirdEquipment"
+			}
+		],
+		"features": {
+			"abilityFeatures": [
+				{
+					"isInitial": false,
+					"prefab": "/vehicles/american/a03_m60a1/abilities/ballistic_calibration/self_ballistic_calibration_ability_m60.prefab"
+				}
+			],
+			"moduleFeatures": [],
+			"passiveFeatures": [],
+			"perkFeatures": []
+		},
+		"fraction": {
+			"handle": "blue"
+		},
+		"gameplayPrefab": "/vehicles/american/a03_m60a1/settings/gameplay_settings.prefab",
+		"hiddenAbilitiesSlot": {
+			"handle": "HiddenAbilities"
+		},
+		"image": "/ui/assets/heroes/apocalypse/vehicle/apocalypse_stock.png",
+		"isHidden": false,
+		"mastering": {
+			"commerce": "apocalypse_ares_grant_500_exp",
+			"levels": [
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_ares_1",
+						"product": "mastering_lvl_a03_ares_1"
+					},
+					"extraEquipment": [],
+					"points": 0,
+					"rewards": [],
+					"unlockGroups": [
+						31
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						2005
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_ares_2",
+						"product": "mastering_lvl_a03_ares_2"
+					},
+					"extraEquipment": [],
+					"points": 2000,
+					"rewards": [],
+					"unlockGroups": [
+						32
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						5008
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_ares_3",
+						"product": "mastering_lvl_a03_ares_3"
+					},
+					"extraEquipment": [],
+					"points": 4200,
+					"rewards": [],
+					"unlockGroups": [
+						33
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						5001
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_ares_4",
+						"product": "mastering_lvl_a03_ares_4"
+					},
+					"extraEquipment": [],
+					"points": 6700,
+					"rewards": [],
+					"unlockGroups": [
+						34
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						5014
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_ares_5",
+						"product": "mastering_lvl_a03_ares_5"
+					},
+					"extraEquipment": [],
+					"points": 11000,
+					"rewards": [],
+					"unlockGroups": [
+						35
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						5009
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_ares_6",
+						"product": "mastering_lvl_a03_ares_6"
+					},
+					"extraEquipment": [],
+					"points": 15500,
+					"rewards": [],
+					"unlockGroups": [
+						36
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						5011
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_ares_7",
+						"product": "mastering_lvl_a03_ares_7"
+					},
+					"extraEquipment": [],
+					"points": 20200,
+					"rewards": [],
+					"unlockGroups": [
+						37
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						5015
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_ares_8",
+						"product": "mastering_lvl_a03_ares_8"
+					},
+					"extraEquipment": [],
+					"points": 26500,
+					"rewards": [],
+					"unlockGroups": [
+						38
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						5010
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_ares_9",
+						"product": "mastering_lvl_a03_ares_9"
+					},
+					"extraEquipment": [],
+					"points": 33000,
+					"rewards": [],
+					"unlockGroups": [
+						39
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						5013
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_a03_ares_10",
+						"product": "mastering_lvl_a03_ares_10"
+					},
+					"extraEquipment": [],
+					"points": 39700,
+					"rewards": [],
+					"unlockGroups": [
+						40
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						5016
+					]
+				}
+			],
+			"pointsCurrency": {
+				"handle": "a03_ares"
+			}
+		},
+		"modules": [
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/equipment/fire/fire_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"installSlot": {
+								"handle": "FirstAbility"
+							},
+							"isHidden": false,
+							"prefab": "/vehicles/american/a03_m60a1/abilities/ballistic_calibration/self_ballistic_calibration_ability_m60.prefab",
+							"previewImage": "/ui/assets/abilities/ability_video_preview/m60/img_preview/m60_img_self_balistic_ability.png",
+							"video": "/ui/assets/abilities/ability_video_preview/m60/m60_vid_self_ballistic_calibration_ability.webm"
+						},
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/abilities/passive_thermal_scope/a_thermal_imager_mechanic_ability.prefab",
+							"previewImage": "/ui/assets/abilities/ability_video_preview/m60/img_preview/m60_img_termal_scope_ability.png",
+							"video": "/ui/assets/abilities/ability_video_preview/m60/m60_vid_thermal_scope_ability.webm"
+						},
+						{
+							"installSlot": {
+								"handle": "ThirdAbility"
+							},
+							"isHidden": false,
+							"prefab": "/vehicles/american/a03_m60a1/abilities/smoke_mortars/smoke_mortar_ability_m60.prefab",
+							"previewImage": "/ui/assets/abilities/ability_video_preview/m60/img_preview/m60_img_smoke_mortar_ability.png",
+							"video": "/ui/assets/abilities/ability_video_preview/m60/m60_vid_smoke_mortar_ability.webm"
+						},
+						{
+							"installSlot": {
+								"handle": "SecondAbility"
+							},
+							"isHidden": false,
+							"prefab": "/vehicles/american/a03_m60a1/abilities/machinegun/a_machinegun_ability.prefab",
+							"previewImage": "/ui/assets/abilities/ability_video_preview/m60/img_preview/m60_img_machine_ability.png",
+							"video": "/ui/assets/abilities/ability_video_preview/m60/m60_vid_machine_ability.webm"
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.266.features.description.localizedName",
+							"message": "root"
+						},
+						"power": 50,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.266.features.description.subtitle",
+							"message": "HIDE ME PLEASE"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [
+						{
+							"prefab": "/game_prefabs/equipment/energy_booster/energy_booster_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/extinguisher/extinguisher_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/med_kit/med_kit.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/stim_pack/stim_pack_consumable.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"layout": 21,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "reaper_root",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/a03_m60a1_ares.prefab",
+						"slot": {
+							"handle": "Root"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 266
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14134.features.description.localizedName",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "lobby_collider",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/lobby_collider.prefab",
+						"slot": {
+							"handle": "LobbyCollider"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14134
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_engine_upgrade_2_amper_v24.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.256.features.description.localizedName",
+							"message": "Amper V24"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.256.features.description.subtitle",
+							"message": "Batteries"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 3,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_20"
+					},
+					"commerce": {
+						"entitlement": "reaper_batteries_amper_v24",
+						"product": "reaper_batteries_amper_v24"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "batteries_amper_v24",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/battery_amper_v24.prefab",
+						"slot": {
+							"handle": "Battery"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 256
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/sight_grm_k.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14081.features.description.localizedName",
+							"message": "GMR K."
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14081.features.description.subtitle",
+							"message": "Scope"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_30"
+					},
+					"commerce": {
+						"entitlement": "reaper_scope_gmr_k",
+						"product": "reaper_scope_gmr_k"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "scope_gmr_k",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/scope_gmr_k.prefab",
+						"slot": {
+							"handle": "Scope"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 14081
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_engine_upgrade_1_gt_3044.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.257.features.description.localizedName",
+							"message": "GT3044"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.257.features.description.subtitle",
+							"message": "Turbochargers"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_20"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "turbochargers_gt3044",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/turbines_gt3044.prefab",
+						"slot": {
+							"handle": "Turbines"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 257
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/gun_corrector_victa.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14083.features.description.localizedName",
+							"message": "VICTA."
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14083.features.description.subtitle",
+							"message": "Gun Corrector"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_29"
+					},
+					"commerce": {
+						"entitlement": "reaper_gun_corrector_victa",
+						"product": "reaper_gun_corrector_victa"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "gun_corrector_victa",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/gun_xm340/upgrades/gun_corrector_kit_victa.prefab",
+						"slot": {
+							"handle": "GunCorrector"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 14083
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.258.features.description.effectsDescription.0.description",
+									"message": "The engine has *%(EngineMaxHP) module HP*. Receives *critical damage* per hit. Losing all module HP will *reduce movement speed* by *50%* for *%(EngineTimeToRegen)s*.#br#Module HP can be affected by shell module damage attribute."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.258.features.description.effectsDescription.0.title",
+									"message": "ENGINE"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_base_engine_v12_gtc.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.258.features.description.localizedName",
+							"message": "ANDS-V12-GTC"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.258.features.description.subtitle",
+							"message": "Engine"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_14"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "engine_v12_gtc_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/engine_v12_gtc.prefab",
+						"slot": {
+							"handle": "Engine"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine"
+					}
+				},
+				"id": 258
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.261.features.description.effectsDescription.0.description",
+									"message": "The tracks have *%(LTrackMaxHP) module HP*. Losing all module HP will *immobilize* your vehicle for *%(LTrackTimeToRegen)s*.#br#Shells inflict additional damage if they hit modules."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.261.features.description.effectsDescription.0.title",
+									"message": "TRACKS"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_basic_tracks.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.261.features.description.localizedName",
+							"message": "T97E1"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.261.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_13"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "track_t97e1_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/chassis_m60a1/tracks_t97e1/tracks_t97e1.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 261
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "0",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.262.features.description.localizedName",
+							"message": "0"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "rangefinder_base_hidden",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/rangefinder_empty.prefab",
+						"slot": {
+							"handle": "Rangefinder"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 262
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/basic_vizor.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14084.features.description.localizedName",
+							"message": "MX15 "
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14084.features.description.subtitle",
+							"message": "Thermal Sight"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "reaper_sight_mx15",
+						"product": "reaper_sight_mx15"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "sight_mx15",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/sight_mx15_16.prefab",
+						"slot": {
+							"handle": "Sight"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 14084
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_turbine_mk1.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14088.features.description.localizedName",
+							"message": "GT3044"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14088.features.description.subtitle",
+							"message": "Turbochargers"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_14"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "turbines_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/turbines_default.prefab",
+						"slot": {
+							"handle": "Turbines"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14088
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/apocalypse_smoke_grenades_m239.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.201.features.description.localizedName",
+							"message": "M239"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.201.features.description.subtitle",
+							"message": "Grenade Launchers"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "smoke_grenades_m239",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/smoke_grenades_m239.prefab",
+						"slot": {
+							"handle": "SmokeGrenades"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Smoke System"
+					}
+				},
+				"id": 201
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14090.features.description.effectsDescription.0.description",
+									"message": "If energy is depleted after using sprint, you receive *50%* energy regen bonus for *20s*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14090.features.description.effectsDescription.0.title",
+									"message": "RISE & SHINE"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_motor_biturbo_hpem_v36.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14090.features.description.localizedName",
+							"message": "HPEM V36"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14090.features.description.subtitle",
+							"message": "Electric Motors"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 3,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_33"
+					},
+					"commerce": {
+						"entitlement": "reaper_electric_motors_hpem_v36",
+						"product": "reaper_electric_motors_hpem_v36"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "electric_motors_hpem_v36",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/motor_biturbo_v36.prefab",
+						"slot": {
+							"handle": "Motor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14090
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.265.features.description.effectsDescription.0.description",
+									"message": "Strike harder and deeper: AP shells deal more damage and penetrate better in close combat (less than *150m*)."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.265.features.description.effectsDescription.0.title",
+									"message": "CLOSE COMBAT AMMO"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/apocalypse_shell_ap_m833.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.265.features.description.localizedName",
+							"message": "M774 APFSDS"
+						},
+						"power": 100,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.265.features.description.subtitle",
+							"message": "Shell"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/american/a03_m60a1/ammo/ares/m774_settings.prefab",
+							"slot": {
+								"handle": "PrimaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": true,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "shell_ap_m774_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/apds.prefab",
+						"slot": {
+							"handle": "PrimaryHangarShell"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell_AP"
+					}
+				},
+				"id": 265
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_turbine_mk1.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14092.features.description.localizedName",
+							"message": "HPEM V36"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14092.features.description.subtitle",
+							"message": "Electric Motors"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_20"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "motor_base_no_model",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/motors_base.prefab",
+						"slot": {
+							"handle": "Motor"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 257,
+							"prefabOverride": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/motor_biturbo_v12.prefab"
+						},
+						{
+							"campPrefabOverride": "",
+							"moduleID": 14090,
+							"prefabOverride": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/motor_biturbo_v36.prefab"
+						}
+					],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14092
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 18,
+						"mobility": 0,
+						"recon": 15,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/mx-18.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.273.features.description.localizedName",
+							"message": "MX-18"
+						},
+						"power": 290,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.273.features.description.subtitle",
+							"message": "Thermal Sight"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "reaper_thermal_sight_mx18",
+						"product": "reaper_thermal_sight_mx18"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "thermal_sight_mx18",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/sight_mx18.prefab",
+						"slot": {
+							"handle": "Sight"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 273
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.274.features.description.effectsDescription.0.description",
+									"message": "Unleash heavy fire on your enemy with *30 machinegun rounds,* each of which deals *15 damage* and slows enemy down by *20%* (does not stack)."
+								},
+								"hotKey": "2",
+								"icon": "",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.274.features.description.effectsDescription.0.title",
+									"message": "Alternative Fire Mode"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_m2hb_twin_mount_machineguns.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.274.features.description.localizedName",
+							"message": "M2HB"
+						},
+						"power": 100,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.274.features.description.subtitle",
+							"message": "Twin Mount Machineguns"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_06"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "twin_mount_machineguns_m2hb",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/machinegun_m2hb_twin.prefab",
+						"slot": {
+							"handle": "Machinegun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 274
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.210.features.description.effectsDescription.0.description",
+									"message": "Click *lmb* when reload progress is in the green sector to speed up reload by *25%*.#br#The central area of the green sector speeds up reload by *40%*.#br#Missing the green sector entirely will slow down reload by *25%*."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.210.features.description.effectsDescription.0.title",
+									"message": "'AR' FAST RELOAD"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_gun_xm340.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.210.features.description.localizedName",
+							"message": "XM340"
+						},
+						"power": 269,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.210.features.description.subtitle",
+							"message": "Gun"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_08"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gun_xm340_base",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/gun_xm340/gun_xm340_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/gun_xm340/gun_xm340.prefab",
+						"slot": {
+							"handle": "Gun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun"
+					}
+				},
+				"id": 210
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 22,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.211.features.description.effectsDescription.0.description",
+									"message": "Strike harder and deeper: AP shells deal more damage and penetrate better in close combat (less than *150m*)."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.211.features.description.effectsDescription.0.title",
+									"message": "CLOSE COMBAT AMMO"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/apocalypse_shell_ap_m833.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.211.features.description.localizedName",
+							"message": "M833 APFSDS"
+						},
+						"power": 260,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.211.features.description.subtitle",
+							"message": "Shell"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 73,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/american/a03_m60a1/ammo/ares/m774_settings.prefab",
+							"slot": {
+								"handle": "PrimaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "reaper_shell_ap_m833",
+						"product": "reaper_shell_ap_m833"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "shell_ap_m833",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/apds.prefab",
+						"slot": {
+							"handle": "PrimaryHangarShell"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell_AP"
+					}
+				},
+				"id": 211
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 33,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_wind_sensor_bee40.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.213.features.description.localizedName",
+							"message": "BEE40"
+						},
+						"power": 310,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.213.features.description.subtitle",
+							"message": "Wind Sensor"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 67,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_27"
+					},
+					"commerce": {
+						"entitlement": "reaper_wind_sensor_bee40",
+						"product": "reaper_wind_sensor_bee40"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "wind_sensor_bee40",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/windsensor_bee_40_01.prefab",
+						"slot": {
+							"handle": "Windsensor"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 227,
+							"prefabOverride": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/windsensor_bee_40_02.prefab"
+						}
+					],
+					"type": {
+						"handle": "Wind Sensor"
+					}
+				},
+				"id": 213
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.215.features.description.effectsDescription.0.description",
+									"message": "Reduces track repair time by *2s*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.215.features.description.effectsDescription.0.title",
+									"message": "BACK ON TRACK"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_chassis_lichs_01.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.215.features.description.localizedName",
+							"message": "LICHS"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.215.features.description.subtitle",
+							"message": "Running Wheels"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_26"
+					},
+					"commerce": {
+						"entitlement": "reaper_running_wheels_lichs",
+						"product": "reaper_running_wheels_lichs"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "running_wheels_lichs",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/chassis_lichs/chassis_lichs.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 14058,
+							"prefabOverride": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/chassis_lichs_w/chassis_lichs_w.prefab"
+						}
+					],
+					"type": {
+						"handle": "Running Wheels"
+					}
+				},
+				"id": 215
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/apocalypse_forged_aluminum_wheels.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.253.features.description.localizedName",
+							"message": "M60"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.253.features.description.subtitle",
+							"message": "Chassis"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_13"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "running_wheels_m60_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/chassis_m60a1/chassis_m60a1.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 14058,
+							"prefabOverride": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/chassis_lichs_w/chassis_lichs_w.prefab"
+						}
+					],
+					"type": {
+						"handle": "Running Wheels"
+					}
+				},
+				"id": 253
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 17,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.227.features.description.effectsDescription.0.description",
+									"message": "Increases green sector of fast reload bar by *15%*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.227.features.description.effectsDescription.0.title",
+									"message": "FAST RELOAD"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/apocalypse_rangefinder.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.227.features.description.localizedName",
+							"message": "AN/VVG-2"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.227.features.description.subtitle",
+							"message": "Rangefinder"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_06"
+					},
+					"commerce": {
+						"entitlement": "reaper_rangefinder_anvvg2",
+						"product": "reaper_rangefinder_anvvg2"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "rangefinder_anvvg2",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/rangefinder_anvvg2.prefab",
+						"slot": {
+							"handle": "Rangefinder"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Rangefinder"
+					}
+				},
+				"id": 227
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14058.features.description.effectsDescription.0.description",
+									"message": "Tracks behave like shields, reducing HE/HEAT damage by *15%*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14058.features.description.effectsDescription.0.title",
+									"message": "SHIELDING TRACKS"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_track_magak.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14058.features.description.localizedName",
+							"message": "MAGAK"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14058.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 3,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_13"
+					},
+					"commerce": {
+						"entitlement": "reaper_tracks_magak",
+						"product": "reaper_tracks_magak"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "tracks_magak",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/chassis_m60a1/tracks_magak/tracks_magak.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 14058
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 12,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 14,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14063.features.description.effectsDescription.0.description",
+									"message": "Increases track HP by *100*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14063.features.description.effectsDescription.0.title",
+									"message": "TOUGHER TRACKS"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_chassis_lichs_02.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14063.features.description.localizedName",
+							"message": "LICHS-W"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14063.features.description.subtitle",
+							"message": "Running Wheels"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 67,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_26"
+					},
+					"commerce": {
+						"entitlement": "reaper_running_wheels_lichs_w",
+						"product": "reaper_running_wheels_lichs_w"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "running_wheels_lichs_w",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/chassis_lichs_w/chassis_lichs_w.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 261,
+							"prefabOverride": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/chassis_lichs/chassis_lichs.prefab"
+						}
+					],
+					"type": {
+						"handle": "Running Wheels"
+					}
+				},
+				"id": 14063
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 12,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 14,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_air_filter_sandstorm_mk2_01.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14066.features.description.localizedName",
+							"message": "Sandstorm MK1"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14066.features.description.subtitle",
+							"message": "Air Purifier"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_14"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "airpurifier_sandstorm_mk1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/airfilter_sandstorm_mk1.prefab",
+						"slot": {
+							"handle": "AirFilter"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14066
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 12,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 14,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_air_filter_sandstorm_mk2_02.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14067.features.description.localizedName",
+							"message": "Sandstorm MK2"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14067.features.description.subtitle",
+							"message": "Air Purifier"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_35"
+					},
+					"commerce": {
+						"entitlement": "reaper_airfilter_sandstorm_mk2",
+						"product": "reaper_airfilter_sandstorm_mk2"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "airpurifier_sandstorm_mk2",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/airfilter_sandstorm_mk2.prefab",
+						"slot": {
+							"handle": "AirFilter"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14067
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/apocalypse_hull_02.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.252.features.description.localizedName",
+							"message": "M60"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.252.features.description.subtitle",
+							"message": "Hull"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_16"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "hull_m60_base",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/hull_m60a1_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/hull_m60a1.prefab",
+						"slot": {
+							"handle": "Hull"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull"
+					}
+				},
+				"id": 252
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 12,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 14,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14070.features.description.effectsDescription.0.description",
+									"message": "Greatly *improves ramming damage* bonus and reduces ramming damage received by the front of your tank."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14070.features.description.effectsDescription.0.title",
+									"message": "RAM KNIVES"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_cutter_sccissors.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14070.features.description.localizedName",
+							"message": "Handmade Scissors"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14070.features.description.subtitle",
+							"message": "Ram Knives"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_25"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "ram_knives_sccissors",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/cutter_scissors.prefab",
+						"slot": {
+							"handle": "Cutter"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ram Knives"
+					}
+				},
+				"id": 14070
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 12,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 14,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14071.features.description.effectsDescription.0.description",
+									"message": "Rammed vehicle gets silenced for *10s*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14071.features.description.effectsDescription.0.title",
+									"message": "EMBARGO"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_cutter_machete_mk1.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14071.features.description.localizedName",
+							"message": "Machete"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14071.features.description.subtitle",
+							"message": "Ram Knives"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_25"
+					},
+					"commerce": {
+						"entitlement": "reaper_ram_knives_machete_mk1",
+						"product": "reaper_ram_knives_machete_mk1"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ram_knives_machete_mk1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/cutter_machete_mk1.prefab",
+						"slot": {
+							"handle": "Cutter"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Ram Knives"
+					}
+				},
+				"id": 14071
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 15,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14073.features.description.effectsDescription.0.description",
+									"message": "Increases fast reload bonus by *15%*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14073.features.description.effectsDescription.0.title",
+									"message": "FAST RELOAD"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/athena_modules/stabilizer.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14073.features.description.localizedName",
+							"message": "GCC 21"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14073.features.description.subtitle",
+							"message": "Stabilizer"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 69,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "reaper_stabilizer_gcc_21",
+						"product": "reaper_stabilizer_gcc_21"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "stabilizer_gcc_21",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/stabilizer_gcc_21_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/stabilizer_gcc_21.prefab",
+						"slot": {
+							"handle": "Stabilizer"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Stabilizer"
+					}
+				},
+				"id": 14073
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_thermal_sleave_l7a1.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14076.features.description.localizedName",
+							"message": "Modified L7A4 Sleeve"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14076.features.description.subtitle",
+							"message": "Thermal Sleeve"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_08"
+					},
+					"commerce": {
+						"entitlement": "reaper_thermal_sleeve_l7a4",
+						"product": "reaper_thermal_sleeve_l7a4"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "thermal_sleeve_l7a4",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/gun_xm340/upgrades/thermalsleeve_mk1.prefab",
+						"slot": {
+							"handle": "ThermalSleeve"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14076
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 20,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_thermal_sleeve_micra_xm08_02.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14077.features.description.localizedName",
+							"message": "XM08 Micra"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14077.features.description.subtitle",
+							"message": "Thermal Sleeve"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_08"
+					},
+					"commerce": {
+						"entitlement": "reaper_thermal_sleeve_micra_xm08",
+						"product": "reaper_thermal_sleeve_micra_xm08"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "thermal_sleeve_micra_xm08",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/gun_xm340/upgrades/thermalsleeve_micra_mk2.prefab",
+						"slot": {
+							"handle": "ThermalSleeve"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Thermal Sleeve"
+					}
+				},
+				"id": 14077
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/apocalypse_turret_02.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.254.features.description.localizedName",
+							"message": "M60"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.254.features.description.subtitle",
+							"message": "Turret"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "turret_m60_base",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/turret_m60a1_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/turret_m60a1.prefab",
+						"slot": {
+							"handle": "Turret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret"
+					}
+				},
+				"id": 254
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 10,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_improved_gun_breach.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14079.features.description.localizedName",
+							"message": "MK07 Experimental"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14079.features.description.subtitle",
+							"message": "Rammer"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_07"
+					},
+					"commerce": {
+						"entitlement": "reaper_rammer_mk07",
+						"product": "reaper_rammer_mk07"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "rammer_mk07",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/gun_breech_rammer_mk07_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/gun_breech_rammer_mk07.prefab",
+						"slot": {
+							"handle": "GunBreech"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Rammer"
+					}
+				},
+				"id": 14079
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14256.features.description.localizedName",
+							"message": "Ammo Loader"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14256.features.description.subtitle",
+							"message": "M60"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "m60_loader",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/gun_xm340/ammo_loader_active_reload_v2_xm340.prefab",
+						"slot": {
+							"handle": "AmmoLoader"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14256
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/shell_apds_fin.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14404.features.description.localizedName",
+							"message": "UVFS"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14404.features.description.subtitle",
+							"message": "Fin"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "reaper_ammo_part_fin_uvfs",
+						"product": "reaper_ammo_part_fin_uvfs"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_fin_uvfs",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ammo/ares/m774_fin_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_2"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14404
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/shell_apds_propelant.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14400.features.description.localizedName",
+							"message": "UPCHAR"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14400.features.description.subtitle",
+							"message": "Propellant"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "reaper_ammo_part_propellant_upchar",
+						"product": "reaper_ammo_part_propellant_upchar"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_propellant_upchar",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ammo/ares/m774_propellant_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_4"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14400
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/shell_apds_sabot.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14401.features.description.localizedName",
+							"message": "UHSAS"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14401.features.description.subtitle",
+							"message": "Sabot"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "reaper_ammo_part_sabot_uhsas",
+						"product": "reaper_ammo_part_sabot_uhsas"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "ammo_part_sabot_uhsas",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ammo/ares/m774_sabot_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_5"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14401
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/gun_sight.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14402.features.description.localizedName",
+							"message": "IARS"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14402.features.description.subtitle",
+							"message": "Machinegun Sight"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_28"
+					},
+					"commerce": {
+						"entitlement": "reaper_machineguns_sight_iars",
+						"product": "reaper_machineguns_sight_iars"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "machineguns_sight_iars",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/machinegun_sight_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/machinegun_sight.prefab",
+						"slot": {
+							"handle": "MachinegunSight"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Machinegun Sight"
+					}
+				},
+				"id": 14402
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_engine_upgrade_2.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14403.features.description.localizedName",
+							"message": "UPES"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14403.features.description.subtitle",
+							"message": "Batteries"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 3,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_20"
+					},
+					"commerce": {
+						"entitlement": "reaper_batteries_upes",
+						"product": "reaper_batteries_upes"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "batteries_upes",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/batteries_upes.prefab",
+						"slot": {
+							"handle": "Battery"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14403
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 26,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14405.features.description.effectsDescription.0.description",
+									"message": "Sprint also grants *+25%* hull traverse speed bonus."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14405.features.description.effectsDescription.0.title",
+									"message": "RUBBERNECK"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/garret_gx.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14405.features.description.localizedName",
+							"message": "Garret GX"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14405.features.description.subtitle",
+							"message": "Turbines"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_14"
+					},
+					"commerce": {
+						"entitlement": "reaper_turbines_garret_gx",
+						"product": "reaper_turbines_garret_gx"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "turbines_garret_gx",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/turbines_garret_gx.prefab",
+						"slot": {
+							"handle": "Turbines"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14405
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [
+						{
+							"image": "",
+							"installSlot": {
+								"handle": "SmokeMortarAbilityModifier"
+							},
+							"prefab": "/vehicles/american/a03_m60a1/abilities/smoke_mortars/modifiers/smoke_mortars_movement_boost_modifier.prefab",
+							"video": ""
+						}
+					],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/garret_gtx.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14416.features.description.localizedName",
+							"message": "Garret GTX"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14416.features.description.subtitle",
+							"message": "Turbines"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 517,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_14"
+					},
+					"commerce": {
+						"entitlement": "reaper_turbines_garret_gtx",
+						"product": "reaper_turbines_garret_gtx"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "turbines_garret_gtx",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/turbines_garret_gtx.prefab",
+						"slot": {
+							"handle": "Turbines"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14416
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 21,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14417.features.description.effectsDescription.0.description",
+									"message": "*+10%* to reload bonus."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14417.features.description.effectsDescription.0.title",
+									"message": "FAST RELOAD"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_electric_turret_rotation_mech.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14417.features.description.localizedName",
+							"message": "ENTURD"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14417.features.description.subtitle",
+							"message": "Rotator"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_07"
+					},
+					"commerce": {
+						"entitlement": "reaper_turret_rotator_enturd",
+						"product": "reaper_turret_rotator_enturd"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "turret_rotator_enturd",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/turret_rotator_enturd_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/turret_rotator_enturd.prefab",
+						"slot": {
+							"handle": "Rotating"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret Rotator"
+					}
+				},
+				"id": 14417
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14418.features.description.effectsDescription.0.description",
+									"message": "Reduces miss click penalty by *25%*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14418.features.description.effectsDescription.0.title",
+									"message": "FAST RELOAD"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/udarnik/modules/udarnik_gun_breech.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14418.features.description.localizedName",
+							"message": "BRIST"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14418.features.description.subtitle",
+							"message": "Gun Breech"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_31"
+					},
+					"commerce": {
+						"entitlement": "reaper_gun_breech_brist",
+						"product": "reaper_gun_breech_brist"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "gun_breech_brist",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/gun_breech_rammer_mk07_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/gun_breech_rammer_mk07.prefab",
+						"slot": {
+							"handle": "GunBreech"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Breech"
+					}
+				},
+				"id": 14418
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 22,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/reaper_fuel_protection.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14419.features.description.localizedName",
+							"message": "PROMODFUL"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14419.features.description.subtitle",
+							"message": "Fuel Tank Protection"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_37"
+					},
+					"commerce": {
+						"entitlement": "reaper_fueltank_protection_promodful",
+						"product": "reaper_fueltank_protection_promodful"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "fueltank_protection_promodful",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/fuel_tank_protection_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/fuel_tank_protection.prefab",
+						"slot": {
+							"handle": "FuelTankUpgrade"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Fuel Tank Protection"
+					}
+				},
+				"id": 14419
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14420.features.description.effectsDescription.0.description",
+									"message": "Repair Kit cooldown reduces by *10%*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14420.features.description.effectsDescription.0.title",
+									"message": "QUICK KIT"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/reaper_engine_protection.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14420.features.description.localizedName",
+							"message": "HIPREN"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14420.features.description.subtitle",
+							"message": "Engine Protection"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_38"
+					},
+					"commerce": {
+						"entitlement": "reaper_engine_protection_hipren",
+						"product": "reaper_engine_protection_hipren"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "engine_protection_hipren",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/engine_protection_hangar.prefab",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/hull_m60a1/upgrades/engine_protection.prefab",
+						"slot": {
+							"handle": "EngineUpgrade"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Protection"
+					}
+				},
+				"id": 14420
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_m2hb_twin_mount_machineguns2.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14421.features.description.localizedName",
+							"message": "M2HB IMRE"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14421.features.description.subtitle",
+							"message": "Twin Mount Machineguns"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_32"
+					},
+					"commerce": {
+						"entitlement": "reaper_twin_mount_machineguns_m2hb_imre",
+						"product": "reaper_twin_mount_machineguns_m2hb_imre"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "twin_mount_machineguns_m2hb_imre",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/machineguns_m2hb_imre.prefab",
+						"slot": {
+							"handle": "Machinegun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Machinegun"
+					}
+				},
+				"id": 14421
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_m2hb_twin_mount_machineguns3.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14422.features.description.localizedName",
+							"message": "M2HB RIFIR"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14422.features.description.subtitle",
+							"message": "Twin Mount Machineguns"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_32"
+					},
+					"commerce": {
+						"entitlement": "reaper_twin_mount_machineguns_m2hb_rifir",
+						"product": "reaper_twin_mount_machineguns_m2hb_rifir"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "twin_mount_machineguns_m2hb_rifir",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/machinegun_m2hb_rifir.prefab",
+						"slot": {
+							"handle": "Machinegun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Machinegun"
+					}
+				},
+				"id": 14422
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ares_m2hb_twin_mount_machineguns4.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14423.features.description.localizedName",
+							"message": "M2HB UPAC"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14423.features.description.subtitle",
+							"message": "Twin Mount Machineguns"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_32"
+					},
+					"commerce": {
+						"entitlement": "reaper_m2hb_twin_mount_machineguns_m2hb_upac",
+						"product": "reaper_m2hb_twin_mount_machineguns_m2hb_upac"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "twin_mount_machineguns_m2hb_upac",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/machinegun_m2hb_upac.prefab",
+						"slot": {
+							"handle": "Machinegun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Machinegun"
+					}
+				},
+				"id": 14423
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14424.features.description.effectsDescription.0.description",
+									"message": "Each strike on the same target increases machinegun damage by *3*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/firing_archetypes/ability_widget/autocannon_firemode.png",
+								"title": {
+									"key": "a03_m60a1_ares.specs.specification.modules.14424.features.description.effectsDescription.0.title",
+									"message": "MACHINEGUN"
+								},
+								"type": "SecondaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/apocalypse/modules/ares/ammo_shells.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14424.features.description.localizedName",
+							"message": "M2HB ENCOMP"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14424.features.description.subtitle",
+							"message": "Twin Mount Machineguns"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_32"
+					},
+					"commerce": {
+						"entitlement": "reaper_m2hb_twin_mount_machineguns_m2hb_encomp",
+						"product": "reaper_m2hb_twin_mount_machineguns_m2hb_encomp"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "twin_mount_machineguns_m2hb_encomp",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/machinegun_m2hb_encomp.prefab",
+						"slot": {
+							"handle": "MachinegunUpgrade"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Machinegun"
+					}
+				},
+				"id": 14424
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "m744_core_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/core/core_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_1"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14476
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "m744_fin_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/fin/fin_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_2"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14477
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "m744_primer_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/primer/primer_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_3"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14478
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "m744_propellant_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/propellant/propellant_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_4"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14479
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "m744_sabot_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/apds/prefabs/sabot/sabot_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_5"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14480
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [
+						{
+							"image": "",
+							"installSlot": {
+								"handle": "SmokeMortarAbilityModifier"
+							},
+							"prefab": "/vehicles/american/a03_m60a1/abilities/smoke_mortars/modifiers/smoke_mortars_aroud_a_vehicle_modifier.prefab",
+							"video": ""
+						}
+					],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/apocalypse/modules/apocalypse_smoke_grenades_m239.png",
+						"localizedName": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14500.features.description.localizedName",
+							"message": "M239B"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "a03_m60a1_ares.specs.specification.modules.14500.features.description.subtitle",
+							"message": "Grenade Launchers"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 513,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "reaper_smoke_grenades_m239b",
+						"product": "reaper_smoke_grenades_m239b"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "smoke_grenades_m239b",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/smoke_grenades_m239b.prefab",
+						"slot": {
+							"handle": "SmokeGrenades"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Smoke System"
+					}
+				},
+				"id": 14500
+			}
+		],
+		"modulesGroups": [
+			{
+				"id": 31,
+				"modules": [
+					14404,
+					14400,
+					14401
+				],
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.modulesGroups.31.title",
+					"message": "SLOT 1"
+				}
+			},
+			{
+				"id": 32,
+				"modules": [
+					14058,
+					14063,
+					215
+				],
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.modulesGroups.32.title",
+					"message": "SLOT 2"
+				}
+			},
+			{
+				"id": 33,
+				"modules": [
+					213,
+					227,
+					14402
+				],
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.modulesGroups.33.title",
+					"message": "SLOT 3"
+				}
+			},
+			{
+				"id": 34,
+				"modules": [
+					14090,
+					14405,
+					14416
+				],
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.modulesGroups.34.title",
+					"message": "SLOT 4"
+				}
+			},
+			{
+				"id": 35,
+				"modules": [
+					14083,
+					273,
+					14081
+				],
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.modulesGroups.35.title",
+					"message": "SLOT 5"
+				}
+			},
+			{
+				"id": 36,
+				"modules": [
+					14417,
+					14073,
+					14418
+				],
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.modulesGroups.36.title",
+					"message": "SLOT 6"
+				}
+			},
+			{
+				"id": 37,
+				"modules": [
+					14067,
+					256,
+					14403
+				],
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.modulesGroups.37.title",
+					"message": "SLOT 7"
+				}
+			},
+			{
+				"id": 38,
+				"modules": [
+					14500,
+					14419,
+					14420
+				],
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.modulesGroups.38.title",
+					"message": "SLOT 8"
+				}
+			},
+			{
+				"id": 39,
+				"modules": [
+					14421,
+					14422,
+					14423
+				],
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.modulesGroups.39.title",
+					"message": "SLOT 9"
+				}
+			},
+			{
+				"id": 40,
+				"modules": [
+					14071,
+					14077,
+					14424
+				],
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.modulesGroups.40.title",
+					"message": "SLOT 10"
+				}
+			}
+		],
+		"perkGroups": [
+			{
+				"category": "Hero",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "apocalypse_ares_combat_cruiser",
+							"product": "apocalypse_ares_combat_cruiser"
+						},
+						"id": 5008,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "apocalypse_ares_punchline",
+							"product": "apocalypse_ares_punchline"
+						},
+						"id": 5009,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "apocalypse_ares_all_mighty",
+							"product": "apocalypse_ares_all_mighty"
+						},
+						"id": 5010,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Role",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "reaper_attacker_this_is_my_gun",
+							"product": "reaper_attacker_this_is_my_gun"
+						},
+						"id": 5001,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "reaper_attacker_dead_eye",
+							"product": "reaper_attacker_dead_eye"
+						},
+						"id": 5011,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "reaper_attacker_locked_and_loaded",
+							"product": "reaper_attacker_locked_and_loaded"
+						},
+						"id": 5013,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Division",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "apocalypse_ares_brcompany_stable_approach",
+							"product": "apocalypse_ares_brcompany_stable_approach"
+						},
+						"id": 5014,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "apocalypse_ares_brcompany_dying_fire",
+							"product": "apocalypse_ares_brcompany_dying_fire"
+						},
+						"id": 5015,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "apocalypse_ares_brcompany_peripheral_vision",
+							"product": "apocalypse_ares_brcompany_peripheral_vision"
+						},
+						"id": 5016,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Conditional",
+				"isDefault": true,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "",
+							"product": ""
+						},
+						"id": 5002,
+						"overrides": []
+					}
+				]
+			}
+		],
+		"perks": [
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5001.description",
+					"message": "Improves gun handling and aiming time by *10%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/assault_role_perks/this_is_my_gun.png",
+				"id": 5001,
+				"prefab": "/game_prefabs/perks/role_perks/assault/this_is_my_gun/this_is_my_gun_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5001.title",
+					"message": "THIS IS MY GUN"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5002.description",
+					"message": "Kill 3 enemies without dying to improve gun reload speed by 35% and increase AP shell critical damage by 50%, both for 20s."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/titan/conditional/grim_reaper.png",
+				"id": 5002,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/ares/conditional_trait/grim_reaper_trait/grim_reaper_ares_trait.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5002.title",
+					"message": "GRIM REAPER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5003.description",
+					"message": "Improves Repair Kit stats, increases the number of hit points recovered by *+5 HP/sec*, increases repair duration by *5s*, and reduces Repair Kit cooldown by *10s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/master_engineer.png",
+				"id": 5003,
+				"prefab": "/game_prefabs/perks/role_perks/defender/master_engineer/master_engineer_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5003.title",
+					"message": "MASTER ENGINEER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5004.description",
+					"message": "Reduces track and engine repair time by *25%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/back_on_track.png",
+				"id": 5004,
+				"prefab": "/game_prefabs/perks/role_perks/defender/back_on_track/back_on_track_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5004.title",
+					"message": "BACK ON TRACK"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 9,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5005.description",
+					"message": "Losing 50% of health resets Repair Kit cooldown."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/titan/conditional/iron_warden.png",
+				"id": 5005,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/athena/conditional_trait/iron_warden/iron_warden_athena_trait.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5005.title",
+					"message": "IRON WARDEN"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5006.description",
+					"message": "Increases the number of hit points recovered by the Repair Kit by *+25 HP/sec*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/titan/engineering_excellence.png",
+				"id": 5006,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/athena/perks/engineering_excellence/apocalypse_engineering_excellence_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5006.title",
+					"message": "ENGINEERING EXCELLENCE"
+				}
+			},
+			{
+				"abilityReferences": [
+					"/game_prefabs/abilities/air_bomber/a_air_bomber_ability.prefab"
+				],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5007.description",
+					"message": "Reduces Air Bomber ability energy cost by *15 points*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/titan/sky_master.png",
+				"id": 5007,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/athena/perks/sky_master/apocalypse_sky_master_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5007.title",
+					"message": "SKY MASTER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 5,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5008.description",
+					"message": "Increases forward movement speed by *2km/h*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/titan/combat_cruiser.png",
+				"id": 5008,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/ares/perks/combat_cruiser/apocalypse_combat_cruiser_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5008.title",
+					"message": "COMBAT CRUISER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5009.description",
+					"message": "Increases aiming speed by *10%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/titan/punchline.png",
+				"id": 5009,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/ares/perks/punchline/apocalypse_punchline_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5009.title",
+					"message": "PUNCHLINE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5010.description",
+					"message": "Increases energy capacity by *20 points*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/titan/all_mighty.png",
+				"id": 5010,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/ares/perks/all_mighty/apocalypse_all_mighty_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5010.title",
+					"message": "ALL-MIGHTY"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5011.description",
+					"message": "Increases gun accuracy by *15%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/assault_role_perks/dead_eye.png",
+				"id": 5011,
+				"prefab": "/game_prefabs/perks/role_perks/assault/dead_eye/dead_eye_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5011.title",
+					"message": "DEAD EYE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5012.description",
+					"message": "Greatly improves ramming damage bonus and reduces ramming damage to the front of your tank."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/collision_course.png",
+				"id": 5012,
+				"prefab": "/game_prefabs/perks/role_perks/defender/collision_course/collision_course_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5012.title",
+					"message": "COLLISION COURSE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5013.description",
+					"message": "Improves gun stabilization by *15%* when traversing the turret."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/assault_role_perks/locked_and_loaded.png",
+				"id": 5013,
+				"prefab": "/game_prefabs/perks/role_perks/assault/locked_and_loaded/locked_and_loaded_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5013.title",
+					"message": "LOCKED AND LOADED"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5014.description",
+					"message": "Improves gun stabilization when shooting on the move by *15%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/bravo_company/stable_approach.png",
+				"id": 5014,
+				"prefab": "/game_prefabs/perks/division_perks/bravo_company/stable_approach/stable_approach_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5014.title",
+					"message": "STABLE APPROACH"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5015.description",
+					"message": "Passively reduces duration of fire by *2s* and reduces fire damage received by *50%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/bravo_company/dying_fire.png",
+				"id": 5015,
+				"prefab": "/game_prefabs/perks/division_perks/bravo_company/dying_fire/dying_fire_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5015.title",
+					"message": "DYING FIRE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 5,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5016.description",
+					"message": "Widens spotting angle by *45deg*; reduces spotting range by *150m*. Increases the time enemies stay detected on radar by *1s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/bravo_company/peripheral_vision.png",
+				"id": 5016,
+				"prefab": "/game_prefabs/perks/division_perks/bravo_company/peripheral_vision/peripheral_vision_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5016.title",
+					"message": "PERIPHERAL VISION"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5017.description",
+					"message": "Improves gun stabilization by *15%* when traversing the turret."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/titan/steady_hands.png",
+				"id": 5017,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/athena/perks/steady_hands/apocalypse_steady_hands_perk.prefab",
+				"title": {
+					"key": "a03_m60a1_ares.specs.specification.perks.5017.title",
+					"message": "STEADY HANDS"
+				}
+			}
+		],
+		"perksSlot": {
+			"handle": "Perks"
+		},
+		"power": 1000,
+		"prefabPlaceholders": [
+			{
+				"pawnRequired": true,
+				"prefabPath": "/vehicles/american/a03_m60a1/settings/workshop_anchors_ares.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_anchors"
+				},
+				"switcherName": "a03_m60a1_ares.specs.specification.callSign"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/apocalypse/apocalypse_pc_1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Apocalypse_1_ares"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/apocalypse/apocalypse_pc_2.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Apocalypse_2_ares"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/apocalypse/apocalypse_pc_3.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Apocalypse_3_ares"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/apocalypse/apocalypse_pc_3.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Apocalypse_4_ares"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/apocalypse/hq_apocalypse_1_ares.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Apocalypse_1_ares"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/apocalypse/hq_apocalypse_2_ares.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Apocalypse_2_ares"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/apocalypse/hq_apocalypse_3_ares.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Apocalypse_3_ares"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/apocalypse/hq_apocalypse_4_ares.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Apocalypse_4_ares"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/worlds/camps/hq_cameras/blue_hq_cameras_apocalypse.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_cameras"
+				},
+				"switcherName": "Apocalypse"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/apocalypse/apocalypse_ws_1_ares.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Apocalypse_1_ares"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/apocalypse/apocalypse_ws_2_ares.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Apocalypse_2_ares"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/apocalypse/apocalypse_ws_3_ares.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Apocalypse_3_ares"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/apocalypse/apocalypse_ws_4_ares.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Apocalypse_4_ares"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/worlds/camps/base/consumables_anchors.prefab",
+				"spawnPlaceholderName": {
+					"handle": "consumable_anchors"
+				},
+				"switcherName": "a03_m60a1_ares.specs.specification.callSign"
+			}
+		],
+		"role": "Assault",
+		"shellSlots": [
+			{
+				"handle": "PrimaryShell"
+			},
+			{
+				"handle": "SecondaryShell"
+			}
+		],
+		"shortDescription": {
+			"key": "a03_m60a1_ares.specs.specification.shortDescription",
+			"message": "TAKES REDUCED DAMAGE"
+		},
+		"slotsAreas": [
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": true,
+				"left": 482,
+				"top": 280,
+				"uiAnchor": {
+					"handle": "GunModule"
+				},
+				"uiCategory": "Firepower"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": false,
+				"drawRightToLeft": true,
+				"left": 436,
+				"top": 862,
+				"uiAnchor": {
+					"handle": "HullModule"
+				},
+				"uiCategory": "Toughness"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": true,
+				"left": 774,
+				"top": 200,
+				"uiAnchor": {
+					"handle": "TurretModule"
+				},
+				"uiCategory": "Recon"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1323,
+				"top": 200,
+				"uiAnchor": {
+					"handle": "CommunicationModule"
+				},
+				"uiCategory": "Utility"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1506,
+				"top": 290,
+				"uiAnchor": {
+					"handle": "EngineModule"
+				},
+				"uiCategory": "Mobility"
+			}
+		],
+		"smallVehicleImage": "/ui/assets/hero_vehicles/death_card/apocalypse/m60_ares.png",
+		"talismanHolder": {
+			"cameraName": {
+				"handle": "talisman_camera"
+			},
+			"prefab": "/vehicles/american/a03_m60a1/ares_fbx/prefabs/turret_m60a1/upgrades/talisman_holder.prefab",
+			"slot": {
+				"handle": "TalismanHolder"
+			}
+		},
+		"technicalName": "a03_m60a1_ares",
+		"tierSettings": [
+			{
+				"maxPower": 1999,
+				"minPower": 0,
+				"tier": 1
+			},
+			{
+				"maxPower": 2999,
+				"minPower": 2000,
+				"tier": 2
+			},
+			{
+				"maxPower": 3999,
+				"minPower": 3000,
+				"tier": 3
+			},
+			{
+				"maxPower": 4999,
+				"minPower": 4000,
+				"tier": 4
+			},
+			{
+				"maxPower": 5999,
+				"minPower": 5000,
+				"tier": 5
+			},
+			{
+				"maxPower": 6999,
+				"minPower": 6000,
+				"tier": 6
+			},
+			{
+				"maxPower": 9999,
+				"minPower": 7000,
+				"tier": 7
+			}
+		],
+		"vehicleId": 5,
+		"vehicleName": {
+			"key": "a03_m60a1_ares.specs.specification.vehicleName",
+			"message": "M60 \"Ares\""
+		}
+	}
+}
 ```

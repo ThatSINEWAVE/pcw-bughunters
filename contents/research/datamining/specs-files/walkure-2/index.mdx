@@ -11,5 +11,2756 @@ PLACEHOLDER TEXT
 
 ### Full contents of the file
 ```json
-PLACEHOLDER CODE
+{
+	"__type__": "CW::VehicleSpecificationStorage",
+	"specification": {
+		"abilityModifiersSlots": [],
+		"abilitySlots": [
+			{
+				"handle": "FirstAbility"
+			},
+			{
+				"handle": "SecondAbility"
+			},
+			{
+				"handle": "ThirdAbility"
+			}
+		],
+		"aiSettings": {
+			"brainsSlot": {
+				"handle": "AIBrains"
+			},
+			"defaultPreset": {
+				"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_capture_defend_base.prefab",
+				"modulesLayout": []
+			},
+			"gameModePresets": [
+				{
+					"key": {
+						"handle": "conquest"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest_newcomer.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "ct"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "domination"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "hq"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						}
+					}
+				}
+			]
+		},
+		"baseEquipment": [
+			{
+				"installSlot": {
+					"handle": "FirstEquipment"
+				},
+				"prefab": "/game_prefabs/equipment/repair_kit/repair_kit_ability.prefab",
+				"previewImage": "",
+				"video": ""
+			}
+		],
+		"basicCharacteristics": {
+			"firepower": 367,
+			"mobility": 374,
+			"recon": 42,
+			"toughness": 528,
+			"utility": 213
+		},
+		"callSign": {
+			"key": "r02_t_72a_buivol.specs.specification.callSign",
+			"message": "Walküre"
+		},
+		"commerce": {
+			"entitlement": "vehicle_t72_buivol",
+			"product": "vehicle_t72_buivol"
+		},
+		"commercePath": "/vehicles/russian/r02_t_72a/settings/commerce_buivol.specs",
+		"complexity": 1,
+		"crew": {
+			"crewMembers": [
+				{
+					"arenaPrefab": "/vehicles/russian/r02_t_72a/settings/frontmans/frontman_1.prefab",
+					"bigImage": "/ui/assets/heroes/walkure/crew/extralarge/walkure_crew_01.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "valkyrie_crew_01_buivol",
+						"product": ""
+					},
+					"description": {
+						"key": "r02_t_72a_buivol.specs.specification.crew.crewMembers.1301.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 1301,
+					"image": "/ui/assets/heroes/walkure/crew/large/walkure_crew_01.png",
+					"isDefaultFrontman": true,
+					"lastName": {
+						"key": "r02_t_72a_buivol.specs.specification.crew.crewMembers.1301.lastName",
+						"message": "Pieck"
+					},
+					"name": {
+						"key": "r02_t_72a_buivol.specs.specification.crew.crewMembers.1301.name",
+						"message": "Antonie"
+					},
+					"prefabPlaceholderName": "Valkyrie_1_buivol",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/walkure/crew/small/walkure_crew_01_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/russian/r02_t_72a/settings/frontmans/frontman_2.prefab",
+					"bigImage": "/ui/assets/heroes/walkure/crew/extralarge/walkure_crew_02.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "valkyrie_crew_02_buivol",
+						"product": ""
+					},
+					"description": {
+						"key": "r02_t_72a_buivol.specs.specification.crew.crewMembers.1302.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 1302,
+					"image": "/ui/assets/heroes/walkure/crew/large/walkure_crew_02.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "r02_t_72a_buivol.specs.specification.crew.crewMembers.1302.lastName",
+						"message": "Ulbricht"
+					},
+					"name": {
+						"key": "r02_t_72a_buivol.specs.specification.crew.crewMembers.1302.name",
+						"message": "Grete"
+					},
+					"prefabPlaceholderName": "Valkyrie_2_buivol",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/walkure/crew/small/walkure_crew_02_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/russian/r02_t_72a/settings/frontmans/frontman_3.prefab",
+					"bigImage": "/ui/assets/heroes/walkure/crew/extralarge/walkure_crew_03.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "valkyrie_crew_03_buivol",
+						"product": ""
+					},
+					"description": {
+						"key": "r02_t_72a_buivol.specs.specification.crew.crewMembers.1303.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 1303,
+					"image": "/ui/assets/heroes/walkure/crew/large/walkure_crew_03.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "r02_t_72a_buivol.specs.specification.crew.crewMembers.1303.lastName",
+						"message": "Honecker"
+					},
+					"name": {
+						"key": "r02_t_72a_buivol.specs.specification.crew.crewMembers.1303.name",
+						"message": "Elly"
+					},
+					"prefabPlaceholderName": "Valkyrie_3_buivol",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/walkure/crew/small/walkure_crew_03_req.png",
+					"setBonuses": []
+				}
+			],
+			"customization": [],
+			"setBonuses": []
+		},
+		"customization3D": {
+			"modulesPacks": [],
+			"stylesPacks": []
+		},
+		"customizationLayout": 0,
+		"description": {
+			"key": "r02_t_72a_buivol.specs.specification.description",
+			"message": "Walküre confidently traverses the battlefield to boldly take on lone enemies in single combat. Each battle she wins increases the power of her attacks until she becomes a relentless one-crew army."
+		},
+		"displayableCurrencies": [
+			{
+				"handle": "soft"
+			},
+			{
+				"handle": "reputation_red"
+			}
+		],
+		"divisionColor": "#D44730",
+		"divisionIcon": "/ui/assets/meta/select_hero/russian_division.png",
+		"divisionIconSmall": "/ui/assets/meta/select_hero/russian_division_small.png",
+		"divisionName": {
+			"key": "r02_t_72a_buivol.specs.specification.divisionName",
+			"message": "Grasshoppers"
+		},
+		"divisionShortName": {
+			"key": "r02_t_72a_buivol.specs.specification.divisionShortName",
+			"message": "Grasshoppers"
+		},
+		"economyPrefab": "/vehicles/russian/r02_t_72a/settings/economy_settings_buivol.prefab",
+		"equipmentCameras": [
+			{
+				"handle": "equipment_1st_camera"
+			},
+			{
+				"handle": "equipment_2nd_camera"
+			},
+			{
+				"handle": "equipment_3rd_camera"
+			}
+		],
+		"equipmentSlots": [
+			{
+				"handle": "FirstEquipment"
+			},
+			{
+				"handle": "SecondEquipment"
+			},
+			{
+				"handle": "ThirdEquipment"
+			}
+		],
+		"features": {
+			"abilityFeatures": [
+				{
+					"isInitial": false,
+					"prefab": "/game_prefabs/abilities/reb_electronic_warfare/a_reb_electronic_warfare_ability.prefab"
+				}
+			],
+			"moduleFeatures": [],
+			"passiveFeatures": [],
+			"perkFeatures": []
+		},
+		"fraction": {
+			"handle": "red"
+		},
+		"gameplayPrefab": "/vehicles/russian/r02_t_72a/settings/gameplay_settings.prefab",
+		"hiddenAbilitiesSlot": {
+			"handle": "HiddenAbilities"
+		},
+		"image": "/ui/assets/heroes/walkure/vehicle/valkyrie_vehicle.png",
+		"isHidden": true,
+		"mastering": {
+			"commerce": "buivol_assault_grant_500_exp",
+			"levels": [
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_r02_buivol_1",
+						"product": "mastering_lvl_r02_buivol_1"
+					},
+					"extraEquipment": [],
+					"points": 0,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_r02_buivol_2",
+						"product": "mastering_lvl_r02_buivol_2"
+					},
+					"extraEquipment": [],
+					"points": 4000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_r02_buivol_3",
+						"product": "mastering_lvl_r02_buivol_3"
+					},
+					"extraEquipment": [],
+					"points": 12000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_r02_buivol_4",
+						"product": "mastering_lvl_r02_buivol_4"
+					},
+					"extraEquipment": [],
+					"points": 20000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_r02_buivol_5",
+						"product": "mastering_lvl_r02_buivol_5"
+					},
+					"extraEquipment": [],
+					"points": 32000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_r02_buivol_6",
+						"product": "mastering_lvl_r02_buivol_6"
+					},
+					"extraEquipment": [],
+					"points": 44000,
+					"rewards": [],
+					"unlockGroups": [],
+					"unlockModules": [],
+					"unlockPerks": []
+				}
+			],
+			"pointsCurrency": {
+				"handle": "r02_buivol"
+			}
+		},
+		"modules": [
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.14154.features.description.localizedName",
+							"message": "default_t72_loader"
+						},
+						"power": 50,
+						"subtitle": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.14154.features.description.subtitle",
+							"message": "default_t72_loader"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_turret"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "walkure_default_t72_loader_1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/base_tank/components/ammo_loader.prefab",
+						"slot": {
+							"handle": "AmmoLoader"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14154
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "Scope_Empty_1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/turret_01_upgrades/scope_empty.prefab",
+						"slot": {
+							"handle": "Scope"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 1102,
+							"prefabOverride": "/vehicles/russian/r02_t_72a/prefabs/turret_02_upgrades/scope_empty.prefab"
+						},
+						{
+							"campPrefabOverride": "",
+							"moduleID": 1111,
+							"prefabOverride": "/vehicles/russian/r02_t_72a/prefabs/turret_03_upgrades/scope_empty.prefab"
+						}
+					],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14153
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "Turret_01_Frontparts_1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/turret_01_upgrades/frontparts.prefab",
+						"slot": {
+							"handle": "TurretSideArmor"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 1102,
+							"prefabOverride": "/vehicles/russian/r02_t_72a/prefabs/turret_02_upgrades/frontparts.prefab"
+						},
+						{
+							"campPrefabOverride": "",
+							"moduleID": 1111,
+							"prefabOverride": "/vehicles/russian/r02_t_72a/prefabs/turret_03_upgrades/frontparts.prefab"
+						}
+					],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14152
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "Antenna_Default_1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/turret_01_upgrades/antenna.prefab",
+						"slot": {
+							"handle": "Antenna"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 1102,
+							"prefabOverride": "/vehicles/russian/r02_t_72a/prefabs/turret_02_upgrades/antenna.prefab"
+						},
+						{
+							"campPrefabOverride": "",
+							"moduleID": 1111,
+							"prefabOverride": "/vehicles/russian/r02_t_72a/prefabs/turret_03_upgrades/antenna.prefab"
+						}
+					],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14151
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "Lobby_Collider_1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/hull_01_upgrades/lobby_collider.prefab",
+						"slot": {
+							"handle": "LobbyCollider"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14150
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "Hull_Frontparts_1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/hull_01_upgrades/frontparts.prefab",
+						"slot": {
+							"handle": "HullArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14149
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "Engine_01_Default_1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/hull_01_upgrades/engine_01.prefab",
+						"slot": {
+							"handle": "Engine"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14148
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "Dust_Shields_1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/hull_01_upgrades/dust_shields.prefab",
+						"slot": {
+							"handle": "HullSideArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14147
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "Mask_Cover_Default_1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/gun_01_upgrade/mask_cover_01.prefab",
+						"slot": {
+							"handle": "MaskCover"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 1102,
+							"prefabOverride": "/vehicles/russian/r02_t_72a/prefabs/gun_01_upgrade/mask_cover_02.prefab"
+						},
+						{
+							"campPrefabOverride": "",
+							"moduleID": 1111,
+							"prefabOverride": "/vehicles/russian/r02_t_72a/prefabs/gun_01_upgrade/mask_cover_03.prefab"
+						}
+					],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14146
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "Turret_01_Default_1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/turret_01.prefab",
+						"slot": {
+							"handle": "Turret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14144
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "Track_Default_1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/track_default.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14143
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "Chassis_Default_1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/chassis_default.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14142
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "Hull_Default_1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/hull_01.prefab",
+						"slot": {
+							"handle": "Hull"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14141
+			},
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/equipment/fire/fire_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [
+						{
+							"prefab": "/game_prefabs/equipment/energy_booster/energy_booster_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/stim_pack/stim_pack_consumable.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"layout": 21,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "Root_1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/r02_t_72a.prefab",
+						"slot": {
+							"handle": "Root"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14140
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 100,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/walkure/modules/walkure_engine_2b_16_2.png",
+						"localizedName": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1120.features.description.localizedName",
+							"message": "2V-16-2 (A-53-2)"
+						},
+						"power": 502,
+						"subtitle": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1120.features.description.subtitle",
+							"message": "Engine"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_01"
+					},
+					"commerce": {
+						"entitlement": "walkure_engine_2v162",
+						"product": "walkure_engine_2v162"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "walkure_engine_2v162",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/hull_01_upgrades/engine_03.prefab",
+						"slot": {
+							"handle": "Engine"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 1120
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 11,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/walkure/modules/walkure_wheels_x105.png",
+						"localizedName": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1122.features.description.localizedName",
+							"message": "X101"
+						},
+						"power": 56,
+						"subtitle": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1122.features.description.subtitle",
+							"message": "Wheels"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_04"
+					},
+					"commerce": {
+						"entitlement": "walkure_wheels_x101",
+						"product": "walkure_wheels_x101"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "walkure_wheels_x101",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/chassis_x105.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 1122
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 9,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/walkure/modules/walkure_radio_p_173.png",
+						"localizedName": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1125.features.description.localizedName",
+							"message": "R-173 'ABZAC'"
+						},
+						"power": 45,
+						"subtitle": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1125.features.description.subtitle",
+							"message": "Radio"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_08"
+					},
+					"commerce": {
+						"entitlement": "walkure_radio_r173abzac",
+						"product": "walkure_radio_r173abzac"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "walkure_radio_r173abzac",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/turret_01_upgrades/radio_r173.prefab",
+						"slot": {
+							"handle": "Radio"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 1102,
+							"prefabOverride": "/vehicles/russian/r02_t_72a/prefabs/turret_02_upgrades/radio_r173.prefab"
+						}
+					],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 1125
+			},
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": "SecondAbility"
+							},
+							"isHidden": false,
+							"prefab": "/game_prefabs/abilities/reb_electronic_warfare/a_reb_electronic_warfare_ability.prefab",
+							"previewImage": "/ui/assets/abilities/ability_video_preview/t72/img_preview/t72_img_reb_electronic_ability.png",
+							"video": "/ui/assets/abilities/ability_video_preview/t72/t72_vid_reb_electronic_ability.webm"
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 9,
+						"toughness": 0,
+						"utility": 40
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/walkure/modules/walkure_electronic_warfare_system_nx112_m11.png",
+						"localizedName": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1126.features.description.localizedName",
+							"message": "R330B 'MANDAT-B'"
+						},
+						"power": 200,
+						"subtitle": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1126.features.description.subtitle",
+							"message": "Electronic Warfare System"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 197,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_09"
+					},
+					"commerce": {
+						"entitlement": "walkure_electronic_warfare_system_r330bmandat",
+						"product": "walkure_electronic_warfare_system_r330bmandat"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "walkure_electronic_warfare_system_r330bmandat",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/turret_01_upgrades/ew_antenna.prefab",
+						"slot": {
+							"handle": "WarfareSystem"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 1102,
+							"prefabOverride": "/vehicles/russian/r02_t_72a/prefabs/turret_02_upgrades/ew_antenna.prefab"
+						}
+					],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 1126
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 13,
+						"mobility": 0,
+						"recon": 9,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/walkure/modules/walkure_sight_tpn2.png",
+						"localizedName": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1131.features.description.localizedName",
+							"message": "TPN-2"
+						},
+						"power": 111,
+						"subtitle": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1131.features.description.subtitle",
+							"message": "Sight"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 193,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_07"
+					},
+					"commerce": {
+						"entitlement": "walkure_sight_tpn2",
+						"product": "walkure_sight_tpn2"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "walkure_sight_tpn2",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/turret_01_upgrades/tpn_2_temp/scope_tpn2_49.prefab",
+						"slot": {
+							"handle": "Scope"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 1131
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 26,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/walkure/modules/walkure_shell_heap_130mm.png",
+						"localizedName": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1132.features.description.localizedName",
+							"message": "HEAP 130 mm"
+						},
+						"power": 129,
+						"subtitle": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1132.features.description.subtitle",
+							"message": "Shell"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 201,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/russian/r02_t_72a/ammo/buivol/heap_settings.prefab",
+							"slot": {
+								"handle": "SecondaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "walkure_shell_heap130mm",
+						"product": "walkure_shell_heap130mm"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "walkure_shell_heap130mm",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/130mm_3bp482/130mm_3bp482.prefab",
+						"slot": {
+							"handle": "SecondaryHangarShell"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 1132
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": -5,
+						"recon": 0,
+						"toughness": 18,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/walkure/modules/walkure_hull_screen_reflection_x.png",
+						"localizedName": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1101.features.description.localizedName",
+							"message": "175.01.010 \"OTRAZHENIYE\""
+						},
+						"power": 64,
+						"subtitle": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1101.features.description.subtitle",
+							"message": "Front Hull Screen"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 193,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_11"
+					},
+					"commerce": {
+						"entitlement": "walkure_hull_screens_otrazhenie",
+						"product": "walkure_hull_screens_otrazhenie"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "walkure_hull_screens_otrazhenie",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/hull_01_upgrades/front_armor.prefab",
+						"slot": {
+							"handle": "HullArmor"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 1101
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 7,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 28,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/walkure/modules/walkure_turret_172_10_100sb.png",
+						"localizedName": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1102.features.description.localizedName",
+							"message": "172.10.100"
+						},
+						"power": 173,
+						"subtitle": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1102.features.description.subtitle",
+							"message": "Turret"
+						}
+					},
+					"effectExtraModules": [
+						1162
+					],
+					"extraEquipment": [],
+					"layout": 225,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "walkure_turret_17210100",
+						"product": "walkure_turret_17210100"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "walkure_turret_17210100",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/turret_02.prefab",
+						"slot": {
+							"handle": "Turret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 1102
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": -2,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 19,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/walkure/modules/walkure_turret_metal_screens_obj_172_m2.png",
+						"localizedName": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1103.features.description.localizedName",
+							"message": "175.10.40"
+						},
+						"power": 86,
+						"subtitle": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1103.features.description.subtitle",
+							"message": "Turret Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 193,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "walkure_turret_screens_1751040",
+						"product": "walkure_turret_screens_1751040"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "walkure_turret_screens_1751040",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/turret_01_upgrades/armor_screens.prefab",
+						"slot": {
+							"handle": "TurretSideArmor"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 1102,
+							"prefabOverride": "/vehicles/russian/r02_t_72a/prefabs/turret_02_upgrades/armor_screens.prefab"
+						}
+					],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 1103
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 20,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/walkure/modules/walkure_172_screens.png",
+						"localizedName": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1133.features.description.localizedName",
+							"message": "T172.10"
+						},
+						"power": 101,
+						"subtitle": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1133.features.description.subtitle",
+							"message": "Side Armor Hull Screens"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 193,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "walkure_side_screens_t17210",
+						"product": "walkure_side_screens_t17210"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "walkure_side_screens_t17210",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/hull_01_upgrades/armor_screens.prefab",
+						"slot": {
+							"handle": "HullArmorSlot172"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 1133
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1135.features.description.localizedName",
+							"message": "drum_loader_t72"
+						},
+						"power": 50,
+						"subtitle": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1135.features.description.subtitle",
+							"message": "drum_loader_t72"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_turret"
+					},
+					"commerce": {
+						"entitlement": "walkure_drum_loader_t72",
+						"product": "walkure_drum_loader_t72"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "walkure_drum_loader_t72",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/base_tank/components/ammo_drum_loader.prefab",
+						"slot": {
+							"handle": "AmmoLoader"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 1135
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 4,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": -1,
+						"utility": 54
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/walkure/modules/walkure_autoloader_a3_185.png",
+						"localizedName": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1113.features.description.localizedName",
+							"message": "AZ-185"
+						},
+						"power": 284,
+						"subtitle": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1113.features.description.subtitle",
+							"message": "Autoloader"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 193,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_10"
+					},
+					"commerce": {
+						"entitlement": "walkure_autoloader_az185",
+						"product": "walkure_autoloader_az185"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "walkure_autoloader_az185",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r02_t_72a/prefabs/turret_01_upgrades/autoloader_az_185_hangar.prefab",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/turret_01_upgrades/autoloader_az_185.prefab",
+						"slot": {
+							"handle": "Autoloader"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 1113
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 25,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/walkure/modules/walkure_gun_2a50_lp36e_130mm.png",
+						"localizedName": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1116.features.description.localizedName",
+							"message": "2A50"
+						},
+						"power": 124,
+						"subtitle": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1116.features.description.subtitle",
+							"message": "Gun"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 73,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_02"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "walkure_gun_2a50",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/gun_04_2a50.prefab",
+						"slot": {
+							"handle": "Gun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 1116
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 99,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/walkure/modules/walkure_shell_bp482_alpha.png",
+						"localizedName": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1117.features.description.localizedName",
+							"message": "BRM442"
+						},
+						"power": 494,
+						"subtitle": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1117.features.description.subtitle",
+							"message": "Shell"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 201,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/russian/r02_t_72a/ammo/buivol/brm442_settings.prefab",
+							"slot": {
+								"handle": "PrimaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "walkure_shell_brm442",
+						"product": "walkure_shell_brm442"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "walkure_shell_brm442",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/130mm_3bp482/130mm_3bp482.prefab",
+						"slot": {
+							"handle": "PrimaryHangarShell"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 1117
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 7,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/walkure/modules/walkure_steering_wheel_w29_r172.png",
+						"localizedName": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1119.features.description.localizedName",
+							"message": "175.73.050"
+						},
+						"power": 35,
+						"subtitle": {
+							"key": "r02_t_72a_buivol.specs.specification.modules.1119.features.description.subtitle",
+							"message": "Steering Wheel"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 193,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_11"
+					},
+					"commerce": {
+						"entitlement": "walkure_steering_wheel_17573050",
+						"product": "walkure_steering_wheel_17573050"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "walkure_steering_wheel_17573050",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/russian/r02_t_72a/prefabs/hull_01_upgrades/steering_wheel_hangar.prefab",
+						"prefab": "/vehicles/russian/r02_t_72a/prefabs/hull_01_upgrades/steering_wheel.prefab",
+						"slot": {
+							"handle": "SteeringWheel"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 1119
+			}
+		],
+		"modulesGroups": [],
+		"perkGroups": [
+			{
+				"category": "Hero",
+				"isDefault": true,
+				"perks": []
+			},
+			{
+				"category": "Role",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "buivol_assault_dead_eye",
+							"product": "buivol_assault_dead_eye"
+						},
+						"id": 13009,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "buivol_assault_locked_and_loaded",
+							"product": "buivol_assault_locked_and_loaded"
+						},
+						"id": 13010,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "buivol_assault_this_is_my_gun",
+							"product": "buivol_assault_this_is_my_gun"
+						},
+						"id": 13011,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Division",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "buivol_walkure_field_gunner",
+							"product": ""
+						},
+						"id": 13006,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "buivol_walkure_know_your_enemy",
+							"product": ""
+						},
+						"id": 13008,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "buivol_walkure_stim_pack_plus",
+							"product": ""
+						},
+						"id": 13007,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Conditional",
+				"isDefault": true,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "",
+							"product": ""
+						},
+						"id": 13001,
+						"overrides": []
+					}
+				]
+			}
+		],
+		"perks": [
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13001.description",
+					"message": "Deal 3 critical hits to gain a moderate accuracy boost for 15s."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/walkure/conditional/bullseye.png",
+				"id": 13001,
+				"prefab": "/vehicles/german/g01_leopard_1_0_ser/traits_and_perks/sniper/conditional_trait/bulls_eye/bullseye_1a6_trait.prefab",
+				"title": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13001.title",
+					"message": "BULLSEYE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13002.description",
+					"message": "Losing 50% HP resets Repair Kit cooldown."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/walkure/conditional/iron_warden.png",
+				"id": 13002,
+				"prefab": "/vehicles/american/a03_m60a1/traits_and_perks/athena/conditional_trait/iron_warden/iron_warden_athena_trait.prefab",
+				"title": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13002.title",
+					"message": "IRON WARDEN"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13003.description",
+					"message": "Improves Repair Kit stats, increases the number of hit points recovered by *+5 HP/sec*, increases repair duration by *5s*, and reduces Repair Kit cooldown by *10s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/master_engineer.png",
+				"id": 13003,
+				"prefab": "/game_prefabs/perks/role_perks/defender/master_engineer/master_engineer_perk.prefab",
+				"title": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13003.title",
+					"message": "MASTER ENGINEER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13004.description",
+					"message": "Reduces track and engine repair time by *25%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/back_on_track.png",
+				"id": 13004,
+				"prefab": "/game_prefabs/perks/role_perks/defender/back_on_track/back_on_track_perk.prefab",
+				"title": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13004.title",
+					"message": "BACK ON TRACK"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13005.description",
+					"message": "Greatly improves ramming damage bonus and reduces ramming damage inflicted to the front of your tank."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/defender_role_perks/collision_course.png",
+				"id": 13005,
+				"prefab": "/game_prefabs/perks/role_perks/defender/collision_course/collision_course_perk.prefab",
+				"title": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13005.title",
+					"message": "COLLISION COURSE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13006.description",
+					"message": "Increases gunner aiming speed by 16%."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/poachers/field_gunner.png",
+				"id": 13006,
+				"prefab": "/game_prefabs/perks/division_perks/poachers/field_gunner/field_gunner_perk.prefab",
+				"title": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13006.title",
+					"message": "FIELD GUNNER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 3,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 3
+				},
+				"description": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13007.description",
+					"message": "Passively reduces gun reload time by *10%* and reduces Energy consumption per second while sprinting by *10%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/poachers/stim_pack_plus.png",
+				"id": 13007,
+				"prefab": "/game_prefabs/perks/division_perks/poachers/stim_pack_plus/stim_pack_plus_perk.prefab",
+				"title": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13007.title",
+					"message": "STIM PACK+"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 5,
+					"utility": 0
+				},
+				"description": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13008.description",
+					"message": "Increases crit damage against modules for AP and HEAT shells by *15%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/poachers/know_your_enemy.png",
+				"id": 13008,
+				"prefab": "/game_prefabs/perks/division_perks/poachers/know_your_enemy/know_your_enemy_perk.prefab",
+				"title": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13008.title",
+					"message": "KNOW YOUR ENEMY"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13009.description",
+					"message": "Increases gun accuracy by *15%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/assault_role_perks/dead_eye.png",
+				"id": 13009,
+				"prefab": "/game_prefabs/perks/role_perks/assault/dead_eye/dead_eye_perk.prefab",
+				"title": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13009.title",
+					"message": "DEAD EYE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13010.description",
+					"message": "Improves gun stabilization by *15%* when traversing the turret."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/assault_role_perks/locked_and_loaded.png",
+				"id": 13010,
+				"prefab": "/game_prefabs/perks/role_perks/assault/locked_and_loaded/locked_and_loaded_perk.prefab",
+				"title": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13010.title",
+					"message": "LOCKED AND LOADED"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13011.description",
+					"message": "Improves gun handling and aiming time by 10%."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/assault_role_perks/this_is_my_gun.png",
+				"id": 13011,
+				"prefab": "/game_prefabs/perks/role_perks/assault/this_is_my_gun/this_is_my_gun_perk.prefab",
+				"title": {
+					"key": "r02_t_72a_buivol.specs.specification.perks.13011.title",
+					"message": "THIS IS MY GUN"
+				}
+			}
+		],
+		"perksSlot": {
+			"handle": "Perks"
+		},
+		"power": 1000,
+		"prefabPlaceholders": [
+			{
+				"pawnRequired": true,
+				"prefabPath": "/vehicles/russian/r02_t_72a/prefabs/workshop_anchors.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_anchors"
+				},
+				"switcherName": "Walkure"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/valkyrie/valkyrie_pc_1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Valkyrie_1_buivol"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/valkyrie/valkyrie_pc_2.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Valkyrie_2_buivol"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/valkyrie/valkyrie_pc_3.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Valkyrie_3_buivol"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/valkyrie/h_valkyrie_1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Valkyrie_1_buivol"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/valkyrie/h_valkyrie_2.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Valkyrie_2_buivol"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/valkyrie/h_valkyrie_3.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Valkyrie_3_buivol"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/worlds/camps/hq_cameras/red_hq_cameras_walkure.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_cameras"
+				},
+				"switcherName": "Walkure"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/walkure/walkure_ws_1_buivol.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Valkyrie_1_buivol"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/walkure/walkure_ws_2_buivol.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Valkyrie_2_buivol"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/walkure/walkure_ws_3_buivol.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Valkyrie_3_buivol"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/worlds/camps/base/consumables_anchors.prefab",
+				"spawnPlaceholderName": {
+					"handle": "consumable_anchors"
+				},
+				"switcherName": "Walkure"
+			}
+		],
+		"role": "Assault",
+		"shellSlots": [
+			{
+				"handle": "PrimaryShell"
+			},
+			{
+				"handle": "SecondaryShell"
+			}
+		],
+		"shortDescription": {
+			"key": "r02_t_72a_buivol.specs.specification.shortDescription",
+			"message": "INCREASES POWER WITH EACH VICTORY"
+		},
+		"slotsAreas": [
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": true,
+				"left": 482,
+				"top": 324,
+				"uiAnchor": {
+					"handle": "GunModule"
+				},
+				"uiCategory": "Firepower"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": false,
+				"drawRightToLeft": true,
+				"left": 568,
+				"top": 862,
+				"uiAnchor": {
+					"handle": "HullModule"
+				},
+				"uiCategory": "Toughness"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": true,
+				"left": 774,
+				"top": 200,
+				"uiAnchor": {
+					"handle": "TurretModule"
+				},
+				"uiCategory": "Recon"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1323,
+				"top": 200,
+				"uiAnchor": {
+					"handle": "CommunicationModule"
+				},
+				"uiCategory": "Utility"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1506,
+				"top": 324,
+				"uiAnchor": {
+					"handle": "EngineModule"
+				},
+				"uiCategory": "Mobility"
+			}
+		],
+		"smallVehicleImage": "/ui/assets/hero_vehicles/death_card/walkure/t72_buivol_m.png",
+		"talismanHolder": {
+			"cameraName": {
+				"handle": "talisman_camera"
+			},
+			"prefab": "",
+			"slot": {
+				"handle": "TalismanHolder"
+			}
+		},
+		"technicalName": "r02_t_72a_buivol",
+		"tierSettings": [
+			{
+				"maxPower": 1999,
+				"minPower": 0,
+				"tier": 1
+			},
+			{
+				"maxPower": 2999,
+				"minPower": 2000,
+				"tier": 2
+			},
+			{
+				"maxPower": 3999,
+				"minPower": 3000,
+				"tier": 3
+			},
+			{
+				"maxPower": 4999,
+				"minPower": 4000,
+				"tier": 4
+			},
+			{
+				"maxPower": 5999,
+				"minPower": 5000,
+				"tier": 5
+			},
+			{
+				"maxPower": 6999,
+				"minPower": 6000,
+				"tier": 6
+			},
+			{
+				"maxPower": 9999,
+				"minPower": 7000,
+				"tier": 7
+			}
+		],
+		"vehicleId": 13,
+		"vehicleName": {
+			"key": "r02_t_72a_buivol.specs.specification.vehicleName",
+			"message": "T-72 \"Buivol\" M"
+		}
+	}
+}
 ```

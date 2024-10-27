@@ -11,5 +11,4302 @@ PLACEHOLDER TEXT
 
 ### Full contents of the file
 ```json
-PLACEHOLDER CODE
+{
+	"__type__": "CW::VehicleSpecificationStorage",
+	"specification": {
+		"abilityModifiersSlots": [],
+		"abilitySlots": [
+			{
+				"handle": "FirstAbility"
+			},
+			{
+				"handle": "SecondAbility"
+			},
+			{
+				"handle": "ThirdAbility"
+			}
+		],
+		"aiSettings": {
+			"brainsSlot": {
+				"handle": "AIBrains"
+			},
+			"defaultPreset": {
+				"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_capture_defend_base.prefab",
+				"modulesLayout": []
+			},
+			"gameModePresets": [
+				{
+					"key": {
+						"handle": "conquest"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest_newcomer.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "ct"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "domination"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "hq"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						}
+					}
+				}
+			]
+		},
+		"baseEquipment": [
+			{
+				"installSlot": {
+					"handle": "FirstEquipment"
+				},
+				"prefab": "/game_prefabs/equipment/repair_kit/repair_kit_ability.prefab",
+				"previewImage": "",
+				"video": ""
+			}
+		],
+		"basicCharacteristics": {
+			"firepower": 250,
+			"mobility": 325,
+			"recon": 150,
+			"toughness": 10,
+			"utility": 235
+		},
+		"callSign": {
+			"key": "g01_leopard_1_0_ser_1a1.specs.specification.callSign",
+			"message": "Blitz"
+		},
+		"commerce": {
+			"entitlement": "vehicle_leopard_1a1",
+			"product": "vehicle_leopard_1a1"
+		},
+		"commercePath": "/vehicles/german/g01_leopard_1_0_ser/settings/commerce_1a1.specs",
+		"complexity": 1,
+		"crew": {
+			"crewMembers": [
+				{
+					"arenaPrefab": "/vehicles/german/g01_leopard_1_0_ser/settings/frontmans/frontman_1.prefab",
+					"bigImage": "/ui/assets/heroes/jager/crew/extralarge/jager_crew_01.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "hunter_crew_01_1a1",
+						"product": ""
+					},
+					"description": {
+						"key": "g01_leopard_1_0_ser_1a1.specs.specification.crew.crewMembers.701.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 701,
+					"image": "/ui/assets/heroes/jager/crew/large/jager_crew_01.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "g01_leopard_1_0_ser_1a1.specs.specification.crew.crewMembers.701.lastName",
+						"message": "Gentzen"
+					},
+					"name": {
+						"key": "g01_leopard_1_0_ser_1a1.specs.specification.crew.crewMembers.701.name",
+						"message": "Tobias"
+					},
+					"prefabPlaceholderName": "Hunter_1_1a1",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/jager/crew/small/jager_crew_01_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/german/g01_leopard_1_0_ser/settings/frontmans/frontman_2.prefab",
+					"bigImage": "/ui/assets/heroes/jager/crew/extralarge/jager_crew_02.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "hunter_crew_02_1a1",
+						"product": ""
+					},
+					"description": {
+						"key": "g01_leopard_1_0_ser_1a1.specs.specification.crew.crewMembers.702.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 702,
+					"image": "/ui/assets/heroes/jager/crew/large/jager_crew_02.png",
+					"isDefaultFrontman": true,
+					"lastName": {
+						"key": "g01_leopard_1_0_ser_1a1.specs.specification.crew.crewMembers.702.lastName",
+						"message": "Einsiedel"
+					},
+					"name": {
+						"key": "g01_leopard_1_0_ser_1a1.specs.specification.crew.crewMembers.702.name",
+						"message": "Bertrain"
+					},
+					"prefabPlaceholderName": "Hunter_2_1a1",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/jager/crew/small/jager_crew_02_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/german/g01_leopard_1_0_ser/settings/frontmans/frontman_3.prefab",
+					"bigImage": "/ui/assets/heroes/jager/crew/extralarge/jager_crew_03.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "hunter_crew_03_1a1",
+						"product": ""
+					},
+					"description": {
+						"key": "g01_leopard_1_0_ser_1a1.specs.specification.crew.crewMembers.703.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 703,
+					"image": "/ui/assets/heroes/jager/crew/large/jager_crew_03.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "g01_leopard_1_0_ser_1a1.specs.specification.crew.crewMembers.703.lastName",
+						"message": "Munchenberg"
+					},
+					"name": {
+						"key": "g01_leopard_1_0_ser_1a1.specs.specification.crew.crewMembers.703.name",
+						"message": "Armin"
+					},
+					"prefabPlaceholderName": "Hunter_3_1a1",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/jager/crew/small/jager_crew_03_req.png",
+					"setBonuses": []
+				},
+				{
+					"arenaPrefab": "/vehicles/german/g01_leopard_1_0_ser/settings/frontmans/frontman_4.prefab",
+					"bigImage": "/ui/assets/heroes/jager/crew/extralarge/jager_crew_04.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "hunter_crew_04_1a1",
+						"product": ""
+					},
+					"description": {
+						"key": "g01_leopard_1_0_ser_1a1.specs.specification.crew.crewMembers.704.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 704,
+					"image": "/ui/assets/heroes/jager/crew/large/jager_crew_04.png",
+					"isDefaultFrontman": false,
+					"lastName": {
+						"key": "g01_leopard_1_0_ser_1a1.specs.specification.crew.crewMembers.704.lastName",
+						"message": "Betzel"
+					},
+					"name": {
+						"key": "g01_leopard_1_0_ser_1a1.specs.specification.crew.crewMembers.704.name",
+						"message": "Abbo"
+					},
+					"prefabPlaceholderName": "Hunter_4_1a1",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/jager/crew/small/jager_crew_04_req.png",
+					"setBonuses": []
+				}
+			],
+			"customization": [],
+			"setBonuses": []
+		},
+		"customization3D": {
+			"modulesPacks": [],
+			"stylesPacks": []
+		},
+		"customizationLayout": 5,
+		"description": {
+			"key": "g01_leopard_1_0_ser_1a1.specs.specification.description",
+			"message": "In the Marksman role, your long and lethal reach can land continuous heavy damage from a distance. Take down even the toughest of opponents from behind the defensive line of your team, and be the boss when it comes to securing map objectives."
+		},
+		"displayableCurrencies": [
+			{
+				"handle": "soft"
+			},
+			{
+				"handle": "reputation_green"
+			}
+		],
+		"divisionColor": "#1A9658",
+		"divisionIcon": "/ui/assets/meta/select_hero/germany_division.png",
+		"divisionIconSmall": "/ui/assets/meta/select_hero/germany_division_small.png",
+		"divisionName": {
+			"key": "g01_leopard_1_0_ser_1a1.specs.specification.divisionName",
+			"message": "Spezialkräfte"
+		},
+		"divisionShortName": {
+			"key": "g01_leopard_1_0_ser_1a1.specs.specification.divisionShortName",
+			"message": "Spezialkräfte"
+		},
+		"economyPrefab": "/vehicles/german/g01_leopard_1_0_ser/settings/economy_settings_1a1.prefab",
+		"equipmentCameras": [
+			{
+				"handle": "equipment_1st_camera"
+			},
+			{
+				"handle": "equipment_2nd_camera"
+			},
+			{
+				"handle": "equipment_3rd_camera"
+			}
+		],
+		"equipmentSlots": [
+			{
+				"handle": "FirstEquipment"
+			},
+			{
+				"handle": "SecondEquipment"
+			},
+			{
+				"handle": "ThirdEquipment"
+			}
+		],
+		"features": {
+			"abilityFeatures": [
+				{
+					"isInitial": false,
+					"prefab": "/game_prefabs/abilities/artillery_strike_guided/a_artillery_strike_guided_ability.prefab"
+				}
+			],
+			"moduleFeatures": [],
+			"passiveFeatures": [],
+			"perkFeatures": []
+		},
+		"fraction": {
+			"handle": "blue"
+		},
+		"gameplayPrefab": "/vehicles/german/g01_leopard_1_0_ser/settings/gameplay_settings.prefab",
+		"hiddenAbilitiesSlot": {
+			"handle": "HiddenAbilities"
+		},
+		"image": "/ui/assets/heroes/jager/vehicle/hunter_stock.png",
+		"isHidden": false,
+		"mastering": {
+			"commerce": "jager_1A1_spezialkrafte_grant_500_exp",
+			"levels": [
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_g01_1a1_1",
+						"product": "mastering_lvl_g01_1a1_1"
+					},
+					"extraEquipment": [],
+					"points": 0,
+					"rewards": [],
+					"unlockGroups": [
+						21
+					],
+					"unlockModules": [],
+					"unlockPerks": []
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_g01_1a1_2",
+						"product": "mastering_lvl_g01_1a1_2"
+					},
+					"extraEquipment": [],
+					"points": 2000,
+					"rewards": [],
+					"unlockGroups": [
+						22
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						7010
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_g01_1a1_3",
+						"product": "mastering_lvl_g01_1a1_3"
+					},
+					"extraEquipment": [],
+					"points": 4200,
+					"rewards": [],
+					"unlockGroups": [
+						23
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						7012
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_g01_1a1_4",
+						"product": "mastering_lvl_g01_1a1_4"
+					},
+					"extraEquipment": [],
+					"points": 6700,
+					"rewards": [],
+					"unlockGroups": [
+						24
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						7017
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_g01_1a1_5",
+						"product": "mastering_lvl_g01_1a1_5"
+					},
+					"extraEquipment": [],
+					"points": 11000,
+					"rewards": [],
+					"unlockGroups": [
+						25
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						7009
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_g01_1a1_6",
+						"product": "mastering_lvl_g01_1a1_6"
+					},
+					"extraEquipment": [],
+					"points": 15500,
+					"rewards": [],
+					"unlockGroups": [
+						26
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						7005
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_g01_1a1_7",
+						"product": "mastering_lvl_g01_1a1_7"
+					},
+					"extraEquipment": [],
+					"points": 20200,
+					"rewards": [],
+					"unlockGroups": [
+						27
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						7008
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_g01_1a1_8",
+						"product": "mastering_lvl_g01_1a1_8"
+					},
+					"extraEquipment": [],
+					"points": 26500,
+					"rewards": [],
+					"unlockGroups": [
+						28
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						7011
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_g01_1a1_9",
+						"product": "mastering_lvl_g01_1a1_9"
+					},
+					"extraEquipment": [],
+					"points": 33000,
+					"rewards": [],
+					"unlockGroups": [
+						29
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						7015
+					]
+				},
+				{
+					"commerce": {
+						"entitlement": "mastering_lvl_g01_1a1_10",
+						"product": "mastering_lvl_g01_1a1_10"
+					},
+					"extraEquipment": [],
+					"points": 39700,
+					"rewards": [],
+					"unlockGroups": [
+						30
+					],
+					"unlockModules": [],
+					"unlockPerks": [
+						7016
+					]
+				}
+			],
+			"pointsCurrency": {
+				"handle": "g01_1a1"
+			}
+		},
+		"modules": [
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.198.features.description.localizedName",
+							"message": "default_leo1_loader"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.198.features.description.subtitle",
+							"message": "default_leo1_loader"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_12"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "leo1_loader",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/base_tank/components/ammo_loader.prefab",
+						"slot": {
+							"handle": "AmmoLoader"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 198
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/dev_resources/ui/assets/no_image_module.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.197.features.description.localizedName",
+							"message": "Lobby Collider"
+						},
+						"power": 50,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.197.features.description.subtitle",
+							"message": "Collider"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "lobby_collider",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/lobby_collider.prefab",
+						"slot": {
+							"handle": "LobbyCollider"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 197
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 25,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_shell_dm512hept.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.130.features.description.localizedName",
+							"message": "DM312"
+						},
+						"power": 100,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.130.features.description.subtitle",
+							"message": "Shell"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 73,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/german/g01_leopard_1_0_ser/ammo/support/dm300_settings.prefab",
+							"slot": {
+								"handle": "PrimaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "blitz_shell_dm312",
+						"product": "blitz_shell_dm312"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "shell_dm312",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/heat/prefabs/heat.prefab",
+						"slot": {
+							"handle": "PrimaryHangarShell"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell_HEAT"
+					}
+				},
+				"id": 130
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_thermal_sleave_l7a1.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.136.features.description.localizedName",
+							"message": "L7A1"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.136.features.description.subtitle",
+							"message": "Thermal Sleeve"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_06"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "thermal_sleeve_l7a1_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/gun_l7/upgrades/thermal_sleeve_l7a1.prefab",
+						"slot": {
+							"handle": "ThermalSleeve"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Thermal Sleeve"
+					}
+				},
+				"id": 136
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 20,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_thermal_sleave_l7a3.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.137.features.description.localizedName",
+							"message": "L7A3"
+						},
+						"power": 100,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.137.features.description.subtitle",
+							"message": "Thermal Sleeve"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_06"
+					},
+					"commerce": {
+						"entitlement": "blitz_thermal_sleeve_l7a3",
+						"product": "blitz_thermal_sleeve_l7a3"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "thermal_sleeve_l7a3",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/gun_l7/upgrades/thermal_sleeve_l7a3.prefab",
+						"slot": {
+							"handle": "ThermalSleeve"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Thermal Sleeve"
+					}
+				},
+				"id": 137
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_hull_support.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.138.features.description.localizedName",
+							"message": "Leopard 1A1"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.138.features.description.subtitle",
+							"message": "Hull"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_25"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "hull_leopard_1a1_base",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/hull_leopard1a1_hangar.prefab",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/hull_leopard1a1.prefab",
+						"slot": {
+							"handle": "Hull"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull"
+					}
+				},
+				"id": 138
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_chassis_support.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.139.features.description.localizedName",
+							"message": "Basic Chassis"
+						},
+						"power": 20,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.139.features.description.subtitle",
+							"message": "Chassis"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_01"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "chassis_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/chassis_t2/chassis_t2.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 139
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_turret_support.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.140.features.description.localizedName",
+							"message": "Leopard 1"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.140.features.description.subtitle",
+							"message": "Turret"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_09"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "turret_leopard1_base",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/turret_leopard1a1_hangar.prefab",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/turret_leopard1a1.prefab",
+						"slot": {
+							"handle": "Turret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret"
+					}
+				},
+				"id": 140
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_gun_support.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.141.features.description.localizedName",
+							"message": "L7"
+						},
+						"power": 20,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.141.features.description.subtitle",
+							"message": "Gun"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_06"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "gun_l7_base",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/gun_l7/gun_l7_hangar.prefab",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/gun_l7/gun_l7.prefab",
+						"slot": {
+							"handle": "Gun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun"
+					}
+				},
+				"id": 141
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.142.features.description.effectsDescription.0.description",
+									"message": "The engine has *%(EngineMaxHP) module HP*. Receives *critical damage* per hit. Losing all module HP will *reduce movement speed* by *50%* for *%(EngineTimeToRegen)s*.#br#Module HP can be affected by shell module damage attribute."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.142.features.description.effectsDescription.0.title",
+									"message": "ENGINE"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_engine_support.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.142.features.description.localizedName",
+							"message": "MB838 CaM-500"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.142.features.description.subtitle",
+							"message": "Engine"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_02"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "engine_mb838cam500_base",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/engine_mb838cam_500_hangar.prefab",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/engine_mb838cam_500.prefab",
+						"slot": {
+							"handle": "Engine"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine"
+					}
+				},
+				"id": 142
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_suspension_stiff_torsion_bars.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.143.features.description.localizedName",
+							"message": "KMW Ah70V"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.143.features.description.subtitle",
+							"message": "Suspension"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_31"
+					},
+					"commerce": {
+						"entitlement": "blitz_suspension_kmw_ah70v",
+						"product": "blitz_suspension_kmw_ah70v"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "suspension_kmw_ah70v",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/suspension_kmw_ah70v_hangar.prefab",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/suspension_kmw_ah70v.prefab",
+						"slot": {
+							"handle": "Suspension"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Suspension"
+					}
+				},
+				"id": 143
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 25,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_turbine_mk1.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.144.features.description.localizedName",
+							"message": "TL v2b"
+						},
+						"power": 150,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.144.features.description.subtitle",
+							"message": "Turbine"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_02"
+					},
+					"commerce": {
+						"entitlement": "blitz_turbine_tl_v2b",
+						"product": "blitz_turbine_tl_v2b"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "turbine_tl_v2b",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/turbine_tl_v2b_hangar.prefab",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/turbine_tl_v2b.prefab",
+						"slot": {
+							"handle": "Turbines"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 144
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 20,
+						"toughness": 0,
+						"utility": 15
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.145.features.description.effectsDescription.0.description",
+									"message": "Gives you the ability to control a helicopter-launched missile that deals *450 damage* when it hits the target."
+								},
+								"hotKey": "T",
+								"icon": "",
+								"title": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.145.features.description.effectsDescription.0.title",
+									"message": "TV MISSILE"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_antenna_vrc240.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.145.features.description.localizedName",
+							"message": "VRC240"
+						},
+						"power": 150,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.145.features.description.subtitle",
+							"message": "Antenna"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 69,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "antenna_vrc240_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/antenna_vrc240.prefab",
+						"slot": {
+							"handle": "VRC240"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 145
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_antenna_ant2600.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.146.features.description.localizedName",
+							"message": "ANT 2600"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.146.features.description.subtitle",
+							"message": "Antenna"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_19"
+					},
+					"commerce": {
+						"entitlement": "blitz_antenna_ant2600_SNGm4",
+						"product": "blitz_antenna_ant2600_SNGm4"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "antenna_ant2600_SNGm4",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/antenna_ant2600.prefab",
+						"slot": {
+							"handle": "ANT2600"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 146
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 10,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_improved_gun_breach.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.147.features.description.localizedName",
+							"message": "L7A2WS"
+						},
+						"power": 75,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.147.features.description.subtitle",
+							"message": "Gun Breech"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_07"
+					},
+					"commerce": {
+						"entitlement": "blitz_gun_breech_l7a2ws",
+						"product": "blitz_gun_breech_l7a2ws"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "gun_breech_l7a2ws",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/gun_breech_l7a2ws_hangar.prefab",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/gun_breech_l7a2ws.prefab",
+						"slot": {
+							"handle": "GunBreech"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Breech"
+					}
+				},
+				"id": 147
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 21,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_electric_turret_rotation_mech.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.148.features.description.localizedName",
+							"message": "Telefunken EWKS"
+						},
+						"power": 75,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.148.features.description.subtitle",
+							"message": "Turret Rotator"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_30"
+					},
+					"commerce": {
+						"entitlement": "blitz_turret_rotator_telefunken_ewks",
+						"product": "blitz_turret_rotator_telefunken_ewks"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "turret_rotator_telefunken_ewks",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/rotator_telefunken_ewks_hangar.prefab",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/rotator_telefunken_ewks.prefab",
+						"slot": {
+							"handle": "Rotating"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret Rotator"
+					}
+				},
+				"id": 148
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 20,
+						"toughness": 0,
+						"utility": 18
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_sight_perid11.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.149.features.description.localizedName",
+							"message": "Peri D11"
+						},
+						"power": 50,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.149.features.description.subtitle",
+							"message": "Sight"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_04"
+					},
+					"commerce": {
+						"entitlement": "blitz_sight_peri_d11",
+						"product": "blitz_sight_peri_d11"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "sight_peri_d11",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/peri_d11.prefab",
+						"slot": {
+							"handle": "Scope"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 149
+			},
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/equipment/fire/fire_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"installSlot": {
+								"handle": "FirstAbility"
+							},
+							"isHidden": false,
+							"prefab": "/game_prefabs/abilities/artillery_strike_guided/a_artillery_strike_guided_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"installSlot": {
+								"handle": "SecondAbility"
+							},
+							"isHidden": false,
+							"prefab": "/vehicles/german/g01_leopard_1_0_ser/abilities/emp/a_emp_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"installSlot": {
+								"handle": "ThirdAbility"
+							},
+							"isHidden": false,
+							"prefab": "/game_prefabs/abilities/tv_missile/ver4/a_tv_missile_ability_ver_4.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [
+						{
+							"prefab": "/game_prefabs/equipment/energy_booster/energy_booster_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/extinguisher/extinguisher_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/med_kit/med_kit.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/stim_pack/stim_pack_consumable.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"layout": 21,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "root",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/g01_leopard_1_0_ser_support.prefab",
+						"slot": {
+							"handle": "Root"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 150
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_shell_dm300heat.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.164.features.description.localizedName",
+							"message": "DM300"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.164.features.description.subtitle",
+							"message": "Shell"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/german/g01_leopard_1_0_ser/ammo/support/dm300_settings.prefab",
+							"slot": {
+								"handle": "PrimaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": true,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "shell_dm300_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/heat/prefabs/heat.prefab",
+						"slot": {
+							"handle": "PrimaryHangarShell"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell_HEAT"
+					}
+				},
+				"id": 164
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.165.features.description.effectsDescription.0.description",
+									"message": "The tracks have *%(LTrackMaxHP) module HP*. Losing all module HP will *immobilize* your vehicle for *%(LTrackTimeToRegen)s*.#br#Shells inflict additional damage if they hit modules."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.165.features.description.effectsDescription.0.title",
+									"message": "TRACKS"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_tracks_support.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.165.features.description.localizedName",
+							"message": "Diehl D139E1"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.165.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_01"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "tracks_diehl139e1_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/chassis_t2/tracks_dhiel139e1/tracks_dhiel139e1.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 165
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 10,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_air_purifier_luftreinigerd3374.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.116.features.description.localizedName",
+							"message": "Luftreiniger D3.374"
+						},
+						"power": 84,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.116.features.description.subtitle",
+							"message": "Engine Air Purifier"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_28"
+					},
+					"commerce": {
+						"entitlement": "blitz_engine_air_purifier_luftreiniger_d3374",
+						"product": "blitz_engine_air_purifier_luftreiniger_d3374"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "engine_air_purifier_luftreiniger_d3374",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/air_purifier_d3374_hangar.prefab",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/air_purifier_d3374.prefab",
+						"slot": {
+							"handle": "AirCleaner"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 116
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 15,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.119.features.description.effectsDescription.0.description",
+									"message": "Provides *x12* scope zoom factor."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.119.features.description.effectsDescription.0.title",
+									"message": "ZOOM FACTOR"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_sight_trp2a.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.119.features.description.localizedName",
+							"message": "TZF 2A"
+						},
+						"power": 6,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.119.features.description.subtitle",
+							"message": "Sight"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 65,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "blitz_sight_tzf2a",
+						"product": "blitz_sight_tzf2a"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "sight_tzf2a",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/sight_tzf2a_hangar.prefab",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/sight_tzf2a.prefab",
+						"slot": {
+							"handle": "Sight"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 119
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_scope_tzf1a.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.120.features.description.localizedName",
+							"message": "Atlas DMT 90"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.120.features.description.subtitle",
+							"message": "Scope"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_29"
+					},
+					"commerce": {
+						"entitlement": "blitz_scope_atlas_dmt90",
+						"product": "blitz_scope_atlas_dmt90"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "scope_atlas_dmt90",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/scope_atlas_dmt_90.prefab",
+						"slot": {
+							"handle": "Triplex"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun Sight"
+					}
+				},
+				"id": 120
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_radiostation_semdb39.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.121.features.description.localizedName",
+							"message": "SEM DB 39"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.121.features.description.subtitle",
+							"message": "Radiostation"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_20"
+					},
+					"commerce": {
+						"entitlement": "blitz_radiostation_semdb39_SCNDm5",
+						"product": "blitz_radiostation_semdb39_SCNDm5"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "radiostation_semdb39_SCNDm5",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/radiostation_db39.prefab",
+						"slot": {
+							"handle": "AntennaFront"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 121
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_artillery_radar_ratac.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.124.features.description.localizedName",
+							"message": "RATAC "
+						},
+						"power": 45,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.124.features.description.subtitle",
+							"message": "Artillery Radar"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "artillery_radar_ratac",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/artillery_radar_ratac.prefab",
+						"slot": {
+							"handle": "RadarRatac"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 124
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_radar_an_pps6.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.125.features.description.localizedName",
+							"message": "AN/PPS6"
+						},
+						"power": 190,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.125.features.description.subtitle",
+							"message": "Radar"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_12"
+					},
+					"commerce": {
+						"entitlement": "blitz_radar_anpps6_p1",
+						"product": "blitz_radar_anpps6_p1"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "radar_anpps6",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/radar_anpps6.prefab",
+						"slot": {
+							"handle": "RadarANPPS6"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 125
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/heat_fin.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14370.features.description.localizedName",
+							"message": "Hyperschalstab"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14370.features.description.subtitle",
+							"message": "Fin"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "blitz_shell_upgrade_fin_hyperschalstab",
+						"product": "blitz_shell_upgrade_fin_hyperschalstab"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "shell_upgrade_fin_hyperschalstab",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/ammo/support/dm300_fin_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_2"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14370
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/heat_fuze.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14371.features.description.localizedName",
+							"message": "Schnelwirsich"
+						},
+						"power": 25,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14371.features.description.subtitle",
+							"message": "Fuze"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "blitz_shell_upgrade_fuze_schnelwirsich",
+						"product": "blitz_shell_upgrade_fuze_schnelwirsich"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "shell_upgrade_fuze_schnelwirsich",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/ammo/support/dm300_fuze_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_3"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14371
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_antenna_vrc240.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14372.features.description.localizedName",
+							"message": "VRC 242"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14372.features.description.subtitle",
+							"message": "Antenna Upgrade"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "blitz_antenna_antenna_vrc242m2",
+						"product": "blitz_antenna_antenna_vrc242m2"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "antenna_vrc242_SCNDm1",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/antenna_vrc242.prefab",
+						"slot": {
+							"handle": "VRC240"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 14372
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/hunter_decoy_kit.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14375.features.description.localizedName",
+							"message": "VRC240 E2"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14375.features.description.subtitle",
+							"message": "Antenna Upgrade"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "blitz_antenna_vrc242e2",
+						"product": "blitz_antenna_vrc242e2"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "antenna_vrc242e2",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/antenna_vrc240_p2.prefab",
+						"slot": {
+							"handle": "VRC240"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 14375
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_artillery_radar_ratac.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14389.features.description.localizedName",
+							"message": "RATAC M2"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14389.features.description.subtitle",
+							"message": "Artillery Radar"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_15"
+					},
+					"commerce": {
+						"entitlement": "blitz_artillery_radar_ratac_m2",
+						"product": "blitz_artillery_radar_ratac_m2"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "artillery_radar_ratac_SIGNm2",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/artillery_radar_ratac_m2.prefab",
+						"slot": {
+							"handle": "RadarRatac"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 14389
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14391.features.description.effectsDescription.0.description",
+									"message": "Blinds target affected by ability for 3 seconds"
+								},
+								"hotKey": "T",
+								"icon": "",
+								"title": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14391.features.description.effectsDescription.0.title",
+									"message": "FROST NOVA"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_antenna_vrc240.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14391.features.description.localizedName",
+							"message": "VRC240 P5"
+						},
+						"power": 150,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14391.features.description.subtitle",
+							"message": "Antenna Upgrade"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 5,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_05"
+					},
+					"commerce": {
+						"entitlement": "blitz_antenna_vrc240_p5",
+						"product": "blitz_antenna_vrc240_p5"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "antenna_vrc240_p5",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/antenna_vrc240_p2.prefab",
+						"slot": {
+							"handle": "VRC240"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 14391
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14395.features.description.effectsDescription.0.description",
+									"message": "The engine has *%(EngineMaxHP) module HP*. Receives *critical damage* per hit. Losing all module HP will *reduce movement speed* by *50%* for *%(EngineTimeToRegen)s*.#br#Module HP can be affected by shell module damage attribute."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14395.features.description.effectsDescription.0.title",
+									"message": "ENGINE"
+								},
+								"type": "ConditionalEffect"
+							},
+							{
+								"description": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14395.features.description.effectsDescription.1.description",
+									"message": "Halves sprint energy consumption"
+								},
+								"hotKey": "SHIFT",
+								"icon": "",
+								"title": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14395.features.description.effectsDescription.1.title",
+									"message": "ENGINE BOOST"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_engine_mt_881_ka_500.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14395.features.description.localizedName",
+							"message": "ERLEIST"
+						},
+						"power": 100,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14395.features.description.subtitle",
+							"message": "Engine Upgrade"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_02"
+					},
+					"commerce": {
+						"entitlement": "blitz_engine_upgrade_erleist",
+						"product": "blitz_engine_upgrade_erleist"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "engine_upgrade_erleist",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/engine_mb838cam_500_p1_hangar.prefab",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/engine_mb838cam_500_p1.prefab",
+						"slot": {
+							"handle": "Engine"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14395
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_repeater_25_25.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14396.features.description.localizedName",
+							"message": "SEM 12/AN12"
+						},
+						"power": 109,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14396.features.description.subtitle",
+							"message": "Repeater"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_18"
+					},
+					"commerce": {
+						"entitlement": "blitz_repeater_sem12_an12_SCNDm3",
+						"product": "blitz_repeater_sem12_an12_SCNDm3"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "repeater_sem12_an12_SCNDm3",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/repeater_an12.prefab",
+						"slot": {
+							"handle": "AntennaFront"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 14396
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_pairing_module_rsz70.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14397.features.description.localizedName",
+							"message": "RSZ 70"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14397.features.description.subtitle",
+							"message": "Pairing Module"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_27"
+					},
+					"commerce": {
+						"entitlement": "blitz_pairingmodule_rsz70_SCNDm4",
+						"product": "blitz_pairingmodule_rsz70_SCNDm4"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "pairingmodule_rsz70_SCNDm4",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/rsz70.prefab",
+						"slot": {
+							"handle": "RSZ70"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Radiostation"
+					}
+				},
+				"id": 14397
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14398.features.description.effectsDescription.0.description",
+									"message": "Dealing critical damage shuts down the affected vehicle's engine for *2s*."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "",
+									"message": ""
+								},
+								"type": "PrimaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/heat_propellant.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14398.features.description.localizedName",
+							"message": "Progbrenpul"
+						},
+						"power": 100,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14398.features.description.subtitle",
+							"message": "Propellant"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "blitz_shell_upgrade_propellant_progbrenpul",
+						"product": "blitz_shell_upgrade_propellant_progbrenpul"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "shell_upgrade_propellant_progbrenpul",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/ammo/support/dm300_propellant_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_5"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14398
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14386.features.description.effectsDescription.0.description",
+									"message": "Burns *10* energy points per second on hit. Effect is active for *3s*."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "",
+									"message": ""
+								},
+								"type": "PrimaryAttackUpgrade"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/heat_charge.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14386.features.description.localizedName",
+							"message": "Modholad"
+						},
+						"power": 100,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14386.features.description.subtitle",
+							"message": "Charge"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_03"
+					},
+					"commerce": {
+						"entitlement": "blitz_shell_upgrade_charge_modholad",
+						"product": "blitz_shell_upgrade_charge_modholad"
+					},
+					"equipShakeForbidden": true,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "shell_upgrade_charge_modholad",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/ammo/support/dm300_charge_upgrade.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_1"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Shell Upgrade"
+					}
+				},
+				"id": 14386
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14491.features.description.effectsDescription.0.description",
+									"message": "Critical hits to enemy reduce Artillery Strike cooldown by *2s*."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_conditional_effect.png",
+								"title": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14491.features.description.effectsDescription.0.title",
+									"message": "SHARP TOOTH"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_stabilizator_1.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14491.features.description.localizedName",
+							"message": "Cadillac-Gage PP"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14491.features.description.subtitle",
+							"message": "Stabilizer"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_07"
+					},
+					"commerce": {
+						"entitlement": "jager_stabilizer_cadillac_cage_pp",
+						"product": "jager_stabilizer_cadillac_cage_pp"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "stabilizer_cadillac_cage_pp",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/stabilizer_cadillac_cage_pp_hangar.prefab",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/stabilizer_cadillac_cage_pp.prefab",
+						"slot": {
+							"handle": "Stabilizer"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Stabilizer"
+					}
+				},
+				"id": 14491
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_tracks_d640a.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14492.features.description.localizedName",
+							"message": "D640NA"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14492.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_01"
+					},
+					"commerce": {
+						"entitlement": "blitz_tracks_d640na",
+						"product": "blitz_tracks_d640na"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "tracks_d640na",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/chassis_t2/tracks_dhiel139e1/tracks_d640na.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 14492
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/jager/modules/jager_chassis_support.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14493.features.description.localizedName",
+							"message": "Fedmond D64"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14493.features.description.subtitle",
+							"message": "Running Wheels"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_26"
+					},
+					"commerce": {
+						"entitlement": "blitz_running_wheels_fedmond_d64",
+						"product": "blitz_running_wheels_fedmond_d64"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": false,
+					"name": "running_wheels_fedmond_d64",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/chassis_t2/chassis_fedmond_d64.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Chassis"
+					}
+				},
+				"id": 14493
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14494.features.description.effectsDescription.0.description",
+									"message": "Halves sprint energy cost."
+								},
+								"hotKey": "",
+								"icon": "/ui/assets/common/module_passive_effect.png",
+								"title": {
+									"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14494.features.description.effectsDescription.0.title",
+									"message": "EASYGOING"
+								},
+								"type": "ConditionalEffect"
+							}
+						],
+						"image": "/ui/assets/heroes/jager/modules/jager_engine_mt881ka500.png",
+						"localizedName": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14494.features.description.localizedName",
+							"message": "ERLEIST"
+						},
+						"power": 1,
+						"subtitle": {
+							"key": "g01_leopard_1_0_ser_1a1.specs.specification.modules.14494.features.description.subtitle",
+							"message": "Engine Upgrade"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_02"
+					},
+					"commerce": {
+						"entitlement": "jager_engine_upgrade_erleist",
+						"product": "jager_engine_upgrade_erleist"
+					},
+					"equipShakeForbidden": false,
+					"isDefault": false,
+					"isInternal": true,
+					"name": "engine_upgrade_erleist",
+					"prefabConfig": {
+						"campPrefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/engine_upgrade_erleist_hangar.prefab",
+						"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/hull_leopard1a1/upgrades/engine_upgrade_erleist.prefab",
+						"slot": {
+							"handle": "EngineUpgrade"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine Upgrade"
+					}
+				},
+				"id": 14494
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "dm300_charge_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/heat/prefabs/charge/charge_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_1"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14495
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "dm300_fin_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/heat/prefabs/fin/fin_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_2"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14496
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "dm300_fuze_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/heat/prefabs/fuze/fuze_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_3"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14497
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "dm300_linear_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/heat/prefabs/liner/liner_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_4"
+						}
+					},
+					"prefabOverrides": [
+						{
+							"campPrefabOverride": "",
+							"moduleID": 14386,
+							"prefabOverride": "/vehicles/ammo/heat/prefabs/liner/liner_upgrade.prefab"
+						}
+					],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14498
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 0,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "dm300_propellant_base",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/ammo/heat/prefabs/propellant/propellant_base.prefab",
+						"slot": {
+							"handle": "ammo_part_slot_5"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14499
+			}
+		],
+		"modulesGroups": [
+			{
+				"id": 21,
+				"modules": [
+					14370,
+					14371,
+					14372
+				],
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.modulesGroups.21.title",
+					"message": "SLOT 1"
+				}
+			},
+			{
+				"id": 22,
+				"modules": [
+					14396,
+					14397
+				],
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.modulesGroups.22.title",
+					"message": "SLOT 2"
+				}
+			},
+			{
+				"id": 23,
+				"modules": [
+					137,
+					147
+				],
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.modulesGroups.23.title",
+					"message": "SLOT 3"
+				}
+			},
+			{
+				"id": 24,
+				"modules": [
+					14398,
+					14386,
+					14375
+				],
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.modulesGroups.24.title",
+					"message": "SLOT 4"
+				}
+			},
+			{
+				"id": 25,
+				"modules": [
+					125,
+					14389
+				],
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.modulesGroups.25.title",
+					"message": "SLOT 5"
+				}
+			},
+			{
+				"id": 26,
+				"modules": [
+					116,
+					144
+				],
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.modulesGroups.26.title",
+					"message": "SLOT 6"
+				}
+			},
+			{
+				"id": 27,
+				"modules": [
+					149,
+					120
+				],
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.modulesGroups.27.title",
+					"message": "SLOT 7"
+				}
+			},
+			{
+				"id": 28,
+				"modules": [
+					119,
+					148,
+					14491
+				],
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.modulesGroups.28.title",
+					"message": "SLOT 8"
+				}
+			},
+			{
+				"id": 29,
+				"modules": [
+					14493,
+					14492,
+					143
+				],
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.modulesGroups.29.title",
+					"message": "SLOT 9"
+				}
+			},
+			{
+				"id": 30,
+				"modules": [
+					146,
+					121,
+					14494
+				],
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.modulesGroups.30.title",
+					"message": "SLOT 10"
+				}
+			}
+		],
+		"perkGroups": [
+			{
+				"category": "Hero",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "jager_1A1_bombardier",
+							"product": "jager_1A1_bombardier"
+						},
+						"id": 7010,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "jager_1A1_eagle_eye",
+							"product": "jager_1A1_eagle_eye"
+						},
+						"id": 7009,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "jager_1A1_feeling_electric",
+							"product": "jager_1A1_feeling_electric"
+						},
+						"id": 7011,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Role",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "1A1_support_well_oiled_machine",
+							"product": "1A1_support_well_oiled_machine"
+						},
+						"id": 7012,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "1A1_support_quick_draw",
+							"product": "1A1_support_quick_draw"
+						},
+						"id": 7005,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "1A1_support_energy_efficient",
+							"product": "1A1_support_energy_efficient"
+						},
+						"id": 7015,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Division",
+				"isDefault": false,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "jager_1A1_spezialkrafte_gunners_grip",
+							"product": "jager_1A1_spezialkrafte_gunners_grip"
+						},
+						"id": 7017,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "jager_1A1_spezialkrafte_medical_training",
+							"product": "jager_1A1_spezialkrafte_medical_training"
+						},
+						"id": 7008,
+						"overrides": []
+					},
+					{
+						"commerce": {
+							"entitlement": "jager_1A1_spezialkrafte_signal_officer",
+							"product": "jager_1A1_spezialkrafte_signal_officer"
+						},
+						"id": 7016,
+						"overrides": []
+					}
+				]
+			},
+			{
+				"category": "Conditional",
+				"isDefault": true,
+				"perks": [
+					{
+						"commerce": {
+							"entitlement": "",
+							"product": ""
+						},
+						"id": 7006,
+						"overrides": []
+					}
+				]
+			}
+		],
+		"perks": [
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 5,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7001.description",
+					"message": "Increases reverse tank speed by *2km/h*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/jager/watch_your_back.png",
+				"id": 7001,
+				"prefab": "/vehicles/german/g01_leopard_1_0_ser/traits_and_perks/sniper/perks/watch_your_back/jager_watch_your_back_perk.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7001.title",
+					"message": "WATCH YOUR BACK"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7002.description",
+					"message": "Increases gun accuracy by *10%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/jager/sniper.png",
+				"id": 7002,
+				"prefab": "/vehicles/german/g01_leopard_1_0_ser/traits_and_perks/sniper/perks/sniper/jager_sniper_perk.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7002.title",
+					"message": "SNIPER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7003.description",
+					"message": "Increases energy regeneration rate by *+0.25 point/sec*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/jager/detente.png",
+				"id": 7003,
+				"prefab": "/vehicles/german/g01_leopard_1_0_ser/traits_and_perks/sniper/perks/detente/jager_detente_perk.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7003.title",
+					"message": "DETENTE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7004.description",
+					"message": "Score *3 critical hits* to gain supersharp accuracy for the next *30s* or *2 shots*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/jager/conditional/bullseye.png",
+				"id": 7004,
+				"prefab": "/vehicles/german/g01_leopard_1_0_ser/traits_and_perks/sniper/conditional_trait/bulls_eye/bullseye_1a6_trait.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7004.title",
+					"message": "BULLSEYE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7005.description",
+					"message": "Increases gunner aiming speed by *15%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/support_role_perks/quick_draw.png",
+				"id": 7005,
+				"prefab": "/game_prefabs/perks/role_perks/support/quick_draw/quick_draw_perk.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7005.title",
+					"message": "QUICK DRAW"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7006.description",
+					"message": "Dealing *1,200* damage in *30s* with Agent abilities *doubles* energy regen for 30s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/jager/conditional/support_master.png",
+				"id": 7006,
+				"prefab": "/vehicles/german/g01_leopard_1_0_ser/traits_and_perks/support/conditional_trait/support_master/support_master_trait.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7006.title",
+					"message": "SUPPORT MASTER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7007.description",
+					"message": "Reduces gun reload time by *10%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/marksman_role_perks/smooth_moves.png",
+				"id": 7007,
+				"prefab": "/game_prefabs/perks/role_perks/marksman/smooth_moves/smooth_moves_perk.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7007.title",
+					"message": "SMOOTH MOVES"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7008.description",
+					"message": "Crew health increased by *25%* and silence time reduced by *4s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/spezialkrafte/medical_training.png",
+				"id": 7008,
+				"prefab": "/game_prefabs/perks/division_perks/spezialkrafte/medical_training/medical_training_perk.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7008.title",
+					"message": "MEDICAL TRAINING"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 5,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7009.description",
+					"message": "Increases cone of sight length by *25 m*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/jager/eagle_eye.png",
+				"id": 7009,
+				"prefab": "/vehicles/german/g01_leopard_1_0_ser/traits_and_perks/support/perks/eagle_eye/jager_eagle_eye_perk.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7009.title",
+					"message": "EAGLE EYE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7010.description",
+					"message": "Adds *1* Artillery Strike volley."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/jager/bombardier.png",
+				"id": 7010,
+				"prefab": "/vehicles/german/g01_leopard_1_0_ser/traits_and_perks/support/perks/bombardier/jager_bombardier_perk.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7010.title",
+					"message": "BOMBARDIER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7011.description",
+					"message": "Increases Energy capacity by *25 points*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/hero_perks/jager/feeling_electric.png",
+				"id": 7011,
+				"prefab": "/vehicles/german/g01_leopard_1_0_ser/traits_and_perks/support/perks/feeling_electric/jager_feeling_electric_perk.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7011.title",
+					"message": "FEELING ELECTRIC"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7012.description",
+					"message": "Reduces gun reload time by *10%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/support_role_perks/well_oiled_machine.png",
+				"id": 7012,
+				"prefab": "/game_prefabs/perks/role_perks/support/well_oiled_machine/well_oiled_machine_perk.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7012.title",
+					"message": "WELL-OILED MACHINE"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 5,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7013.description",
+					"message": "Increases engine acceleration by *10%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/marksman_role_perks/overclocked.png",
+				"id": 7013,
+				"prefab": "/game_prefabs/perks/role_perks/marksman/overclocked/overclocked_perk.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7013.title",
+					"message": "OVERCLOCKED"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7014.description",
+					"message": "Increases gun accuracy by *15%*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/marksman_role_perks/bullseye_boost.png",
+				"id": 7014,
+				"prefab": "/game_prefabs/perks/role_perks/marksman/bullseye_boost/bullseye_boost_perk.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7014.title",
+					"message": "BULLSEYE BOOST"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 5
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7015.description",
+					"message": "Reduces all ability costs by *5 energy points*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/role_perks/support_role_perks/energy_efficient.png",
+				"id": 7015,
+				"prefab": "/game_prefabs/perks/role_perks/support/energy_efficient/energy_efficient_perk.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7015.title",
+					"message": "ENERGY EFFICIENT"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 0,
+					"mobility": 0,
+					"recon": 5,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7016.description",
+					"message": "Increases Radio Link distance by *50m* and time enemies are detected on allied radar by *1s*."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/spezialkrafte/signal_officer.png",
+				"id": 7016,
+				"prefab": "/game_prefabs/perks/division_perks/spezialkrafte/signal_officer/signal_officer_perk.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7016.title",
+					"message": "SIGNAL OFFICER"
+				}
+			},
+			{
+				"abilityReferences": [],
+				"active": false,
+				"basicCharacteristics": {
+					"firepower": 5,
+					"mobility": 0,
+					"recon": 0,
+					"toughness": 0,
+					"utility": 0
+				},
+				"description": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7017.description",
+					"message": "Improves gun stabilization by *16%* when traversing the turret."
+				},
+				"extraEquipment": [],
+				"icon": "/ui/assets/hero_perks/division_perks/spezialkrafte/gunners_grip.png",
+				"id": 7017,
+				"prefab": "/game_prefabs/perks/division_perks/spezialkrafte/smooth_turret_rotation/gunners_grip_perk.prefab",
+				"title": {
+					"key": "g01_leopard_1_0_ser_1a1.specs.specification.perks.7017.title",
+					"message": "GUNNER'S GRIP"
+				}
+			}
+		],
+		"perksSlot": {
+			"handle": "Perks"
+		},
+		"power": 1000,
+		"prefabPlaceholders": [
+			{
+				"pawnRequired": true,
+				"prefabPath": "/vehicles/german/g01_leopard_1_0_ser/settings/workshop_anchors_support.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_anchors"
+				},
+				"switcherName": "g01_leopard_1_0_ser_1a1.specs.specification.callSign"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/hunter/hunter_pc_1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Hunter_1_1a1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/hunter/hunter_pc_2.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Hunter_2_1a1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/hunter/hunter_pc_3.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Hunter_3_1a1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/hunter/hunter_pc_4.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "Hunter_4_1a1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/hunter/h_hunter_1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Hunter_1_1a1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/hunter/h_hunter_2.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Hunter_2_1a1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/hunter/h_hunter_3.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Hunter_3_1a1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/headquarter/hunter/h_hunter_4.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_crew"
+				},
+				"switcherName": "Hunter_4_1a1"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/worlds/camps/hq_cameras/blue_hq_cameras_jager.prefab",
+				"spawnPlaceholderName": {
+					"handle": "headquarter_cameras"
+				},
+				"switcherName": "Jager"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/jager/jager_ws_1_1a1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Hunter_1_1a1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/jager/jager_ws_2_1a1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Hunter_2_1a1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/jager/jager_ws_3_1a1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Hunter_3_1a1"
+			},
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/workshop/jager/jager_ws_4_1a1.prefab",
+				"spawnPlaceholderName": {
+					"handle": "workshop_crew"
+				},
+				"switcherName": "Hunter_4_1a1"
+			},
+			{
+				"pawnRequired": true,
+				"prefabPath": "/worlds/camps/base/consumables_anchors.prefab",
+				"spawnPlaceholderName": {
+					"handle": "consumable_anchors"
+				},
+				"switcherName": "g01_leopard_1_0_ser_1a1.specs.specification.callSign"
+			}
+		],
+		"role": "Marksman",
+		"shellSlots": [
+			{
+				"handle": "PrimaryShell"
+			},
+			{
+				"handle": "SecondaryShell"
+			}
+		],
+		"shortDescription": {
+			"key": "g01_leopard_1_0_ser_1a1.specs.specification.shortDescription",
+			"message": "PICKS OFF HIS ENEMIES FROM AFAR"
+		},
+		"slotsAreas": [
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": true,
+				"left": 450,
+				"top": 290,
+				"uiAnchor": {
+					"handle": "GunModule"
+				},
+				"uiCategory": "Firepower"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": false,
+				"drawRightToLeft": true,
+				"left": 490,
+				"top": 862,
+				"uiAnchor": {
+					"handle": "HullModule"
+				},
+				"uiCategory": "Toughness"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": true,
+				"left": 870,
+				"top": 146,
+				"uiAnchor": {
+					"handle": "TurretModule"
+				},
+				"uiCategory": "Recon"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1210,
+				"top": 177,
+				"uiAnchor": {
+					"handle": "CommunicationModule"
+				},
+				"uiCategory": "Utility"
+			},
+			{
+				"color": "rgba(224, 224, 224, 0.5)",
+				"drawBottomToTop": true,
+				"drawRightToLeft": false,
+				"left": 1506,
+				"top": 324,
+				"uiAnchor": {
+					"handle": "EngineModule"
+				},
+				"uiCategory": "Mobility"
+			}
+		],
+		"smallVehicleImage": "/ui/assets/hero_vehicles/death_card/jager/bef_leopard_1a1.png",
+		"talismanHolder": {
+			"cameraName": {
+				"handle": "talisman_camera"
+			},
+			"prefab": "/vehicles/german/g01_leopard_1_0_ser/support_fbx/prefabs/turret_leopard1a1/upgrades/talisman_holder.prefab",
+			"slot": {
+				"handle": "TalismanHolder"
+			}
+		},
+		"technicalName": "g01_leopard_1_0_ser_1a1",
+		"tierSettings": [
+			{
+				"maxPower": 1999,
+				"minPower": 0,
+				"tier": 1
+			},
+			{
+				"maxPower": 2999,
+				"minPower": 2000,
+				"tier": 2
+			},
+			{
+				"maxPower": 3999,
+				"minPower": 3000,
+				"tier": 3
+			},
+			{
+				"maxPower": 4999,
+				"minPower": 4000,
+				"tier": 4
+			},
+			{
+				"maxPower": 5999,
+				"minPower": 5000,
+				"tier": 5
+			},
+			{
+				"maxPower": 6999,
+				"minPower": 6000,
+				"tier": 6
+			},
+			{
+				"maxPower": 9999,
+				"minPower": 7000,
+				"tier": 7
+			}
+		],
+		"vehicleId": 7,
+		"vehicleName": {
+			"key": "g01_leopard_1_0_ser_1a1.specs.specification.vehicleName",
+			"message": "Bef. Leopard 1A1"
+		}
+	}
+}
 ```

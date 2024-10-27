@@ -11,5 +11,945 @@ PLACEHOLDER TEXT
 
 ### Full contents of the file
 ```json
-PLACEHOLDER CODE
+{
+	"__type__": "CW::VehicleSpecificationStorage",
+	"specification": {
+		"abilityModifiersSlots": [],
+		"abilitySlots": [
+			{
+				"handle": "FirstAbility"
+			},
+			{
+				"handle": "SecondAbility"
+			},
+			{
+				"handle": "ThirdAbility"
+			}
+		],
+		"aiSettings": {
+			"brainsSlot": {
+				"handle": "AIBrains"
+			},
+			"defaultPreset": {
+				"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_capture_defend_base.prefab",
+				"modulesLayout": []
+			},
+			"gameModePresets": [
+				{
+					"key": {
+						"handle": "conquest"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_conquest_newcomer.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "ct"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_ct.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "domination"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_domination.prefab",
+							"modulesLayout": []
+						}
+					}
+				},
+				{
+					"key": {
+						"handle": "hq"
+					},
+					"value": {
+						"default": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						},
+						"newcomer": {
+							"brainsPrefab": "/dev_resources/plugin_cw_ai/bot_hq.prefab",
+							"modulesLayout": []
+						}
+					}
+				}
+			]
+		},
+		"baseEquipment": [
+			{
+				"installSlot": {
+					"handle": "FirstEquipment"
+				},
+				"prefab": "/game_prefabs/equipment/repair_kit/repair_kit_ability.prefab",
+				"previewImage": "",
+				"video": ""
+			}
+		],
+		"basicCharacteristics": {
+			"firepower": 231,
+			"mobility": 243,
+			"recon": 42,
+			"toughness": 999,
+			"utility": 213
+		},
+		"callSign": {
+			"key": "ch_01_ptz89.specs.specification.callSign",
+			"message": "Arblast"
+		},
+		"commerce": {
+			"entitlement": "vehicle_ptz89",
+			"product": "vehicle_ptz89"
+		},
+		"commercePath": "/vehicles/chinese/ch01_ptz89_chun_li/settings/commerce.specs",
+		"complexity": 1,
+		"crew": {
+			"crewMembers": [
+				{
+					"arenaPrefab": "/vehicles/american/a01_chrysler_xm1/settings/frontmans/frontman_3.prefab",
+					"bigImage": "/ui/assets/heroes/brimstone/crew/extralarge/brimstone_crew.png",
+					"campPrefab": "",
+					"commerce": {
+						"entitlement": "ch01_crew",
+						"product": ""
+					},
+					"description": {
+						"key": "ch_01_ptz89.specs.specification.crew.crewMembers.144211.description",
+						"message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+					},
+					"frontmanPortrait": {
+						"isUsedInBattle": false,
+						"prefab": ""
+					},
+					"id": 144211,
+					"image": "/ui/assets/heroes/brimstone/crew/large/brimstone_crew.png",
+					"isDefaultFrontman": true,
+					"lastName": {
+						"key": "ch_01_ptz89.specs.specification.crew.crewMembers.144211.lastName",
+						"message": "Bean"
+					},
+					"name": {
+						"key": "ch_01_ptz89.specs.specification.crew.crewMembers.144211.name",
+						"message": "Mr"
+					},
+					"prefabPlaceholderName": "arblast_pc",
+					"quotes": [],
+					"requirementImage": "/ui/assets/heroes/brimstone/crew/small/brimstone_crew.png",
+					"setBonuses": [
+						11
+					]
+				}
+			],
+			"customization": [],
+			"setBonuses": []
+		},
+		"customization3D": {
+			"modulesPacks": [],
+			"stylesPacks": []
+		},
+		"customizationLayout": 0,
+		"description": {
+			"key": "ch_01_ptz89.specs.specification.description",
+			"message": "DESC"
+		},
+		"displayableCurrencies": [
+			{
+				"handle": "soft"
+			},
+			{
+				"handle": "reputation_blue"
+			}
+		],
+		"divisionColor": "#1E80CA",
+		"divisionIcon": "/ui/assets/meta/select_hero/american_division.png",
+		"divisionIconSmall": "/ui/assets/meta/select_hero/american_division_small.png",
+		"divisionName": {
+			"key": "ch_01_ptz89.specs.specification.divisionName",
+			"message": "Alpha Company"
+		},
+		"divisionShortName": {
+			"key": "ch_01_ptz89.specs.specification.divisionShortName",
+			"message": "Alpha Company"
+		},
+		"economyPrefab": "/vehicles/chinese/ch01_ptz89_chun_li/settings/economy_settings_ptz89.prefab",
+		"equipmentCameras": [
+			{
+				"handle": "equipment_1st_camera"
+			},
+			{
+				"handle": "equipment_2nd_camera"
+			},
+			{
+				"handle": "equipment_3rd_camera"
+			}
+		],
+		"equipmentSlots": [
+			{
+				"handle": "FirstEquipment"
+			},
+			{
+				"handle": "SecondEquipment"
+			},
+			{
+				"handle": "ThirdEquipment"
+			}
+		],
+		"features": {
+			"abilityFeatures": [],
+			"moduleFeatures": [],
+			"passiveFeatures": [],
+			"perkFeatures": []
+		},
+		"fraction": {
+			"handle": "blue"
+		},
+		"gameplayPrefab": "/vehicles/chinese/ch01_ptz89_chun_li/settings/gameplay_settings.prefab",
+		"hiddenAbilitiesSlot": {
+			"handle": "HiddenAbilities"
+		},
+		"image": "/ui/assets/heroes/breacher/vehicle/loki_stock.png",
+		"isHidden": false,
+		"mastering": {
+			"commerce": "ptz89_grant_500_exp",
+			"levels": [],
+			"pointsCurrency": {
+				"handle": "ch01_ptz89"
+			}
+		},
+		"modules": [
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "ch_01_lobby_collider",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/chinese/ch01_ptz89_chun_li/ptz89_fbx/prefabs/hull_01/upgrades/lobby_collider.prefab",
+						"slot": {
+							"handle": "LobbyCollider"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14655
+			},
+			{
+				"features": {
+					"abilities": [
+						{
+							"installSlot": {
+								"handle": ""
+							},
+							"isHidden": true,
+							"prefab": "/game_prefabs/equipment/fire/fire_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [
+						{
+							"prefab": "/game_prefabs/equipment/energy_booster/energy_booster_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/extinguisher/extinguisher_ability.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/med_kit/med_kit.prefab",
+							"previewImage": "",
+							"video": ""
+						},
+						{
+							"prefab": "/game_prefabs/equipment/stim_pack/stim_pack_consumable.prefab",
+							"previewImage": "",
+							"video": ""
+						}
+					],
+					"layout": 21,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "ch01_root",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/chinese/ch01_ptz89_chun_li/ch01_ptz89_chun_li.prefab",
+						"slot": {
+							"handle": "Root"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14656
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "ch_01_ptz89.specs.specification.modules.14657.features.description.effectsDescription.0.description",
+									"message": "The tracks have *%(LTrackMaxHP) module HP.* Losing all module HP will *immobilize* your vehicle for *%(LTrackTimeToRegen)s.*#br#Module HP can be affected by shell module damage stats."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "ch_01_ptz89.specs.specification.modules.14657.features.description.effectsDescription.0.title",
+									"message": "TRACKS"
+								},
+								"type": "None"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_track_xm1_gerlach.png",
+						"localizedName": {
+							"key": "ch_01_ptz89.specs.specification.modules.14657.features.description.localizedName",
+							"message": "Gerlach XM1"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "ch_01_ptz89.specs.specification.modules.14657.features.description.subtitle",
+							"message": "Tracks"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_06"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "ch01_tracks",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/chinese/ch01_ptz89_chun_li/ptz89_fbx/prefabs/chassis_01/tracks_01/tracks_01.prefab",
+						"slot": {
+							"handle": "Tracks"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Tracks"
+					}
+				},
+				"id": 14657
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "",
+							"message": ""
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "",
+							"message": ""
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_gun"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "ch01_chassis",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/chinese/ch01_ptz89_chun_li/ptz89_fbx/prefabs/chassis_01/chassis_01.prefab",
+						"slot": {
+							"handle": "Chassis"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14658
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [
+							{
+								"description": {
+									"key": "ch_01_ptz89.specs.specification.modules.14659.features.description.effectsDescription.0.description",
+									"message": "Engine has *%(EngineMaxHP) module HP.* Receives *critical damage* per hit. Losing all module HP *reduces movement speed* by *50%* for *%(EngineTimeToRegen)s.*#br#Module HP can be affected by shell module damage stats."
+								},
+								"hotKey": "",
+								"icon": "",
+								"title": {
+									"key": "ch_01_ptz89.specs.specification.modules.14659.features.description.effectsDescription.0.title",
+									"message": "ENGINE"
+								},
+								"type": "None"
+							}
+						],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_engine_avcr1100.png",
+						"localizedName": {
+							"key": "ch_01_ptz89.specs.specification.modules.14659.features.description.localizedName",
+							"message": "Continental AVCR-1100"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "ch_01_ptz89.specs.specification.modules.14659.features.description.subtitle",
+							"message": "Engine"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_09"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "ch01_engine",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/chinese/ch01_ptz89_chun_li/ptz89_fbx/prefabs/hull_01/upgrades/engine_01.prefab",
+						"slot": {
+							"handle": "Engine"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Engine"
+					}
+				},
+				"id": 14659
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_hull.png",
+						"localizedName": {
+							"key": "ch_01_ptz89.specs.specification.modules.14660.features.description.localizedName",
+							"message": "CXM"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "ch_01_ptz89.specs.specification.modules.14660.features.description.subtitle",
+							"message": "Hull"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_21"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "ch01_hull",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/chinese/ch01_ptz89_chun_li/ptz89_fbx/prefabs/hull_01/hull_01.prefab",
+						"slot": {
+							"handle": "Hull"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Hull"
+					}
+				},
+				"id": 14660
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_turret.png",
+						"localizedName": {
+							"key": "ch_01_ptz89.specs.specification.modules.14661.features.description.localizedName",
+							"message": "CMD VFT2"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "ch_01_ptz89.specs.specification.modules.14661.features.description.subtitle",
+							"message": "Turret"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_18"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "ch01_turret",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/chinese/ch01_ptz89_chun_li/ptz89_fbx/prefabs/turret_01/turret_01.prefab",
+						"slot": {
+							"handle": "Turret"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Turret"
+					}
+				},
+				"id": 14661
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_gun_02.png",
+						"localizedName": {
+							"key": "ch_01_ptz89.specs.specification.modules.14662.features.description.localizedName",
+							"message": "M70"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "ch_01_ptz89.specs.specification.modules.14662.features.description.subtitle",
+							"message": "Gun"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/british/gb01_challenger/ammo/challenger/gb120_settings.prefab",
+							"slot": {
+								"handle": "PrimaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "ch01_gun",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/chinese/ch01_ptz89_chun_li/ptz89_fbx/prefabs/gun_01/gun_01.prefab",
+						"slot": {
+							"handle": "Gun"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun"
+					}
+				},
+				"id": 14662
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "",
+						"localizedName": {
+							"key": "ch_01_ptz89.specs.specification.modules.14663.features.description.localizedName",
+							"message": "gb01_challenger_ammo_loader"
+						},
+						"power": 0,
+						"subtitle": {
+							"key": "ch_01_ptz89.specs.specification.modules.14663.features.description.subtitle",
+							"message": "gb01_challenger_ammo_loader"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 1,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": ""
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "ch01_ammo_loader",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/base_tank/components/ammo_loader.prefab",
+						"slot": {
+							"handle": "AmmoLoader"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": ""
+					}
+				},
+				"id": 14663
+			},
+			{
+				"features": {
+					"abilities": [],
+					"abilityModifiers": [],
+					"basicCharacteristics": {
+						"firepower": 0,
+						"mobility": 0,
+						"recon": 0,
+						"toughness": 0,
+						"utility": 0
+					},
+					"description": {
+						"effectsDescription": [],
+						"image": "/ui/assets/heroes/breacher/modules/breacher_gun_02.png",
+						"localizedName": {
+							"key": "ch_01_ptz89.specs.specification.modules.14664.features.description.localizedName",
+							"message": "M70"
+						},
+						"power": 10,
+						"subtitle": {
+							"key": "ch_01_ptz89.specs.specification.modules.14664.features.description.subtitle",
+							"message": "Gun"
+						}
+					},
+					"effectExtraModules": [],
+					"extraEquipment": [],
+					"layout": 9,
+					"requirements": {
+						"moduleIDs": []
+					},
+					"shells": [
+						{
+							"prefab": "/vehicles/british/gb01_challenger/ammo/challenger/gb120_settings.prefab",
+							"slot": {
+								"handle": "PrimaryShell"
+							}
+						}
+					],
+					"upgradesAbilitiesFrom": 0
+				},
+				"general": {
+					"cameraName": {
+						"handle": "ws_camera_17"
+					},
+					"commerce": {
+						"entitlement": "",
+						"product": ""
+					},
+					"equipShakeForbidden": false,
+					"isDefault": true,
+					"isInternal": false,
+					"name": "ch01_claws",
+					"prefabConfig": {
+						"campPrefab": "",
+						"prefab": "/vehicles/chinese/ch01_ptz89_chun_li/ptz89_fbx/prefabs/hull_01/upgrades/claws.prefab",
+						"slot": {
+							"handle": "Claws"
+						}
+					},
+					"prefabOverrides": [],
+					"type": {
+						"handle": "Gun"
+					}
+				},
+				"id": 14664
+			}
+		],
+		"modulesGroups": [],
+		"perkGroups": [],
+		"perks": [],
+		"perksSlot": {
+			"handle": "Perks"
+		},
+		"power": 1000,
+		"prefabPlaceholders": [
+			{
+				"pawnRequired": false,
+				"prefabPath": "/worlds/camps/crew/parking/arblast/arblast_pc.prefab",
+				"spawnPlaceholderName": {
+					"handle": "parking_crew"
+				},
+				"switcherName": "arblast_pc"
+			}
+		],
+		"role": "Marksman",
+		"shellSlots": [
+			{
+				"handle": "PrimaryShell"
+			},
+			{
+				"handle": "SecondaryShell"
+			}
+		],
+		"shortDescription": {
+			"key": "ch_01_ptz89.specs.specification.shortDescription",
+			"message": "Challenger"
+		},
+		"slotsAreas": [],
+		"smallVehicleImage": "/ui/assets/hero_vehicles/death_card/breacher/xm1_volcano.png",
+		"talismanHolder": {
+			"cameraName": {
+				"handle": "talisman_camera"
+			},
+			"prefab": "",
+			"slot": {
+				"handle": "TalismanHolder"
+			}
+		},
+		"technicalName": "ch_01_ptz89",
+		"tierSettings": [],
+		"vehicleId": 33,
+		"vehicleName": {
+			"key": "ch_01_ptz89.specs.specification.vehicleName",
+			"message": "PTZ 89 C"
+		}
+	}
+}
 ```
