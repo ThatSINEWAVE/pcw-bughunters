@@ -1,6 +1,828 @@
 ---
-title: PLACEHOLDER TITLE
-description: PLACEHOLDER DESCRIPTION
+title: Project CW Configuration File Deep Dive
+description: Dive into Project CW’s hidden configuration options and explore tweaks for FPS limits, field of view, graphics presets, and more! From improving game visuals to personalizing UI scales, this guide will help you optimize gameplay for performance and style.
 ---
 
-PLACEHOLDER TEXT
+### Accessing the Configuration Files
+
+- **Location**: Inside your installation folder (typically “C:\Games\CW”)
+
+You can open and edit these files with any text editor, though Notepad++ or a similar tool is recommended for readability.
+
+### In-Engine Frame Limiter
+
+Project CW comes with an internal frame limiter, which helps smooth out frame times and can reduce input lag. Built-in FPS limiting is typically more stable than external tools, making it a solid choice for maintaining smooth gameplay.
+
+- **What It Does**: The frame limiter caps frame rates across different parts of the game—like in menus, gameplay, and idle times—giving you the flexibility to balance performance.
+
+- **How to Adjust It**: You’ll see options for “client,” “editor,” and more. Each category has settings like `carriedOverspent` and `frequency`, which affect how frames are handled. This lets you reduce strain on your system in less intense scenes and prevent high FPS spikes.
+
+- **Configuration:**
+```json
+        "FrameLimiterSettings": {
+            "__type__": "FrameLimiterSettings",
+            "client": {
+                "carriedOverspent": 0.4000000059604645,
+                "frequency": 250.0
+            },
+            "editor": {
+                "carriedOverspent": 0.4000000059604645,
+                "frequency": 250.0
+            },
+            "inactive": {
+                "carriedOverspent": 0.4000000059604645,
+                "frequency": 10.0
+            },
+            "serverNoUI": {
+                "carriedOverspent": 0.4000000059604645,
+                "frequency": 30.0
+            },
+            "serverUI": {
+                "carriedOverspent": 0.4000000059604645,
+                "frequency": 250.0
+            }
+        },
+```
+
+### Adjusting Field of View (FoV)
+
+Want a wider view? By adjusting `normalZoomFoV`, you can increase the default FoV to get a broader perspective, which is especially useful for third-person views or sniping.
+
+- **How It Works**: The FoV is set to a default of 80 but can be increased to 120 for a more immersive experience. There’s a cap, so values above 120 won’t take effect.
+
+- **Exploring Further**: You’ll also find a setting called `maxFovSpeed`, which might control how quickly FoV shifts when zooming. Play around with it to see how it affects your view transitions.
+
+- **Configuration:**
+```json
+        "cw::CameraSettings": {
+            "__type__": "cw::CameraSettings",
+            "fovSettings": {
+                "maxFovSpeed": 4.0,
+                "normalZoomFoV": 80.0
+            }
+        },
+```
+
+### Editing Graphics Presets
+
+If your rig can’t quite handle ultra settings but you still want quality visuals, this section is for you. Here, you can modify graphics presets to balance performance and appearance.
+
+- **Details**: The game defaults to the AMD FSR upscaler, but settings on “Min” can make visuals appear blurry. Adjusting these to “Max” will retain sharpness without drastically affecting performance for many setups.
+
+- **Settings to Try**: The “presets” section lets you control things like texture quality, shadow details, and anti-aliasing. Switching from “Min” to “Max” for certain options should enhance graphics without a huge FPS drop. Each setting type (e.g., `DOFSettings`, `SSRSettings`) has options to balance visuals with gameplay needs.
+
+- **Configuration:**
+```json
+            "presets": [
+                {
+                    "autodetectLimits": {
+                        "CPU": 27,
+                        "GPU_AMD": 13,
+                        "GPU_NVIDIA": 24,
+                        "RAM": 7000
+                    },
+                    "name": "Min",
+                    "settings": [
+                        {
+                            "type": "engine::render::CascadedShadowsSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::io::TextureResourceManager::TextureQualitySettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::ModelQualitySetting",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::virtual_shadows::VirtualShadowsSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::DOFSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::DynamicGISettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::ScreenSpaceShadowsSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "gpu_particles::GPUParticlesSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "model_clutter::ModelClutterSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::VolumetricLightingSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::SSAOSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "plugin_trails::TrailsSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::SSRSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::ActionFieldSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "amd_fsr::AMDFSRSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::MotionBlurSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "terrain::TerrainBlendingSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "plugin_water::WaterSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "cw::TrackTraceSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Off"
+                            }
+                        },
+                        {
+                            "type": "cw::PhysicalTrackSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Off"
+                            }
+                        },
+                        {
+                            "type": "tree_behaviour::TreeBehaviourSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "imposter::ImposterSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "terrain::virtual_texture::TerrainVTSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "terrain::TerrainSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::ShadersQualitySettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::LensFlareSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::TAASettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::PerObjectShadowsQualitySettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::FilmGrainSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::ChromaticAberrationSettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        },
+                        {
+                            "type": "engine::render::LightingQualitySettings",
+                            "value": {
+                                "__type__": "std::string",
+                                "__value__": "Min"
+                            }
+                        }
+                    ]
+                },
+```
+
+### UI Scaling for Custom Resolutions
+
+If your display has a unique resolution, adjusting the UI scale can make the interface more readable. This is especially useful for wide or ultra-high-definition screens.
+
+- **How It Works**: The configuration file includes various “breakpoints” for different screen sizes, each with its own scale value. You can fine-tune these for your resolution by changing the `Scale` value to get a perfect fit.
+
+- **Example Setup**: Start at a scale of 1.0 for 1920x1080 resolution, then make small adjustments up or down depending on your preferences. Increasing or decreasing by 0.25 increments should help you find a comfortable UI size.
+
+- **Configuration:**
+```json
+        "gameface::ProjectSettings": {
+            "Atlases": [
+                "/ui/assets/atlases/common/common-0.atlas2d",
+                "/ui/assets/atlases/meta/meta-0.atlas2d",
+                "/ui/assets/atlases/hud/battle_page-0.atlas2d",
+                "/ui/assets/atlases/customization/customization-0.atlas2d"
+            ],
+            "Breakpoints": [
+                {
+                    "Height": 900,
+                    "Scale": 0.800000011920929,
+                    "Width": 1600
+                },
+                {
+                    "Height": 1080,
+                    "Scale": 1.0,
+                    "Width": 1920
+                },
+                {
+                    "Height": 1200,
+                    "Scale": 1.0499999523162842,
+                    "Width": 2200
+                },
+                {
+                    "Height": 1440,
+                    "Scale": 1.3350000381469727,
+                    "Width": 2560
+                },
+                {
+                    "Height": 1440,
+                    "Scale": 1.2000000476837158,
+                    "Width": 3440
+                },
+                {
+                    "Height": 2160,
+                    "Scale": 2.0,
+                    "Width": 3840
+                }
+            ],
+```
+
+### LOD Levels
+
+LOD settings control the detail level of objects at different distances, which can impact performance. Although this feature isn’t fully functional yet, it may enable visual enhancements in future updates.
+
+- **What It Includes**: The LOD configuration lists different object categories like “Tank” and “Environment,” with distance values for each. These numbers represent how far away an object can be before its quality decreases.
+
+- **Possible Use**: Once enabled, tweaking these distances might improve visuals without affecting FPS, especially in scenes with large, open environments.
+
+- **Configuration:**
+```json
+        "engine::editor::lod_controller_settings::Settings": {
+            "Presets": [
+                {
+                    "lodDistances": [
+                        32.0,
+                        64.0,
+                        128.0,
+                        2500.0
+                    ],
+                    "name": "Tank"
+                },
+                {
+                    "lodDistances": [
+                        100.0,
+                        200.0,
+                        300.0,
+                        500.0,
+                        6000.0
+                    ],
+                    "name": "Environment"
+                },
+                {
+                    "lodDistances": [
+                        65.0,
+                        125.0,
+                        200.0,
+                        325.0,
+                        600.0
+                    ],
+                    "name": "Props Big"
+                },
+                {
+                    "lodDistances": [
+                        50.0,
+                        100.0,
+                        150.0,
+                        200.0,
+                        500.0
+                    ],
+                    "name": "Props Medium"
+                },
+                {
+                    "lodDistances": [
+                        30.0,
+                        60.0,
+                        90.0,
+                        120.0,
+                        300.0
+                    ],
+                    "name": "Props Small"
+                },
+                {
+                    "lodDistances": [
+                        50.0,
+                        100.0,
+                        150.0,
+                        200.0,
+                        500.0
+                    ],
+                    "name": "Car"
+                },
+                {
+                    "lodDistances": [
+                        65.0,
+                        125.0,
+                        200.0,
+                        325.0,
+                        600.0
+                    ],
+                    "name": "Softcover"
+                },
+                {
+                    "lodDistances": [
+                        30.0,
+                        70.0,
+                        100.0,
+                        150.0,
+                        500.0
+                    ],
+                    "name": "Debris"
+                },
+                {
+                    "lodDistances": [
+                        100.0,
+                        200.0,
+                        600.0
+                    ],
+                    "name": "Sidewalk"
+                },
+                {
+                    "lodDistances": [
+                        1000.0,
+                        3000.0
+                    ],
+                    "name": "Outland"
+                }
+            ],
+            "__type__": "engine::editor::lod_controller_settings::Settings"
+        },
+```
+
+### Friend/Foe Marker Customization
+
+Fine-tune the markers that display above allies and enemies in battle. This section of the config lets you control the visibility and opacity of specific HUD elements, like health bars and roles, for a more customized view.
+
+- **Options Available**: You can make certain information appear only when targeting or in certain views (like pressing Alt). Adjust opacity levels to make markers more or less visible based on your preference, and decide which details (e.g., username, role) show up.
+
+- **Sample Edits**: Want a clearer view? Try lowering opacity for health indicators or hiding them completely for a less cluttered HUD. This can make spotting enemies or allies a bit easier, especially in busy scenes.
+
+- **Configuration:**
+```json
+"cw::hud::battle::VehicleMarkerSettingsSingleton::ProjectSettings": {
+            "Vehicle Marker Settings": {
+                "inAimingParams": {
+                    "bottomRatio": 0.009999999776482582,
+                    "leftRatio": 0.009999999776482582,
+                    "rigthRatio": 0.009999999776482582,
+                    "topRatio": 0.009999999776482582
+                },
+                "inSightParams": {
+                    "bottomRatio": 1.0,
+                    "leftRatio": 0.30000001192092896,
+                    "rigthRatio": 0.30000001192092896,
+                    "topRatio": 1.0
+                },
+                "isHideAllyMarker": false,
+                "isHotKeyMode": false,
+                "markerSettings": {
+                    "allyMarkerSettings": {
+                        "Dead": {
+                            "isCallsignVisible": false,
+                            "isEffectBarVisible": false,
+                            "isHealthDigit": false,
+                            "isHealthSmall": false,
+                            "isHealthVisible": false,
+                            "isLevelVisible": false,
+                            "isRoleVisible": false,
+                            "isUserNameVisible": false,
+                            "isVehicleNameVisible": false,
+                            "opacity": 0.5
+                        },
+                        "DeadHotKey": {
+                            "isCallsignVisible": false,
+                            "isEffectBarVisible": false,
+                            "isHealthDigit": false,
+                            "isHealthSmall": false,
+                            "isHealthVisible": false,
+                            "isLevelVisible": false,
+                            "isRoleVisible": false,
+                            "isUserNameVisible": true,
+                            "isVehicleNameVisible": false,
+                            "opacity": 0.5
+                        },
+                        "DeadInAiming": {
+                            "isCallsignVisible": false,
+                            "isEffectBarVisible": false,
+                            "isHealthDigit": false,
+                            "isHealthSmall": false,
+                            "isHealthVisible": false,
+                            "isLevelVisible": false,
+                            "isRoleVisible": false,
+                            "isUserNameVisible": true,
+                            "isVehicleNameVisible": false,
+                            "opacity": 0.5
+                        },
+                        "InTeamHotKey": {
+                            "isCallsignVisible": true,
+                            "isEffectBarVisible": true,
+                            "isHealthDigit": false,
+                            "isHealthSmall": false,
+                            "isHealthVisible": true,
+                            "isLevelVisible": false,
+                            "isRoleVisible": true,
+                            "isUserNameVisible": true,
+                            "isVehicleNameVisible": false,
+                            "opacity": 1.0
+                        },
+                        "InTeamVisible": {
+                            "isCallsignVisible": false,
+                            "isEffectBarVisible": false,
+                            "isHealthDigit": false,
+                            "isHealthSmall": false,
+                            "isHealthVisible": false,
+                            "isLevelVisible": false,
+                            "isRoleVisible": true,
+                            "isUserNameVisible": false,
+                            "isVehicleNameVisible": false,
+                            "opacity": 0.8500000238418579
+                        },
+                        "InTeamVisibleInAiming": {
+                            "isCallsignVisible": true,
+                            "isEffectBarVisible": true,
+                            "isHealthDigit": false,
+                            "isHealthSmall": true,
+                            "isHealthVisible": true,
+                            "isLevelVisible": false,
+                            "isRoleVisible": true,
+                            "isUserNameVisible": false,
+                            "isVehicleNameVisible": false,
+                            "opacity": 1.0
+                        },
+                        "InTeamVisibleInSight": {
+                            "isCallsignVisible": false,
+                            "isEffectBarVisible": false,
+                            "isHealthDigit": false,
+                            "isHealthSmall": true,
+                            "isHealthVisible": true,
+                            "isLevelVisible": false,
+                            "isRoleVisible": true,
+                            "isUserNameVisible": false,
+                            "isVehicleNameVisible": false,
+                            "opacity": 1.0
+                        }
+                    },
+                    "enemyMarkerSettings": {
+                        "Dead": {
+                            "isCallsignVisible": false,
+                            "isEffectBarVisible": false,
+                            "isHealthDigit": false,
+                            "isHealthSmall": false,
+                            "isHealthVisible": false,
+                            "isLevelVisible": false,
+                            "isRoleVisible": false,
+                            "isUserNameVisible": false,
+                            "isVehicleNameVisible": false,
+                            "opacity": 0.5
+                        },
+                        "DeadHotKey": {
+                            "isCallsignVisible": false,
+                            "isEffectBarVisible": false,
+                            "isHealthDigit": false,
+                            "isHealthSmall": false,
+                            "isHealthVisible": false,
+                            "isLevelVisible": false,
+                            "isRoleVisible": false,
+                            "isUserNameVisible": true,
+                            "isVehicleNameVisible": false,
+                            "opacity": 0.5
+                        },
+                        "DeadInAiming": {
+                            "isCallsignVisible": false,
+                            "isEffectBarVisible": false,
+                            "isHealthDigit": false,
+                            "isHealthSmall": false,
+                            "isHealthVisible": false,
+                            "isLevelVisible": false,
+                            "isRoleVisible": false,
+                            "isUserNameVisible": true,
+                            "isVehicleNameVisible": false,
+                            "opacity": 0.5
+                        },
+                        "InDirectHotKey": {
+                            "isCallsignVisible": true,
+                            "isEffectBarVisible": true,
+                            "isHealthDigit": true,
+                            "isHealthSmall": false,
+                            "isHealthVisible": true,
+                            "isLevelVisible": false,
+                            "isRoleVisible": true,
+                            "isUserNameVisible": true,
+                            "isVehicleNameVisible": false,
+                            "opacity": 1.0
+                        },
+                        "InDirectVisible": {
+                            "isCallsignVisible": true,
+                            "isEffectBarVisible": true,
+                            "isHealthDigit": false,
+                            "isHealthSmall": false,
+                            "isHealthVisible": true,
+                            "isLevelVisible": false,
+                            "isRoleVisible": true,
+                            "isUserNameVisible": false,
+                            "isVehicleNameVisible": false,
+                            "opacity": 1.0
+                        },
+                        "InDirectVisibleInAiming": {
+                            "isCallsignVisible": true,
+                            "isEffectBarVisible": true,
+                            "isHealthDigit": false,
+                            "isHealthSmall": false,
+                            "isHealthVisible": true,
+                            "isLevelVisible": false,
+                            "isRoleVisible": true,
+                            "isUserNameVisible": false,
+                            "isVehicleNameVisible": false,
+                            "opacity": 1.0
+                        },
+                        "InTeamHotKey": {
+                            "isCallsignVisible": true,
+                            "isEffectBarVisible": true,
+                            "isHealthDigit": false,
+                            "isHealthSmall": false,
+                            "isHealthVisible": true,
+                            "isLevelVisible": false,
+                            "isRoleVisible": true,
+                            "isUserNameVisible": true,
+                            "isVehicleNameVisible": false,
+                            "opacity": 1.0
+                        },
+                        "InTeamVisible": {
+                            "isCallsignVisible": false,
+                            "isEffectBarVisible": false,
+                            "isHealthDigit": false,
+                            "isHealthSmall": true,
+                            "isHealthVisible": true,
+                            "isLevelVisible": false,
+                            "isRoleVisible": true,
+                            "isUserNameVisible": false,
+                            "isVehicleNameVisible": false,
+                            "opacity": 1.0
+                        },
+                        "InTeamVisibleInAiming": {
+                            "isCallsignVisible": false,
+                            "isEffectBarVisible": true,
+                            "isHealthDigit": false,
+                            "isHealthSmall": true,
+                            "isHealthVisible": true,
+                            "isLevelVisible": false,
+                            "isRoleVisible": true,
+                            "isUserNameVisible": false,
+                            "isVehicleNameVisible": false,
+                            "opacity": 1.0
+                        },
+                        "InTeamVisibleInSight": {
+                            "isCallsignVisible": false,
+                            "isEffectBarVisible": true,
+                            "isHealthDigit": false,
+                            "isHealthSmall": true,
+                            "isHealthVisible": true,
+                            "isLevelVisible": false,
+                            "isRoleVisible": true,
+                            "isUserNameVisible": false,
+                            "isVehicleNameVisible": false,
+                            "opacity": 1.0
+                        }
+                    },
+                    "platoonMarkerSettings": {
+                        "Dead": {
+                            "isCallsignVisible": false,
+                            "isEffectBarVisible": false,
+                            "isHealthDigit": false,
+                            "isHealthSmall": false,
+                            "isHealthVisible": false,
+                            "isLevelVisible": false,
+                            "isRoleVisible": false,
+                            "isUserNameVisible": false,
+                            "isVehicleNameVisible": false,
+                            "opacity": 0.5
+                        },
+                        "DeadHotKey": {
+                            "isCallsignVisible": false,
+                            "isEffectBarVisible": false,
+                            "isHealthDigit": false,
+                            "isHealthSmall": false,
+                            "isHealthVisible": false,
+                            "isLevelVisible": false,
+                            "isRoleVisible": false,
+                            "isUserNameVisible": true,
+                            "isVehicleNameVisible": false,
+                            "opacity": 0.5
+                        },
+                        "DeadInAiming": {
+                            "isCallsignVisible": false,
+                            "isEffectBarVisible": false,
+                            "isHealthDigit": false,
+                            "isHealthSmall": false,
+                            "isHealthVisible": false,
+                            "isLevelVisible": false,
+                            "isRoleVisible": false,
+                            "isUserNameVisible": true,
+                            "isVehicleNameVisible": false,
+                            "opacity": 0.5
+                        },
+                        "InTeamHotKey": {
+                            "isCallsignVisible": true,
+                            "isEffectBarVisible": true,
+                            "isHealthDigit": false,
+                            "isHealthSmall": false,
+                            "isHealthVisible": true,
+                            "isLevelVisible": false,
+                            "isRoleVisible": true,
+                            "isUserNameVisible": true,
+                            "isVehicleNameVisible": false,
+                            "opacity": 1.0
+                        },
+                        "InTeamVisible": {
+                            "isCallsignVisible": false,
+                            "isEffectBarVisible": false,
+                            "isHealthDigit": false,
+                            "isHealthSmall": false,
+                            "isHealthVisible": false,
+                            "isLevelVisible": false,
+                            "isRoleVisible": true,
+                            "isUserNameVisible": true,
+                            "isVehicleNameVisible": false,
+                            "opacity": 0.8500000238418579
+                        },
+                        "InTeamVisibleInAiming": {
+                            "isCallsignVisible": true,
+                            "isEffectBarVisible": true,
+                            "isHealthDigit": false,
+                            "isHealthSmall": true,
+                            "isHealthVisible": true,
+                            "isLevelVisible": false,
+                            "isRoleVisible": true,
+                            "isUserNameVisible": true,
+                            "isVehicleNameVisible": false,
+                            "opacity": 1.0
+                        },
+                        "InTeamVisibleInSight": {
+                            "isCallsignVisible": false,
+                            "isEffectBarVisible": false,
+                            "isHealthDigit": false,
+                            "isHealthSmall": true,
+                            "isHealthVisible": true,
+                            "isLevelVisible": false,
+                            "isRoleVisible": true,
+                            "isUserNameVisible": true,
+                            "isVehicleNameVisible": false,
+                            "opacity": 1.0
+                        }
+                    }
+                },
+                "movementTrackSpeed": 3.0,
+                "offsetFactorByDist": 0.5,
+                "useFovFactorForDist": true
+            },
+            "__type__": "cw::hud::battle::VehicleMarkerSettingsSingleton::ProjectSettings"
+        }
+```
+
+### Changing Vehicle Outline Colors
+
+Project CW allows you to modify the colors of vehicle outlines to improve accessibility, particularly for players with color blindness. While this change doesn’t affect health bars, it’s helpful for distinguishing friend from foe.
+
+- **Customizing Colors**: You can modify the RGBA values for allies and enemies. For example, setting a distinct color for enemies makes them easier to spot, which is great for accessibility.
+
+- **Tips**: Experiment with color combinations that work well with your display’s contrast settings to make outlines more visually distinct.
+
+- **Configuration:**
+```json
+        "cw::VehicleOutlineProjectSettings": {
+            "Use Outline By Aiming Point": true,
+            "Use Outline By Desired Point": false,
+            "__type__": "cw::VehicleOutlineProjectSettings",
+            "allyCollor": {
+                "a": 0.0,
+                "b": 0.6745098233222961,
+                "g": 0.2980392277240753,
+                "r": 0.32549020648002625
+            },
+            "enemyColor": {
+                "a": 1.0,
+                "b": 0.501960813999176,
+                "g": 0.5215686559677124,
+                "r": 0.7960784435272217
+            }
+        }
+```
+
+These settings offer a range of ways to tailor your Project CW experience, whether you’re after better visuals, smoother frame rates, or a more accessible HUD. Stay tuned for updates as new options might unlock even more ways to customize your gameplay!
