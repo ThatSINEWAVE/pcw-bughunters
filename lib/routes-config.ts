@@ -65,7 +65,7 @@ export const ROUTES: EachRoute[] = [
       // { title: "High Res Backgrounds", href: "/high-res-backgrounds" },
       // { title: "Icon Concept Packs", href: "/icon-concept-packs" },
       // { title: "Loading Videos", href: "/loading-videos" },
-      // { title: "Maps and Radars", href: "/maps-and-radars" },
+      { title: "Maps and Radars", href: "/maps-and-radars" },
       // { title: "Potential Hidden Servers", href: "/potential-hidden-servers" },
       // { title: "QoL Improvements", href: "/qol-improvements" },
       { title: "Shell Types and Upgrades", href: "/shell-types-and-upgrades" },
