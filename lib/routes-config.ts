@@ -25,7 +25,7 @@ export const ROUTES: EachRoute[] = [
       // { title: "Camera Movement Unlocked", href: "/camera-movement-unlocked" },
       // { title: "Collision Bugs", href: "/collision-bugs" },
       { title: "Damage Calculation", href: "/damage-calculation" },
-      { title: "Gameplay Mechanics", href: "/gameplay-mechanics" },
+      // { title: "Gameplay Mechanics", href: "/gameplay-mechanics" },
       // { title: "Main Menu Box Entry", href: "/main-menu-box-entry" },
       // { title: "Shooting Range Dummy Glitch", href: "/shooting-range-dummy-glitch" },
       { title: "Tank Modules Locations and Effects", href: "/tank-modules-locations-and-effects" },
@@ -37,7 +37,7 @@ export const ROUTES: EachRoute[] = [
     href: "/resources",
     noLink: true,
     items: [
-      { title: "Dev Info", href: "/dev-info" },
+      // { title: "Dev Info", href: "/dev-info" },
       { title: "Stats Sheet", href: "/stats-sheet" },
       { title: "Stats Website", href: "/stats-website" }
     ],
@@ -72,7 +72,7 @@ export const ROUTES: EachRoute[] = [
       // { title: "Tank Decals", href: "/tank-decals" },
       { title: "The Three Badges", href: "/the-three-badges" },
       // { title: "Trailer Campaign Videos", href: "/trailer-campaign-videos" },
-      { title: "Unused Background Images", href: "/unused-background-images" },
+      // { title: "Unused Background Images", href: "/unused-background-images" },
       { title: "Wierd Pattern Images", href: "/wierd-pattern-images" },
       {
         title: "SPECS Files",
