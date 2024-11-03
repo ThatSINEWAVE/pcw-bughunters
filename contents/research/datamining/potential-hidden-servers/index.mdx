@@ -5,7 +5,7 @@ description: "A look at the main server addresses used by the game, including a 
 
 ### The Discovery
 
-In version Alpha V0.0.59.3318, we discovered that the main server address used by the game is **gate.projectcw.dev** running on **port 27100**. Currently, we’ve also discovered an additional server that seems to be a private dev-only server operating on **port 30000**. To find all possible servers, we’d need to perform a deep scan of all ports to see which ones accept connections.
+In version Alpha V0.0.59.3318, we discovered that the main server address used by the game is **gate.projectcw.dev** on **port 27100**. Additionally, we identified a private dev-only server operating on **port 30000**. Finding all possible servers requires a deep scan of all ports to identify which ones are open to connections.
 
 ### Known Servers
 - **gate.projectcw.dev:27100** - Main playtest server used until version Alpha V0.0.59.3318
@@ -13,20 +13,46 @@ In version Alpha V0.0.59.3318, we discovered that the main server address used b
 
 <div align="center">
 
-![12](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Hidden%20Servers/server_browser.png)
+![1](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Hidden%20Servers/server_browser.png)
 
 *(Image showing the two servers and another custom server added by us to demonstrate our ability to add custom server addresses to the game and modify existing ones.)*
 
 </div>
 
-### Port Scans
+### Dual Instances and Port 30000 Connection
 
-After running an initial port scan, the results are a bit odd. It seems that only **port 27100** responds to any type of ping, even though I can still ping **port 30000** within the game.
+When launching two instances of the game simultaneously with two different accounts, one of the instances attempts to connect to **port 30000** instead of the usual **27100**. This suggests that the game reserves a connection to the main server from your IP on startup, forcing the second instance to connect to the backup server—in this case, the dev server.
+
+Further, after about 10 minutes, the second instance disconnects with the error "Failed to get name from WGC," implying that **port 30000** operates with a whitelist, likely limited to the Dev Team and internal testers.
 
 <div align="center">
 
-![12](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Hidden%20Servers/port_scan.png)
+![2](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Hidden%20Servers/dual_instance.png)
 
-*(Image showing a port scan on gate.projectcw.dev, revealing that only port 27100 responds to a TCP ping.)*
+*(Image showing two game instances running at the same time, one connecting and one showing the gate.projectcw.dev:30000 server in the list.)*
+
+</div>
+
+### Developer-Only Server Access
+
+This situation can also be reproduced by starting the game directly from the game files using the **client.bat** file, which seems to be how developers or internal testers launch the game without opening a full instance.
+
+<div align="center">
+
+![Client.bat](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Hidden%20Servers/client.png)
+
+*(Image showing the client.bat file, suggesting its use for devs or internal testers to start the game without the usual setup.)*
+
+</div>
+
+### Port Scans
+
+After running an initial port scan, the results are unexpected. Only **port 27100** responds to any type of ping, although **port 30000** remains accessible within the game.
+
+<div align="center">
+
+![Port Scan](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Hidden%20Servers/port_scan.png)
+
+*(Image showing a port scan on gate.projectcw.dev, revealing only port 27100 responding to a TCP ping.)*
 
 </div>
