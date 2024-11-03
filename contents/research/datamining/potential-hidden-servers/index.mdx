@@ -1,6 +1,32 @@
 ---
-title: PLACEHOLDER TITLE
-description: PLACEHOLDER DESCRIPTION
+title: "Hunting for potential hidden servers"
+description: "A look at the main server addresses used by the game, including a potential private dev-only server. Odd results from a recent port scan reveal only one active port, here’s what we found."
 ---
 
-PLACEHOLDER TEXT
+### The Discovery
+
+In version Alpha V0.0.59.3318, we discovered that the main server address used by the game is **gate.projectcw.dev** running on **port 27100**. Currently, we’ve also discovered an additional server that seems to be a private dev-only server operating on **port 30000**. To find all possible servers, we’d need to perform a deep scan of all ports to see which ones accept connections.
+
+### Server List:
+- **gate.projectcw.dev:27100** - Main playtest server used until version Alpha V0.0.59.3318
+- **gate.projectcw.dev:30000** - Private dev-only server found in version Alpha V0.0.58.3308
+
+<div align="center">
+
+![12](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Hidden%20Servers/server_browser.png)
+
+*(Image showing the two servers and another custom server added by us to demonstrate our ability to add custom server addresses to the game and modify existing ones.)*
+
+</div>
+
+### Port Scans
+
+After running an initial port scan, the results are a bit odd. It seems that only **port 27100** responds to any type of ping, even though I can still ping **port 30000** within the game.
+
+<div align="center">
+
+![12](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Hidden%20Servers/port_scan.png)
+
+*(Image showing a port scan on gate.projectcw.dev, revealing that only port 27100 responds to a TCP ping.)*
+
+</div>
