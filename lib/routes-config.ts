@@ -59,7 +59,6 @@ export const ROUTES: EachRoute[] = [
     items: [
       { title: "coldwar.project Config", href: "/coldwar-project-config" },
       // { title: "Development Info Images", href: "/development-info-images" },
-      // { title: "Dev Servers", href: "/dev-servers" },
       // { title: "Extra Map Imagery", href: "/extra-map-imagery" },
       // { title: "Full Crew Hints", href: "/full-crew-hints" },
       // { title: "Graffiti Art and Posters", href: "/graffiti-art-and-posters" },
@@ -73,7 +72,7 @@ export const ROUTES: EachRoute[] = [
       // { title: "Tank Decals", href: "/tank-decals" },
       { title: "The Three Badges", href: "/the-three-badges" },
       // { title: "Trailer Campaign Videos", href: "/trailer-campaign-videos" },
-      // { title: "Unused Background Images", href: "/unused-background-images" },
+      { title: "Unused Background Images", href: "/unused-background-images" },
       { title: "Wierd Pattern Images", href: "/wierd-pattern-images" },
       {
         title: "SPECS Files",
