@@ -13,7 +13,7 @@ export const ROUTES: EachRoute[] = [
     href: "/introduction",
     noLink: true,
     items: [
-      { title: "About us", href: "/about-us" },
+      { title: "About Us", href: "/about-us" },
       { title: "Our Plans", href: "/plans" },
     ],
   },
@@ -22,7 +22,7 @@ export const ROUTES: EachRoute[] = [
     href: "/in-game-research",
     noLink: true,
     items: [
-      // { title: "Animation Testing While Lagging", href: "/animation-testing-while-lagging" },
+      { title: "Animation Testing While Lagging", href: "/animation-testing-while-lagging" },
       // { title: "Camera Movement Unlocked", href: "/camera-movement-unlocked" },
       // { title: "Collision Bugs", href: "/collision-bugs" },
       { title: "Damage Calculation", href: "/damage-calculation" },
