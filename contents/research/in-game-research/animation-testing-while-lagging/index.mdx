@@ -1,6 +1,48 @@
 ---
-title: PLACEHOLDER TITLE
-description: PLACEHOLDER DESCRIPTION
+title: "Exploring Animation and Movement Desync in Project CW"
+description: "Using network latency tweaks and virtual machines, we’re uncovering how Project CW triggers animations and exploring ways to experiment with in-game movement and glitching."
 ---
 
-PLACEHOLDER TEXT
+### Artificial Network Latency & Animation Triggers
+
+By adding artificial network latency through a virtual machine (VM) and altering its network connection, we’re able to observe desync effects in Project CW. This approach lets us examine how animations are triggered across the server-client relationship. Testing in this way provides unique insights into animation timings, response lag, and the potential for controlled desync scenarios, helping us understand how the game responds to network variations.
+
+### CHOPPER VIDEO: Local vs. Server Animation Triggers
+
+The chopper video reveals some interesting mechanics: while the gun’s recoil animation is triggered immediately upon clicking, the tank’s animation only starts once the server confirms the shell has fired. This shows that certain animations are client-side, while others wait for server response—an insight that might help the future modding community understand how the game handles animation priorities and responsiveness.
+
+<div align="center">
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=j7TkOrJmVms" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+### PUNCH VIDEO: Controlled Movement Glitches
+
+Latency desyncs also open the door for testing movement glitches. With this method, we managed to glitch the tank’s movement locally, allowing it to pass through buildings or move beneath the map. These findings could eventually help the community explore new areas of the map and access zones that were previously unreachable.
+
+<div align="center">
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=HN7r9FkKEZU" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+### Speed-hacking Considerations
+
+The same effect can be achieved using Cheat Engine’s “speed hack” feature, although this approach has drawbacks, particularly regarding compatibility with anti-cheat measures.
+
+**Important**: Our goal here is strictly to gather information and provide detailed feedback to developers, as well as to support the modding community. If you experiment with Cheat Engine, please do so responsibly—only in Custom Matches alone or with others who are part of this research community.
+
+> These experiments with network desync and animation triggering give us deeper insights into Project CW’s mechanics, allowing us to better understand how the game operates under different conditions. As always, our aim is to support game development and the modding community responsibly, one step at a time.
+
+### Bloopers: Chopper Gone Haywire!
+
+For a bit of fun, here’s a bloopers clip featuring Chopper after a bit too much network desync! With exaggerated latency, Chopper’s movements became erratic, bouncing around and nearly passing through the map’s border. It’s a reminder that with great desync power comes...hilarious side effects!
+
+<div align="center">
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=il7Zp3NRMiQ" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+Stay tuned for more laughs and insights as we continue our research.
