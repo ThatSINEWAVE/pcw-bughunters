@@ -63,7 +63,7 @@ export const ROUTES: EachRoute[] = [
       // { title: "Extra Map Imagery", href: "/extra-map-imagery" },
       // { title: "Full Crew Hints", href: "/full-crew-hints" },
       // { title: "Graffiti Art and Posters", href: "/graffiti-art-and-posters" },
-      // { title: "High Res Backgrounds", href: "/high-res-backgrounds" },
+      { title: "High Res Backgrounds", href: "/high-res-backgrounds" },
       // { title: "Icon Concept Packs", href: "/icon-concept-packs" },
       // { title: "Loading Videos", href: "/loading-videos" },
       { title: "Maps and Radars", href: "/maps-and-radars" },
