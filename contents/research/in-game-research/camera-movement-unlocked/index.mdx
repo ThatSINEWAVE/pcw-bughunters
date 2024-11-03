@@ -5,14 +5,14 @@ description: "Exploring Camera Control Through Artificial Network Latency"
 
 While utilizing the same tricks to add artificial network latency and cause desyncs as discussed in our previous post on [Animation Testing While Lagging](https://pcw-bug-hunters.vercel.app/research/in-game-research/animation-testing-while-lagging), We successfully managed to unlock the camera for about 5-10 seconds during the end game screen. This discovery presents an exciting opportunity to test if we can replicate this effect in other areas of the game.
 
-### Unlocking the Camera: How did we Achieve this Effect
+### Unlocking the Camera
 
 To achieve similar results, follow these steps:
 
 1. Lag the game to around 2500-2700 ms until the connection to the server gets interrupted.
 2. As soon as the connection is interrupted, stop adding artificial latency and allow the game to reconnect. When it does, you should be able to move the camera around with your mouse for the 5-10 seconds that the end game screen is displayed.
 
-### Proof of concept videos showcasing the bug happening.
+### Proof of concept videos showcasing the bug happening
 
 - First video showing the unlocked camera during the end game screen
 
@@ -32,7 +32,7 @@ To achieve similar results, follow these steps:
 
 ### Unexpected results
 
-This image captures a glitched end of match screen where the player's name is replaced by a variable: '{{ENDGAMESETTINGS.PLAYERINFO.CALLSIGN}}'. This unusual display is most likely a result of the forced network connection loss during gameplay.
+This image captures a glitched end of match screen where the player's name is replaced by a variable: 'ENDGAMESETTINGS.PLAYERINFO.CALLSIGN'. This unusual display is most likely a result of the forced network connection loss during gameplay.
 
 <div align="center">
 
