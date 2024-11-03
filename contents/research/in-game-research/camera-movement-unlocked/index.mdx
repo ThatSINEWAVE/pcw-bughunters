@@ -1,6 +1,45 @@
 ---
-title: PLACEHOLDER TITLE
-description: PLACEHOLDER DESCRIPTION
+title: Unlocking the Camera on the End Game Screen in Project CW
+description: Exploring Camera Control Through Artificial Network Latency
 ---
 
-PLACEHOLDER TEXT
+While utilizing the same tricks to add artificial network latency and cause desyncs as discussed in our previous post on ()Animation Testing While Lagging**, I successfully managed to unlock the camera for about 5-10 seconds during the end game screen. This discovery presents an exciting opportunity to test if we can replicate this effect in other areas of the game.
+
+### Unlocking the Camera: How did we Achieve this Effect
+
+To achieve similar results, follow these steps:
+
+1. Lag the game to around 2500-2700 ms until the connection to the server gets interrupted.
+2. As soon as the connection is interrupted, stop adding artificial latency and allow the game to reconnect. When it does, you should be able to move the camera around with your mouse for the 5-10 seconds that the end game screen is displayed.
+
+### Proof of concept videos showcasing the bug happening.
+
+- First video showing the unlocked camera during the end game screen
+
+<div align="center">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s4cPjp8FIy8?si=Cfpy2qZUcqBE3qzB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+- Second video demonstrating the effects of artificial network latency
+
+<div align="center">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7AN28XQRzQk?si=WihFYl5ugVqOe45G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+### Unexpected results
+
+This image captures a glitched end of match screen where the player's name is replaced by a variable: '{{ENDGAMESETTINGS.PLAYERINFO.CALLSIGN}}'. This unusual display is most likely a result of the forced network connection loss during gameplay.
+
+<div align="center">
+
+![End of match screen](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/gameplay-mechanics/Camera%20Movement%20Unlocked/kent_bug.png)
+
+</div>
+
+### Important Note
+
+As with previous findings, the same results can be achieved using Cheat Engine's "speedhack" feature. However, this approach introduces several complications, especially concerning real anti-cheat measures. We urge you not to use this knowledge maliciously; our goal is to gather information and provide detailed feedback to the developers while also supporting the future modding community. If you do experiment with Cheat Engine, please limit it to Custom Matches and collaborate only with other members of this research community.
