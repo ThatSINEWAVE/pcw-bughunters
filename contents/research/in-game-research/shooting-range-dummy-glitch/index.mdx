@@ -1,30 +1,35 @@
 ---
-title: "Exploring the Main Menu Garage in Project CW"
-description: "Unveiling the Hidden Garage Room Beneath the Firing Range"
+title: "Titan Dummies Respawn Glitch"
+description: "Investigating Titan Dummy Behavior in the Firing Range"
 ---
 
-After conducting some tests with HSTV-L inside the firing range, we've discovered that the room showcasing tanks in the main menu is located beneath the firing range map. Our next objective is to determine whether we can access this hidden room and drive around inside it. This exploration not only reveals intriguing elements of the game’s architecture but also raises questions about the potential for gameplay mechanics involving these hidden spaces.
-
-### Proof of Concept: Locating the Main Garage
-
-We’ve showcased our finding in a video that serves as the proof of concept for the garage's location. This clip highlights the initial finding and placement of the garage area.
+In version 0.9.8, an intriguing glitch has emerged involving the Titan dummies in the firing range. After being destroyed, these dummies respawn at the normal player spawn point, leaving behind a ghost tank in their original location. This behavior raises questions about the mechanics of spawning and the conditions that trigger this unintended effect.
 
 <div align="center">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JXNd9emu9ms?si=POJyNc7F0TLt3kc1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![Titans](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/gameplay-mechanics/Shooting%20Range%20Dummy%20Glitch/titans.png)
 
 </div>
 
-### Closer Inspection: Navigating the Garage
+### A Closer Look at the Respawn Mechanism
 
-In a second video, we take a closer look at the garage from within. Successfully landing in the area requires maneuvering the titan closer to the edge of the firing range to ensure that the tank can remain stable. This closer examination offers insight into the design choices made by the developers and hints at how players might interact with this hidden space in future updates.
+In our first video, we capture the moment when a Titan dummy is destroyed. Rather than simply disappearing, the game attempts to instantly respawn the tank at its original location. However, due to a lack of space, it instead spawns on top of another existing dummy, resulting in a chaotic clustering of tanks at the player spawn point.
 
 <div align="center">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PbloPBofpHs?si=zDAOVbGeYws_CWca" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NfXWX9iEZy0?si=3_9eGAS10bn2ckm6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </div>
 
-These explorations not only showcase the game's hidden elements but also provide insights into the map's design and potential for future navigation. As we dive deeper into Project CW, we aim to uncover its secrets and share our discoveries with the community.
+### Underlying Cause: Space Constraints
 
-> Stay tuned as we continue our journey to uncover the secrets of Project CW, driving deeper into its mechanics and locations!
+Though the exact cause of this glitch remains unconfirmed, it appears that when checking for available spawn space, the dead body of the destroyed dummy does not despawn immediately. Consequently, the game identifies the player's spawn point as the only valid location for the new dummy, leading to this strange behavior.
+Our second video demonstrates this effect more closely as we attempt to push the dummies around, showcasing the interactions that occur in this glitchy scenario.
+
+<div align="center">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H2ETCDlparc?si=iVS1Tz4Gv5oEZT0n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+As we continue to analyze these mechanics, we aim to provide valuable insights that could help the community better understand the game's spawning system and identify potential areas for improvement. Stay tuned for more findings as we delve deeper into the intricacies of Project CW!
