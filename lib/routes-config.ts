@@ -23,7 +23,7 @@ export const ROUTES: EachRoute[] = [
     noLink: true,
     items: [
       { title: "Animation Testing While Lagging", href: "/animation-testing-while-lagging" },
-      // { title: "Camera Movement Unlocked", href: "/camera-movement-unlocked" },
+      { title: "Camera Movement Unlocked", href: "/camera-movement-unlocked" },
       // { title: "Collision Bugs", href: "/collision-bugs" },
       { title: "Damage Calculation", href: "/damage-calculation" },
       // { title: "Gameplay Mechanics", href: "/gameplay-mechanics" },
