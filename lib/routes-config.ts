@@ -71,7 +71,7 @@ export const ROUTES: EachRoute[] = [
       { title: "Shell Types and Upgrades", href: "/shell-types-and-upgrades" },
       // { title: "Tank Decals", href: "/tank-decals" },
       { title: "The Three Badges", href: "/the-three-badges" },
-      // { title: "Trailer Campaign Videos", href: "/trailer-campaign-videos" },
+      { title: "Possible Campaign Mode", href: "/possible-campaign-mode" },
       { title: "Unused Background Images", href: "/unused-background-images" },
       { title: "Wierd Pattern Images", href: "/wierd-pattern-images" },
       {
