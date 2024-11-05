@@ -1,6 +1,221 @@
 ---
-title: PLACEHOLDER TITLE
-description: PLACEHOLDER DESCRIPTION
+title: "Uncovering Tank Crew Members in Game Files"
+description: "Details on crew members embedded within tank files, showing unique names and roles."
 ---
 
-PLACEHOLDER TEXT
+### The Discovery
+
+Within each agent's `.spec` file, there are code lines that reveal potential crew members who might accompany each tank, with the agent acting as the commander.
+
+### Crew Images
+
+The snippet includes multiple crew members with distinct identifiers:
+
+#### High Resolution Background
+
+This background image was found in another research post that we made, showcasing the same crew members, you can read the full post [here](https://pcw-bug-hunters.vercel.app/research/datamining/high-res-backgrounds#chopper-1).
+
+<div align="center">
+
+![1](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/High%20Resolution%20Backgrounds/juggernaut_hero_reward_big8c5c6e4c16ece5fccbeb413cbce21639_converted.png)
+
+</div>
+
+#### Complete Crew Showcase Image
+
+- Original in-file name: juggernaut_hero_reward_small
+
+<div align="center">
+
+![2](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Full%20Crew%20Hints/juggernaut_hero_reward_small.png)
+
+</div>
+
+#### Crew Member 1
+
+- Original in-file name: juggernaut_crew_01_ipm1
+- Crew member name: Thompson Terry
+
+<div align="center">
+
+![3](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Full%20Crew%20Hints/juggernaut_crew_01.png)
+
+</div>
+
+#### Crew Member 2
+
+- Original in-file name: juggernaut_crew_02_ipm1
+- Crew member name: Duncan Kingsley
+
+<div align="center">
+
+![4](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Full%20Crew%20Hints/juggernaut_crew_02.png)
+
+</div>
+
+#### Crew Member 1
+
+- Original in-file name: juggernaut_crew_03_ipm1
+- Crew member name: Davison Mattew
+
+<div align="center">
+
+![5](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Full%20Crew%20Hints/juggernaut_crew_03.png)
+
+</div>
+
+#### Crew Member 1
+
+- Original in-file name: juggernaut_crew_04_ipm1
+- Crew member name: Blanton Clement
+
+<div align="center">
+
+![6](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Full%20Crew%20Hints/juggernaut_crew_04.png)
+
+</div>
+
+### Code Snippet
+
+These entries originate from Chopper's `.spec` file:
+
+```json
+{
+  "crew": {
+    "crewMembers": [
+      {
+        "arenaPrefab": "/vehicles/american/a02_m1_1980/settings/frontmans/frontman_3.prefab",
+        "bigImage": "/ui/assets/heroes/juggernaut/crew/extralarge/juggernaut_crew_03.png",
+        "campPrefab": "/worlds/camps/crew/characters/juggernaut/juggernaut_03.prefab",
+        "commerce": {
+          "entitlement": "juggernaut_crew_01_ipm1",
+          "product": ""
+        },
+        "description": {
+          "key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.301.description",
+          "message": "Juggernaut1 desc"
+        },
+        "frontmanPortrait": {
+          "isUsedInBattle": false,
+          "prefab": ""
+        },
+        "id": 301,
+        "image": "/ui/assets/heroes/juggernaut/crew/large/juggernaut_crew_03.png",
+        "isDefaultFrontman": false,
+        "lastName": {
+          "key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.301.lastName",
+          "message": "Thompson"
+        },
+        "name": {
+          "key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.301.name",
+          "message": "Terry"
+        },
+        "prefabPlaceholderName": "Juggernaut_3_ipm1",
+        "quotes": [],
+        "requirementImage": "/ui/assets/heroes/juggernaut/crew/small/juggernaut_crew_03_req.png",
+        "setBonuses": []
+      },
+      {
+        "arenaPrefab": "/vehicles/american/a02_m1_1980/settings/frontmans/frontman_2.prefab",
+        "bigImage": "/ui/assets/heroes/juggernaut/crew/extralarge/juggernaut_crew_02.png",
+        "campPrefab": "/worlds/camps/crew/characters/juggernaut/juggernaut_02.prefab",
+        "commerce": {
+          "entitlement": "juggernaut_crew_02_ipm1",
+          "product": ""
+        },
+        "description": {
+          "key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.302.description",
+          "message": "Jugernaut_2 desc"
+        },
+        "frontmanPortrait": {
+          "isUsedInBattle": false,
+          "prefab": ""
+        },
+        "id": 302,
+        "image": "/ui/assets/heroes/juggernaut/crew/large/juggernaut_crew_02.png",
+        "isDefaultFrontman": false,
+        "lastName": {
+          "key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.302.lastName",
+          "message": "Duncan"
+        },
+        "name": {
+          "key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.302.name",
+          "message": "Kingsley"
+        },
+        "prefabPlaceholderName": "Juggernaut_2_ipm1",
+        "quotes": [],
+        "requirementImage": "/ui/assets/heroes/juggernaut/crew/small/juggernaut_crew_02_req.png",
+        "setBonuses": []
+      },
+      {
+        "arenaPrefab": "/vehicles/american/a02_m1_1980/settings/frontmans/frontman_1.prefab",
+        "bigImage": "/ui/assets/heroes/juggernaut/crew/extralarge/juggernaut_crew_01.png",
+        "campPrefab": "/worlds/camps/crew/characters/juggernaut/juggernaut_01.prefab",
+        "commerce": {
+          "entitlement": "juggernaut_crew_03_ipm1",
+          "product": ""
+        },
+        "description": {
+          "key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.303.description",
+          "message": "Juggernaut_3 description"
+        },
+        "frontmanPortrait": {
+          "isUsedInBattle": false,
+          "prefab": ""
+        },
+        "id": 303,
+        "image": "/ui/assets/heroes/juggernaut/crew/large/juggernaut_crew_01.png",
+        "isDefaultFrontman": true,
+        "lastName": {
+          "key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.303.lastName",
+          "message": "Davison"
+        },
+        "name": {
+          "key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.303.name",
+          "message": "Matthew"
+        },
+        "prefabPlaceholderName": "Juggernaut_1_ipm1",
+        "quotes": [],
+        "requirementImage": "/ui/assets/heroes/juggernaut/crew/small/juggernaut_crew_01_req.png",
+        "setBonuses": []
+      },
+      {
+        "arenaPrefab": "/vehicles/american/a02_m1_1980/settings/frontmans/frontman_4.prefab",
+        "bigImage": "/ui/assets/heroes/juggernaut/crew/extralarge/juggernaut_crew_04.png",
+        "campPrefab": "/worlds/camps/crew/characters/juggernaut/juggernaut_04.prefab",
+        "commerce": {
+          "entitlement": "juggernaut_crew_04_ipm1",
+          "product": ""
+        },
+        "description": {
+          "key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.304.description",
+          "message": "juggernaut_4 description"
+        },
+        "frontmanPortrait": {
+          "isUsedInBattle": false,
+          "prefab": ""
+        },
+        "id": 304,
+        "image": "/ui/assets/heroes/juggernaut/crew/large/juggernaut_crew_04.png",
+        "isDefaultFrontman": false,
+        "lastName": {
+          "key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.304.lastName",
+          "message": "Blanton"
+        },
+        "name": {
+          "key": "a02_m1_1980_ipm1.specs.specification.crew.crewMembers.304.name",
+          "message": "Clement"
+        },
+        "prefabPlaceholderName": "Juggernaut_4_ipm1",
+        "quotes": [],
+        "requirementImage": "/ui/assets/heroes/juggernaut/crew/small/juggernaut_crew_04_req.png",
+        "setBonuses": []
+      }
+    ]
+  }
+}
+```
+
+### Conclusion
+
+Each crew member has a unique role within the tank setup, complete with individual images and descriptions that give insight into their potential involvement in tank operations. These code snippets hint at a deeper crew structure, possibly impacting tank dynamics and adding new layers to in-game strategy.
