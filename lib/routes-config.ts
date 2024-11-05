@@ -29,8 +29,7 @@ export const ROUTES: EachRoute[] = [
       // { title: "Gameplay Mechanics", href: "/gameplay-mechanics" },
       { title: "Main Menu Box Entry", href: "/main-menu-box-entry" },
       { title: "Shooting Range Dummy Glitch", href: "/shooting-range-dummy-glitch" },
-      { title: "Tank Modules Locations and Effects", href: "/tank-modules-locations-and-effects" },
-      // { title: "Weaponry", href: "/weaponry" },
+      { title: "Tank Modules Locations and Effects", href: "/tank-modules-locations-and-effects" }
     ],
   },
   {
