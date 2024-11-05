@@ -10,7 +10,7 @@ export default function Home() {
         PCW Bug Hunters
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
-        PLACEHOLDER CATCH LINE / MOTO TEXT
+        The truth lies within the code
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
@@ -31,7 +31,7 @@ export default function Home() {
         </Link>
       </div>
       <span className="flex flex-row items-start sm:gap-2 gap-0.5 text-muted-foreground text-md mt-7 -mb-12 max-[800px]:mb-12 font-code text-base font-medium">
-        {"The truth hides within the code"}
+        {"message: HIDE ME PLEASE"}
       </span>
     </div>
   );
