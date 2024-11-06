@@ -26,7 +26,6 @@ export const ROUTES: EachRoute[] = [
       { title: "Camera Movement Unlocked", href: "/camera-movement-unlocked" },
       // { title: "Collision Bugs", href: "/collision-bugs" },
       { title: "Damage Calculation", href: "/damage-calculation" },
-      // { title: "Gameplay Mechanics", href: "/gameplay-mechanics" },
       { title: "Main Menu Box Entry", href: "/main-menu-box-entry" },
       { title: "Shooting Range Dummy Glitch", href: "/shooting-range-dummy-glitch" },
       { title: "Tank Modules Locations and Effects", href: "/tank-modules-locations-and-effects" }
@@ -66,6 +65,7 @@ export const ROUTES: EachRoute[] = [
       { title: "Maps and Radars", href: "/maps-and-radars" },
       { title: "Potential Hidden Servers", href: "/potential-hidden-servers" },
       { title: "QoL Improvements", href: "/qol-improvements" },
+      { title: "Development Images", href: "/development-images" },
       { title: "Shell Types and Upgrades", href: "/shell-types-and-upgrades" },
       { title: "Tank Decals", href: "/tank-decals" },
       { title: "The Three Badges", href: "/the-three-badges" },
