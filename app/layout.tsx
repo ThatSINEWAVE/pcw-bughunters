@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "PCW Bug Hunters",
   metadataBase: new URL("https://pcw-bug-hunters.vercel.app/"),
   description:
-    "PLACEHOLDER CATCH LINE / MOTO TEXT",
+    "The truth lies within the code",
 };
 
 export default function RootLayout({
