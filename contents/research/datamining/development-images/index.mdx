@@ -1,0 +1,130 @@
+---
+title: "Developer Guide Images Uncovered in Game Files"
+description: "Images found in files may reveal game development techniques and workflows sparking possibilities for modding."
+---
+
+### Introduction
+During the latest playtest, we discovered a series of images within the game files that appear to showcase specific development techniques. While the exact purpose of these images is still unknown, they may serve as guides for new developers and present intriguing possibilities for modding.
+
+### Discovered Development Method Images
+Here are some of the key files that outline different aspects of the development workflow. Each file name hints at a potential functionality, which might be helpful in understanding modding techniques:
+
+#### Merge by Group Without LODs
+
+This image likely demonstrates a process where game assets or objects are merged into a single group without the inclusion of Level of Detail (LOD) data. LOD is often used to manage rendering distances, so this image might show a simplified merging technique, possibly for optimization or testing purposes.
+
+- File name: **merge_by_group_without_lods_import29dfa92b6311c4777e7a1df0dfeaa0c4**
+
+<div align="center">
+
+![1](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Development%20Images/merge_by_group_without_lods_import29dfa92b6311c4777e7a1df0dfeaa0c4_converted.png)
+
+</div>
+
+#### Merge by Group With LODs
+
+Contrasting with the previous one, this image probably depicts the merging of objects while retaining LOD information. It may be part of a workflow that aims to optimize performance by ensuring objects render properly at various distances, while still maintaining group cohesion.
+
+- File name: **merge_by_group_with_lods_importc6e2e48bbe153718bc69a626dd0a3b15**
+
+<div align="center">
+
+![2](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Development%20Images/merge_by_group_with_lods_importc6e2e48bbe153718bc69a626dd0a3b15_converted.png)
+
+</div>
+
+#### Combine Into a Single Object
+
+This image could showcase a method for combining multiple separate game objects or meshes into a single object. This could help with performance or simplify asset management in the game engine.
+
+- File name: **combine_into_a_single_object_import00351473bb8a1bc00d88adc70cb75c4c**
+
+<div align="center">
+
+![3](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Development%20Images/combine_into_a_single_object_import00351473bb8a1bc00d88adc70cb75c4c_converted.png)
+
+</div>
+
+#### Local Transform is ON
+
+This might be a visual representation of an object’s local transformation, possibly indicating a state where a transformation (such as rotation, scaling, or positioning) is applied to an object. The "on" could refer to an active state of this transformation.
+
+- File name: **local_transform_is_ond38b6e52822b0aadd7329f60bef8f95a**
+
+<div align="center">
+
+![4](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Development%20Images/local_transform_is_ond38b6e52822b0aadd7329f60bef8f95a_converted.png)
+
+</div>
+
+#### Local Transform is OFF
+
+In contrast to the previous image, this one could show when the local transformation is turned off or reset. It may be part of a tutorial or guide on how to manage and toggle transformations for better control over object placement or movement.
+
+- File name: **local_transform_is_off965f86fd085da6c1360ad6130d2f7f8a**
+
+<div align="center">
+
+![5](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Development%20Images/local_transform_is_off965f86fd085da6c1360ad6130d2f7f8a_converted.png)
+
+</div>
+
+#### Lights Tip
+
+Likely an illustration focused on lighting techniques, this image might provide tips or guidelines for placing or configuring lights in the game world. It could be a lighting setup example showing shadows, highlights, or ambient light.
+
+- File name: **lights_tip01a22b3ac5801c80c610ef7d328ff9b485**
+
+<div align="center">
+
+![6](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Development%20Images/lights_tip01a22b3ac5801c80c610ef7d328ff9b485_converted.png)
+
+</div>
+
+#### Markers
+
+PLACEHOLDER
+
+- File name: **0299_markers_01_rta8e5714ea3e5c4d88fd59b5127473f64c**
+
+<div align="center">
+
+![7](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Development%20Images/0299_markers_01_rta8e5714ea3e5c4d88fd59b5127473f64c_converted.png)
+
+</div>
+
+#### Custom UV Checker Height
+
+The first image is a gray background with instructions for a height map. It details a 0-1 height range, uses a 16-bit .EXR format, and specifies R16_UNORM compression. This appears to be a guide or preset for developers to use when creating height maps, providing clear specifications to ensure consistent quality and format.
+
+- File name: **customuvchecker_height_1k02d2a33079188d036d08dff4fcdade15**
+
+<div align="center">
+
+![8](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Development%20Images/customuvchecker_height_1k02d2a33079188d036d08dff4fcdade15_converted.png)
+
+</div>
+
+#### Dispersion Underlay
+
+This image likely represents the gun's dispersion mechanic in the game, showing how shots spread out during firing. The grid with a tank silhouette could be used as a visual tool to test where the bullets may land in relation to the target during development.
+
+- File name: **dispersion_underlay1e97aadbc6f99e091af70344f0b9a574_converted**
+
+<div align="center">
+
+![9](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Development%20Images/dispersion_underlay1e97aadbc6f99e091af70344f0b9a574_converted.png)
+
+</div>
+
+### Early HUD Showcase
+Another interesting find was an image shared by the developers in the public Discord server, revealing an early HUD design. This preview gives players a glimpse into what the game’s interface might look like in future builds.
+
+<div align="center">
+
+![10](https://raw.githubusercontent.com/ThatSINEWAVE/pcw-bughunters/refs/heads/main/images/datamining/Development%20Images/CW_HUD-100.png)
+
+</div>
+
+### Final Thoughts
+These images provide a fascinating look into the development process and may offer valuable insights for those interested in modding. By examining these resources, players could explore new ways to interact with and customize the game’s inner workings.
