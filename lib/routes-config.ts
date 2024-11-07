@@ -57,7 +57,7 @@ export const ROUTES: EachRoute[] = [
     items: [
       { title: "coldwar.project Config", href: "/coldwar-project-config" },
       { title: "Full Crew Hints", href: "/full-crew-hints" },
-      // { title: "Graffiti Art and Posters", href: "/graffiti-art-and-posters" },
+      { title: "Graffiti Art and Posters", href: "/graffiti-art-and-posters" },
       { title: "High Res Backgrounds", href: "/high-res-backgrounds" },
       { title: "Icon Concept Packs", href: "/icon-concept-packs" },
       { title: "Loading Videos", href: "/loading-videos" },
