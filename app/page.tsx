@@ -14,6 +14,16 @@ export default function Home() {
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
+          href="/news"
+          className={buttonVariants({
+            variant: "secondary",
+            className: "px-6",
+            size: "lg",
+          })}
+        >
+          News
+        </Link>
+        <Link
           href={`/research${page_routes[0].href}`}
           className={buttonVariants({ className: "px-6", size: "lg" })}
         >
@@ -28,16 +38,6 @@ export default function Home() {
           })}
         >
           Blog
-        </Link>
-        <Link
-          href="/news"
-          className={buttonVariants({
-            variant: "secondary",
-            className: "px-6",
-            size: "lg",
-          })}
-        >
-          news
         </Link>
       </div>
       <span className="flex flex-row items-center sm:gap-2 gap-1 text-muted-foreground text-md mt-7 -mb-12 max-[800px]:mb-12 font-code text-base font-medium">
