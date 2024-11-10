@@ -1,6 +1,6 @@
 import { Typography } from "@/components/typography";
 import { buttonVariants } from "@/components/ui/button";
-import { Author, getAllBlogStaticPaths, getBlogForSlug } from "@/lib/markdown";
+import { Author, getAllNewsStaticPaths, getNewsForSlug } from "@/lib/markdown";
 import { ArrowLeftIcon } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -13,7 +13,7 @@ type PageProps = {
 };
 
 export async function generateMetadata({ params: { slug } }: PageProps) {
-  const res = await getBlogForSlug(slug);
+  const res = await getNewsForSlug(slug);
   if (!res) return null;
   const { frontmatter } = res;
   return {
@@ -23,13 +23,13 @@ export async function generateMetadata({ params: { slug } }: PageProps) {
 }
 
 export async function generateStaticParams() {
-  const val = await getAllBlogStaticPaths();
+  const val = await getAllNewsStaticPaths();
   if (!val) return [];
   return val.map((it) => ({ slug: it }));
 }
 
-export default async function BlogPage({ params: { slug } }: PageProps) {
-  const res = await getBlogForSlug(slug);
+export default async function NewsPage({ params: { slug } }: PageProps) {
+  const res = await getNewsForSlug(slug);
   if (!res) notFound();
   return (
     <div className="lg:w-[60%] sm:[95%] md:[75%] mx-auto">
