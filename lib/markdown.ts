@@ -134,6 +134,42 @@ export type Author = {
   handleUrl: string;
 };
 
+export type NewsMdxFrontmatter = BaseMdxFrontmatter & {
+  date: string;
+  authors: Author[];
+  cover: string;
+};
+
+export async function getAllNewsStaticPaths() {
+  try {
+    const newsFolder = path.join(process.cwd(), "/contents/news/");
+    const res = await fs.readdir(newsFolder);
+    return res.map((file) => file.split(".")[0]);
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+export async function getAllNews() {
+  const newsFolder = path.join(process.cwd(), "/contents/news/");
+  const files = await fs.readdir(newsFolder);
+  return await Promise.all(
+    files.map(async (file) => {
+      const filepath = path.join(process.cwd(), `/contents/news/${file}`);
+      const rawMdx = await fs.readFile(filepath, "utf-8");
+      return {
+        ...(await parseMdx<NewsMdxFrontmatter>(rawMdx)),
+        slug: file.split(".")[0],
+      };
+    })
+  );
+}
+
+export async function getNewsForSlug(slug: string) {
+  const news = await getAllNews();
+  return news.find((it) => it.slug == slug);
+}
+
 export type BlogMdxFrontmatter = BaseMdxFrontmatter & {
   date: string;
   authors: Author[];
