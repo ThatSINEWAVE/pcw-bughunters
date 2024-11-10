@@ -19,7 +19,7 @@ export const NAVLINKS = [
   },
   {
     title: "News",
-    href: "/News",
+    href: "/news",
   },
   {
     title: "Community",
