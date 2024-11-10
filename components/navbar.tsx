@@ -18,6 +18,10 @@ export const NAVLINKS = [
     href: "/blog",
   },
   {
+    title: "News",
+    href: "/News",
+  },
+  {
     title: "Community",
     href: "https://github.com/ThatSINEWAVE/pcw-bughunters/discussions",
   },
