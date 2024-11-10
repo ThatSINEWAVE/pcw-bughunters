@@ -1,5 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Author, BlogMdxFrontmatter, getAllBlogs } from "@/lib/markdown";
+import { Author, NewsMdxFrontmatter, getAllNews } from "@/lib/markdown";
 import { formatDate2, stringToDate } from "@/lib/utils";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   title: "PCW Bug Hunters - News",
 };
 
-export default async function BlogIndexPage() {
-  const blogs = (await getAllBlogs()).sort(
+export default async function NewsIndexPage() {
+  const news = (await getAllNews()).sort(
     (a, b) =>
       stringToDate(b.frontmatter.date).getTime() -
       stringToDate(a.frontmatter.date).getTime()
@@ -26,22 +26,22 @@ export default async function BlogIndexPage() {
         </p>
       </div>
       <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-8 gap-4 mb-5">
-        {blogs.map((blog) => (
-          <BlogCard {...blog.frontmatter} slug={blog.slug} key={blog.slug} />
+        {news.map((news) => (
+          <NewsCard {...news.frontmatter} slug={news.slug} key={news.slug} />
         ))}
       </div>
     </div>
   );
 }
 
-function BlogCard({
+function NewsCard({
   date,
   title,
   description,
   slug,
   cover,
   authors,
-}: BlogMdxFrontmatter & { slug: string }) {
+}: NewsMdxFrontmatter & { slug: string }) {
   return (
     <Link
       href={`/news/${slug}`}
